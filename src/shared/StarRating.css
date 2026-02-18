@@ -1,0 +1,70 @@
+.star {
+  cursor: pointer;
+  display: inline-block;
+  
+}
+
+.star img {
+  width: clamp(25px, 3vw, 40px);
+  height: clamp(25px, 3vw, 40px);
+  transition: transform 0.2s ease-in-out;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.star:hover img {
+  transform: scale(1.15);
+}
+.star {
+  font-size: 40px !important;
+}
+
+@media (max-width: 1024px) {
+  .star{
+    font-size: 20px !important;
+    margin-top: 4px;
+  }
+}
+
+.star-icon {
+  width: clamp(25px, 3vw, 40px);
+  height: clamp(25px, 3vw, 40px);
+  fill: rgb(0, 0, 0); /* اللون اللي بدك إياه */
+  transition: transform 0.2s ease-in-out;
+}
+
+.star:hover .star-icon {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+
+  .star {
+    font-size: 12px !important;
+  }
+}
+
+
+.spinner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
