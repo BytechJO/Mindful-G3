@@ -942,7 +942,7 @@ export const lessonsData = {
                         {
                             start: 20.0, end: 27.0,
                             words: [
-                                { text: "That", start: 20.0, end: 20.3 },
+                                { text: " That", start: 20.0, end: 20.3 },
                                 { text: "sounds", start: 20.3, end: 20.7 },
                                 { text: "amazing.", start: 20.7, end: 21.0 },
                                 { text: "I’d", start: 21.8, end: 22.1 },
@@ -954,21 +954,6 @@ export const lessonsData = {
                                 { text: " that. ", start: 23.7, end: 24.4 }
                             ]
                         },
-                        // {
-                        //   start: 24.2, end: 27,
-                        //   words: [
-                        //     { text: "That", start: 20.0, end: 20.3 },
-                        //     { text: "sounds", start: 20.3, end: 20.7 },
-                        //     { text: "amazing.", start: 20.7, end: 21.0 },
-                        //     { text: "I’d", start: 21.8, end: 22.1 },
-                        //     { text: "love", start: 22.1, end: 22.4 },
-                        //     { text: "to", start: 22.4, end: 22.7 },
-                        //     { text: "try", start: 22.7, end: 23.0 },
-                        //     { text: "something", start: 23.0, end: 23.3 },
-                        //     { text: "like", start: 23.3, end: 23.7 },
-                        //     { text: "that.", start: 23.7, end: 24.4 }
-                        //   ]
-                        // },
 
                     ]
                 },
@@ -1078,6 +1063,7 @@ export const lessonsData = {
                     ]
                 },
             ],
+
             extraBubblesData: [
                 {
                     videoIndex: 1,
@@ -1238,6 +1224,7 @@ export const lessonsData = {
                     ]
                 },
             ],
+
             cloudPositions: {
                 0: [
                 ],
@@ -1282,7 +1269,7 @@ export const lessonsData = {
                     "Highlight the part where Jonah shows interest",
                     "in building planes."
                 ],
-                correctWords: ["That", "sounds", "amazing."],
+                correctWords: [" That", "sounds", "amazing"],
             },
             quiz: {
                 image: u1l2_Q1,
@@ -1290,7 +1277,7 @@ export const lessonsData = {
                     {
                         id: 'Q1',
                         text: "What were the group of boys talking about?",
-                        options: ["Toy cars.", "Video games.", "Dinner."],
+                        options: ["Toy cars", "Video games", "Dinner"],
                         correctAnswer: "1"
                     },
                     {
@@ -2009,7 +1996,7 @@ export const lessonsData = {
                     {
                         id: 'Q1',
                         text: "What made Kylie almost reach her boiling point?",
-                        options: ["Her classmates pushed her against the bookshelf.", "Someone bumped into her.", "Two girls walked into the line in front of her."],
+                        options: ["Her classmates pushed her against the bookshelf", "Someone bumped into her", "Two girls walked into the line in front of her"],
                         correctAnswer: "2"
                     },
                     {
@@ -5288,6 +5275,7 @@ export const lessonsData = {
             ],
             interactiveTask: {
                 videoIndex: 3,
+                fontsize:30,
                 instruction: [
                     "Highlight how do David and Milo manage to maintain their friendship despite their different preferences for activities."
                 ],
@@ -5471,7 +5459,7 @@ export const lessonsData = {
                         },
 
                         {
-                            start: 17.6,
+                            start: 19.5,
                             end: 25,
                             words: [
                                 { text: "We", start: 9.0, end: 9.3 },
@@ -5978,7 +5966,7 @@ export const lessonsData = {
                                 { text: "make", start: 4.5, end: 4.8 },
                                 { text: "your", start: 4.8, end: 5.1 },
                                 { text: "presentations.", start: 5.1, end: 5.4 },
-                                { text: "it’s", start: 7.0, end: 7.3 },
+                                { text: "It’s", start: 7.0, end: 7.3 },
                                 { text: "something", start: 7.3, end: 7.6 },
                                 { text: "I", start: 7.6, end: 7.9 },
                                 { text: "find", start: 7.9, end: 8.2 },
@@ -6308,7 +6296,7 @@ export const lessonsData = {
                     },
                     {
                         id: 'Q3',
-                        text: "How did Derrick show good sportsmanship to Jasmine?",
+                        text: "How did Derrick show good sportsmanship to   Jasmine?",
                         options: ["He threw a tantrum.", "He congratulated Jasmine.", "He ignored her."],
                         correctAnswer: "1"
                     }

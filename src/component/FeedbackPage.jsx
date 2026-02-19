@@ -28,9 +28,9 @@ function FeedbackPage() {
       icon: 'success',
       title: 'You did a great job!',
       text: 'Click on the next lesson below to continue.',
-      confirmButtonText: 'Done'
+      confirmButtonText: 'Done',
+      confirmButtonColor: '#4a79bd'
     });
-    // يمكنك هنا إضافة منطق للانتقال للدرس التالي تلقائياً إذا أردت
   };
 
   const isAllRated = ratings.r1 > 0 && ratings.r2 > 0 && ratings.r3 > 0;

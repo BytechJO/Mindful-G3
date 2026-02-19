@@ -146,7 +146,7 @@ export const StoryPage = () => {
       setDuration(video.duration);
       setIsLoading(false); // Set loading to false here
     };
-    
+
     setIsLoading(true); // Set loading to true when src changes
 
     video.addEventListener('play', onPlay);
@@ -190,7 +190,7 @@ export const StoryPage = () => {
   }, []);
 
   const activeSubtitle = useMemo(() => activeSubtitleIndex !== -1 ? currentVideoData.subtitles[activeSubtitleIndex] : null, [activeSubtitleIndex, currentVideoData.subtitles]);
-  
+
   const bubbleStyle = useMemo(() => {
     return cloudPositions?.[currentVideo]?.[activeSubtitleIndex] || {};
   }, [activeSubtitleIndex, currentVideo, cloudPositions]);
@@ -217,12 +217,22 @@ export const StoryPage = () => {
         {showBanner && isInteractiveVideo && (
           <div className={`instruction-banner show ${isFullscreen ? 'fullscreen-banner' : ''}`}>
             {interactiveTask.instruction.map((line, index) => (
-              <p key={index} style={{ fontSize: '1.8em', textAlign: 'left' }}>
+              <p
+                key={index}
+                style={{
+                  fontSize: interactiveTask?.fontsize
+                    ? `${interactiveTask.fontsize}px`
+                    : '1.8rem',
+                  textAlign: 'left'
+                }}
+              >
+
                 {line}
               </p>
             ))}
           </div>
         )}
+
 
         {/* --- Subtitles & Captions --- */}
         {showSubtitles && activeSubtitle && (
@@ -234,7 +244,7 @@ export const StoryPage = () => {
                 ${bubbleStyle.isFlipped ? "flipped" : ""}
               `}
             >
-            {/* --- END: DYNAMIC CLASSNAME --- */}
+              {/* --- END: DYNAMIC CLASSNAME --- */}
               <p>
                 {activeSubtitle.words.map((word, index) => (
                   <span key={index} onClick={() => handleWordClick(word.text)} className={`word-span ${textHighlight && currentTime >= word.start && currentTime < word.end ? 'active-word' : ''} ${selectedWords.includes(word.text.toLowerCase().replace(/[.,?!]/g, "")) ? 'selected-word' : ''}`}>

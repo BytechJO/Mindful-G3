@@ -41,7 +41,6 @@ function HomePage() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          {/* Outer Glow Ring */}
           <motion.div
             className="absolute inset-0 rounded-full opacity-40 blur-xl"
             style={{ backgroundColor: '#4a78bc' }}
@@ -55,8 +54,6 @@ function HomePage() {
               ease: "easeInOut"
             }}
           />
-
-          {/* Pulse Ring */}
           <motion.div
             className="absolute inset-0 rounded-full border-4"
             style={{ borderColor: '#4a78bc' }}
@@ -70,14 +67,11 @@ function HomePage() {
               ease: "easeOut"
             }}
           />
-
-          {/* Main Button */}
           <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full flex flex-col items-center justify-center text-white shadow-2xl overflow-hidden"
             style={{
               background: 'linear-gradient(135deg, #07b6a9 0%, #34c9c0 100%)'
             }}
           >
-            {/* Shimmer effect */}
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent"
               animate={{
