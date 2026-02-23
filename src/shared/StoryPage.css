@@ -1163,9 +1163,7 @@ html {
 }
 
 .word-span.active-word {
-  text-shadow: 
-    1px 0 0 currentColor,
-    -1px 0 0 currentColor;
+  transform: scale(1.1);
 }
 
 /* الكلمة المحددة (highlighted) */

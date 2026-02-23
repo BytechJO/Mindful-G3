@@ -942,7 +942,7 @@ export const lessonsData = {
                         {
                             start: 20.0, end: 27.0,
                             words: [
-                                { text: " That", start: 20.0, end: 20.3 },
+                                { text: "That", start: 20.0, end: 20.3 },
                                 { text: "sounds", start: 20.3, end: 20.7 },
                                 { text: "amazing.", start: 20.7, end: 21.0 },
                                 { text: "I’d", start: 21.8, end: 22.1 },
@@ -1063,7 +1063,6 @@ export const lessonsData = {
                     ]
                 },
             ],
-
             extraBubblesData: [
                 {
                     videoIndex: 1,
@@ -1224,7 +1223,6 @@ export const lessonsData = {
                     ]
                 },
             ],
-
             cloudPositions: {
                 0: [
                 ],
@@ -1269,7 +1267,7 @@ export const lessonsData = {
                     "Highlight the part where Jonah shows interest",
                     "in building planes."
                 ],
-                correctWords: [" That", "sounds", "amazing"],
+                correctWords: ["that", "sounds", "amazing"],
             },
             quiz: {
                 image: u1l2_Q1,
@@ -4211,7 +4209,7 @@ export const lessonsData = {
                     "Highlight a sentence in the story that shows",
                     "Ellen making things right."
                 ],
-                correctWords: ["im", "sorry", "i", "was", "rude", "before"],
+                correctWords: ["i’m", "sorry", "i", "was", "rude", "before"],
             },
             quiz: {
                 image: u3l2_Q1,
@@ -4821,10 +4819,12 @@ export const lessonsData = {
                             words: [
                                 { text: "We", start: 19.3, end: 19.6 },
                                 { text: "need", start: 19.6, end: 19.9 },
-                                { text: "a fair", start: 19.9, end: 20.5 },
+                                { text: "a", start: 19.6, end: 19.9 },
+                                { text: "fair", start: 19.9, end: 20.5 },
                                 { text: "way", start: 20.5, end: 21.2 },
                                 { text: "to", start: 21.2, end: 21.5 },
-                                { text: "help us", start: 21.5, end: 22.0 },
+                                { text: "help", start: 21.5, end: 22.0 },
+                                { text: "us", start: 21.5, end: 22.0 },
                                 { text: "decide", start: 22.0, end: 22.4 },
                                 { text: "which", start: 22.4, end: 22.7 },
                                 { text: "game", start: 22.7, end: 23.0 },
