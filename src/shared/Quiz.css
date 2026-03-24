@@ -644,3 +644,16 @@
     margin-bottom: 530px;
   }
 }
+
+
+@media (width: 1024px) and (height: 768px)
+{
+  .skip-btn,
+  .try-btn {
+    margin-left: 25px;
+    margin-bottom: 40px;
+  }
+  #submitBtn{
+    margin-bottom: 40px;
+  }
+}
