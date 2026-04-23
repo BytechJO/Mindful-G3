@@ -122,6189 +122,6483 @@ const u4l2_F1 = "/images/unit4/U4L2F.png";
 const u4l3_F1 = "/images/unit4/U4L3F.png";
 
 export const lessonsData = {
-    "One": {
-        "1": {
-            videos: [
-                {
-                    url: u1l1_vid1,
-                    subtitles: []
-                },
-                {
-                    url: u1l1_vid2,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u1l1_vid3,
-                    subtitles: [
-                        {
-                            start: 9.2, end: 11.5,
-                            words: [
-                                { text: "Have", start: 9.8, end: 10.1 },
-                                { text: "you", start: 10.1, end: 10.3 },
-                                { text: "seen", start: 10.3, end: 10.6 },
-                                { text: "my", start: 10.6, end: 10.8 },
-                                { text: "salt?", start: 10.8, end: 11.2 },
-                            ]
-                        },
-                        {
-                            start: 11.5, end: 16.2,
-                            words: [
-                                { text: "I", start: 11.6, end: 11.9 },
-                                { text: "had", start: 11.9, end: 12.2 },
-                                { text: "lots", start: 12.2, end: 12.5 },
-                                { text: "in", start: 12.5, end: 12.8 },
-                                { text: "the", start: 12.8, end: 13.1 },
-                                { text: "bag,", start: 13.1, end: 13.4 },
-                                { text: "now", start: 14.0, end: 14.3 },
-                                { text: "I", start: 14.3, end: 14.6 },
-                                { text: "only", start: 14.6, end: 14.9 },
-                                { text: "have", start: 14.9, end: 15.2 },
-                                { text: "a", start: 15.2, end: 15.5 },
-                                { text: "little", start: 15.5, end: 15.8 },
-                                { text: "bit.", start: 15.8, end: 16.1 },
-                            ]
-                        },
-                        {
-                            start: 16.2, end: 18.3,
-                            words: [
-                                { text: "I", start: 16.2, end: 16.4 },
-                                { text: "can't", start: 16.4, end: 16.7 },
-                                { text: "do", start: 16.7, end: 16.9 },
-                                { text: "my", start: 16.9, end: 17.1 },
-                                { text: "experiment.", start: 17.1, end: 18.1 },
-                            ]
-                        },
-
-                        {
-                            start: 28.8, end: 32.3,
-                            words: [
-                                { text: "No,", start: 29.0, end: 29.5 },
-                                { text: "sorry,", start: 29.5, end: 30.0 },
-                                { text: "I", start: 30.5, end: 30.6 },
-                                { text: "don't", start: 30.6, end: 30.8 },
-                                { text: "know", start: 30.8, end: 31.1 },
-                                { text: "where", start: 31.1, end: 31.4 },
-                                { text: "your", start: 31.4, end: 31.6 },
-                                { text: "salt", start: 31.6, end: 31.9 },
-                                { text: "is.", start: 31.9, end: 32.3 },
-                            ]
-                        },
-                        {
-                            start: 32.3, end: 32.8,
-                            words: [
-                                { text: "Adam", start: 21.5, end: 21.9 },
-                                { text: "feels", start: 21.9, end: 22.2 },
-                                { text: "sad", start: 22.2, end: 22.4 },
-                                { text: "that", start: 22.4, end: 22.6 },
-                                { text: "he", start: 22.6, end: 22.8 },
-                                { text: "took", start: 22.8, end: 23.1 },
-                                { text: "Rob's", start: 23.1, end: 23.4 },
-                                { text: "salt,", start: 23.4, end: 23.7 },
-                                { text: "but", start: 24.2, end: 24.4 },
-                                { text: "he", start: 24.4, end: 24.6 },
-                                { text: "is", start: 24.6, end: 24.8 },
-                                { text: "scared", start: 24.8, end: 25.2 },
-                                { text: "he", start: 25.2, end: 25.4 },
-                                { text: "will", start: 25.4, end: 25.6 },
-                                { text: "be", start: 25.6, end: 25.8 },
-                                { text: "angry", start: 25.8, end: 26.2 },
-                                { text: "if", start: 26.2, end: 26.4 },
-                                { text: "he", start: 26.4, end: 26.6 },
-                                { text: "tells", start: 26.6, end: 26.9 },
-                                { text: "the", start: 26.9, end: 27.1 },
-                                { text: "truth.", start: 27.1, end: 27.4 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u1l1_vid4,
-                    subtitles: [
-                        {
-                            start: 0.0, end: 1.0,
-                            words: [
-                                { text: "Are", start: 0.0, end: 0.3 },
-                                { text: "you", start: 0.3, end: 0.6 },
-                                { text: "okay?", start: 0.6, end: 0.9 },
-                            ]
-                        },
-                        {
-                            start: 1.1, end: 3.3,
-                            words: [
-                                { text: "I", start: 1.2, end: 1.4 },
-                                { text: "think", start: 1.4, end: 1.7 },
-                                { text: "I", start: 1.7, end: 1.8 },
-                                { text: "forgot", start: 1.8, end: 2.2 },
-                                { text: "to", start: 2.2, end: 2.4 },
-                                { text: "bring", start: 2.4, end: 2.7 },
-                                { text: "enough", start: 2.7, end: 3.0 },
-                                { text: "salt.", start: 3.0, end: 3.2 },
-                            ]
-                        },
-                        {
-                            start: 3.5, end: 8.5,
-                            words: [
-                                { text: "That's", start: 4.0, end: 4.3 },
-                                { text: "a", start: 4.3, end: 4.5 },
-                                { text: "shame,", start: 4.5, end: 4.8 },
-                                { text: "we", start: 5.5, end: 5.7 },
-                                { text: "sent", start: 5.7, end: 6.0 },
-                                { text: "a", start: 6.0, end: 6.1 },
-                                { text: "letter", start: 6.1, end: 6.5 },
-                                { text: "home", start: 6.5, end: 6.8 },
-                                { text: "that", start: 6.8, end: 7.0 },
-                                { text: "told", start: 7.0, end: 7.3 },
-                                { text: "you", start: 7.3, end: 7.5 },
-                                { text: "how", start: 7.5, end: 7.7 },
-                                { text: "much", start: 7.7, end: 7.9 },
-                                { text: "you", start: 7.9, end: 8.1 },
-                                { text: "needed.", start: 8.1, end: 8.4 },
-                            ]
-                        },
-                        {
-                            start: 14.1, end: 19.0,
-                            words: [
-                                { text: "I'm", start: 14.5, end: 14.7 },
-                                { text: "sorry.", start: 14.7, end: 15.2 },
-                                { text: "I", start: 16.1, end: 16.2 },
-                                { text: "took", start: 16.2, end: 16.5 },
-                                { text: "the", start: 16.5, end: 16.6 },
-                                { text: "salt", start: 16.6, end: 16.8 },
-                                { text: "because", start: 16.8, end: 17.1 },
-                                { text: "I", start: 17.1, end: 17.2 },
-                                { text: "didn't", start: 17.2, end: 17.7 },
-                                { text: "have", start: 17.7, end: 18.1 },
-                                { text: "enough.", start: 18.1, end: 18.5 },
-                            ]
-                        },
-                        {
-                            start: 19.0, end: 22.6,
-                            words: [
-                                { text: "You", start: 19.5, end: 19.8 },
-                                { text: "did", start: 19.8, end: 20.1 },
-                                { text: "the", start: 20.1, end: 20.4 },
-                                { text: "right", start: 20.4, end: 20.8 },
-                                { text: "thing", start: 20.8, end: 21.2 },
-                                { text: "by", start: 21.2, end: 21.5 },
-                                { text: "telling", start: 21.5, end: 21.8 },
-                                { text: "the", start: 21.8, end: 22.1 },
-                                { text: "truth.", start: 22.1, end: 22.5 },
-                            ]
-                        },
-                        {
-                            start: 22.6, end: 26.5,
-                            words: [
-                                { text: "It", start: 22.6, end: 22.8 },
-                                { text: "is", start: 22.8, end: 23.0 },
-                                { text: "good", start: 23.0, end: 23.3 },
-                                { text: "to", start: 23.3, end: 23.5 },
-                                { text: "tell", start: 23.5, end: 23.8 },
-                                { text: "the", start: 23.8, end: 24.1 },
-                                { text: "truth", start: 24.1, end: 24.5 },
-                                { text: "when", start: 24.5, end: 24.8 },
-                                { text: "you", start: 24.8, end: 25.1 },
-                                { text: "make", start: 25.1, end: 25.4 },
-                                { text: "a", start: 25.4, end: 25.6 },
-                                { text: "mistake.", start: 25.6, end: 26.0 },
-                            ]
-                        },
-                        {
-                            start: 26.5, end: 28.5,
-                            words: [
-                                { text: "But", start: 26.5, end: 26.8 },
-                                { text: "what", start: 26.8, end: 27.1 },
-                                { text: "about", start: 27.1, end: 27.4 },
-                                { text: "my", start: 27.4, end: 27.7 },
-                                { text: "experiment?", start: 27.7, end: 28.0 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u1l1_vid5,
-                    subtitles: [
-                        {
-                            start: 10.0, end: 15.3,
-                            words: [
-                                { text: "We", start: 10.5, end: 10.8 },
-                                { text: "could", start: 10.8, end: 11.1 },
-                                { text: "ask", start: 11.1, end: 11.4 },
-                                { text: "the", start: 11.4, end: 11.7 },
-                                { text: "cook", start: 11.7, end: 12.0 },
-                                { text: "in", start: 12.0, end: 12.3 },
-                                { text: "the", start: 12.3, end: 12.6 },
-                                { text: "cafeteria", start: 12.6, end: 12.9 },
-                                { text: "if", start: 12.9, end: 13.2 },
-                                { text: "he", start: 13.2, end: 13.5 },
-                                { text: "can", start: 13.5, end: 13.8 },
-                                { text: "give", start: 13.8, end: 14.1 },
-                                { text: "us", start: 14.1, end: 14.4 },
-                                { text: "some", start: 14.4, end: 14.7 },
-                                { text: "salt.", start: 14.7, end: 15.0 }
-                            ]
-                        },
-                        {
-                            start: 15.5, end: 17.6,
-                            words: [
-                                { text: "That's", start: 15.8, end: 16.1 },
-                                { text: "a", start: 16.1, end: 16.4 },
-                                { text: "good", start: 16.4, end: 16.7 },
-                                { text: "idea", start: 16.7, end: 17.0 },
-                                { text: "Adam.", start: 17.0, end: 17.3 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    url: u1l1_vid6,
-                    subtitles: [
-                        {
-                            start: 6.4, end: 10.3,
-                            words: [
-                                { text: "I'm", start: 6.5, end: 6.8 },
-                                { text: "happy", start: 6.8, end: 7.1 },
-                                { text: "you", start: 7.1, end: 7.4 },
-                                { text: "can", start: 7.3, end: 7.6 },
-                                { text: "make", start: 7.5, end: 7.8 },
-                                { text: "your", start: 7.8, end: 8.1 },
-                                { text: "modelling", start: 8.1, end: 8.5 },
-                                { text: "dough", start: 8.5, end: 8.8 },
-                                { text: "now,", start: 8.8, end: 9.1 },
-                                { text: "Rob.", start: 9.1, end: 9.5 }
-                            ]
-                        },
-                    ]
-                }
-            ],
-            cloudPositions: {
-                0: [],
-                1: [
-                ],
-                2: [
-                    { top: '10%', right: '45%', left: 'auto' },
-                    { top: '10%', left: '15%' },
-                    { top: '15%', left: '15%' },
-                    { top: '30%', right: '10%', left: 'auto', isFlipped: true },
-                    { top: '10%', left: '50%', isFlipped: true },
-                ],
-                3: [
-                    { bottom: '80%', left: '68%', transform: 'translateX(-50%)', isFlipped: true },
-                    { top: '50%', left: '50%' },
-                    { top: '10%', left: '60%', isFlipped: true },
-                    { top: '10%', left: '50%', isFlipped: true },
-                    { bottom: '80%', left: '18%', transform: 'translateX(-50%)' },
-                    { top: '10%', left: '20%' },
-                    { top: '20%', left: '28%' },
-                ],
-                4: [
-                    { top: '10%', left: '40%', transform: 'translateX(-50%)', isFlipped: true },
-                    { top: '10%', left: '45%' },
-                ],
-                5: [
-                    { top: '25%', left: '35%', isFlipped: true },
-                ],
-            },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0,
-                    end: 2.2,
-                    words: [
-                        { text: "Adam", start: 0.0, end: 0.5 },
-                        { text: "is", start: 0.5, end: 0.9 },
-                        { text: "at", start: 0.9, end: 1.2 },
-                        { text: "the", start: 1.2, end: 1.4 },
-                        { text: "Science", start: 1.4, end: 2.0 },
-                        { text: "Fair.", start: 2.0, end: 2.2 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 1.7,
-                    end: 4.8,
-                    words: [
-                        { text: "and", start: 1.7, end: 2.0 },
-                        { text: "is", start: 2.0, end: 2.3 },
-                        { text: "getting", start: 2.3, end: 2.7 },
-                        { text: "everything", start: 2.7, end: 3.2 },
-                        { text: "ready", start: 3.2, end: 3.6 },
-                        { text: "for", start: 3.6, end: 3.8 },
-                        { text: "his", start: 3.8, end: 4.0 },
-                        { text: "experiment.", start: 4.0, end: 4.6 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 5.0,
-                    end: 8.0,
-                    words: [
-                        { text: "The", start: 5.0, end: 5.2 },
-                        { text: "children", start: 5.2, end: 5.7 },
-                        { text: "are", start: 5.7, end: 5.9 },
-                        { text: "making", start: 5.9, end: 6.4 },
-                        { text: "modelling", start: 6.4, end: 6.9 },
-                        { text: "dough.", start: 6.9, end: 7.5 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 8.0,
-                    end: 14.0,
-                    words: [
-                        { text: "He", start: 8.0, end: 8.3 },
-                        { text: "needs", start: 8.3, end: 8.7 },
-                        { text: "a", start: 8.7, end: 8.9 },
-                        { text: "scale,", start: 8.9, end: 9.5 },
-                        { text: "a bowl,", start: 10.0, end: 10.5 },
-                        { text: "flour,", start: 11.0, end: 11.5 },
-                        { text: "water", start: 12.0, end: 12.5 },
-                        { text: "and", start: 12.9, end: 13.3 },
-                        { text: "salt.", start: 13.5, end: 13.8 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 14.0,
-                    end: 18.5,
-                    words: [
-                        { text: "He measures", start: 14.0, end: 14.4 },
-                        { text: "all", start: 14.4, end: 14.7 },
-                        { text: "his", start: 14.7, end: 14.9 },
-                        { text: "ingredients,", start: 14.9, end: 15.5 },
-                        { text: "but", start: 16.0, end: 16.4 },
-                        { text: "he", start: 16.4, end: 16.7 },
-                        { text: "doesn't", start: 16.7, end: 17.1 },
-                        { text: "have", start: 17.1, end: 17.5 },
-                        { text: "enough", start: 17.5, end: 18.0 },
-                        { text: "salt.", start: 18.0, end: 18.4 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 18.5,
-                    end: 19.4,
-                    words: [
-                        { text: "Oh", start: 18.6, end: 18.9 },
-                        { text: "no!", start: 18.9, end: 19.2 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 19.5,
-                    end: 21.5,
-                    words: [
-                        { text: "His", start: 19.5, end: 19.8 },
-                        { text: "experiment", start: 19.8, end: 20.5 },
-                        { text: "won't", start: 20.5, end: 20.7 },
-                        { text: "work.", start: 20.7, end: 21.0 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 21.5,
-                    end: 27.0,
-                    words: [
-                        { text: "While", start: 22.0, end: 22.3 },
-                        { text: "the", start: 22.3, end: 22.6 },
-                        { text: "boy", start: 22.6, end: 22.9 },
-                        { text: "next", start: 22.9, end: 23.2 },
-                        { text: "to", start: 23.2, end: 23.5 },
-                        { text: "him", start: 23.5, end: 23.8 },
-                        { text: "is", start: 23.8, end: 24.1 },
-                        { text: "chatting,", start: 24.1, end: 24.4 },
-                        { text: "Adam", start: 25.0, end: 25.3 },
-                        { text: "takes", start: 25.3, end: 25.6 },
-                        { text: "some", start: 25.6, end: 25.9 },
-                        { text: "salt", start: 25.9, end: 26.2 },
-                        { text: "from", start: 26.2, end: 26.5 },
-                        { text: "his", start: 26.5, end: 26.8 },
-                        { text: "table.", start: 26.8, end: 27.0 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 27.0,
-                    end: 29.0,
-                    words: [
-                        { text: "Now", start: 27.0, end: 27.3 },
-                        { text: "he", start: 27.3, end: 27.6 },
-                        { text: "has", start: 27.6, end: 27.9 },
-                        { text: "everything", start: 27.9, end: 28.2 },
-                        { text: "he", start: 28.2, end: 28.5 },
-                        { text: "needs.", start: 28.5, end: 28.5 },
-                    ]
-                },
-
-
-                {
-                    videoIndex: 2,
-                    start: 0, end: 2.0,
-                    words: [
-                        { text: "Adam's", start: 0.1, end: 0.4 },
-                        { text: "experiment", start: 0.4, end: 1.2 },
-                        { text: "is", start: 1.2, end: 1.5 },
-                        { text: "good.", start: 1.5, end: 2.0 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 2.0, end: 4.9,
-                    words: [
-                        { text: "His", start: 2.1, end: 2.4 },
-                        { text: "modelling", start: 2.4, end: 3.1 },
-                        { text: "dough", start: 3.1, end: 3.4 },
-                        { text: "is", start: 3.5, end: 4.0 },
-                        { text: "perfect.", start: 4.3, end: 4.8 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 6.0, end: 9.0,
-                    words: [
-                        { text: "Rob", start: 6.4, end: 6.8 },
-                        { text: "does", start: 6.8, end: 7.2 },
-                        { text: "not", start: 7.2, end: 7.6 },
-                        { text: "look", start: 7.6, end: 8.0 },
-                        { text: "happy.", start: 8.0, end: 8.4 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 21.0, end: 27.5,
-                    words: [
-                        { text: "Adam", start: 21.5, end: 21.9 },
-                        { text: "feels", start: 21.9, end: 22.2 },
-                        { text: "sad", start: 22.2, end: 22.4 },
-                        { text: "that", start: 22.4, end: 22.6 },
-                        { text: "he", start: 22.6, end: 22.8 },
-                        { text: "took", start: 22.8, end: 23.1 },
-                        { text: "Rob's", start: 23.1, end: 23.4 },
-                        { text: "salt,", start: 23.4, end: 23.7 },
-                        { text: "but", start: 24.2, end: 24.4 },
-                        { text: "he", start: 24.4, end: 24.6 },
-                        { text: "is", start: 24.6, end: 24.8 },
-                        { text: "scared", start: 24.8, end: 25.2 },
-                        { text: "he", start: 25.2, end: 25.4 },
-                        { text: "will", start: 25.4, end: 25.6 },
-                        { text: "be", start: 25.6, end: 25.8 },
-                        { text: "angry", start: 25.8, end: 26.2 },
-                        { text: "if", start: 26.2, end: 26.4 },
-                        { text: "he", start: 26.4, end: 26.6 },
-                        { text: "tells", start: 26.6, end: 26.9 },
-                        { text: "the", start: 26.9, end: 27.1 },
-                        { text: "truth.", start: 27.1, end: 27.4 },
-                    ]
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 8.9, end: 13.0,
-                    words: [
-                        { text: "Adam", start: 9.0, end: 9.5 },
-                        { text: "feels", start: 9.5, end: 10.0 },
-                        { text: "terrible,", start: 10.0, end: 10.5 },
-                        { text: "he", start: 11.0, end: 11.2 },
-                        { text: "decides", start: 11.2, end: 11.6 },
-                        { text: "to", start: 11.6, end: 11.7 },
-                        { text: "tell", start: 11.7, end: 12.0 },
-                        { text: "the", start: 12.0, end: 12.3 },
-                        { text: "truth.", start: 12.3, end: 12.8 },
-                    ]
-                },
-
-                {
-                    videoIndex: 4,
-                    start: 0.0, end: 2.5,
-                    words: [
-                        { text: "Adam", start: 0.0, end: 0.5 },
-                        { text: "offers", start: 0.5, end: 1.0 },
-                        { text: "Rob", start: 1.0, end: 1.3 },
-                        { text: "his", start: 1.3, end: 1.5 },
-                        { text: "modelling", start: 1.5, end: 2.0 },
-                        { text: "dough,", start: 2.0, end: 2.5 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 2.6, end: 4.0,
-                    words: [
-                        { text: "but", start: 2.6, end: 2.8 },
-                        { text: "Rob", start: 2.8, end: 3.0 },
-                        { text: "isn't", start: 3.0, end: 3.3 },
-                        { text: "happy.", start: 3.3, end: 4.0 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 5.1, end: 7.5,
-                    words: [
-                        { text: "He", start: 5.1, end: 5.3 },
-                        { text: "wants", start: 5.3, end: 5.6 },
-                        { text: "to", start: 5.6, end: 5.7 },
-                        { text: "make", start: 5.7, end: 5.9 },
-                        { text: "his", start: 5.9, end: 6.1 },
-                        { text: "own", start: 6.1, end: 6.4 },
-                        { text: "modelling", start: 6.4, end: 6.8 },
-                        { text: "dough.", start: 6.8, end: 7.5 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 7.8, end: 9.3,
-                    words: [
-                        { text: "Adam", start: 8.0, end: 8.3 },
-                        { text: "has", start: 8.3, end: 8.6 },
-                        { text: "an", start: 8.6, end: 8.8 },
-                        { text: "idea.", start: 8.8, end: 9.1 }
-                    ]
-                },
-
-                {
-                    videoIndex: 5,
-                    start: 0.0, end: 6.2,
-                    words: [
-                        { text: "Adam", start: 0.0, end: 0.5 },
-                        { text: "and", start: 0.5, end: 1.0 },
-                        { text: "Rob", start: 1.0, end: 1.5 },
-                        { text: "go", start: 1.5, end: 2.0 },
-                        { text: "to", start: 2.0, end: 2.5 },
-                        { text: "the", start: 2.5, end: 3.0 },
-                        { text: "kitchen", start: 3.0, end: 3.5 },
-                        { text: "and", start: 3.5, end: 3.8 },
-                        { text: "ask", start: 3.8, end: 4.1 },
-                        { text: "the", start: 4.1, end: 4.3 },
-                        { text: "cook", start: 4.3, end: 4.8 },
-                        { text: "for", start: 4.8, end: 5.1 },
-                        { text: "some", start: 5.1, end: 5.4 },
-                        { text: "salt.", start: 5.4, end: 6.0 }
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 10.5, end: 13.9,
-                    words: [
-                        { text: "Adam", start: 10.5, end: 10.8 },
-                        { text: "was", start: 10.8, end: 11.0 },
-                        { text: "glad", start: 11.0, end: 11.3 },
-                        { text: "he", start: 11.3, end: 11.4 },
-                        { text: "could", start: 11.4, end: 11.7 },
-                        { text: "fix", start: 11.7, end: 11.8 },
-                        { text: "his", start: 11.8, end: 11.9 },
-                        { text: "mistake", start: 11.9, end: 12.2 },
-                        { text: "and", start: 12.2, end: 12.4 },
-                        { text: "help", start: 12.4, end: 12.8 },
-                        { text: "Rob.", start: 12.8, end: 13.3 }
-                    ]
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 2,
-                instruction: [
-                    "Highlight how Adam feels when he takes the salt."
-                ],
-                correctWords: ["sad"],
-            },
-            quiz: {
-                image: u1l1_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "Why did Adam take Rob’s salt?",
-                        options: ["He didn’t have enough salt for the project.", "He needed it for lunch.", "He wanted to take it home."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What happened when Adam took Rob’s salt?",
-                        options: ["Rob didn’t have enough for his project.", "The teacher became angry.", "Adam made too much modelling dough."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What was Adam’s idea?",
-                        options: ["To ask the cook for some salt.", "To take some salt from another classmate.", "To ask the teacher for some salt."],
-                        correctAnswer: "0"
-                    }
-                ]
-            },
-            feedback: {
-                image: u1l1_F1
-            }
+  One: {
+    1: {
+      videos: [
+        {
+          url: u1l1_vid1,
+          subtitles: [],
         },
-        "2": {
-            videos: [
-                {
-                    url: u1l2_vid1,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u1l2_vid2,
-                    subtitles: [
-                        {
-                            start: 13.0, end: 15.0,
-                            words: [
-                                { text: "Which", start: 13.1, end: 13.4 },
-                                { text: "is", start: 13.4, end: 13.6 },
-                                { text: "your", start: 13.6, end: 13.9 },
-                                { text: "favourite", start: 13.9, end: 14.2 },
-                                { text: "game,", start: 14.2, end: 14.5 },
-                                { text: "Peter?", start: 14.5, end: 14.8 },
-                            ]
-                        },
-                        {
-                            start: 23.0, end: 26.5,
-                            words: [
-                                { text: "I", start: 23.0, end: 23.3 },
-                                { text: "don’t", start: 23.3, end: 23.7 },
-                                { text: "play", start: 23.7, end: 24.0 },
-                                { text: "video", start: 24.0, end: 24.4 },
-                                { text: "games.", start: 24.4, end: 24.7 },
-                                { text: "I", start: 24.7, end: 24.9 },
-                                { text: "don’t", start: 24.9, end: 25.3 },
-                                { text: "like", start: 25.3, end: 25.6 },
-                                { text: "them.", start: 25.6, end: 26.0 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u1l2_vid3,
-                    subtitles: [
-                        {
-                            start: 0, end: 3.0,
-                            words: [
-                                { text: "Wow!", start: 0.0, end: 0.8 },
-                                { text: "Really?", start: 0.8, end: 1.6 },
-                                { text: "Why?", start: 1.6, end: 2.4 }
-                            ]
-                        },
-
-                        {
-                            start: 5.3, end: 8.5,
-                            words: [
-                                { text: "What", start: 5.5, end: 5.9 },
-                                { text: "do", start: 5.9, end: 6.2 },
-                                { text: "you", start: 6.2, end: 6.5 },
-                                { text: "do", start: 6.5, end: 6.8 },
-                                { text: "for", start: 6.8, end: 7.1 },
-                                { text: "fun", start: 7.1, end: 7.4 },
-                                { text: "at", start: 7.4, end: 7.6 },
-                                { text: "home?", start: 7.6, end: 7.9 },
-                            ]
-                        },
-
-                        {
-                            start: 9.0, end: 10.5,
-                            words: [
-                                { text: "Lots", start: 9.5, end: 9.7 },
-                                { text: "of", start: 9.7, end: 9.9 },
-                                { text: "things.", start: 9.9, end: 10.2 },
-                            ]
-                        },
-
-                        {
-                            start: 10.5, end: 14.5,
-                            words: [
-                                { text: "But", start: 10.5, end: 10.8 },
-                                { text: "mostly", start: 10.8, end: 11.3 },
-                                { text: "I", start: 11.5, end: 11.8 },
-                                { text: "enjoy", start: 11.8, end: 12.1 },
-                                { text: "building", start: 12.1, end: 12.5 },
-                                { text: "toy", start: 12.5, end: 12.8 },
-                                { text: "aeroplanes", start: 12.8, end: 13.1 },
-                                { text: "with", start: 13.1, end: 13.3 },
-                                { text: "my", start: 13.3, end: 13.5 },
-                                { text: "grandfather.", start: 13.5, end: 14.3 },
-                            ]
-                        },
-
-                        {
-                            start: 15.0, end: 16.5,
-                            words: [
-                                { text: "Do", start: 15.5, end: 15.8 },
-                                { text: "they", start: 15.8, end: 16.1 },
-                                { text: "fly?", start: 16.1, end: 16.5 }
-                            ]
-                        },
-
-                        {
-                            start: 21.0, end: 22.0,
-                            words: [
-                                { text: "Sounds", start: 21.0, end: 21.4 },
-                                { text: "boring.", start: 21.4, end: 21.8 }
-                            ]
-                        },
-
-                        {
-                            start: 22.3, end: 25.5,
-                            words: [
-                                { text: "Hey,", start: 22.5, end: 23.0 },
-                                { text: "has", start: 23.2, end: 23.5 },
-                                { text: "anyone", start: 23.5, end: 23.8 },
-                                { text: "played", start: 23.8, end: 24.1 },
-                                { text: "that", start: 24.1, end: 24.3 },
-                                { text: "new", start: 24.3, end: 24.5 },
-                                { text: "spaceship", start: 24.5, end: 24.9 },
-                                { text: "game?", start: 24.9, end: 25.1 }
-                            ]
-                        },
-
-                    ]
-                },
-                {
-                    url: u1l2_vid4,
-                    subtitles: [
-                        {
-                            start: 0.1, end: 1.9,
-                            words: [
-                                { text: "I", start: 0.1, end: 0.4 },
-                                { text: "can’t", start: 0.4, end: 0.7 },
-                                { text: "believe", start: 0.7, end: 1.0 },
-                                { text: "you", start: 1.0, end: 1.3 },
-                                { text: "build", start: 1.3, end: 1.6 },
-                                { text: "planes.", start: 1.6, end: 1.9 }
-                            ]
-                        },
-
-                        {
-                            start: 2.5, end: 3.4,
-                            words: [
-                                { text: "Is", start: 2.5, end: 2.8 },
-                                { text: "it", start: 2.8, end: 3.1 },
-                                { text: "hard?", start: 3.1, end: 3.4 }
-                            ]
-                        },
-
-                        {
-                            start: 4.0, end: 6.5,
-                            words: [
-                                { text: "Some", start: 4.0, end: 4.3 },
-                                { text: "of", start: 4.3, end: 4.6 },
-                                { text: "the", start: 4.6, end: 4.9 },
-                                { text: "small", start: 4.9, end: 5.2 },
-                                { text: "pieces", start: 5.2, end: 5.5 },
-                                { text: "are", start: 5.5, end: 5.8 },
-                                { text: "tricky.", start: 5.8, end: 6.3 }
-                            ]
-                        },
-
-                        {
-                            start: 6.8, end: 11.0,
-                            words: [
-                                { text: "I", start: 7.0, end: 7.3 },
-                                { text: "have", start: 7.3, end: 7.6 },
-                                { text: "a", start: 7.6, end: 7.8 },
-                                { text: "steady", start: 7.8, end: 8.3 },
-                                { text: "hand", start: 8.3, end: 8.5 },
-                                { text: "and", start: 8.5, end: 8.8 },
-                                { text: "keep", start: 8.8, end: 9.1 },
-                                { text: "trying", start: 9.1, end: 9.4 },
-                                { text: "until", start: 9.4, end: 9.7 },
-                                { text: "I", start: 9.7, end: 10.0 },
-                                { text: "finish", start: 10.0, end: 10.4 },
-                                { text: "them.", start: 10.4, end: 10.8 }
-                            ]
-                        },
-
-                        {
-                            start: 11.5, end: 14.8,
-                            words: [
-                                { text: "My", start: 11.5, end: 11.8 },
-                                { text: "grandfather", start: 11.8, end: 12.1 },
-                                { text: "helps", start: 12.1, end: 12.4 },
-                                { text: "me", start: 12.4, end: 12.7 },
-                                { text: "with", start: 12.7, end: 13.0 },
-                                { text: "some", start: 13.0, end: 13.3 },
-                                { text: "of", start: 13.3, end: 13.6 },
-                                { text: "the", start: 13.6, end: 13.9 },
-                                { text: "trickier", start: 13.9, end: 14.2 },
-                                { text: "kits.", start: 14.2, end: 14.5 }
-                            ]
-                        },
-
-                        {
-                            start: 15.5, end: 19.8,
-                            words: [
-                                { text: "He", start: 15.5, end: 15.8 },
-                                { text: "can", start: 15.8, end: 16.1 },
-                                { text: "even", start: 16.1, end: 16.4 },
-                                { text: "design", start: 16.4, end: 16.7 },
-                                { text: "and", start: 16.7, end: 17.0 },
-                                { text: "make", start: 17.0, end: 17.3 },
-                                { text: "his", start: 17.3, end: 17.6 },
-                                { text: "own", start: 17.6, end: 17.9 },
-                                { text: "planes.", start: 17.9, end: 18.3 }
-                            ]
-                        },
-
-                        {
-                            start: 20.0, end: 27.0,
-                            words: [
-                                { text: "That", start: 20.0, end: 20.3 },
-                                { text: "sounds", start: 20.3, end: 20.7 },
-                                { text: "amazing.", start: 20.7, end: 21.0 },
-                                { text: "I’d", start: 21.8, end: 22.1 },
-                                { text: "love", start: 22.1, end: 22.4 },
-                                { text: "to", start: 22.4, end: 22.7 },
-                                { text: "try", start: 22.7, end: 23.0 },
-                                { text: "something", start: 23.0, end: 23.3 },
-                                { text: "like", start: 23.3, end: 23.7 },
-                                { text: " that. ", start: 23.7, end: 24.4 }
-                            ]
-                        },
-
-                    ]
-                },
-                {
-                    url: u1l2_vid5,
-                    subtitles: [
-
-                        {
-                            start: 0, end: 6.0,
-                            words: [
-                                { text: "You", start: 0.1, end: 0.4 },
-                                { text: "could", start: 0.4, end: 0.7 },
-                                { text: "come", start: 0.7, end: 1.0 },
-                                { text: "over", start: 1.0, end: 1.3 },
-                                { text: "to", start: 1.3, end: 1.6 },
-                                { text: "my", start: 1.6, end: 1.9 },
-                                { text: "house", start: 1.9, end: 2.2 },
-
-                                { text: "one", start: 2.2, end: 2.5 },
-                                { text: "day", start: 2.5, end: 2.7 },
-                                { text: "and", start: 2.9, end: 3.1 },
-                                { text: "build", start: 3.1, end: 3.4 },
-                                { text: "one", start: 3.4, end: 3.7 },
-                                { text: "together", start: 3.7, end: 4.0 },
-                                { text: "with", start: 4.0, end: 4.3 },
-
-                                { text: "my", start: 4.3, end: 4.6 },
-                                { text: "grandfather", start: 4.6, end: 4.9 },
-                                { text: "and", start: 4.9, end: 5.2 },
-                                { text: "I.", start: 5.2, end: 5.5 },
-
-                            ]
-                        },
-
-                        {
-                            start: 6.0, end: 10.0,
-                            words: [
-                                { text: "It", start: 6.5, end: 6.8 },
-                                { text: "would", start: 6.8, end: 7.1 },
-                                { text: "be", start: 7.1, end: 7.4 },
-                                { text: "good", start: 7.4, end: 7.7 },
-                                { text: "to", start: 7.7, end: 8.0 },
-                                { text: "have", start: 8.0, end: 8.3 },
-                                { text: "an", start: 8.3, end: 8.6 },
-                                { text: "extra", start: 8.6, end: 8.9 },
-                                { text: "pair", start: 8.9, end: 9.2 },
-                                { text: "of", start: 9.2, end: 9.5 },
-                                { text: "hands.", start: 9.5, end: 9.8 },
-                            ]
-                        },
-
-                        {
-                            start: 10.0, end: 11.5,
-                            words: [
-                                { text: "Really?", start: 10.5, end: 11.0 },
-                            ]
-                        },
-
-                        {
-                            start: 11.6, end: 14.0,
-                            words: [
-                                { text: "That", start: 11.8, end: 12.1 },
-                                { text: "would", start: 12.1, end: 12.4 },
-                                { text: "be", start: 12.4, end: 12.6 },
-                                { text: "great.", start: 12.6, end: 13.0 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u1l2_vid6,
-                    subtitles: [
-
-                        {
-                            start: 0, end: 5.6,
-                            words: [
-                                { text: "I", start: 0.1, end: 0.3 },
-                                { text: "would", start: 0.3, end: 0.7 },
-                                { text: "like", start: 0.7, end: 1.0 },
-                                { text: "to", start: 1.0, end: 1.2 },
-                                { text: "see", start: 1.2, end: 1.5 },
-                                { text: "if", start: 1.5, end: 1.7 },
-                                { text: "I", start: 1.7, end: 1.9 },
-                                { text: "would", start: 1.9, end: 2.1 },
-                                { text: "be", start: 2.1, end: 2.4 },
-                                { text: "good", start: 2.4, end: 2.8 },
-                                { text: "at it", start: 2.8, end: 3.1 },
-
-                                { text: "since", start: 3.4, end: 3.7 },
-                                { text: "I’m", start: 3.7, end: 4.0 },
-                                { text: "good", start: 4.0, end: 4.3 },
-                                { text: "at", start: 4.3, end: 4.6 },
-                                { text: "putting", start: 4.6, end: 4.9 },
-                                { text: "puzzles", start: 4.9, end: 5.2 },
-                                { text: "together.", start: 5.2, end: 5.5 },
-                            ]
-                        },
-
-                        {
-                            start: 5.7, end: 7.0,
-                            words: [
-                                { text: "That", start: 6.0, end: 6.3 },
-                                { text: "sounds", start: 6.3, end: 6.6 },
-                                { text: "awesome!", start: 6.6, end: 6.9 },
-                            ]
-                        },
-                    ]
-                },
-            ],
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0,
-                    end: 4.4,
-                    words: [
-                        { text: "It", start: 0.0, end: 0.3 },
-                        { text: "is", start: 0.3, end: 0.6 },
-                        { text: "raining", start: 0.6, end: 0.9 },
-                        { text: "and", start: 0.9, end: 1.2 },
-                        { text: "a", start: 1.2, end: 1.5 },
-                        { text: "group", start: 1.5, end: 1.8 },
-                        { text: "of", start: 1.8, end: 2.1 },
-                        { text: "boys", start: 2.1, end: 2.4 },
-                        { text: "sit", start: 2.4, end: 2.7 },
-                        { text: "inside", start: 2.7, end: 3.0 },
-                        { text: "working", start: 3.0, end: 3.3 },
-                        { text: "on", start: 3.3, end: 3.6 },
-                        { text: "a", start: 3.6, end: 3.9 },
-                        { text: "puzzle.", start: 3.9, end: 4.2 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 5.0,
-                    end: 11.5,
-                    words: [
-                        { text: "They", start: 5.0, end: 5.3 },
-                        { text: "talk", start: 5.3, end: 5.6 },
-                        { text: "about", start: 5.6, end: 5.9 },
-                        { text: "video", start: 5.9, end: 6.2 },
-                        { text: "games", start: 6.2, end: 6.5 },
-                        { text: "and", start: 7.0, end: 7.3 },
-                        { text: "the", start: 7.3, end: 7.6 },
-                        { text: "boys", start: 7.6, end: 7.9 },
-                        { text: "tell", start: 7.9, end: 8.2 },
-                        { text: "about", start: 8.2, end: 8.5 },
-                        { text: "their", start: 8.5, end: 8.8 },
-                        { text: "favourite", start: 8.8, end: 9.1 },
-                        { text: "games", start: 9.1, end: 9.4 },
-                        { text: "and", start: 10.0, end: 10.3 },
-                        { text: "their", start: 10.3, end: 10.6 },
-                        { text: "highest", start: 10.6, end: 10.9 },
-                        { text: "scores.", start: 10.9, end: 11.2 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 17.0,
-                    end: 19.3,
-                    words: [
-                        { text: "Noticing", start: 17.5, end: 17.9 },
-                        { text: "he", start: 17.9, end: 18.1 },
-                        { text: "has", start: 18.1, end: 18.3 },
-                        { text: "been", start: 18.3, end: 18.5 },
-                        { text: "very", start: 18.5, end: 18.8 },
-                        { text: "quiet.", start: 18.8, end: 19.0 },
-                    ]
-                },
-
-                {
-                    videoIndex: 2,
-                    start: 3.5, end: 5.2,
-                    words: [
-                        { text: "The", start: 3.5, end: 3.7 },
-                        { text: "other", start: 3.7, end: 4.0 },
-                        { text: "boys", start: 4.0, end: 4.2 },
-                        { text: "asked", start: 4.2, end: 4.5 },
-                        { text: "in", start: 4.5, end: 4.7 },
-                        { text: "amazement.", start: 4.7, end: 5.0 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 18.0, end: 20.0,
-                    words: [
-                        { text: "but", start: 18.0, end: 18.3 },
-                        { text: "Peter", start: 18.3, end: 18.6 },
-                        { text: "shakes", start: 18.6, end: 18.9 },
-                        { text: "his", start: 18.9, end: 19.2 },
-                        { text: "head.", start: 19.2, end: 19.5 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 25.9, end: 30.5,
-                    words: [
-                        { text: "The", start: 26.0, end: 26.3 },
-                        { text: "conversation", start: 26.3, end: 26.8 },
-                        { text: "goes", start: 26.8, end: 27.1 },
-                        { text: "back", start: 27.1, end: 27.4 },
-                        { text: "to", start: 27.4, end: 27.8 },
-                        { text: "video", start: 27.8, end: 28.2 },
-                        { text: "games", start: 28.2, end: 28.6 },
-                        { text: "and", start: 28.6, end: 28.8 },
-                        { text: "Peter", start: 28.8, end: 29.1 },
-                        { text: "returns", start: 29.1, end: 29.4 },
-                        { text: "to", start: 29.4, end: 29.6 },
-                        { text: "his", start: 29.6, end: 29.9 },
-                        { text: "puzzle.", start: 29.9, end: 30.2 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 30.5, end: 34.0,
-                    words: [
-                        { text: "Jonah", start: 31.0, end: 31.3 },
-                        { text: "looks", start: 31.3, end: 31.6 },
-                        { text: "at", start: 31.6, end: 31.8 },
-                        { text: "Peter", start: 31.8, end: 32.0 },
-                        { text: "and", start: 32.0, end: 32.3 },
-                        { text: "picks", start: 32.3, end: 32.6 },
-                        { text: "up", start: 32.6, end: 32.8 },
-                        { text: "a", start: 32.8, end: 33.0 },
-                        { text: "puzzle", start: 33.0, end: 33.3 },
-                        { text: "piece.", start: 33.3, end: 33.6 }
-                    ]
-                },
-
-                {
-                    videoIndex: 5,
-                    start: 7.0, end: 10.8,
-                    words: [
-                        { text: "Peter", start: 7.5, end: 7.8 },
-                        { text: "says", start: 7.8, end: 8.1 },
-                        { text: "and", start: 8.1, end: 8.4 },
-                        { text: "the", start: 8.4, end: 8.7 },
-                        { text: "two", start: 8.7, end: 9.0 },
-                        { text: "boys", start: 9.0, end: 9.3 },
-                        { text: "smile", start: 9.3, end: 9.6 },
-                        { text: "at", start: 9.6, end: 9.9 },
-                        { text: "each", start: 9.9, end: 10.2 },
-                        { text: "other.", start: 10.2, end: 10.5 },
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 11.0, end: 17.5,
-                    words: [
-                        { text: "Jonah", start: 11.3, end: 11.6 },
-                        { text: "feels", start: 11.6, end: 11.9 },
-                        { text: "good", start: 11.9, end: 12.2 },
-                        { text: "that", start: 12.2, end: 12.5 },
-                        { text: "he", start: 12.5, end: 12.8 },
-                        { text: "talked", start: 12.8, end: 13.1 },
-                        { text: "to", start: 13.1, end: 13.4 },
-                        { text: "Peter", start: 13.4, end: 13.7 },
-                        { text: "and", start: 13.7, end: 14.0 },
-                        { text: "looks", start: 14.0, end: 14.3 },
-                        { text: "forward", start: 14.3, end: 14.6 },
-                        { text: "to", start: 14.6, end: 14.9 },
-                        { text: "getting", start: 14.9, end: 15.2 },
-                        { text: "to", start: 15.2, end: 15.5 },
-                        { text: "know", start: 15.5, end: 15.8 },
-                        { text: "his", start: 15.8, end: 16.1 },
-                        { text: "new", start: 16.1, end: 16.4 },
-                        { text: "friend.", start: 16.4, end: 16.7 }
-                    ]
-                },
-            ],
-            cloudPositions: {
-                0: [
-                ],
-                1: [
-                    { top: '20%', left: '20%' },
-                    { top: '20%', left: '35%', isFlipped: true },
-                ],
-                2: [
-                    { top: '10%', right: '45%', left: 'auto', isFlipped: true },
-                    { top: '10%', right: '40%', isFlipped: true },
-                    { top: '10%', right: '50%', left: 'auto' },
-                    { top: '10%', right: '10%', left: 'auto', isFlipped: true },
-                    { top: '10%', left: '80%', isFlipped: true },
-                    { top: '10%', right: '80%', left: 'auto' },
-                    { top: '10%', right: '65%', left: 'auto' },
-                ],
-                3: [
-                    { bottom: '75%', left: '50%', transform: 'translateX(-50%)' },
-                    { top: '20%', left: '40%' },
-                    { top: '10%', left: '0%' },
-                    { top: '13%', left: '0%' },
-                    { top: '10%', left: '0%' },
-                    { top: '10%', left: '0%' },
-                    { top: '10%', left: '37%' },
-                    { top: '10%', left: '20%' },
-                ],
-                4: [
-                    { top: '10%', left: '15%' },
-                    { top: '20%', left: '20%' },
-                    { top: '10%', left: '65%', isFlipped: true },
-                    { bottom: '80%', left: '65%', isFlipped: true },
-                    { bottom: '80%', left: '40%' }
-                ],
-                5: [
-                    { top: '10%', left: '60%', isFlipped: true },
-                    { top: '20%', left: '20%' },
-                ]
-            },
-            interactiveTask: {
-                videoIndex: 3,
-                instruction: [
-                    "Highlight the part where Jonah shows interest",
-                    "in building planes."
-                ],
-                correctWords: ["that", "sounds", "amazing"],
-            },
-            quiz: {
-                image: u1l2_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "What were the group of boys talking about?",
-                        options: ["Toy cars", "Video games", "Dinner"],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What did Peter do for fun at home?",
-                        options: ["Peter put puzzles together.", "Peter made toy aeroplanes.", "Peter made toy cars."],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "How did Jonah become Peter’s friend?",
-                        options: ["He talked with the other boys.", "He talked with Peter about building toy aeroplanes.", "He yelled at the other boys."],
-                        correctAnswer: "1"
-                    }
-                ]
-            },
-            feedback: {
-                image: u1l2_F1
-            }
+        {
+          url: u1l1_vid2,
+          subtitles: [],
         },
-        "3": {
-            videos: [
-                {
-                    url: u1l3_vid1,
-                    subtitles: [
-
-                    ]
-                },
-
-                {
-                    url: u1l3_vid2,
-                    subtitles: [
-                        {
-                            start: 0, end: 3.5,
-                            words: [
-                                { text: "We’re", start: 0.1, end: 0.4 },
-                                { text: "going", start: 0.4, end: 0.7 },
-                                { text: "to", start: 0.7, end: 0.9 },
-                                { text: "walk", start: 0.9, end: 1.2 },
-                                { text: "over", start: 1.2, end: 1.5 },
-                                { text: "to", start: 1.5, end: 1.7 },
-                                { text: "the", start: 1.7, end: 1.8 },
-                                { text: "auditorium", start: 1.8, end: 2.3 },
-                                { text: "now", start: 2.3, end: 2.5 },
-                                { text: "for", start: 2.5, end: 2.7 },
-                                { text: "the", start: 2.7, end: 2.8 },
-                                { text: "concert.", start: 2.8, end: 3.2 }
-                            ]
-                        },
-                        {
-                            start: 12.4, end: 15.6,
-                            words: [
-                                { text: "I", start: 13.1, end: 13.3 },
-                                { text: "want", start: 13.3, end: 13.6 },
-                                { text: "you", start: 13.6, end: 13.8 },
-                                { text: "all", start: 13.8, end: 14.0 },
-                                { text: "to", start: 14.0, end: 14.2 },
-                                { text: "be", start: 14.2, end: 14.4 },
-                                { text: "on", start: 14.4, end: 14.6 },
-                                { text: "your", start: 14.6, end: 14.8 },
-                                { text: "best", start: 14.8, end: 15.1 },
-                                { text: "behaviour.", start: 15.1, end: 15.6 }
-                            ]
-                        },
-                        {
-                            start: 16.0, end: 18.0,
-                            words: [
-                                { text: "There", start: 16.0, end: 16.3 },
-                                { text: "are", start: 16.3, end: 16.5 },
-                                { text: "enough", start: 16.5, end: 16.9 },
-                                { text: "seats", start: 16.9, end: 17.2 },
-                                { text: "for", start: 17.2, end: 17.4 },
-                                { text: "everyone.", start: 17.4, end: 17.9 }
-                            ]
-                        },
-                        {
-                            start: 18.2, end: 21.5,
-                            words: [
-                                { text: "so", start: 18.5, end: 18.7 },
-                                { text: "no", start: 18.7, end: 18.9 },
-                                { text: "pushing", start: 18.9, end: 19.3 },
-                                { text: "or", start: 19.3, end: 19.5 },
-                                { text: "running", start: 19.5, end: 19.9 },
-                                { text: "when", start: 19.9, end: 20.1 },
-                                { text: "you’re", start: 20.1, end: 20.3 },
-                                { text: "in", start: 20.3, end: 20.5 },
-                                { text: "the", start: 20.5, end: 20.7 },
-                                { text: "auditorium.", start: 20.7, end: 21.2 }
-                            ]
-                        },
-                        {
-                            start: 21.8, end: 23.5,
-                            words: [
-                                { text: "Do", start: 22.0, end: 22.2 },
-                                { text: "you", start: 22.2, end: 22.4 },
-                                { text: "all", start: 22.4, end: 22.6 },
-                                { text: "understand", start: 22.6, end: 23.0 },
-                                { text: "me?", start: 23.0, end: 23.2 }
-                            ]
-                        },
-                        {
-                            start: 24.0, end: 26.0,
-                            words: [
-                                { text: "Yes,", start: 25.0, end: 25.4 },
-                                { text: "Mrs.", start: 25.4, end: 25.8 },
-                                { text: "Bell!", start: 25.8, end: 26.3 }
-                            ]
-                        },
-                    ]
-                },
-
-                {
-                    url: u1l3_vid3,
-                    subtitles: [
-                        {
-                            start: 10.8, end: 12.9,
-                            words: [
-                                { text: "Ow!", start: 11.0, end: 12.3 },
-                            ]
-                        },
-                        {
-                            start: 18.5, end: 20.5,
-                            words: [
-                                { text: "Are", start: 18.8, end: 19.1 },
-                                { text: "you", start: 19.1, end: 19.4 },
-                                { text: "okay,", start: 19.4, end: 19.7 },
-                                { text: "Kylie?", start: 19.7, end: 20.1 }
-                            ]
-                        },
-                        {
-                            start: 20.8, end: 22.5,
-                            words: [
-                                { text: "Someone", start: 21.0, end: 21.4 },
-                                { text: "bumped", start: 21.4, end: 21.8 },
-                                { text: "me.", start: 21.8, end: 22.1 }
-                            ]
-                        },
-                        {
-                            start: 22.6, end: 24.0,
-                            words: [
-                                { text: "But", start: 22.8, end: 23.1 },
-                                { text: "let’s", start: 23.1, end: 23.4 },
-                                { text: "hurry,", start: 23.4, end: 23.7 }
-                            ]
-                        },
-                        {
-                            start: 24.0, end: 26.0,
-                            words: [
-                                { text: "we", start: 24.0, end: 24.2 },
-                                { text: "don’t", start: 24.2, end: 24.5 },
-                                { text: "want", start: 24.5, end: 24.8 },
-                                { text: "to be", start: 24.8, end: 25.1 },
-                                { text: "last", start: 25.1, end: 25.4 },
-                                { text: "in line.", start: 25.4, end: 25.8 },
-                            ]
-                        },
-                        {
-                            start: 34.9, end: 35.9,
-                            words: [
-                                { text: "Hurry", start: 35.0, end: 35.3 },
-                                { text: "up,", start: 35.3, end: 35.6 },
-                                { text: "Kylie.", start: 35.6, end: 35.9 }
-                            ]
-                        },
-                    ]
-                },
-
-                {
-                    url: u1l3_vid4,
-                    subtitles: [
-                        {
-                            start: 16.0, end: 17.0,
-                            words: [
-                                { text: "Hey!", start: 16.5, end: 17.0 },
-                            ]
-                        },
-                        {
-                            start: 17.5, end: 19.5,
-                            words: [
-                                { text: "You’re", start: 17.5, end: 17.8 },
-                                { text: "too", start: 17.8, end: 18.1 },
-                                { text: "slow,", start: 18.1, end: 18.4 },
-                                { text: "Kylie.", start: 18.4, end: 18.7 }
-                            ]
-                        },
-
-                    ]
-                },
-
-                {
-                    url: u1l3_vid5,
-                    subtitles: [
-                        {
-                            start: 10.0, end: 17.2,
-                            words: [
-                                { text: "I", start: 11.8, end: 12.0 },
-                                { text: "felt", start: 12.0, end: 12.3 },
-                                { text: "so", start: 12.3, end: 12.6 },
-                                { text: "angry", start: 12.6, end: 12.9 },
-
-                                { text: "I", start: 13.4, end: 13.7 },
-                                { text: "almost", start: 13.7, end: 14.0 },
-                                { text: "pushed", start: 14.0, end: 14.3 },
-                                { text: "them,", start: 14.3, end: 14.6 },
-
-                                { text: "but", start: 15.0, end: 15.3 },
-                                { text: "I", start: 15.3, end: 15.6 },
-                                { text: "calmed", start: 15.6, end: 15.9 },
-                                { text: "myself", start: 15.9, end: 16.2 },
-                                { text: "before", start: 16.2, end: 16.5 },
-                                { text: "I", start: 16.5, end: 16.8 },
-                                { text: "did", start: 16.8, end: 17.1 },
-                                { text: "anything.", start: 17.1, end: 17.4 }
-                            ]
-                        },
-                        {
-                            start: 17.2, end: 20.0,
-                            words: [
-                                { text: "Kylie", start: 0.1, end: 0.4 },
-                                { text: "takes", start: 0.4, end: 0.7 },
-                                { text: "a", start: 0.7, end: 0.9 },
-                                { text: "few", start: 0.9, end: 1.2 },
-                                { text: "deep", start: 1.2, end: 1.5 },
-                                { text: "breaths.", start: 1.5, end: 1.9 }
-                            ]
-                        },
-
-                    ]
-                },
-
-                {
-                    url: u1l3_vid6,
-                    subtitles: [
-                        {
-                            start: 0, end: 1.5,
-                            words: [
-                                { text: "Good", start: 0.3, end: 0.6 },
-                                { text: "for", start: 0.6, end: 0.9 },
-                                { text: "you.", start: 0.9, end: 1.2 }
-                            ]
-                        },
-                    ]
-                },
-
-                {
-                    url: u1l3_vid7,
-                    subtitles: [
-                        {
-                            start: 0.0, end: 3.0,
-                            words: [
-                                { text: "Look,", start: 0.3, end: 0.6 },
-                                { text: "there", start: 0.6, end: 0.9 },
-                                { text: "are", start: 0.9, end: 1.2 },
-                                { text: "still", start: 1.2, end: 1.5 },
-                                { text: "plenty", start: 1.5, end: 1.9 },
-                                { text: "of", start: 1.9, end: 2.1 },
-                                { text: "seats", start: 2.1, end: 2.4 },
-                                { text: "free.", start: 2.4, end: 2.7 }
-
-                            ]
-                        },
-                        {
-                            start: 3.5, end: 5.9,
-                            words: [
-                                { text: "I’m", start: 3.8, end: 4.1 },
-                                { text: "so", start: 4.1, end: 4.3 },
-                                { text: "excited", start: 4.3, end: 4.7 },
-                                { text: "about", start: 4.7, end: 5.0 },
-                                { text: "the", start: 5.0, end: 5.2 },
-                                { text: "concert!", start: 5.2, end: 5.6 }
-                            ]
-                        },
-                        {
-                            start: 7.4, end: 9.0,
-                            words: [
-                                { text: "Me", start: 7.5, end: 8.3 },
-                                { text: "too!", start: 8.3, end: 8.8 }
-                            ]
-                        },
-                        {
-                            start: 14.3, end: 17.0,
-                            words: [
-                                { text: "There’s", start: 14.5, end: 14.8 },
-                                { text: "Sunita.", start: 14.8, end: 15.2 },
-                                { text: "Let’s", start: 15.2, end: 15.5 },
-                                { text: "go", start: 15.5, end: 15.7 },
-                                { text: "and", start: 15.7, end: 16.0 },
-                                { text: "sit", start: 16.0, end: 16.3 },
-                                { text: "with", start: 16.3, end: 16.6 },
-                                { text: "her.", start: 16.6, end: 17.0 }
-                            ]
-                        },
-                    ]
-                },
-
-
-
-
-            ],
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 4.4,
-                    end: 7.0,
-                    words: [
-                        { text: "Mrs", start: 4.5, end: 4.8 },
-                        { text: "Bell", start: 4.8, end: 5.2 },
-                        { text: "announces", start: 5.2, end: 5.8 },
-                        { text: "to", start: 5.8, end: 6.0 },
-                        { text: "her", start: 6.0, end: 6.4 },
-                        { text: "class.", start: 6.4, end: 6.8 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 7.0,
-                    end: 9.8,
-                    words: [
-                        { text: "Kylie", start: 7.1, end: 7.5 },
-                        { text: "and", start: 7.5, end: 7.8 },
-                        { text: "her", start: 7.8, end: 8.1 },
-                        { text: "friends", start: 8.1, end: 8.6 },
-                        { text: "are", start: 8.6, end: 9.0 },
-                        { text: "excited.", start: 9.0, end: 9.5 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 7.0,
-                    end: 9.8,
-                    words: [
-                        { text: "Kylie", start: 7.1, end: 7.5 },
-                        { text: "and", start: 7.5, end: 7.8 },
-                        { text: "her", start: 7.8, end: 8.1 },
-                        { text: "friends", start: 8.1, end: 8.6 },
-                        { text: "are", start: 8.6, end: 9.0 },
-                        { text: "excited.", start: 9.0, end: 9.5 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 10.0,
-                    end: 12.3,
-                    words: [
-                        { text: "They", start: 10.1, end: 10.4 },
-                        { text: "are", start: 10.4, end: 10.6 },
-                        { text: "looking", start: 10.6, end: 10.9 },
-                        { text: "forward", start: 10.9, end: 11.2 },
-                        { text: "to", start: 11.2, end: 11.4 },
-                        { text: "the", start: 11.4, end: 11.6 },
-                        { text: "concert.", start: 11.6, end: 12.0 }
-                    ]
-                },
-
-                {
-                    videoIndex: 2,
-                    start: 0.0,
-                    end: 3.3,
-                    words: [
-                        { text: "The", start: 0.1, end: 0.3 },
-                        { text: "students", start: 0.3, end: 0.7 },
-                        { text: "get", start: 0.7, end: 0.9 },
-                        { text: "up", start: 0.9, end: 1.0 },
-                        { text: "to", start: 1.0, end: 1.3 },
-                        { text: "leave", start: 1.3, end: 1.6 },
-                        { text: "the", start: 1.6, end: 1.9 },
-                        { text: "classroom", start: 1.9, end: 2.2 },
-                        { text: "and", start: 2.2, end: 2.5 },
-                        { text: "line", start: 2.5, end: 2.8 },
-                        { text: "up.", start: 2.8, end: 3.1 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 3.3,
-                    end: 8.0,
-                    words: [
-                        { text: "Kylie", start: 3.5, end: 3.9 },
-                        { text: "is", start: 3.9, end: 4.2 },
-                        { text: "pushed", start: 4.2, end: 4.6 },
-                        { text: "against", start: 4.6, end: 5.0 },
-                        { text: "the", start: 5.0, end: 5.3 },
-                        { text: "bookshelf", start: 5.3, end: 5.8 },
-                        { text: "as", start: 5.8, end: 6.1 },
-                        { text: "some", start: 6.1, end: 6.4 },
-                        { text: "classmates", start: 6.4, end: 6.9 },
-                        { text: "hurry", start: 6.9, end: 7.3 },
-                        { text: "past her.", start: 7.3, end: 7.9 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 13.5,
-                    end: 18.0,
-                    words: [
-                        { text: "She", start: 14.5, end: 14.8 },
-                        { text: "cries", start: 14.8, end: 15.2 },
-                        { text: "as", start: 15.2, end: 15.4 },
-                        { text: "she", start: 15.4, end: 15.7 },
-                        { text: "bumps", start: 15.7, end: 16.1 },
-                        { text: "her", start: 16.1, end: 16.4 },
-                        { text: "elbow", start: 16.4, end: 16.8 },
-                        { text: "on", start: 16.8, end: 17.1 },
-                        { text: "the", start: 17.1, end: 17.4 },
-                        { text: "bookshelf.", start: 17.4, end: 17.9 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 26.3, end: 32.0,
-                    words: [
-                        { text: "Kylie", start: 26.5, end: 26.9 },
-                        { text: "and", start: 26.9, end: 27.2 },
-                        { text: "Stacy", start: 27.2, end: 27.6 },
-                        { text: "line up", start: 27.6, end: 28.0 },
-                        { text: "outside", start: 28.0, end: 28.4 },
-                        { text: "the classroom", start: 28.4, end: 28.8 },
-                        { text: "and when", start: 29.8, end: 30.0 },
-                        { text: "all", start: 30.0, end: 30.3 },
-                        { text: "the", start: 30.3, end: 30.6 },
-                        { text: "students", start: 30.6, end: 31.1 },
-                        { text: "are out", start: 31.1, end: 31.6 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 32.0, end: 34.9,
-                    words: [
-                        { text: "Mrs.", start: 32.0, end: 32.3 },
-                        { text: "Bell", start: 32.3, end: 32.7 },
-                        { text: "leads", start: 32.7, end: 33.1 },
-                        { text: "them", start: 33.1, end: 33.4 },
-                        { text: "towards", start: 33.4, end: 33.9 },
-                        { text: "the", start: 33.9, end: 34.2 },
-                        { text: "auditorium.", start: 34.2, end: 34.8 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 36.0, end: 38.5,
-                    words: [
-                        { text: "someone", start: 36.2, end: 36.6 },
-                        { text: "tells", start: 36.6, end: 36.9 },
-                        { text: "her", start: 36.9, end: 37.1 },
-                        { text: "as", start: 37.1, end: 37.3 },
-                        { text: "they", start: 37.3, end: 37.5 },
-                        { text: "bump", start: 37.5, end: 37.8 },
-                        { text: "into", start: 37.8, end: 38.1 },
-                        { text: "her.", start: 38.1, end: 38.4 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 38.5, end: 43.5,
-                    words: [
-                        { text: "Kylie", start: 39.0, end: 39.4 },
-                        { text: "trips", start: 39.4, end: 39.7 },
-                        { text: "and", start: 39.7, end: 40.0 },
-                        { text: "is", start: 40.0, end: 40.2 },
-                        { text: "still", start: 40.2, end: 40.5 },
-                        { text: "rubbing", start: 40.5, end: 40.9 },
-                        { text: "her", start: 40.9, end: 41.1 },
-                        { text: "elbow", start: 41.1, end: 41.5 },
-                        { text: "as", start: 41.5, end: 41.7 },
-                        { text: "she", start: 41.7, end: 41.9 },
-                        { text: "tries", start: 41.9, end: 42.2 },
-                        { text: "to", start: 42.2, end: 42.4 },
-                        { text: "keep", start: 42.4, end: 42.7 },
-                        { text: "up.", start: 42.7, end: 43.0 }
-                    ]
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 0.0, end: 4.5,
-                    words: [
-                        { text: "Kylie", start: 0.1, end: 0.5 },
-                        { text: "balls up", start: 0.5, end: 1.0 },
-                        { text: "her", start: 1.0, end: 1.3 },
-                        { text: "fists", start: 1.3, end: 1.7 },
-                        { text: "and", start: 2.3, end: 2.6 },
-                        { text: "knows", start: 2.6, end: 2.9 },
-                        { text: "that", start: 2.9, end: 3.2 },
-                        { text: "she", start: 3.2, end: 3.5 },
-                        { text: "is", start: 3.5, end: 3.8 },
-                        { text: "getting", start: 3.8, end: 4.1 },
-                        { text: "angry.", start: 4.1, end: 4.4 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 5.0, end: 13.5,
-                    words: [
-                        { text: "The", start: 5.3, end: 5.6 },
-                        { text: "class", start: 5.6, end: 5.9 },
-                        { text: "is", start: 5.9, end: 6.2 },
-                        { text: "almost", start: 6.2, end: 6.5 },
-                        { text: "at", start: 6.5, end: 6.8 },
-                        { text: "the", start: 6.8, end: 7.1 },
-                        { text: "auditorium", start: 7.1, end: 7.4 },
-                        { text: "when", start: 7.8, end: 8.1 },
-                        { text: "two", start: 8.1, end: 8.4 },
-                        { text: "girls", start: 8.4, end: 8.7 },
-                        { text: "go", start: 8.7, end: 9.0 },
-                        { text: "around", start: 9.0, end: 9.3 },
-                        { text: "Kylie", start: 9.3, end: 9.6 },
-                        { text: "and", start: 9.9, end: 10.2 },
-                        { text: "get", start: 10.2, end: 10.5 },
-                        { text: "into", start: 10.5, end: 10.8 },
-                        { text: "the", start: 10.8, end: 11.1 },
-                        { text: "line", start: 11.1, end: 11.4 },
-                        { text: "in", start: 11.4, end: 11.7 },
-                        { text: "front", start: 11.7, end: 12.0 },
-                        { text: "of", start: 12.0, end: 12.3 },
-                        { text: "her", start: 12.3, end: 12.6 },
-                        { text: "and", start: 12.6, end: 12.9 },
-                        { text: "Stacy.", start: 12.9, end: 13.2 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 18.8, end: 23.2,
-                    words: [
-                        { text: "they", start: 18.8, end: 19.2 },
-                        { text: "tell", start: 19.2, end: 19.6 },
-                        { text: "her", start: 19.6, end: 19.9 },
-                        { text: "and", start: 21.0, end: 21.3 },
-                        { text: "turn", start: 21.3, end: 21.6 },
-                        { text: "back", start: 21.6, end: 21.9 },
-                        { text: "to", start: 21.9, end: 22.2 },
-                        { text: "face", start: 22.2, end: 22.5 },
-                        { text: "the", start: 22.5, end: 22.8 },
-                        { text: "line.", start: 22.8, end: 23.1 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 23.3, end: 26.8,
-                    words: [
-                        { text: "Kylie", start: 23.5, end: 23.8 },
-                        { text: "feels", start: 23.8, end: 24.1 },
-                        { text: "her", start: 24.1, end: 24.4 },
-                        { text: "face", start: 24.4, end: 24.7 },
-                        { text: "getting", start: 24.7, end: 25.0 },
-                        { text: "red", start: 25.0, end: 25.3 },
-                        { text: "as", start: 25.3, end: 25.6 },
-                        { text: "she", start: 25.6, end: 25.9 },
-                        { text: "gets", start: 25.9, end: 26.2 },
-                        { text: "angrier.", start: 26.2, end: 26.5 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 26.9, end: 33.0,
-                    words: [
-                        { text: "Her", start: 27.0, end: 27.3 },
-                        { text: "elbow", start: 27.3, end: 27.6 },
-                        { text: "still", start: 27.6, end: 27.9 },
-                        { text: "hurts", start: 27.9, end: 28.2 },
-                        { text: "and", start: 28.2, end: 28.5 },
-                        { text: "now", start: 28.5, end: 28.8 },
-                        { text: "she’s", start: 28.8, end: 29.1 },
-                        { text: "almost", start: 29.1, end: 29.4 },
-                        { text: "at", start: 30.5, end: 30.8 },
-                        { text: "the", start: 30.8, end: 31.1 },
-                        { text: "back", start: 31.1, end: 31.4 },
-                        { text: "of", start: 31.4, end: 31.7 },
-                        { text: "the", start: 31.7, end: 32.0 },
-                        { text: "line.", start: 32.0, end: 32.3 }
-                    ]
-                },
-
-                {
-                    videoIndex: 4,
-                    start: 0, end: 2,
-                    words: [
-                        { text: "Kylie", start: 0.1, end: 0.4 },
-                        { text: "takes", start: 0.4, end: 0.7 },
-                        { text: "a", start: 0.7, end: 0.9 },
-                        { text: "few", start: 0.9, end: 1.2 },
-                        { text: "deep", start: 1.2, end: 1.5 },
-                        { text: "breaths.", start: 1.5, end: 1.9 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 2.3, end: 6.0,
-                    words: [
-                        { text: "She", start: 2.5, end: 2.8 },
-                        { text: "knows", start: 2.8, end: 3.3 },
-                        { text: "her", start: 3.5, end: 3.8 },
-                        { text: "anger", start: 3.8, end: 4.2 },
-                        { text: "is", start: 4.2, end: 4.4 },
-                        { text: "almost", start: 4.4, end: 4.8 },
-                        { text: "at", start: 4.8, end: 5.0 },
-                        { text: "boiling", start: 5.0, end: 5.4 },
-                        { text: "point.", start: 5.4, end: 5.8 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 6.6, end: 9.5,
-                    words: [
-                        { text: "Kylie", start: 7.5, end: 7.8 },
-                        { text: "turns", start: 7.8, end: 8.1 },
-                        { text: "to", start: 8.1, end: 8.4 },
-                        { text: "Stacy", start: 8.4, end: 8.7 },
-                        { text: "and", start: 8.7, end: 9.0 },
-                        { text: "says", start: 9.0, end: 9.3 }
-                    ]
-                },
-
-                {
-                    videoIndex: 5,
-                    start: 1.9, end: 5.5,
-                    words: [
-                        { text: "Stacy", start: 2.3, end: 2.6 },
-                        { text: "tells", start: 2.6, end: 2.9 },
-                        { text: "her", start: 2.9, end: 3.2 },
-                        { text: "as", start: 3.2, end: 3.5 },
-                        { text: "they", start: 3.5, end: 3.8 },
-                        { text: "walk", start: 3.8, end: 4.1 },
-                        { text: "into", start: 4.1, end: 4.4 },
-                        { text: "the", start: 4.4, end: 4.7 },
-                        { text: "auditorium.", start: 4.7, end: 5.2 }
-                    ]
-                },
-
-                {
-                    videoIndex: 6,
-                    start: 9.5, end: 14.0,
-                    words: [
-                        { text: "Kylie", start: 10.0, end: 10.3 },
-                        { text: "replies,", start: 10.3, end: 10.7 },
-                        { text: "forgetting", start: 10.7, end: 11.4 },
-                        { text: "about", start: 11.4, end: 11.7 },
-                        { text: "the", start: 11.7, end: 12.0 },
-                        { text: "girls", start: 12.0, end: 12.3 },
-                        { text: "who", start: 12.3, end: 12.6 },
-                        { text: "made", start: 12.6, end: 12.9 },
-                        { text: "her", start: 12.9, end: 13.2 },
-                        { text: "angry.", start: 13.2, end: 13.6 }
-                    ]
-                },
-
-                {
-                    videoIndex: 6,
-                    start: 17.9, end: 21.0,
-                    words: [
-                        { text: "Kylie", start: 18.0, end: 18.3 },
-                        { text: "is", start: 18.3, end: 18.5 },
-                        { text: "happy", start: 18.5, end: 18.9 },
-                        { text: "she", start: 18.9, end: 19.1 },
-                        { text: "did", start: 19.1, end: 19.3 },
-                        { text: "not", start: 19.3, end: 19.5 },
-                        { text: "reach", start: 19.5, end: 19.8 },
-                        { text: "her", start: 19.8, end: 20.0 },
-                        { text: "boiling", start: 20.0, end: 20.4 },
-                        { text: "point.", start: 20.4, end: 20.8 }
-                    ]
-                },
-            ],
-            cloudPositions: {
-
-                0: [
-
-                ],
-
-                1: [
-                    { top: '15%', left: '3%' },
-                    { top: '15%', left: '15%' },
-                    { top: '15%', left: '15%' },
-                    { top: '15%', left: '10%' },
-                    { top: '15%', left: '15%' },
-                    { top: '15%', left: '15%' },
-                ],
-
-                2: [
-                    { top: '10%', right: '80%' },
-                    { top: '10%', left: '35%', isFlipped: true },
-                    { top: '10%', left: '45%' },
-                    { top: '10%', right: '50%', isFlipped: true },
-                    { top: '1%', left: '33%', isFlipped: true },
-                    { top: '1%', left: '35%' },
-                ],
-
-                3: [
-                    { bottom: '80%', left: '35%' },
-                    { top: '10%', left: '45%', isFlipped: true },
-                ],
-
-                4: [
-                    { top: '10%', left: '55%', isFlipped: true },
-                    { top: '10%', left: '55%', isFlipped: true }
-                ],
-                5: [
-                    { bottom: '80%', left: '28%', }
-                ],
-                6: [
-                    { bottom: '60%', left: '75%', transform: 'translateX(-50%)', isFlipped: true },
-                    { top: '10%', left: '60%', isFlipped: true },
-                    { top: '10%', left: '50%', isFlipped: true },
-                    { top: '10%', left: '60%', isFlipped: true },
-                ],
+        {
+          url: u1l1_vid3,
+          subtitles: [
+            {
+              start: 9.2,
+              end: 11.5,
+              words: [
+                { text: "Have", start: 9.8, end: 10.1 },
+                { text: "you", start: 10.1, end: 10.3 },
+                { text: "seen", start: 10.3, end: 10.6 },
+                { text: "my", start: 10.6, end: 10.8 },
+                { text: "salt?", start: 10.8, end: 11.2 },
+              ],
             },
-            interactiveTask: {
-                videoIndex: 4,
-                instruction: [
-                    "Highlight how Kylie manages her anger."
-                ],
-                correctWords: ["kylie", "takes", "a", "few", "deep", "breaths"],
+            {
+              start: 11.5,
+              end: 16.2,
+              words: [
+                { text: "I", start: 11.6, end: 11.9 },
+                { text: "had", start: 11.9, end: 12.2 },
+                { text: "lots", start: 12.2, end: 12.5 },
+                { text: "in", start: 12.5, end: 12.8 },
+                { text: "the", start: 12.8, end: 13.1 },
+                { text: "bag,", start: 13.1, end: 13.4 },
+                { text: "now", start: 14.0, end: 14.3 },
+                { text: "I", start: 14.3, end: 14.6 },
+                { text: "only", start: 14.6, end: 14.9 },
+                { text: "have", start: 14.9, end: 15.2 },
+                { text: "a", start: 15.2, end: 15.5 },
+                { text: "little", start: 15.5, end: 15.8 },
+                { text: "bit.", start: 15.8, end: 16.1 },
+              ],
             },
-            quiz: {
-                image: u1l3_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "What made Kylie almost reach her boiling point?",
-                        options: ["Her classmates pushed her against the bookshelf", "Someone bumped into her", "Two girls walked into the line in front of her"],
-                        correctAnswer: "2"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What colour was the anger thermometer after someone told Kylie to hurry up?",
-                        options: ["Red.", "Yellow.", "Blue."],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What did Kylie do to calm down?",
-                        options: ["She took a few breaths.", "She screamed.", "She pushed the two girls."],
-                        correctAnswer: "0"
-                    }
-                ]
+            {
+              start: 16.2,
+              end: 18.3,
+              words: [
+                { text: "I", start: 16.2, end: 16.4 },
+                { text: "can't", start: 16.4, end: 16.7 },
+                { text: "do", start: 16.7, end: 16.9 },
+                { text: "my", start: 16.9, end: 17.1 },
+                { text: "experiment.", start: 17.1, end: 18.1 },
+              ],
             },
-            feedback: {
-                image: u1l3_F1
-            }
+
+            {
+              start: 28.8,
+              end: 32.3,
+              words: [
+                { text: "No,", start: 29.0, end: 29.5 },
+                { text: "sorry,", start: 29.5, end: 30.0 },
+                { text: "I", start: 30.5, end: 30.6 },
+                { text: "don't", start: 30.6, end: 30.8 },
+                { text: "know", start: 30.8, end: 31.1 },
+                { text: "where", start: 31.1, end: 31.4 },
+                { text: "your", start: 31.4, end: 31.6 },
+                { text: "salt", start: 31.6, end: 31.9 },
+                { text: "is.", start: 31.9, end: 32.3 },
+              ],
+            },
+            {
+              start: 32.3,
+              end: 32.8,
+              words: [
+                { text: "Adam", start: 21.5, end: 21.9 },
+                { text: "feels", start: 21.9, end: 22.2 },
+                { text: "sad", start: 22.2, end: 22.4 },
+                { text: "that", start: 22.4, end: 22.6 },
+                { text: "he", start: 22.6, end: 22.8 },
+                { text: "took", start: 22.8, end: 23.1 },
+                { text: "Rob's", start: 23.1, end: 23.4 },
+                { text: "salt,", start: 23.4, end: 23.7 },
+                { text: "but", start: 24.2, end: 24.4 },
+                { text: "he", start: 24.4, end: 24.6 },
+                { text: "is", start: 24.6, end: 24.8 },
+                { text: "scared", start: 24.8, end: 25.2 },
+                { text: "he", start: 25.2, end: 25.4 },
+                { text: "will", start: 25.4, end: 25.6 },
+                { text: "be", start: 25.6, end: 25.8 },
+                { text: "angry", start: 25.8, end: 26.2 },
+                { text: "if", start: 26.2, end: 26.4 },
+                { text: "he", start: 26.4, end: 26.6 },
+                { text: "tells", start: 26.6, end: 26.9 },
+                { text: "the", start: 26.9, end: 27.1 },
+                { text: "truth.", start: 27.1, end: 27.4 },
+              ],
+            },
+          ],
         },
+        {
+          url: u1l1_vid4,
+          subtitles: [
+            {
+              start: 0.0,
+              end: 1.0,
+              words: [
+                { text: "Are", start: 0.0, end: 0.3 },
+                { text: "you", start: 0.3, end: 0.6 },
+                { text: "okay?", start: 0.6, end: 0.9 },
+              ],
+            },
+            {
+              start: 1.1,
+              end: 3.3,
+              words: [
+                { text: "I", start: 1.2, end: 1.4 },
+                { text: "think", start: 1.4, end: 1.7 },
+                { text: "I", start: 1.7, end: 1.8 },
+                { text: "forgot", start: 1.8, end: 2.2 },
+                { text: "to", start: 2.2, end: 2.4 },
+                { text: "bring", start: 2.4, end: 2.7 },
+                { text: "enough", start: 2.7, end: 3.0 },
+                { text: "salt.", start: 3.0, end: 3.2 },
+              ],
+            },
+            {
+              start: 3.5,
+              end: 8.5,
+              words: [
+                { text: "That's", start: 4.0, end: 4.3 },
+                { text: "a", start: 4.3, end: 4.5 },
+                { text: "shame,", start: 4.5, end: 4.8 },
+                { text: "we", start: 5.5, end: 5.7 },
+                { text: "sent", start: 5.7, end: 6.0 },
+                { text: "a", start: 6.0, end: 6.1 },
+                { text: "letter", start: 6.1, end: 6.5 },
+                { text: "home", start: 6.5, end: 6.8 },
+                { text: "that", start: 6.8, end: 7.0 },
+                { text: "told", start: 7.0, end: 7.3 },
+                { text: "you", start: 7.3, end: 7.5 },
+                { text: "how", start: 7.5, end: 7.7 },
+                { text: "much", start: 7.7, end: 7.9 },
+                { text: "you", start: 7.9, end: 8.1 },
+                { text: "needed.", start: 8.1, end: 8.4 },
+              ],
+            },
+            {
+              start: 14.1,
+              end: 19.0,
+              words: [
+                { text: "I'm", start: 14.5, end: 14.7 },
+                { text: "sorry.", start: 14.7, end: 15.2 },
+                { text: "I", start: 16.1, end: 16.2 },
+                { text: "took", start: 16.2, end: 16.5 },
+                { text: "the", start: 16.5, end: 16.6 },
+                { text: "salt", start: 16.6, end: 16.8 },
+                { text: "because", start: 16.8, end: 17.1 },
+                { text: "I", start: 17.1, end: 17.2 },
+                { text: "didn't", start: 17.2, end: 17.7 },
+                { text: "have", start: 17.7, end: 18.1 },
+                { text: "enough.", start: 18.1, end: 18.5 },
+              ],
+            },
+            {
+              start: 19.0,
+              end: 22.6,
+              words: [
+                { text: "You", start: 19.5, end: 19.8 },
+                { text: "did", start: 19.8, end: 20.1 },
+                { text: "the", start: 20.1, end: 20.4 },
+                { text: "right", start: 20.4, end: 20.8 },
+                { text: "thing", start: 20.8, end: 21.2 },
+                { text: "by", start: 21.2, end: 21.5 },
+                { text: "telling", start: 21.5, end: 21.8 },
+                { text: "the", start: 21.8, end: 22.1 },
+                { text: "truth.", start: 22.1, end: 22.5 },
+              ],
+            },
+            {
+              start: 22.6,
+              end: 26.5,
+              words: [
+                { text: "It", start: 22.6, end: 22.8 },
+                { text: "is", start: 22.8, end: 23.0 },
+                { text: "good", start: 23.0, end: 23.3 },
+                { text: "to", start: 23.3, end: 23.5 },
+                { text: "tell", start: 23.5, end: 23.8 },
+                { text: "the", start: 23.8, end: 24.1 },
+                { text: "truth", start: 24.1, end: 24.5 },
+                { text: "when", start: 24.5, end: 24.8 },
+                { text: "you", start: 24.8, end: 25.1 },
+                { text: "make", start: 25.1, end: 25.4 },
+                { text: "a", start: 25.4, end: 25.6 },
+                { text: "mistake.", start: 25.6, end: 26.0 },
+              ],
+            },
+            {
+              start: 26.5,
+              end: 28.5,
+              words: [
+                { text: "But", start: 26.5, end: 26.8 },
+                { text: "what", start: 26.8, end: 27.1 },
+                { text: "about", start: 27.1, end: 27.4 },
+                { text: "my", start: 27.4, end: 27.7 },
+                { text: "experiment?", start: 27.7, end: 28.0 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u1l1_vid5,
+          subtitles: [
+            {
+              start: 10.0,
+              end: 15.3,
+              words: [
+                { text: "We", start: 10.5, end: 10.8 },
+                { text: "could", start: 10.8, end: 11.1 },
+                { text: "ask", start: 11.1, end: 11.4 },
+                { text: "the", start: 11.4, end: 11.7 },
+                { text: "cook", start: 11.7, end: 12.0 },
+                { text: "in", start: 12.0, end: 12.3 },
+                { text: "the", start: 12.3, end: 12.6 },
+                { text: "cafeteria", start: 12.6, end: 12.9 },
+                { text: "if", start: 12.9, end: 13.2 },
+                { text: "he", start: 13.2, end: 13.5 },
+                { text: "can", start: 13.5, end: 13.8 },
+                { text: "give", start: 13.8, end: 14.1 },
+                { text: "us", start: 14.1, end: 14.4 },
+                { text: "some", start: 14.4, end: 14.7 },
+                { text: "salt.", start: 14.7, end: 15.0 },
+              ],
+            },
+            {
+              start: 15.5,
+              end: 17.6,
+              words: [
+                { text: "That's", start: 15.8, end: 16.1 },
+                { text: "a", start: 16.1, end: 16.4 },
+                { text: "good", start: 16.4, end: 16.7 },
+                { text: "idea", start: 16.7, end: 17.0 },
+                { text: "Adam.", start: 17.0, end: 17.3 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u1l1_vid6,
+          subtitles: [
+            {
+              start: 6.4,
+              end: 10.3,
+              words: [
+                { text: "I'm", start: 6.5, end: 6.8 },
+                { text: "happy", start: 6.8, end: 7.1 },
+                { text: "you", start: 7.1, end: 7.4 },
+                { text: "can", start: 7.3, end: 7.6 },
+                { text: "make", start: 7.5, end: 7.8 },
+                { text: "your", start: 7.8, end: 8.1 },
+                { text: "modelling", start: 8.1, end: 8.5 },
+                { text: "dough", start: 8.5, end: 8.8 },
+                { text: "now,", start: 8.8, end: 9.1 },
+                { text: "Rob.", start: 9.1, end: 9.5 },
+              ],
+            },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+        1: [],
+        2: [
+          { top: "10%", right: "45%", left: "auto" },
+          { top: "10%", left: "15%" },
+          { top: "15%", left: "15%" },
+          { top: "30%", right: "10%", left: "auto", isFlipped: true },
+          { top: "10%", left: "50%", isFlipped: true },
+        ],
+        3: [
+          {
+            bottom: "80%",
+            left: "68%",
+            transform: "translateX(-50%)",
+            isFlipped: true,
+          },
+          { top: "50%", left: "50%" },
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "10%", left: "50%", isFlipped: true },
+          { bottom: "80%", left: "18%", transform: "translateX(-50%)" },
+          { top: "10%", left: "20%" },
+          { top: "20%", left: "28%" },
+        ],
+        4: [
+          {
+            top: "10%",
+            left: "40%",
+            transform: "translateX(-50%)",
+            isFlipped: true,
+          },
+          { top: "10%", left: "45%" },
+        ],
+        5: [{ top: "25%", left: "35%", isFlipped: true }],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0,
+          end: 2.2,
+          words: [
+            { text: "Adam", start: 0.0, end: 0.5 },
+            { text: "is", start: 0.5, end: 0.9 },
+            { text: "at", start: 0.9, end: 1.2 },
+            { text: "the", start: 1.2, end: 1.4 },
+            { text: "Science", start: 1.4, end: 2.0 },
+            { text: "Fair.", start: 2.0, end: 2.2 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 1.7,
+          end: 4.8,
+          words: [
+            { text: "and", start: 1.7, end: 2.0 },
+            { text: "is", start: 2.0, end: 2.3 },
+            { text: "getting", start: 2.3, end: 2.7 },
+            { text: "everything", start: 2.7, end: 3.2 },
+            { text: "ready", start: 3.2, end: 3.6 },
+            { text: "for", start: 3.6, end: 3.8 },
+            { text: "his", start: 3.8, end: 4.0 },
+            { text: "experiment.", start: 4.0, end: 4.6 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 5.0,
+          end: 8.0,
+          words: [
+            { text: "The", start: 5.0, end: 5.2 },
+            { text: "children", start: 5.2, end: 5.7 },
+            { text: "are", start: 5.7, end: 5.9 },
+            { text: "making", start: 5.9, end: 6.4 },
+            { text: "modelling", start: 6.4, end: 6.9 },
+            { text: "dough.", start: 6.9, end: 7.5 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 8.0,
+          end: 14.0,
+          words: [
+            { text: "He", start: 8.0, end: 8.3 },
+            { text: "needs", start: 8.3, end: 8.7 },
+            { text: "a", start: 8.7, end: 8.9 },
+            { text: "scale,", start: 8.9, end: 9.5 },
+            { text: "a bowl,", start: 10.0, end: 10.5 },
+            { text: "flour,", start: 11.0, end: 11.5 },
+            { text: "water", start: 12.0, end: 12.5 },
+            { text: "and", start: 12.9, end: 13.3 },
+            { text: "salt.", start: 13.5, end: 13.8 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 14.0,
+          end: 18.5,
+          words: [
+            { text: "He measures", start: 14.0, end: 14.4 },
+            { text: "all", start: 14.4, end: 14.7 },
+            { text: "his", start: 14.7, end: 14.9 },
+            { text: "ingredients,", start: 14.9, end: 15.5 },
+            { text: "but", start: 16.0, end: 16.4 },
+            { text: "he", start: 16.4, end: 16.7 },
+            { text: "doesn't", start: 16.7, end: 17.1 },
+            { text: "have", start: 17.1, end: 17.5 },
+            { text: "enough", start: 17.5, end: 18.0 },
+            { text: "salt.", start: 18.0, end: 18.4 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 18.5,
+          end: 19.4,
+          words: [
+            { text: "Oh", start: 18.6, end: 18.9 },
+            { text: "no!", start: 18.9, end: 19.2 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 19.5,
+          end: 21.5,
+          words: [
+            { text: "His", start: 19.5, end: 19.8 },
+            { text: "experiment", start: 19.8, end: 20.5 },
+            { text: "won't", start: 20.5, end: 20.7 },
+            { text: "work.", start: 20.7, end: 21.0 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 21.5,
+          end: 27.0,
+          words: [
+            { text: "While", start: 22.0, end: 22.3 },
+            { text: "the", start: 22.3, end: 22.6 },
+            { text: "boy", start: 22.6, end: 22.9 },
+            { text: "next", start: 22.9, end: 23.2 },
+            { text: "to", start: 23.2, end: 23.5 },
+            { text: "him", start: 23.5, end: 23.8 },
+            { text: "is", start: 23.8, end: 24.1 },
+            { text: "chatting,", start: 24.1, end: 24.4 },
+            { text: "Adam", start: 25.0, end: 25.3 },
+            { text: "takes", start: 25.3, end: 25.6 },
+            { text: "some", start: 25.6, end: 25.9 },
+            { text: "salt", start: 25.9, end: 26.2 },
+            { text: "from", start: 26.2, end: 26.5 },
+            { text: "his", start: 26.5, end: 26.8 },
+            { text: "table.", start: 26.8, end: 27.0 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 27.0,
+          end: 29.0,
+          words: [
+            { text: "Now", start: 27.0, end: 27.3 },
+            { text: "he", start: 27.3, end: 27.6 },
+            { text: "has", start: 27.6, end: 27.9 },
+            { text: "everything", start: 27.9, end: 28.2 },
+            { text: "he", start: 28.2, end: 28.5 },
+            { text: "needs.", start: 28.5, end: 28.5 },
+          ],
+        },
+
+        {
+          videoIndex: 2,
+          start: 0,
+          end: 2.0,
+          words: [
+            { text: "Adam's", start: 0.1, end: 0.4 },
+            { text: "experiment", start: 0.4, end: 1.2 },
+            { text: "is", start: 1.2, end: 1.5 },
+            { text: "good.", start: 1.5, end: 2.0 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 2.0,
+          end: 4.9,
+          words: [
+            { text: "His", start: 2.1, end: 2.4 },
+            { text: "modelling", start: 2.4, end: 3.1 },
+            { text: "dough", start: 3.1, end: 3.4 },
+            { text: "is", start: 3.5, end: 4.0 },
+            { text: "perfect.", start: 4.3, end: 4.8 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 6.0,
+          end: 9.0,
+          words: [
+            { text: "Rob", start: 6.4, end: 6.8 },
+            { text: "does", start: 6.8, end: 7.2 },
+            { text: "not", start: 7.2, end: 7.6 },
+            { text: "look", start: 7.6, end: 8.0 },
+            { text: "happy.", start: 8.0, end: 8.4 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 21.0,
+          end: 27.5,
+          words: [
+            { text: "Adam", start: 21.5, end: 21.9 },
+            { text: "feels", start: 21.9, end: 22.2 },
+            { text: "sad", start: 22.2, end: 22.4 },
+            { text: "that", start: 22.4, end: 22.6 },
+            { text: "he", start: 22.6, end: 22.8 },
+            { text: "took", start: 22.8, end: 23.1 },
+            { text: "Rob's", start: 23.1, end: 23.4 },
+            { text: "salt,", start: 23.4, end: 23.7 },
+            { text: "but", start: 24.2, end: 24.4 },
+            { text: "he", start: 24.4, end: 24.6 },
+            { text: "is", start: 24.6, end: 24.8 },
+            { text: "scared", start: 24.8, end: 25.2 },
+            { text: "he", start: 25.2, end: 25.4 },
+            { text: "will", start: 25.4, end: 25.6 },
+            { text: "be", start: 25.6, end: 25.8 },
+            { text: "angry", start: 25.8, end: 26.2 },
+            { text: "if", start: 26.2, end: 26.4 },
+            { text: "he", start: 26.4, end: 26.6 },
+            { text: "tells", start: 26.6, end: 26.9 },
+            { text: "the", start: 26.9, end: 27.1 },
+            { text: "truth.", start: 27.1, end: 27.4 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 8.9,
+          end: 13.0,
+          words: [
+            { text: "Adam", start: 9.0, end: 9.5 },
+            { text: "feels", start: 9.5, end: 10.0 },
+            { text: "terrible,", start: 10.0, end: 10.5 },
+            { text: "he", start: 11.0, end: 11.2 },
+            { text: "decides", start: 11.2, end: 11.6 },
+            { text: "to", start: 11.6, end: 11.7 },
+            { text: "tell", start: 11.7, end: 12.0 },
+            { text: "the", start: 12.0, end: 12.3 },
+            { text: "truth.", start: 12.3, end: 12.8 },
+          ],
+        },
+
+        {
+          videoIndex: 4,
+          start: 0.0,
+          end: 2.5,
+          words: [
+            { text: "Adam", start: 0.0, end: 0.5 },
+            { text: "offers", start: 0.5, end: 1.0 },
+            { text: "Rob", start: 1.0, end: 1.3 },
+            { text: "his", start: 1.3, end: 1.5 },
+            { text: "modelling", start: 1.5, end: 2.0 },
+            { text: "dough,", start: 2.0, end: 2.5 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 2.6,
+          end: 4.0,
+          words: [
+            { text: "but", start: 2.6, end: 2.8 },
+            { text: "Rob", start: 2.8, end: 3.0 },
+            { text: "isn't", start: 3.0, end: 3.3 },
+            { text: "happy.", start: 3.3, end: 4.0 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 5.1,
+          end: 7.5,
+          words: [
+            { text: "He", start: 5.1, end: 5.3 },
+            { text: "wants", start: 5.3, end: 5.6 },
+            { text: "to", start: 5.6, end: 5.7 },
+            { text: "make", start: 5.7, end: 5.9 },
+            { text: "his", start: 5.9, end: 6.1 },
+            { text: "own", start: 6.1, end: 6.4 },
+            { text: "modelling", start: 6.4, end: 6.8 },
+            { text: "dough.", start: 6.8, end: 7.5 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 7.8,
+          end: 9.3,
+          words: [
+            { text: "Adam", start: 8.0, end: 8.3 },
+            { text: "has", start: 8.3, end: 8.6 },
+            { text: "an", start: 8.6, end: 8.8 },
+            { text: "idea.", start: 8.8, end: 9.1 },
+          ],
+        },
+
+        {
+          videoIndex: 5,
+          start: 0.0,
+          end: 6.2,
+          words: [
+            { text: "Adam", start: 0.0, end: 0.5 },
+            { text: "and", start: 0.5, end: 1.0 },
+            { text: "Rob", start: 1.0, end: 1.5 },
+            { text: "go", start: 1.5, end: 2.0 },
+            { text: "to", start: 2.0, end: 2.5 },
+            { text: "the", start: 2.5, end: 3.0 },
+            { text: "kitchen", start: 3.0, end: 3.5 },
+            { text: "and", start: 3.5, end: 3.8 },
+            { text: "ask", start: 3.8, end: 4.1 },
+            { text: "the", start: 4.1, end: 4.3 },
+            { text: "cook", start: 4.3, end: 4.8 },
+            { text: "for", start: 4.8, end: 5.1 },
+            { text: "some", start: 5.1, end: 5.4 },
+            { text: "salt.", start: 5.4, end: 6.0 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 10.5,
+          end: 13.9,
+          words: [
+            { text: "Adam", start: 10.5, end: 10.8 },
+            { text: "was", start: 10.8, end: 11.0 },
+            { text: "glad", start: 11.0, end: 11.3 },
+            { text: "he", start: 11.3, end: 11.4 },
+            { text: "could", start: 11.4, end: 11.7 },
+            { text: "fix", start: 11.7, end: 11.8 },
+            { text: "his", start: 11.8, end: 11.9 },
+            { text: "mistake", start: 11.9, end: 12.2 },
+            { text: "and", start: 12.2, end: 12.4 },
+            { text: "help", start: 12.4, end: 12.8 },
+            { text: "Rob.", start: 12.8, end: 13.3 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 2,
+        instruction: ["Highlight how Adam feels when he takes the salt."],
+        correctWords: ["sad"],
+      },
+      quiz: {
+        image: u1l1_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "Why did Adam take Rob’s salt?",
+            options: [
+              "He didn’t have enough salt for the project.",
+              "He needed it for lunch.",
+              "He wanted to take it home.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "What happened when Adam took Rob’s salt?",
+            options: [
+              "Rob didn’t have enough for his project.",
+              "The teacher became angry.",
+              "Adam made too much modelling dough.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What was Adam’s idea?",
+            options: [
+              "To ask the cook for some salt.",
+              "To take some salt from another classmate.",
+              "To ask the teacher for some salt.",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u1l1_F1,
+      },
     },
-    "Two": {
-        "1": {
-            videos: [
-                {
-                    url: u2l1_vid1,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u2l1_vid2,
-                    subtitles: [
-                        {
-                            start: 7.8, end: 8.7,
-                            words: [
-                                { text: "Hey!", start: 8.0, end: 8.5 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u2l1_vid3,
-                    subtitles: [
-
-                        {
-                            start: 10.0, end: 12.5,
-                            words: [
-                                { text: "Don’t", start: 10.5, end: 10.8 },
-                                { text: "you", start: 10.8, end: 11.0 },
-                                { text: "care", start: 11.0, end: 11.3 },
-                                { text: "about", start: 11.3, end: 11.6 },
-                                { text: "the", start: 11.6, end: 11.8 },
-                                { text: "circus?", start: 11.8, end: 12.2 }
-
-                            ]
-                        },
-
-                    ]
-                },
-                {
-                    url: u2l1_vid4,
-                    subtitles: [
-                        {
-                            start: 0, end: 1.8,
-                            words: [
-                                { text: "I", start: 0.1, end: 0.3 },
-                                { text: "am", start: 0.3, end: 0.5 },
-                                { text: "happy,", start: 0.5, end: 0.9 },
-                                { text: "it’s", start: 0.9, end: 1.2 },
-                                { text: "just...", start: 1.2, end: 1.5 }
-                            ]
-                        },
-
-                        {
-                            start: 4.5, end: 9.5,
-                            words: [
-                                { text: "It’s", start: 5.0, end: 5.3 },
-                                { text: "just", start: 5.3, end: 5.5 },
-                                { text: "that", start: 5.5, end: 5.8 },
-                                { text: "I", start: 5.8, end: 6.0 },
-                                { text: "feel", start: 6.0, end: 6.3 },
-                                { text: "uncomfortable", start: 6.3, end: 6.8 },
-                                { text: "when", start: 6.8, end: 7.0 },
-                                { text: "someone", start: 7.0, end: 7.4 },
-                                { text: "stands", start: 7.4, end: 7.7 },
-                                { text: "too", start: 7.7, end: 7.9 },
-                                { text: "closely", start: 7.9, end: 8.3 },
-                                { text: "next", start: 8.3, end: 8.5 },
-                                { text: "to", start: 8.5, end: 8.6 },
-                                { text: "me.", start: 8.6, end: 9.0 }
-                            ]
-                        },
-
-                        {
-                            start: 11.5, end: 12.7,
-                            words: [
-                                { text: "You’re", start: 11.6, end: 12.1 },
-                                { text: "right!", start: 12.1, end: 12.6 }
-                            ]
-                        },
-
-                        {
-                            start: 12.7, end: 14.8,
-                            words: [
-                                { text: "I’m", start: 12.8, end: 13.1 },
-                                { text: "standing", start: 13.1, end: 13.8 },
-                                { text: "too", start: 13.8, end: 14.2 },
-                                { text: "close.", start: 14.2, end: 14.7 }
-                            ]
-                        },
-
-                        {
-                            start: 15.0, end: 19.3,
-                            words: [
-                                { text: "And", start: 15.5, end: 15.9 },
-                                { text: "I", start: 16.3, end: 17.5 },
-                                { text: "squeeze", start: 16.3, end: 17.5 },
-                                { text: "too", start: 17.5, end: 17.8 },
-                                { text: "tight", start: 17.8, end: 18.1 },
-                                { text: "when", start: 18.1, end: 18.6 },
-                                { text: "I", start: 18.6, end: 18.9 },
-                                { text: "hug.", start: 18.9, end: 19.2 }
-                            ]
-                        },
-
-                        {
-                            start: 19.3, end: 23.8,
-                            words: [
-                                { text: "Sorry,", start: 19.4, end: 19.7 },
-                                { text: "I’m", start: 20.5, end: 20.8 },
-                                { text: "just", start: 20.8, end: 21.1 },
-                                { text: "so", start: 21.1, end: 21.3 },
-                                { text: "excited", start: 21.3, end: 21.7 },
-                                { text: "to", start: 21.7, end: 21.9 },
-                                { text: "talk", start: 21.9, end: 22.2 },
-                                { text: "to", start: 22.2, end: 22.4 },
-                                { text: "you", start: 22.4, end: 22.6 },
-                                { text: "about", start: 22.6, end: 22.9 },
-                                { text: "the", start: 22.9, end: 23.1 },
-                                { text: "circus.", start: 23.1, end: 23.5 }
-                            ]
-                        },
-
-                        {
-                            start: 29.0, end: 36.5,
-                            words: [
-                                { text: "That’s okay", start: 29.0, end: 29.5 },
-                                { text: "I", start: 29.6, end: 29.9 },
-                                { text: "just", start: 29.9, end: 30.2 },
-                                { text: "don’t", start: 30.2, end: 30.5 },
-                                { text: "like", start: 30.5, end: 30.8 },
-                                { text: "hugging", start: 30.8, end: 31.1 },
-                                { text: "as", start: 31.1, end: 31.4 },
-                                { text: "much", start: 31.4, end: 31.7 },
-                                { text: "as", start: 31.7, end: 32.0 },
-                                { text: "you", start: 32.0, end: 32.3 },
-                                { text: "but", start: 34.0, end: 34.3 },
-                                { text: "I’m", start: 34.3, end: 34.6 },
-                                { text: "really", start: 34.6, end: 34.9 },
-                                { text: "excited", start: 34.9, end: 35.2 },
-                                { text: "about", start: 35.2, end: 35.5 },
-                                { text: "the", start: 35.5, end: 35.8 },
-                                { text: "circus.", start: 35.8, end: 36.1 }
-                            ]
-                        },
-
-                        {
-                            start: 36.8, end: 40.5,
-                            words: [
-                                { text: "Let’s", start: 37.0, end: 37.3 },
-                                { text: "ask", start: 37.3, end: 37.6 },
-                                { text: "our", start: 37.6, end: 37.8 },
-                                { text: "mums", start: 37.8, end: 38.1 },
-                                { text: "if", start: 38.1, end: 38.3 },
-                                { text: "we", start: 38.3, end: 38.5 },
-                                { text: "can", start: 38.5, end: 38.7 },
-                                { text: "buy", start: 38.7, end: 38.9 },
-                                { text: "tickets", start: 38.9, end: 39.3 },
-                                { text: "and", start: 39.3, end: 39.5 },
-                                { text: "go", start: 39.5, end: 39.7 },
-                                { text: "together!", start: 39.7, end: 40.2 }
-                            ]
-                        },
-
-
-
-
-
-                    ]
-                },
-                {
-                    url: u2l1_vid5,
-                    subtitles: [
-                        {
-                            start: 8.0, end: 12.0,
-                            words: [
-                                { text: "Molly", start: 12.8, end: 13.1 },
-                                { text: "is", start: 13.1, end: 13.8 },
-                                { text: "glad", start: 13.8, end: 14.2 },
-                                { text: "that", start: 14.2, end: 14.7 },
-                                { text: "Emma", start: 15.5, end: 15.9 },
-                                { text: "told", start: 16.3, end: 17.5 },
-                                { text: "her", start: 16.3, end: 17.5 },
-                                { text: "how", start: 17.5, end: 17.8 },
-                                { text: "she", start: 17.8, end: 18.1 },
-                                { text: "feels", start: 18.1, end: 18.6 },
-                                { text: "about", start: 18.1, end: 18.6 },
-                                { text: "her", start: 18.6, end: 18.9 },
-                                { text: "personal", start: 18.6, end: 18.9 },
-                                { text: "space.", start: 18.9, end: 19.2 }
-                            ]
-                        },
-                    ]
-                },
-            ],
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0, end: 2.5,
-                    words: [
-                        { text: "Molly", start: 0.1, end: 0.4 },
-                        { text: "is", start: 0.4, end: 0.6 },
-                        { text: "excited", start: 0.6, end: 1.0 },
-                        { text: "to", start: 1.0, end: 1.2 },
-                        { text: "see", start: 1.2, end: 1.4 },
-                        { text: "her", start: 1.4, end: 1.6 },
-                        { text: "friend", start: 1.6, end: 2.0 },
-                        { text: "Emma.", start: 2.0, end: 2.3 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 2.8, end: 7.5,
-                    words: [
-                        { text: "She", start: 3.0, end: 3.2 },
-                        { text: "wants", start: 3.2, end: 3.5 },
-                        { text: "to", start: 3.5, end: 3.7 },
-                        { text: "talk", start: 3.7, end: 4.0 },
-                        { text: "to", start: 4.0, end: 4.2 },
-                        { text: "her", start: 4.2, end: 4.4 },
-                        { text: "about", start: 4.4, end: 4.7 },
-                        { text: "the", start: 4.7, end: 4.9 },
-                        { text: "circus", start: 4.9, end: 5.3 },
-                        { text: "that", start: 5.3, end: 5.5 },
-                        { text: "is", start: 5.5, end: 5.7 },
-                        { text: "coming", start: 5.7, end: 6.1 },
-                        { text: "to", start: 6.1, end: 6.3 },
-                        { text: "town", start: 6.3, end: 6.6 },
-                        { text: "tomorrow.", start: 6.6, end: 7.0 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 8.9, end: 13.5,
-                    words: [
-                        { text: "Molly", start: 9.0, end: 9.3 },
-                        { text: "shouts,", start: 9.3, end: 9.6 },
-                        { text: "jumping", start: 10.0, end: 10.3 },
-                        { text: "up", start: 10.3, end: 10.6 },
-                        { text: "and", start: 10.6, end: 10.9 },
-                        { text: "hugging", start: 10.9, end: 11.3 },
-                        { text: "her", start: 11.3, end: 11.5 },
-                        { text: "friend", start: 11.5, end: 11.8 },
-                        { text: "tight.", start: 11.8, end: 12.3 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 14.0, end: 15.0,
-                    words: [
-                        { text: "Molly", start: 14.0, end: 14.3 },
-                        { text: "loves", start: 14.3, end: 14.6 },
-                        { text: "hugs!", start: 14.6, end: 14.9 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 16.0, end: 21.5,
-                    words: [
-                        { text: "Emma", start: 16.5, end: 16.8 },
-                        { text: "likes", start: 16.8, end: 17.1 },
-                        { text: "hugs", start: 17.1, end: 17.4 },
-                        { text: "sometimes,", start: 17.4, end: 17.7 },
-                        { text: "but", start: 18.2, end: 18.5 },
-                        { text: "this", start: 18.5, end: 18.8 },
-                        { text: "hug", start: 18.8, end: 19.1 },
-                        { text: "is", start: 19.1, end: 19.4 },
-                        { text: "too", start: 19.4, end: 19.7 },
-                        { text: "tight", start: 19.7, end: 20.0 },
-                        { text: "and", start: 20.0, end: 20.2 },
-                        { text: "feels", start: 20.2, end: 20.5 },
-                        { text: "uncomfortable.", start: 20.5, end: 21.5 }
-                    ]
-                },
-
-                {
-                    videoIndex: 2,
-                    start: 0, end: 1.8,
-                    words: [
-                        { text: "Something", start: 0.1, end: 0.5 },
-                        { text: "doesn’t", start: 0.5, end: 0.9 },
-                        { text: "feel", start: 0.9, end: 1.2 },
-                        { text: "right.", start: 1.2, end: 1.5 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 2.2, end: 5.4,
-                    words: [
-                        { text: "Molly", start: 2.5, end: 2.8 },
-                        { text: "knows", start: 2.8, end: 3.1 },
-                        { text: "Emma", start: 3.1, end: 3.4 },
-                        { text: "loves", start: 3.4, end: 3.7 },
-                        { text: "the", start: 3.7, end: 3.9 },
-                        { text: "circus", start: 3.9, end: 4.3 },
-                        { text: "as", start: 4.3, end: 4.5 },
-                        { text: "much", start: 4.5, end: 4.8 },
-                        { text: "as", start: 4.8, end: 5.0 },
-                        { text: "she", start: 5.0, end: 5.2 },
-                        { text: "does,", start: 5.2, end: 5.5 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 5.5, end: 9.0,
-                    words: [
-                        { text: "but", start: 6.5, end: 6.8 },
-                        { text: "Emma", start: 6.8, end: 7.1 },
-                        { text: "isn’t", start: 7.1, end: 7.4 },
-                        { text: "smiling", start: 7.4, end: 7.8 },
-                        { text: "or", start: 7.8, end: 8.0 },
-                        { text: "talking", start: 8.0, end: 8.4 },
-                        { text: "to", start: 8.4, end: 8.6 },
-                        { text: "her.", start: 8.6, end: 8.8 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 14.0, end: 18.0,
-                    words: [
-                        { text: "Molly", start: 14.5, end: 14.8 },
-                        { text: "can’t", start: 14.8, end: 15.1 },
-                        { text: "understand", start: 15.1, end: 15.6 },
-                        { text: "why", start: 15.6, end: 15.9 },
-                        { text: "Emma", start: 15.9, end: 16.2 },
-                        { text: "isn’t", start: 16.2, end: 16.5 },
-                        { text: "as", start: 16.5, end: 16.7 },
-                        { text: "excited", start: 16.7, end: 17.1 },
-                        { text: "as", start: 17.1, end: 17.3 },
-                        { text: "she", start: 17.3, end: 17.5 },
-                        { text: "is.", start: 17.5, end: 17.8 }
-                    ]
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 2.0, end: 4.0,
-                    words: [
-                        { text: "Emma", start: 2.5, end: 2.8 },
-                        { text: "takes", start: 2.8, end: 3.1 },
-                        { text: "a", start: 3.1, end: 3.2 },
-                        { text: "deep", start: 3.2, end: 3.5 },
-                        { text: "breath,", start: 3.5, end: 3.8 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 9.8, end: 11.5,
-                    words: [
-                        { text: "Molly", start: 10.0, end: 10.3 },
-                        { text: "smiles", start: 10.3, end: 10.6 },
-                        { text: "and", start: 10.6, end: 10.8 },
-                        { text: "moves", start: 10.8, end: 11.1 },
-                        { text: "back.", start: 11.1, end: 11.4 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 26.0, end: 28.5,
-                    words: [
-                        { text: "Emma", start: 26.0, end: 26.3 },
-                        { text: "smiles", start: 26.3, end: 26.6 },
-                        { text: "and", start: 26.6, end: 26.8 },
-                        { text: "laughs", start: 26.8, end: 27.4 },
-                        { text: "with", start: 27.4, end: 27.7 },
-                        { text: "her", start: 27.7, end: 28.0 },
-                        { text: "friend.", start: 28.0, end: 28.4 }
-                    ]
-                },
-
-                {
-                    videoIndex: 4,
-                    start: 0.0, end: 4.2,
-                    words: [
-                        { text: "Molly", start: 0.1, end: 0.4 },
-                        { text: "is", start: 0.4, end: 0.6 },
-                        { text: "glad", start: 0.6, end: 0.9 },
-                        { text: "that", start: 0.9, end: 1.1 },
-                        { text: "Emma", start: 1.1, end: 1.4 },
-                        { text: "told", start: 1.4, end: 1.7 },
-                        { text: "her", start: 1.7, end: 1.9 },
-                        { text: "how", start: 1.9, end: 2.2 },
-                        { text: "she", start: 2.2, end: 2.4 },
-                        { text: "feels", start: 2.4, end: 2.7 },
-                        { text: "about", start: 2.7, end: 3.0 },
-                        { text: "her", start: 3.0, end: 3.2 },
-                        { text: "personal", start: 3.2, end: 3.6 },
-                        { text: "space.", start: 3.6, end: 4.0 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 4.4, end: 7.5,
-                    words: [
-                        { text: "Emma", start: 4.5, end: 4.8 },
-                        { text: "is", start: 4.8, end: 5.0 },
-                        { text: "happy", start: 5.0, end: 5.3 },
-                        { text: "that", start: 5.3, end: 5.5 },
-                        { text: "Molly", start: 5.5, end: 5.8 },
-                        { text: "listened", start: 5.8, end: 6.2 },
-                        { text: "to", start: 6.2, end: 6.4 },
-                        { text: "how", start: 6.4, end: 6.6 },
-                        { text: "she", start: 6.6, end: 6.8 },
-                        { text: "felt.", start: 6.8, end: 7.1 }
-                    ]
-                },
-            ],
-            cloudPositions: {
-
-                0: [
-
-                ],
-
-                1: [
-                    { top: '15%', left: '10%' },
-                    { top: '15%', left: '15%' },
-                    { top: '5%', left: '30%' },
-                    { top: '0%', left: '40%' },
-                    { top: '15%', left: '15%' },
-                    { top: '15%', left: '15%' },
-                ],
-
-                2: [
-                    { top: '10%', right: '5%', isFlipped: true },
-                    { top: '10%', right: '5%', isFlipped: true },
-                    { top: '10%', right: '5%', isFlipped: true },
-                    { top: '5%', right: '45%' },
-                    { top: '60%', right: '35%' },
-                    { top: '10%', right: '35%' },
-                    { top: '10%', right: '35%' },
-                    { top: '1%', left: '35%' },
-
-                ],
-
-                3: [
-                    { bottom: '80%', left: '10%' },
-                    { top: '10%', left: '35%', isFlipped: true },
-                    { top: '10%', left: '30%' },
-                    { top: '10%', left: '15%' },
-                    { top: '20%', left: '15%' },
-                    { top: '10%', left: '20%' },
-                    { top: '10%', left: '60%', isFlipped: true },
-                    { top: '10%', left: '60%', isFlipped: true },
-                    { top: '10%', left: '60%', isFlipped: true },
-                ],
-
-                4: [
-                    { top: '10%', left: '35%' },
-                    { top: '5%', left: '35%' },
-                    { top: '5%', left: '55%', isFlipped: true },
-                    { top: '15%', left: '75%', isFlipped: true },
-                    { top: '25%', left: '10%' },
-                    { top: '25%', left: '15%' },
-                ],
-                5: [
-                ],
-                6: [
-                ],
-            },
-            interactiveTask: {
-                videoIndex: 4,
-                instruction: [
-                    "Highlight how Molly shows that she",
-                    "cares about Emma’s feelings."
-                ],
-                correctWords: ["molly", "is", "glad", "that", "emma", "told", "her", "how", "she", "feels", "about", "her", "personal", "space"],
-            },
-            quiz: {
-                image: u2l1_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "How did Emma feel about Molly’s hug?",
-                        options: ["Happy", "Uncomfortable", "Angry"],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What did Emma say about Molly’s hug?",
-                        options: ["‘…I feel uncomfortable…’", "‘Hey!’", "‘I’m standing too close.’"],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What did Molly learn about Emma’s feelings?",
-                        options: ["Emma squeezes too tight when she hugs.", "Emma likes tight hugs.", "Emma doesn’t like hugging as much as Molly."],
-                        correctAnswer: "2"
-                    }
-                ]
-            },
-            feedback: {
-                image: u2l1_F1
-            }
+    2: {
+      videos: [
+        {
+          url: u1l2_vid1,
+          subtitles: [],
         },
-        "2": {
-            videos: [
-                {
-                    url: u2l2_vid1,
-                    subtitles: [
-                    ]
-                },
-
-                {
-                    url: u2l2_vid2,
-                    subtitles: [
-                    ]
-
-                },
-
-                {
-                    url: u2l2_vid3,
-                    subtitles: [
-                        {
-                            start: 0, end: 0.9,
-                            words: [
-                                { text: "Noah!", start: 0.0, end: 0.8 },
-                            ]
-                        },
-
-                        {
-                            start: 1.0, end: 6.0,
-                            words: [
-                                { text: "Play", start: 1.1, end: 1.4 },
-                                { text: "football", start: 1.4, end: 1.8 },
-                                { text: "in the", start: 1.8, end: 2.0 },
-                                { text: "garden,", start: 2.0, end: 2.4 },
-                                { text: "I’m", start: 2.4, end: 2.7 },
-                                { text: "working", start: 2.7, end: 3.0 },
-                                { text: "in here.", start: 3.0, end: 3.5 },
-                                { text: "You", start: 3.5, end: 3.8 },
-                                { text: "know", start: 3.8, end: 4.1 },
-                                { text: "you’re", start: 4.1, end: 4.4 },
-                                { text: "not", start: 4.4, end: 4.7 },
-                                { text: "allowed", start: 4.7, end: 5.0 },
-                                { text: "to play", start: 5.0, end: 5.3 },
-                                { text: "football", start: 5.3, end: 5.6 },
-                                { text: "in the", start: 5.6, end: 5.9 },
-                                { text: "kitchen.", start: 5.9, end: 6.0 }
-                            ]
-                        },
-
-                        {
-                            start: 7.0, end: 10.9,
-                            words: [
-                                { text: "It’s", start: 7.1, end: 7.4 },
-                                { text: "too", start: 7.4, end: 7.6 },
-                                { text: "cold", start: 7.6, end: 7.9 },
-                                { text: "in", start: 7.9, end: 8.1 },
-                                { text: "the", start: 8.1, end: 8.3 },
-                                { text: "garden,", start: 8.3, end: 8.6 },
-                                { text: "I’m", start: 9.5, end: 9.9 },
-                                { text: "staying", start: 9.9, end: 10.4 },
-                                { text: "here.", start: 10.4, end: 10.7 }
-                            ]
-                        },
-
-
-
-                        {
-                            start: 24.7, end: 33.0,
-                            words: [
-                                { text: " He", start: 25.0, end: 25.3 },
-                                { text: "wants", start: 25.3, end: 25.6 },
-                                { text: " to", start: 25.6, end: 25.8 },
-                                { text: "yell", start: 25.8, end: 26.1 },
-                                { text: "at", start: 26.1, end: 26.3 },
-                                { text: "his", start: 26.3, end: 26.5 },
-                                { text: "brother,", start: 26.5, end: 26.9 },
-
-                                { text: "but", start: 27.2, end: 27.4 },
-                                { text: "he", start: 27.4, end: 27.6 },
-                                { text: "begins", start: 27.6, end: 28.0 },
-                                { text: "to", start: 28.0, end: 28.2 },
-                                { text: "take", start: 28.2, end: 28.5 },
-                                { text: "deep", start: 28.5, end: 28.8 },
-                                { text: "breaths", start: 28.8, end: 29.2 },
-                                { text: "and", start: 29.2, end: 29.4 },
-                                { text: "gets", start: 29.4, end: 29.6 },
-                                { text: "himself", start: 29.6, end: 29.9 },
-                                { text: "a", start: 29.9, end: 30.0 },
-                                { text: "glass", start: 30.0, end: 30.3 },
-                                { text: "of", start: 30.3, end: 30.5 },
-                                { text: "water", start: 30.5, end: 30.8 },
-                                { text: "to", start: 30.8, end: 31.0 },
-                                { text: "drink.", start: 31.0, end: 31.3 }
-                            ]
-                        },
-                    ]
-                },
-
-                {
-                    url: u2l2_vid4,
-                    subtitles: [
-
-                        {
-                            start: 2.0, end: 6.8,
-                            words: [
-                                { text: "It", start: 2.5, end: 2.8 },
-                                { text: "makes", start: 2.8, end: 3.1 },
-                                { text: "me", start: 3.1, end: 3.4 },
-                                { text: "angry", start: 3.4, end: 3.7 },
-                                { text: "when", start: 3.7, end: 4.0 },
-                                { text: "I", start: 4.0, end: 4.3 },
-                                { text: "ask", start: 4.3, end: 4.6 },
-                                { text: "you", start: 4.6, end: 4.9 },
-                                { text: "to do", start: 4.9, end: 5.2 },
-                                { text: "something", start: 5.2, end: 5.5 },
-                                { text: "and", start: 5.5, end: 5.8 },
-                                { text: "you", start: 5.8, end: 6.1 },
-                                { text: "ignore", start: 6.1, end: 6.4 },
-                                { text: "me.", start: 6.4, end: 6.7 }
-                            ]
-                        },
-
-                        {
-                            start: 7.0, end: 11.0,
-                            words: [
-                                { text: "I", start: 7.0, end: 7.2 },
-                                { text: "was", start: 7.2, end: 7.5 },
-                                { text: "asking", start: 7.5, end: 7.8 },
-                                { text: "you", start: 7.8, end: 8.0 },
-                                { text: "to", start: 8.0, end: 8.2 },
-                                { text: "stop", start: 8.2, end: 8.5 },
-                                { text: "so", start: 8.5, end: 8.7 },
-                                { text: "that", start: 8.7, end: 9.0 },
-                                { text: "this", start: 9.0, end: 9.2 },
-                                { text: "doesn’t", start: 9.2, end: 9.5 },
-                                { text: "happen.", start: 9.5, end: 9.8 }
-                            ]
-                        },
-
-                        {
-                            start: 13.5, end: 15.0,
-                            words: [
-                                { text: "I’m", start: 14.0, end: 14.3 },
-                                { text: "so", start: 14.3, end: 14.6 },
-                                { text: "sorry!", start: 14.6, end: 14.9 }
-                            ]
-                        },
-
-                        {
-                            start: 15.4, end: 18.4,
-                            words: [
-                                { text: "I", start: 15.8, end: 16.0 },
-                                { text: "should", start: 16.0, end: 16.3 },
-                                { text: "have", start: 16.3, end: 16.5 },
-                                { text: "listened", start: 16.5, end: 16.9 },
-                                { text: "to", start: 16.9, end: 17.1 },
-                                { text: "you", start: 17.1, end: 17.3 },
-                                { text: "and", start: 17.3, end: 17.5 },
-                                { text: "played", start: 17.5, end: 17.8 },
-                                { text: "outside.", start: 17.8, end: 18.1 }
-                            ]
-                        },
-
-                        {
-                            start: 18.4, end: 20.5,
-                            words: [
-                                { text: "I’m", start: 19.0, end: 19.3 },
-                                { text: "sorry", start: 19.3, end: 19.6 },
-                                { text: "about", start: 19.6, end: 19.9 },
-                                { text: "your", start: 19.9, end: 20.1 },
-                                { text: "homework.", start: 20.1, end: 20.4 }
-                            ]
-                        },
-
-                        {
-                            start: 21.8, end: 23.5,
-                            words: [
-                                { text: "It’s", start: 22.5, end: 22.8 },
-                                { text: "Ok.", start: 22.8, end: 23.0 }
-                            ]
-                        }
-
-                    ]
-                },
-
-                {
-                    url: u2l2_vid5,
-                    subtitles: [
-                    ]
-                },
-
-                {
-                    url: u2l2_vid6,
-                    subtitles: [
-                    ]
-                },
-
-            ],
-            cloudPositions: {
-                0: [],
-
-                1: [
-                ],
-
-                2: [
-                    { top: '10%', left: '10%' },
-                    { top: '15%', left: '5%' },
-                    { top: '10%', left: '10%' },
-                    { top: '10%', right: '40%' },
-                ],
-
-                3: [
-                    { bottom: '50%', left: '60%', isFlipped: true },
-                    { top: '33%', left: '60%', isFlipped: true },
-                    { top: '60%', left: '30%' },
-                    { top: '50%', left: '60%', isFlipped: true },
-                    { top: '50%', left: '70%', isFlipped: true },
-                    { top: '10%', left: '50%', isFlipped: true },
-                ],
-
-                4: [
-
-                ],
-                5: [
-                ],
+        {
+          url: u1l2_vid2,
+          subtitles: [
+            {
+              start: 12.9,
+              end: 15.0,
+              words: [
+                { text: "Which", start: 12.9, end: 13.14 },
+                { text: "is", start: 13.14, end: 13.28 },
+                { text: "your", start: 13.28, end: 13.46 },
+                { text: "favourite", start: 13.46, end: 13.84 },
+                { text: "game,", start: 13.84, end: 14.16 },
+                { text: "Peter?", start: 14.16, end: 14.9 },
+              ],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0, end: 4.0,
-                    words: [
-                        { text: "Liam", start: 0.1, end: 0.4 },
-                        { text: "and", start: 0.4, end: 0.7 },
-                        { text: "Noah", start: 0.7, end: 1.0 },
-                        { text: "are", start: 1.0, end: 1.3 },
-                        { text: "brothers.", start: 1.3, end: 1.6 },
-                        { text: "They", start: 2.5, end: 2.8 },
-                        { text: "are", start: 2.8, end: 3.1 },
-                        { text: "at", start: 3.1, end: 3.4 },
-                        { text: "home.", start: 3.4, end: 3.7 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 4.0,
-                    end: 6.0,
-                    words: [
-                        { text: "Liam", start: 4.0, end: 4.3 },
-                        { text: "is", start: 4.3, end: 4.5 },
-                        { text: "busy", start: 4.5, end: 4.8 },
-                        { text: "doing", start: 4.8, end: 5.1 },
-                        { text: "his", start: 5.1, end: 5.3 },
-                        { text: "homework.", start: 5.3, end: 5.9 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 6.1,
-                    end: 12.0,
-                    words: [
-                        { text: "It", start: 6.2, end: 6.5 },
-                        { text: "is", start: 6.5, end: 6.8 },
-                        { text: "difficult", start: 6.8, end: 7.2 },
-                        { text: "and", start: 7.2, end: 7.5 },
-                        { text: "is", start: 7.5, end: 7.8 },
-                        { text: "taking", start: 7.8, end: 8.1 },
-                        { text: "a", start: 8.1, end: 8.3 },
-                        { text: "long", start: 8.3, end: 8.6 },
-                        { text: "time.", start: 8.6, end: 8.9 },
-                        { text: "His", start: 9.8, end: 10.1 },
-                        { text: "little", start: 10.1, end: 10.4 },
-                        { text: "brother,", start: 10.4, end: 10.7 },
-                        { text: "Noah,", start: 10.7, end: 11.0 },
-                        { text: "is", start: 11.0, end: 11.3 },
-                        { text: "bored.", start: 11.3, end: 11.6 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 12.4,
-                    end: 15.0,
-                    words: [
-                        { text: "He", start: 12.5, end: 12.8 },
-                        { text: "is", start: 12.8, end: 13.1 },
-                        { text: "kicking", start: 13.1, end: 13.4 },
-                        { text: "a", start: 13.4, end: 13.7 },
-                        { text: "ball", start: 13.7, end: 14.0 },
-                        { text: "around", start: 14.0, end: 14.3 },
-                        { text: "the", start: 14.3, end: 14.6 },
-                        { text: "kitchen.", start: 14.6, end: 14.9 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 15.0,
-                    end: 17.0,
-                    words: [
-                        { text: "Their", start: 15.1, end: 15.4 },
-                        { text: "mum", start: 15.4, end: 15.7 },
-                        { text: "is", start: 15.7, end: 16.0 },
-                        { text: "in", start: 16.0, end: 16.3 },
-                        { text: "the", start: 16.3, end: 16.6 },
-                        { text: "garden.", start: 16.6, end: 16.9 }
-                    ]
-                },
-
-                {
-                    videoIndex: 2,
-                    start: 10.9, end: 16.9,
-                    words: [
-                        { text: "Noah", start: 11.5, end: 11.8 },
-                        { text: "kicks", start: 11.8, end: 12.1 },
-                        { text: "the", start: 12.1, end: 12.3 },
-                        { text: "ball", start: 12.3, end: 12.6 },
-                        { text: "again", start: 12.6, end: 12.9 },
-                        { text: "and", start: 13.2, end: 13.4 },
-                        { text: "it", start: 13.4, end: 13.6 },
-                        { text: "hits", start: 13.6, end: 13.9 },
-                        { text: "Liam’s", start: 13.9, end: 14.2 },
-                        { text: "glass", start: 14.2, end: 14.5 },
-                        { text: "of", start: 14.5, end: 14.7 },
-                        { text: "milk", start: 14.7, end: 15.0 },
-                        { text: "and", start: 15.0, end: 15.2 },
-                        { text: "it", start: 15.2, end: 15.4 },
-                        { text: "spills", start: 15.4, end: 15.7 },
-                        { text: "over", start: 15.7, end: 16.0 },
-                        { text: "his", start: 16.0, end: 16.2 },
-                        { text: "homework!", start: 16.2, end: 16.6 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 23.0, end: 24.5,
-                    words: [
-                        { text: "Liam", start: 23.5, end: 23.8 },
-                        { text: "feels", start: 23.8, end: 24.1 },
-                        { text: "angry.", start: 24.1, end: 24.4 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 17.0, end: 20.5,
-                    words: [
-                        { text: "Oh", start: 17.0, end: 17.3 },
-                        { text: "no!", start: 17.3, end: 17.9 },
-                        { text: "The", start: 19.0, end: 19.2 },
-                        { text: "homework", start: 19.2, end: 19.5 },
-                        { text: "is", start: 19.5, end: 19.8 },
-                        { text: "ruined.", start: 19.8, end: 20.0 }
-                    ]
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 0.0, end: 1.0,
-                    words: [
-                        { text: "Liam", start: 0.0, end: 0.3 },
-                        { text: "stays", start: 0.3, end: 0.6 },
-                        { text: "calm.", start: 0.6, end: 0.9 }
-                    ]
-                },
-
-
-                {
-                    videoIndex: 4,
-                    start: 0.0, end: 2.0,
-                    words: [
-                        { text: "Mum", start: 0.1, end: 0.4 },
-                        { text: "comes", start: 0.4, end: 0.7 },
-                        { text: "in", start: 0.7, end: 1.0 },
-                        { text: "from", start: 1.0, end: 1.3 },
-                        { text: "the", start: 1.3, end: 1.5 },
-                        { text: "garden.", start: 1.5, end: 1.9 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 2.2, end: 7.0,
-                    words: [
-                        { text: "She", start: 2.5, end: 2.8 },
-                        { text: "is", start: 2.8, end: 3.0 },
-                        { text: "happy", start: 3.0, end: 3.3 },
-                        { text: "that", start: 3.3, end: 3.5 },
-                        { text: "Liam", start: 3.5, end: 3.8 },
-                        { text: "calmed", start: 3.8, end: 4.2 },
-                        { text: "himself", start: 4.2, end: 4.6 },
-                        { text: "down", start: 4.6, end: 4.9 },
-                        { text: "before", start: 4.9, end: 5.2 },
-                        { text: "he", start: 5.2, end: 5.4 },
-                        { text: "spoke", start: 5.4, end: 5.7 },
-                        { text: "to", start: 5.7, end: 5.9 },
-                        { text: "his", start: 5.9, end: 6.1 },
-                        { text: "brother.", start: 6.1, end: 6.5 }
-                    ]
-                },
-
-                {
-                    videoIndex: 5,
-                    start: 0.0, end: 3.0,
-                    words: [
-                        { text: "Noah", start: 0.1, end: 0.4 },
-                        { text: "puts", start: 0.4, end: 0.7 },
-                        { text: "his", start: 0.7, end: 0.9 },
-                        { text: "coat", start: 0.9, end: 1.2 },
-                        { text: "on", start: 1.2, end: 1.4 },
-                        { text: "and", start: 1.4, end: 1.6 },
-                        { text: "plays", start: 1.6, end: 2.0 },
-                        { text: "in", start: 2.0, end: 2.2 },
-                        { text: "the", start: 2.2, end: 2.4 },
-                        { text: "garden.", start: 2.4, end: 2.9 }
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 3.5, end: 6.0,
-                    words: [
-                        { text: "Mum", start: 3.5, end: 3.8 },
-                        { text: "helps", start: 3.8, end: 4.1 },
-                        { text: "Liam", start: 4.1, end: 4.4 },
-                        { text: "do", start: 4.4, end: 4.6 },
-                        { text: "his", start: 4.6, end: 4.8 },
-                        { text: "report", start: 4.8, end: 5.2 },
-                        { text: "again.", start: 5.2, end: 5.8 }
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 6.2, end: 9.0,
-                    words: [
-                        { text: "With", start: 6.5, end: 6.8 },
-                        { text: "Mum’s", start: 6.8, end: 7.1 },
-                        { text: "help,", start: 7.1, end: 7.4 },
-                        { text: "it", start: 7.4, end: 7.6 },
-                        { text: "doesn’t", start: 7.6, end: 7.9 },
-                        { text: "take", start: 7.9, end: 8.2 },
-                        { text: "very", start: 8.2, end: 8.5 },
-                        { text: "long.", start: 8.5, end: 8.8 },
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 10.0, end: 12.0,
-                    words: [
-                        { text: "Liam", start: 10.0, end: 10.3 },
-                        { text: "is", start: 10.3, end: 10.5 },
-                        { text: "happy", start: 10.5, end: 10.8 },
-                        { text: "he", start: 10.8, end: 11.0 },
-                        { text: "spoke", start: 11.0, end: 11.3 },
-                        { text: "calmly.", start: 11.3, end: 11.6 }
-                    ]
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 2,
-                instruction: [
-                    "Highlight how Liam stays calm after Noah",
-                    "spills his milk."
-                ],
-                correctWords: [
-                    "he", "begins", "take", "deep", "breaths", "and", "gets", "himself", "a", "glass", "of", "water", "to", "drink"
-                ],
+            {
+              start: 21.9,
+              end: 25.0,
+              words: [
+                { text: "I", start: 22.22, end: 22.44 },
+                { text: "don’t", start: 22.44, end: 22.64 },
+                { text: "play", start: 22.64, end: 22.9 },
+                { text: "video", start: 22.9, end: 23.26 },
+                { text: "games.", start: 23.26, end: 23.74 },
+                { text: "I", start: 23.74, end: 23.86 },
+                { text: "don’t", start: 23.86, end: 24.14 },
+                { text: "like", start: 24.14, end: 24.48 },
+                { text: "them.", start: 24.48, end: 25.0 },
+              ],
             },
-            quiz: {
-                image: u2l2_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "What made Liam angry?",
-                        options: ["His brother Noah ignored him.", "His brother was in the kitchen.", "He had to work outside in the garden."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What did Liam do to keep calm?",
-                        options: ["He yelled at his brother.", "He had a glass of water.", "He told his mom what happened."],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "How did Liam speak to his brother?",
-                        options: ["Calmly", "Angrily", "Happily"],
-                        correctAnswer: "0"
-                    }
-                ]
-            },
-            feedback: {
-                image: u2l2_F1
-            }
+          ],
         },
-        "3": {
-            videos: [
-                {
-                    url: u2l3_vid1,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u2l3_vid2,
-                    subtitles: [
-                        {
-                            start: 11.0, end: 16.4,
-                            words: [
-                                { text: "Wow!", start: 13.5, end: 13.8 },
-                                { text: "Thank", start: 14.0, end: 14.3 },
-                                { text: "you.", start: 14.5, end: 14.8 },
-                                { text: "I", start: 15.0, end: 15.3 },
-                                { text: "love", start: 15.5, end: 15.8 },
-                                { text: "them!", start: 16.0, end: 16.3 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    url: u2l3_vid3,
-                    subtitles: [
-                    ]
-                },
-
-                {
-                    url: u2l3_vid4,
-                    subtitles: [
-                        {
-                            start: 11.5, end: 17.0,
-                            words: [
-                                { text: "I", start: 9.5, end: 9.8 },
-                                { text: "am", start: 9.5, end: 9.8 },
-                                { text: "ready", start: 9.8, end: 10.1 },
-                                { text: "to", start: 10.1, end: 10.2 },
-                                { text: "try", start: 10.2, end: 10.7 },
-                                { text: "again", start: 10.2, end: 10.7 },
-
-
-                            ]
-                        },
-                    ]
-                },
-
-                {
-                    url: u2l3_vid5,
-                    subtitles: [
-
-                        {
-                            start: 8.7, end: 12.5,
-                            words: [
-                                { text: "I", start: 9.2, end: 9.4 },
-                                { text: "am", start: 9.4, end: 9.6 },
-                                { text: "just", start: 9.6, end: 9.9 },
-                                { text: "getting", start: 9.9, end: 10.2 },
-                                { text: "started!", start: 10.2, end: 10.6 },
-                                { text: "I’m", start: 11.2, end: 11.5 },
-                                { text: "going", start: 11.5, end: 11.8 },
-                                { text: "to", start: 11.8, end: 11.9 },
-                                { text: "keep", start: 11.9, end: 12.2 },
-                                { text: "trying.", start: 12.2, end: 12.6 }
-                            ]
-                        },
-                    ]
-                },
-            ],
-            cloudPositions: {
-                0: [
-                ],
-                1: [
-                    { top: '15%', left: '50%', isFlipped: true },
-                ],
-                2: [
-                ],
-                3: [
-                    { bottom: '60%', left: '10%' },
-                ],
-                4: [
-                    { top: '20%', left: '50%', transform: 'translateX(-50%)' },
-                ]
+        {
+          url: u1l2_vid3,
+          subtitles: [
+            {
+              start: 0,
+              end: 3.0,
+              words: [
+                { text: "Wow!", start: 0.0, end: 0.72 },
+                { text: "Really?", start: 0.72, end: 1.46 },
+                { text: "Why?", start: 1.46, end: 2.0 },
+              ],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0, end: 4.5,
-                    words: [
-                        { text: "Jen", start: 0.0, end: 0.4 },
-                        { text: "gets", start: 0.4, end: 0.7 },
-                        { text: "a", start: 0.7, end: 0.8 },
-                        { text: "pair", start: 0.8, end: 1.1 },
-                        { text: "of", start: 1.1, end: 1.3 },
-                        { text: "roller", start: 1.3, end: 1.7 },
-                        { text: "blades", start: 1.7, end: 2.1 },
-                        { text: "from", start: 2.1, end: 2.4 },
-                        { text: "her", start: 2.4, end: 2.6 },
-                        { text: "aunt", start: 2.6, end: 2.9 },
-                        { text: "and", start: 2.9, end: 3.1 },
-                        { text: "uncle", start: 3.1, end: 3.5 },
-                        { text: "for", start: 3.5, end: 3.7 },
-                        { text: "her", start: 3.7, end: 3.9 },
-                        { text: "birthday.", start: 3.9, end: 4.3 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 4.8, end: 8.9,
-                    words: [
-                        { text: "She", start: 4.9, end: 5.2 },
-                        { text: "has", start: 5.2, end: 5.4 },
-                        { text: "wanted", start: 5.4, end: 5.8 },
-                        { text: "roller", start: 5.8, end: 6.2 },
-                        { text: "blades", start: 6.2, end: 6.6 },
-                        { text: "since", start: 6.6, end: 7.2 },
-                        { text: "last", start: 7.5, end: 8.2 },
-                        { text: "year.", start: 8.2, end: 8.8 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 9.2, end: 10.9,
-                    words: [
-                        { text: "Jen", start: 9.5, end: 9.8 },
-                        { text: "is", start: 9.8, end: 10.1 },
-                        { text: "very", start: 10.1, end: 10.2 },
-                        { text: "happy!", start: 10.2, end: 10.7 }
-                    ]
-                },
 
-
-                {
-                    videoIndex: 2,
-                    start: 1.0, end: 7.0,
-                    words: [
-                        { text: "Jen", start: 1.5, end: 2.0 },
-                        { text: "puts", start: 2.0, end: 2.6 },
-                        { text: "them on", start: 2.6, end: 3.1 },
-                        { text: "and", start: 3.5, end: 3.7 },
-                        { text: "goes", start: 3.7, end: 4.0 },
-                        { text: "outside", start: 4.0, end: 4.4 },
-                        { text: "to", start: 4.4, end: 4.6 },
-                        { text: "practise", start: 4.6, end: 5.0 },
-                        { text: "on", start: 5.0, end: 5.6 },
-                        { text: "the", start: 5.6, end: 6.2 },
-                        { text: "sidewalk.", start: 6.2, end: 6.9 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 7.2, end: 10.9,
-                    words: [
-                        { text: "She", start: 7.5, end: 7.8 },
-                        { text: "has", start: 7.8, end: 8.0 },
-                        { text: "always", start: 8.0, end: 8.4 },
-                        { text: "wanted", start: 8.4, end: 8.8 },
-                        { text: "to", start: 8.8, end: 9.0 },
-                        { text: "learn", start: 9.0, end: 9.3 },
-                        { text: "how", start: 9.3, end: 9.5 },
-                        { text: "to", start: 9.5, end: 9.6 },
-                        { text: "skate.", start: 9.6, end: 10.5 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 11.0, end: 14.5,
-                    words: [
-                        { text: "It", start: 11.5, end: 11.7 },
-                        { text: "is", start: 11.7, end: 11.9 },
-                        { text: "difficult", start: 11.9, end: 12.3 },
-                        { text: "to", start: 12.3, end: 12.5 },
-                        { text: "skate", start: 12.5, end: 12.9 },
-                        { text: "for", start: 12.9, end: 13.1 },
-                        { text: "the", start: 13.1, end: 13.3 },
-                        { text: "first", start: 13.3, end: 13.6 },
-                        { text: "time.", start: 13.6, end: 14.0 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 14.7, end: 16.5,
-                    words: [
-                        { text: "Jen", start: 15.0, end: 15.3 },
-                        { text: "keeps", start: 15.3, end: 15.6 },
-                        { text: "falling", start: 15.6, end: 16.0 },
-                        { text: "over.", start: 16.0, end: 16.3 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 16.9, end: 19.0,
-                    words: [
-                        { text: "She", start: 17.0, end: 17.4 },
-                        { text: "is", start: 17.4, end: 17.8 },
-                        { text: "tired.", start: 17.8, end: 18.7 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 19.5, end: 23.5,
-                    words: [
-                        { text: "She", start: 20.0, end: 20.3 },
-                        { text: "sits", start: 20.3, end: 20.6 },
-                        { text: "on", start: 20.6, end: 20.8 },
-                        { text: "the", start: 20.8, end: 21.0 },
-                        { text: "steps", start: 21.0, end: 21.3 },
-                        { text: "and", start: 21.3, end: 21.5 },
-                        { text: "takes", start: 21.5, end: 21.8 },
-                        { text: "off", start: 21.8, end: 22.0 },
-                        { text: "her", start: 22.0, end: 22.2 },
-                        { text: "roller", start: 22.2, end: 22.6 },
-                        { text: "blades.", start: 22.6, end: 23.0 }
-                    ]
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 0, end: 6.8,
-                    words: [
-                        { text: "Jen", start: 0.0, end: 0.5 },
-                        { text: "knows", start: 0.5, end: 1.0 },
-                        { text: "it", start: 1.0, end: 1.4 },
-                        { text: "is", start: 1.0, end: 1.4 },
-                        { text: "sometimes", start: 1.4, end: 1.8 },
-                        { text: "difficult", start: 1.8, end: 2.5 },
-                        { text: "to", start: 2.5, end: 2.8 },
-                        { text: "learn", start: 2.8, end: 3.1 },
-                        { text: "new", start: 3.1, end: 3.4 },
-                        { text: "things", start: 3.4, end: 3.7 },
-                        { text: "and", start: 4.5, end: 4.7 },
-                        { text: "it", start: 4.7, end: 4.9 },
-                        { text: "takes", start: 4.9, end: 5.2 },
-                        { text: "effort", start: 5.2, end: 5.5 },
-                        { text: "to", start: 5.5, end: 5.6 },
-                        { text: "achieve", start: 5.6, end: 6.0 },
-                        { text: "goals.", start: 6.0, end: 6.4 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 6.9, end: 12.0,
-                    words: [
-                        { text: "Jen", start: 7.5, end: 7.8 },
-                        { text: "sits", start: 7.8, end: 8.1 },
-                        { text: "for", start: 8.1, end: 8.3 },
-                        { text: "a", start: 8.3, end: 8.6 },
-                        { text: "few", start: 8.4, end: 8.6 },
-                        { text: "minutes.", start: 8.6, end: 9.0 },
-                        { text: "She", start: 9.3, end: 9.6 },
-                        { text: "finishes", start: 9.6, end: 9.6 },
-                        { text: "her", start: 9.6, end: 9.9 },
-                        { text: "piece", start: 9.9, end: 10.2 },
-                        { text: "of", start: 10.2, end: 10.5 },
-                        { text: "cake", start: 10.5, end: 10.8 },
-                        { text: "and", start: 10.8, end: 11.1 },
-                        { text: "lemonade.", start: 11.1, end: 11.4 },
-                    ]
-                },
-
-                {
-                    videoIndex: 4,
-                    start: 0.0, end: 4.5,
-                    words: [
-                        { text: "Jen’s", start: 0.2, end: 0.5 },
-                        { text: "aunt", start: 0.5, end: 0.8 },
-                        { text: "asks", start: 0.8, end: 1.1 },
-                        { text: "her", start: 1.1, end: 1.3 },
-                        { text: "if", start: 1.3, end: 1.5 },
-                        { text: "she", start: 1.5, end: 1.7 },
-                        { text: "is", start: 1.7, end: 1.9 },
-                        { text: "done", start: 1.9, end: 2.2 },
-                        { text: "practising", start: 2.2, end: 2.7 },
-                        { text: "on", start: 2.7, end: 2.9 },
-                        { text: "her", start: 2.9, end: 3.1 },
-                        { text: "rollerblades", start: 3.1, end: 3.7 },
-                        { text: "for", start: 3.7, end: 3.9 },
-                        { text: "the", start: 3.9, end: 4.0 },
-                        { text: "day.", start: 4.0, end: 4.3 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 0.0, end: 4.5,
-                    words: [
-                        { text: "Jen’s", start: 0.2, end: 0.5 },
-                        { text: "aunt", start: 0.5, end: 0.8 },
-                        { text: "asks", start: 0.8, end: 1.1 },
-                        { text: "her", start: 1.1, end: 1.3 },
-                        { text: "if", start: 1.3, end: 1.5 },
-                        { text: "she", start: 1.5, end: 1.7 },
-                        { text: "is", start: 1.7, end: 1.9 },
-                        { text: "done", start: 1.9, end: 2.2 },
-                        { text: "practising", start: 2.2, end: 2.7 },
-                        { text: "on", start: 2.7, end: 2.9 },
-                        { text: "her", start: 2.9, end: 3.1 },
-                        { text: "rollerblades", start: 3.1, end: 3.7 },
-                        { text: "for", start: 3.7, end: 3.9 },
-                        { text: "the", start: 3.9, end: 4.0 },
-                        { text: "day.", start: 4.0, end: 4.3 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 4.8, end: 8.7,
-                    words: [
-                        { text: "Jen", start: 5.5, end: 5.8 },
-                        { text: "looks", start: 5.8, end: 6.1 },
-                        { text: "at", start: 6.1, end: 6.3 },
-                        { text: "her", start: 6.3, end: 6.5 },
-                        { text: "with", start: 6.5, end: 6.7 },
-                        { text: "a", start: 6.7, end: 6.8 },
-                        { text: "big", start: 6.8, end: 7.3 },
-                        { text: "smile,", start: 7.3, end: 7.6 },
-                        { text: "and", start: 8.0, end: 8.3 },
-                        { text: "says", start: 8.3, end: 8.6 }
-                    ]
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 3,
-                instruction: [
-                    "Highlight how Jen shows determination", "in the story."
-                ],
-                correctWords: [
-                    "i", "am", "ready", "to", "try", "again"
-                ],
+            {
+              start: 5.3,
+              end: 8.6,
+              words: [
+                { text: "What", start: 5.5, end: 6.1 },
+                { text: "do", start: 6.1, end: 6.3 },
+                { text: "you", start: 6.3, end: 6.54 },
+                { text: "do", start: 6.54, end: 6.86 },
+                { text: "for", start: 6.86, end: 7.2 },
+                { text: "fun", start: 7.2, end: 7.44 },
+                { text: "at", start: 7.44, end: 7.64 },
+                { text: "home?", start: 7.64, end: 8.2 },
+              ],
             },
-            quiz: {
-                image: u2l3_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "Who gave Jen her pair of roller skates?",
-                        options: ["Her aunt and uncle", "Her grandparents", "Her friends"],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What did Jen do when she kept falling over?",
-                        options: ["Sit for a few minutes and then kept trying.", "Give up and quit.", "Sit and think about what is for dinner."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What did Jen tell her aunt when she was practising?",
-                        options: ["I want a new toy.", "‘More lemonade and cake please!’", "‘I’m going to keep trying.’"],
-                        correctAnswer: "2"
-                    }
-                ]
+
+            {
+              start: 8.7,
+              end: 10.5,
+              words: [
+                { text: "Lots", start: 8.76, end: 9.02 },
+                { text: "of", start: 9.02, end: 9.18 },
+                { text: "things.", start: 9.18, end: 9.56 },
+              ],
             },
-            feedback: {
-                image: u2l3_F1
-            }
+
+            {
+              start: 9.6,
+              end: 14.0,
+              words: [
+                { text: "But", start: 9.6, end: 9.98 },
+                { text: "mostly", start: 9.98, end: 10.46 },
+                { text: "I", start: 10.46, end: 10.52 },
+                { text: "enjoy", start: 10.52, end: 10.92 },
+                { text: "building", start: 10.92, end: 11.3 },
+                { text: "toy", start: 11.3, end: 11.54 },
+                { text: "aeroplanes", start: 11.54, end: 12.04 },
+                { text: "with", start: 12.04, end: 12.2 },
+                { text: "my", start: 12.2, end: 12.38 },
+                { text: "grandfather.", start: 12.38, end: 13.1 },
+              ],
+            },
+
+            {
+              start: 14.2,
+              end: 15.8,
+              words: [
+                { text: "Do", start: 14.2, end: 14.62 },
+                { text: "they", start: 14.62, end: 14.94 },
+                { text: "fly?", start: 14.94, end: 15.46 },
+              ],
+            },
+
+            {
+              start: 19.3,
+              end: 20.3,
+              words: [
+                { text: "Sounds", start: 19.34, end: 19.78 },
+                { text: "boring.", start: 19.78, end: 20.3 },
+              ],
+            },
+
+            {
+              start: 20.7,
+              end: 23.1,
+              words: [
+                { text: "Hey,", start: 20.78, end: 21.2 },
+                { text: "has", start: 21.2, end: 21.38 },
+                { text: "anyone", start: 21.38, end: 21.76 },
+                { text: "played", start: 21.76, end: 22.0 },
+                { text: "that", start: 22.0, end: 22.18 },
+                { text: "new", start: 22.18, end: 22.38 },
+                { text: "spaceship", start: 22.38, end: 22.92 },
+                { text: "game?", start: 22.92, end: 23.0 },
+              ],
+            },
+          ],
         },
+        {
+          url: u1l2_vid4,
+          subtitles: [
+            {
+              start: 0.0,
+              end: 2.4,
+              words: [
+                { text: "I", start: 0.0, end: 0.42 },
+                { text: "can’t", start: 0.42, end: 0.68 },
+                { text: "believe", start: 0.68, end: 1.16 },
+                { text: "you", start: 1.16, end: 1.34 },
+                { text: "build", start: 1.34, end: 1.72 },
+                { text: "planes.", start: 1.72, end: 2.4 },
+              ],
+            },
+
+            {
+              start: 2.5,
+              end: 4.0,
+              words: [
+                { text: "Is", start: 2.5, end: 3.08 },
+                { text: "it", start: 3.08, end: 3.24 },
+                { text: "hard?", start: 3.34, end: 4.0 },
+              ],
+            },
+
+            {
+              start: 4.2,
+              end: 6.3,
+              words: [
+                { text: "Some", start: 4.2, end: 4.54 },
+                { text: "of", start: 4.54, end: 4.62 },
+                { text: "the", start: 4.62, end: 4.76 },
+                { text: "small", start: 4.76, end: 5.08 },
+                { text: "pieces", start: 5.08, end: 5.46 },
+                { text: "are", start: 5.46, end: 5.74 },
+                { text: "tricky.", start: 5.74, end: 6.3 },
+              ],
+            },
+
+            {
+              start: 6.4,
+              end: 10.3,
+              words: [
+                { text: "I", start: 6.4, end: 6.52 },
+                { text: "have", start: 6.52, end: 6.64 },
+                { text: "a steady", start: 6.64, end: 7.1 },
+                { text: "hand", start: 7.1, end: 8.34 },
+                { text: "and", start: 8.34, end: 8.52 },
+                { text: "keep", start: 8.52, end: 8.76 },
+                { text: "trying", start: 8.76, end: 9.22 },
+                { text: "until", start: 9.22, end: 9.56 },
+                { text: "I", start: 9.56, end: 9.68 },
+                { text: "finish", start: 9.68, end: 10.0 },
+                { text: "them.", start: 10.0, end: 10.2 },
+              ],
+            },
+
+            {
+              start: 11.0,
+              end: 14.5,
+              words: [
+                { text: "My", start: 11.0, end: 11.34 },
+                { text: "grandfather", start: 11.34, end: 12.04 },
+                { text: "helps", start: 12.04, end: 12.26 },
+                { text: "me", start: 12.26, end: 12.42 },
+                { text: "with", start: 12.42, end: 12.6 },
+                { text: "some", start: 12.6, end: 13.16 },
+                { text: "of", start: 13.16, end: 13.3 },
+                { text: "the", start: 13.3, end: 13.5 },
+                { text: "trickier", start: 13.5, end: 14.06 },
+                { text: "kits.", start: 14.06, end: 14.42 },
+              ],
+            },
+
+            {
+              start: 14.8,
+              end: 19.0,
+              words: [
+                { text: "He", start: 14.8, end: 15.08 },
+                { text: "can", start: 15.08, end: 15.32 },
+                { text: "even", start: 15.32, end: 15.6 },
+                { text: "design", start: 15.6, end: 16.32 },
+                { text: "and", start: 16.32, end: 16.54 },
+                { text: "make", start: 16.54, end: 16.8 },
+                { text: "his", start: 16.8, end: 17.18 },
+                { text: "own", start: 17.18, end: 17.46 },
+                { text: "planes.", start: 17.46, end: 18.2 },
+              ],
+            },
+
+            {
+              start: 19.1,
+              end: 27.0,
+              words: [
+                { text: "That", start: 19.1, end: 19.72 },
+                { text: "sounds", start: 19.72, end: 20.08 },
+                { text: "amazing.", start: 20.08, end: 21.0 },
+                { text: "I’d", start: 21.18, end: 21.46 },
+                { text: "love", start: 21.46, end: 21.72 },
+                { text: "to", start: 21.72, end: 21.88 },
+                { text: "try", start: 21.8, end: 22.24 },
+                { text: "something", start: 22.24, end: 22.68 },
+                { text: "like", start: 22.68, end: 22.96 },
+                { text: " that. ", start: 22.96, end: 23.08 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u1l2_vid5,
+          subtitles: [
+            {
+              start: 0,
+              end: 6.0,
+              words: [
+                { text: "You", start: 0.0, end: 0.42 },
+                { text: "could", start: 0.42, end: 0.58 },
+                { text: "come", start: 0.58, end: 0.76 },
+                { text: "over", start: 0.76, end: 0.92 },
+                { text: "to", start: 0.92, end: 1.04 },
+                { text: "my", start: 1.04, end: 1.26 },
+                { text: "house", start: 1.26, end: 1.58 },
+
+                { text: "one", start: 1.58, end: 1.74 },
+                { text: "day", start: 1.74, end: 1.92 },
+                { text: "and", start: 1.92, end: 2.06 },
+                { text: "build", start: 2.06, end: 2.28 },
+                { text: "one", start: 2.28, end: 2.42 },
+                { text: "together", start: 2.42, end: 2.72 },
+                { text: "with", start: 2.72, end: 2.88 },
+
+                { text: "my", start: 2.88, end: 3.04 },
+                { text: "grandfather", start: 3.04, end: 3.62 },
+                { text: "and", start: 3.62, end: 3.92 },
+                { text: "I.", start: 3.92, end: 4.5 },
+              ],
+            },
+
+            {
+              start: 6.0,
+              end: 9.0,
+              words: [
+                { text: "It", start: 6.0, end: 6.2 },
+                { text: "would", start: 6.2, end: 6.36 },
+                { text: "be", start: 6.36, end: 6.5 },
+                { text: "good", start: 6.5, end: 6.66 },
+                { text: "to", start: 6.66, end: 6.82 },
+                { text: "have", start: 6.82, end: 6.94 },
+                { text: "an", start: 6.94, end: 7.06 },
+                { text: "extra", start: 7.06, end: 7.36 },
+                { text: "pair", start: 7.36, end: 7.52 },
+                { text: "of", start: 7.52, end: 7.66 },
+                { text: "hands.", start: 7.66, end: 8.1 },
+              ],
+            },
+
+            {
+              start: 9.5,
+              end: 10.7,
+              words: [{ text: "Really?", start: 9.5, end: 10.1 }],
+            },
+
+            {
+              start: 10.7,
+              end: 11.8,
+              words: [
+                { text: "That", start: 10.7, end: 10.9 },
+                { text: "would", start: 10.9, end: 11.04 },
+                { text: "be", start: 11.04, end: 11.22 },
+                { text: "great.", start: 11.22, end: 11.64 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u1l2_vid6,
+          subtitles: [
+            {
+              start: 0,
+              end: 5.0,
+              words: [
+                { text: "I", start: 0.0, end: 0.44 },
+                { text: "would", start: 0.44, end: 0.6 },
+                { text: "like", start: 0.6, end: 0.78 },
+                { text: "to", start: 0.78, end: 0.98 },
+                { text: "see", start: 0.98, end: 1.14 },
+                { text: "if", start: 1.14, end: 1.38 },
+                { text: "I would", start: 1.38, end: 1.58 },
+                { text: "be", start: 1.58, end: 1.88 },
+                { text: "good", start: 1.88, end: 2.06 },
+                { text: "at it", start: 2.06, end: 2.5 },
+
+                { text: "since", start: 2.5, end: 2.76 },
+                { text: "I’m", start: 2.76, end: 2.96 },
+                { text: "good", start: 2.96, end: 3.12 },
+                { text: "at", start: 3.12, end: 3.26 },
+                { text: "putting", start: 3.26, end: 3.6 },
+                { text: "puzzles", start: 3.6, end: 4.12 },
+                { text: "together.", start: 4.12, end: 4.62 },
+              ],
+            },
+
+            {
+              start: 5.0,
+              end: 6.88,
+              words: [
+                { text: "That", start: 5.24, end: 5.52 },
+                { text: "sounds", start: 5.52, end: 5.86 },
+                { text: "awesome!", start: 5.86, end: 6.88 },
+              ],
+            },
+          ],
+        },
+      ],
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0,
+          end: 4.4,
+          words: [
+            { text: "It", start: 0.0, end: 0.26 },
+            { text: "is", start: 0.26, end: 0.46 },
+            { text: "raining", start: 0.46, end: 1.06 },
+            { text: "and", start: 1.06, end: 1.18 },
+            { text: "a", start: 1.18, end: 1.3 },
+            { text: "group", start: 1.3, end: 1.5 },
+            { text: "of", start: 1.5, end: 1.72 },
+            { text: "boys", start: 1.72, end: 2.06 },
+            { text: "sit", start: 2.06, end: 2.32 },
+            { text: "inside", start: 2.32, end: 3.22 },
+            { text: "working", start: 3.22, end: 3.62 },
+            { text: "on", start: 3.62, end: 3.72 },
+            { text: "a", start: 3.72, end: 3.86 },
+            { text: "puzzle.", start: 3.86, end: 4.3 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 4.8,
+          end: 11.5,
+          words: [
+            { text: "They", start: 4.96, end: 5.14 },
+            { text: "talk", start: 5.14, end: 5.42 },
+            { text: "about", start: 5.42, end: 5.68 },
+            { text: "video", start: 5.68, end: 6.12 },
+            { text: "games", start: 6.12, end: 6.62 },
+            { text: "and", start: 6.92, end: 7.04 },
+            { text: "the", start: 7.04, end: 7.18 },
+            { text: "boys", start: 7.18, end: 7.6 },
+            { text: "tell", start: 7.6, end: 7.82 },
+            { text: "about", start: 7.82, end: 8.06 },
+            { text: "their", start: 8.06, end: 8.32 },
+            { text: "favourite", start: 8.32, end: 8.74 },
+            { text: "games", start: 8.74, end: 9.62 },
+            { text: "and", start: 9.62, end: 9.72 },
+            { text: "their", start: 9.72, end: 9.96 },
+            { text: "highest", start: 9.96, end: 10.34 },
+            { text: "scores.", start: 10.34, end: 10.94 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 15.1,
+          end: 19.0,
+          words: [
+            { text: "Jonah", start: 15.16, end: 15.62 },
+            { text: "asks,", start: 15.62, end: 16.58 },
+            { text: "Noticing", start: 16.58, end: 17.16 },
+            { text: "he", start: 17.16, end: 17.26 },
+            { text: "has", start: 17.26, end: 17.44 },
+            { text: "been", start: 17.44, end: 17.66 },
+            { text: "very", start: 17.66, end: 18.02 },
+            { text: "quiet.", start: 18.02, end: 18.44 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 19.5,
+          end: 21.5,
+          words: [
+            { text: "Peter", start: 19.5, end: 19.98 },
+            { text: "looks", start: 19.98, end: 20.34 },
+            { text: "up", start: 20.34, end: 20.26 },
+            { text: "from", start: 20.26, end: 20.78 },
+            { text: "the", start: 20.78, end: 20.92 },
+            { text: "puzzle", start: 20.92, end: 21.2 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 3.3,
+          end: 5.78,
+          words: [
+            { text: "The", start: 3.3, end: 3.56 },
+            { text: "other", start: 3.56, end: 3.78 },
+            { text: "boys", start: 3.78, end: 4.12 },
+            { text: "asked", start: 4.12, end: 4.4 },
+            { text: "in", start: 4.4, end: 4.54 },
+            { text: "amazement.", start: 4.54, end: 5.78 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 16.0,
+          end: 19.3,
+          words: [
+            { text: "one", start: 16.0, end: 16.16 },
+            { text: "boy", start: 16.16, end: 16.48 },
+            { text: "asks", start: 16.48, end: 17.2 },
+            { text: "but", start: 17.34, end: 17.48 },
+            { text: "Peter", start: 17.48, end: 17.82 },
+            { text: "shakes", start: 17.82, end: 18.1 },
+            { text: "his", start: 18.1, end: 18.28 },
+            { text: "head.", start: 18.28, end: 18.56 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 24.1,
+          end: 29.0,
+          words: [
+            { text: "The", start: 24.1, end: 24.32 },
+            { text: "conversation", start: 24.32, end: 25.14 },
+            { text: "goes", start: 25.14, end: 25.42 },
+            { text: "back", start: 25.42, end: 25.6 },
+            { text: "to", start: 25.6, end: 25.74 },
+            { text: "video", start: 25.74, end: 26.12 },
+            { text: "games", start: 26.12, end: 26.94 },
+            { text: "and", start: 26.94, end: 27.14 },
+            { text: "Peter", start: 27.14, end: 27.44 },
+            { text: "returns", start: 27.44, end: 27.9 },
+            { text: "to", start: 27.9, end: 28.04 },
+            { text: "his", start: 28.04, end: 28.26 },
+            { text: "puzzle.", start: 28.26, end: 28.66 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 29.1,
+          end: 32.4,
+          words: [
+            { text: "Jonah", start: 29.1, end: 29.52 },
+            { text: "looks", start: 29.52, end: 29.76 },
+            { text: "at", start: 29.76, end: 29.92 },
+            { text: "Peter", start: 29.92, end: 30.64 },
+            { text: "and", start: 30.64, end: 30.82 },
+            { text: "picks", start: 30.82, end: 31.08 },
+            { text: "up", start: 31.08, end: 31.2 },
+            { text: "a", start: 31.2, end: 31.34 },
+            { text: "puzzle", start: 31.34, end: 31.68 },
+            { text: "piece.", start: 31.68, end: 32.02 },
+          ],
+        },
+
+        {
+          videoIndex: 5,
+          start: 6.88,
+          end: 10.0,
+          words: [
+            { text: "Jonah", start: 6.88, end: 7.26 },
+            { text: "says", start: 7.26, end: 8.08 },
+            { text: "and", start: 8.08, end: 8.2 },
+            { text: "the", start: 8.2, end: 8.34 },
+            { text: "two", start: 8.34, end: 8.56 },
+            { text: "boys", start: 8.56, end: 8.88 },
+            { text: "smile", start: 8.88, end: 9.22 },
+            { text: "at", start: 9.22, end: 9.36 },
+            { text: "each", start: 9.36, end: 9.58 },
+            { text: "other.", start: 9.58, end: 10.0 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 10.0,
+          end: 16.0,
+          words: [
+            { text: "Jonah", start: 10.2, end: 10.84 },
+            { text: "feels", start: 10.84, end: 11.2 },
+            { text: "good", start: 11.2, end: 11.4 },
+            { text: "that", start: 11.4, end: 11.54 },
+            { text: "he", start: 11.45, end: 11.7 },
+            { text: "talked", start: 11.7, end: 11.94 },
+            { text: "to", start: 11.94, end: 12.06 },
+            { text: "Peter", start: 12.06, end: 12.6 },
+            { text: "and", start: 12.9, end: 13.1 },
+            { text: "looks", start: 13.1, end: 13.42 },
+            { text: "forward", start: 13.42, end: 13.72 },
+            { text: "to", start: 13.72, end: 13.84 },
+            { text: "getting", start: 13.84, end: 14.12 },
+            { text: "to", start: 14.12, end: 14.26 },
+            { text: "know", start: 14.26, end: 14.48 },
+            { text: "his", start: 14.48, end: 14.68 },
+            { text: "new", start: 14.68, end: 14.88 },
+            { text: "friend.", start: 14.88, end: 15.28 },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+        1: [
+          { top: "20%", left: "20%" },
+          { top: "20%", left: "35%", isFlipped: true },
+        ],
+        2: [
+          { top: "10%", right: "45%", left: "auto", isFlipped: true },
+          { top: "10%", right: "40%", isFlipped: true },
+          { top: "10%", right: "50%", left: "auto" },
+          { top: "10%", right: "10%", left: "auto", isFlipped: true },
+          { top: "10%", left: "80%", isFlipped: true },
+          { top: "10%", right: "80%", left: "auto" },
+          { top: "10%", right: "65%", left: "auto" },
+        ],
+        3: [
+          { bottom: "75%", left: "50%", transform: "translateX(-50%)" },
+          { top: "20%", left: "40%" },
+          { top: "10%", left: "0%" },
+          { top: "13%", left: "0%" },
+          { top: "10%", left: "0%" },
+          { top: "10%", left: "0%" },
+          { top: "10%", left: "37%" },
+          { top: "10%", left: "20%" },
+        ],
+        4: [
+          { top: "10%", left: "15%" },
+          { top: "20%", left: "20%" },
+          { top: "10%", left: "65%", isFlipped: true },
+          { bottom: "80%", left: "65%", isFlipped: true },
+          { bottom: "80%", left: "40%" },
+        ],
+        5: [
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "20%", left: "20%" },
+        ],
+      },
+      interactiveTask: {
+        videoIndex: 3,
+        instruction: [
+          "Highlight the part where Jonah shows interest",
+          "in building planes.",
+        ],
+        correctWords: ["that", "sounds", "amazing"],
+      },
+      quiz: {
+        image: u1l2_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "What were the group of boys talking about?",
+            options: ["Toy cars", "Video games", "Dinner"],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q2",
+            text: "What did Peter do for fun at home?",
+            options: [
+              "Peter put puzzles together.",
+              "Peter made toy aeroplanes.",
+              "Peter made toy cars.",
+            ],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q3",
+            text: "How did Jonah become Peter’s friend?",
+            options: [
+              "He talked with the other boys.",
+              "He talked with Peter about building toy aeroplanes.",
+              "He yelled at the other boys.",
+            ],
+            correctAnswer: "1",
+          },
+        ],
+      },
+      feedback: {
+        image: u1l2_F1,
+      },
     },
-    "Three": {
-        "1": {
-            videos: [
-                {
-                    url: u3l1_vid1,
-                    subtitles: [
-                    ],
-                },
-                {
-                    url: u3l1_vid2,
-                    subtitles: [
-                        {
-                            start: 18.5,
-                            end: 21.0,
-                            words: [
-                                { text: "Hello,", start: 19.0, end: 19.5 },
-                                { text: "kids.", start: 19.5, end: 20.0 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l1_vid3,
-                    subtitles: [
-                        {
-                            start: 3.0,
-                            end: 6.0,
-                            words: [
-                                { text: "Our", start: 4.0, end: 4.3 },
-                                { text: "parents", start: 4.3, end: 4.6 },
-                                { text: "seem", start: 4.6, end: 4.9 },
-                                { text: "tired", start: 4.9, end: 5.2 },
-                                { text: "today.", start: 5.2, end: 5.8 },
-                            ],
-                        },
-                        {
-                            start: 6.0,
-                            end: 9.0,
-                            words: [
-                                { text: "I", start: 6.7, end: 6.9 },
-                                { text: "think", start: 6.9, end: 7.1 },
-                                { text: "we", start: 7.1, end: 7.3 },
-                                { text: "should", start: 7.3, end: 7.5 },
-                                { text: "be", start: 7.5, end: 7.7 },
-                                { text: "helping", start: 7.7, end: 7.9 },
-                                { text: "more", start: 7.9, end: 8.1 },
-                                { text: "around", start: 8.1, end: 8.3 },
-                                { text: "the", start: 8.3, end: 8.5 },
-                                { text: "house.", start: 8.5, end: 8.7 },
-                            ],
-                        },
-                        {
-                            start: 9.0,
-                            end: 12.6,
-                            words: [
-                                { text: "They", start: 8.7, end: 8.9 },
-                                { text: "do", start: 8.9, end: 9.1 },
-                                { text: "so", start: 9.1, end: 9.3 },
-                                { text: "much", start: 9.3, end: 9.5 },
-                                { text: "for", start: 9.5, end: 9.7 },
-                                { text: "us,", start: 9.7, end: 9.9 },
-                                { text: "we", start: 9.9, end: 10.1 },
-                                { text: "need", start: 10.1, end: 10.3 },
-                                { text: "to", start: 10.3, end: 10.5 },
-                                { text: "use", start: 10.5, end: 10.7 },
-                                { text: "some", start: 10.7, end: 10.9 },
-                                { text: "of", start: 10.9, end: 11.1 },
-                                { text: "our", start: 11.1, end: 11.3 },
-                                { text: "free", start: 11.3, end: 11.5 },
-                                { text: "time", start: 11.5, end: 11.7 },
-                                { text: "too.", start: 11.7, end: 11.9 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l1_vid4,
-                    subtitles: [
-                        {
-                            start: 0,
-                            end: 2.3,
-                            words: [
-                                { text: "There", start: 0.6, end: 0.9 },
-                                { text: "are", start: 0.9, end: 1.2 },
-                                { text: "six", start: 1.2, end: 1.5 },
-                                { text: "chores", start: 1.5, end: 1.8 },
-                                { text: "here.", start: 1.8, end: 2.1 }
-                            ],
-                        },
-
-                        {
-                            start: 3.0,
-                            end: 4.8,
-                            words: [
-                                { text: "That’s", start: 3.2, end: 3.4 },
-                                { text: "three", start: 3.4, end: 3.6 },
-                                { text: "each", start: 3.6, end: 3.8 },
-                                { text: "if", start: 3.8, end: 4.0 },
-                                { text: "we", start: 4.0, end: 4.2 },
-                                { text: "share", start: 4.2, end: 4.4 },
-                                { text: "them.", start: 4.4, end: 4.6 }
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l1_vid5,
-                    subtitles: [
-                        {
-                            start: 9.0,
-                            end: 10.6,
-                            words: [
-                                { text: "Wow!", start: 9.6, end: 10.0 },
-                                { text: "Thank", start: 10.0, end: 10.2 },
-                                { text: "you!", start: 10.2, end: 10.6 },
-                            ],
-                        },
-                        {
-                            start: 20.0,
-                            end: 25.5,
-                            words: [
-                                { text: "They", start: 15.6, end: 15.9 },
-                                { text: "start", start: 15.9, end: 16.2 },
-                                { text: "to", start: 16.2, end: 16.5 },
-                                { text: "do", start: 16.5, end: 16.8 },
-                                { text: "their", start: 16.8, end: 17.1 },
-                                { text: "chores", start: 17.1, end: 17.4 },
-                                { text: "while", start: 17.4, end: 17.7 },
-                                { text: "Mum", start: 17.7, end: 18.0 },
-                                { text: "and", start: 18.0, end: 18.3 },
-                                { text: "Dad", start: 18.3, end: 18.6 },
-                                { text: "cook", start: 18.6, end: 18.9 },
-                                { text: "dinner.", start: 18.9, end: 19.2 },
-                            ],
-                        },
-                    ],
-                },
-            ],
-            cloudPositions: {
-                0: [
-                ],
-
-                1: [
-                    { top: "15%", left: "70%", isFlipped: true },
-                ],
-
-                2: [
-                    { top: "20%", right: "20%", isFlipped: true },
-                    { top: "25%", left: "35%", isFlipped: true },
-                    { top: "25%", left: "35%", isFlipped: true },
-                ],
-
-                3: [
-                    { bottom: "75%", left: "15%" },
-                    { top: "20%", left: "15%" },
-                ],
-
-                4: [
-                    { top: "5%", left: "23%" },
-                    { top: "5%", left: "25%", isFlipped: true },
-                ],
-            },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0,
-                    end: 4.2,
-                    words: [
-                        { text: "Liz", start: 0.2, end: 0.4 },
-                        { text: "and", start: 0.4, end: 0.6 },
-                        { text: "Ryan", start: 0.6, end: 0.8 },
-                        { text: "are", start: 0.8, end: 1.0 },
-                        { text: "watching", start: 1.0, end: 1.2 },
-                        { text: "TV", start: 1.2, end: 1.4 },
-                        { text: "in", start: 1.4, end: 1.6 },
-                        { text: "the", start: 1.6, end: 1.8 },
-                        { text: "living", start: 1.8, end: 2.0 },
-                        { text: "room", start: 2.0, end: 2.2 },
-                        { text: "at", start: 2.2, end: 2.4 },
-                        { text: "home", start: 2.4, end: 2.6 },
-                        { text: "while", start: 2.6, end: 2.8 },
-                        { text: "their", start: 2.8, end: 3.0 },
-                        { text: "mum", start: 3.0, end: 3.2 },
-                        { text: "cooks", start: 3.2, end: 3.4 },
-                        { text: "their", start: 3.4, end: 3.7 },
-                        { text: "meal.", start: 3.7, end: 4.0 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 4.6,
-                    end: 12.8,
-                    words: [
-                        { text: "Mum", start: 7.5, end: 7.8 },
-                        { text: "is", start: 7.8, end: 8.1 },
-                        { text: "tired,", start: 8.1, end: 8.4 },
-                        { text: "she", start: 8.4, end: 8.7 },
-                        { text: "yawns", start: 8.7, end: 9.0 },
-                        { text: "as", start: 9.0, end: 9.3 },
-                        { text: "she", start: 9.3, end: 9.6 },
-                        { text: "chops", start: 9.6, end: 9.9 },
-                        { text: "the", start: 9.9, end: 10.2 },
-                        { text: "vegetables.", start: 10.2, end: 10.5 },
-                        { text: "Soon,", start: 11.0, end: 11.3 },
-                        { text: "Dad", start: 11.3, end: 11.5 },
-                        { text: "comes", start: 11.5, end: 11.8 },
-                        { text: "home", start: 11.8, end: 12.2 },
-                        { text: "from", start: 12.2, end: 12.4 },
-                        { text: "work.", start: 12.4, end: 12.6 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 13.5,
-                    end: 16.2,
-                    words: [
-                        { text: "He", start: 14.2, end: 14.5 },
-                        { text: "seems", start: 14.8, end: 15.1 },
-                        { text: "tired", start: 15.1, end: 15.4 },
-                        { text: "too.", start: 15.7, end: 16.0 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 19.5,
-                    end: 24.0,
-                    words: [
-                        { text: "He", start: 19.6, end: 19.9 },
-                        { text: "hangs", start: 19.9, end: 20.2 },
-                        { text: "up", start: 20.2, end: 20.5 },
-                        { text: "his", start: 20.5, end: 20.8 },
-                        { text: "coat", start: 20.8, end: 21.1 },
-                        { text: "and", start: 21.1, end: 21.4 },
-                        { text: "goes", start: 21.4, end: 21.7 },
-                        { text: "in", start: 21.7, end: 22.0 },
-                        { text: "to", start: 22.0, end: 22.3 },
-                        { text: "help", start: 22.3, end: 22.6 },
-                        { text: "Mum", start: 22.6, end: 22.9 },
-                        { text: "in", start: 22.9, end: 23.2 },
-                        { text: "the", start: 23.2, end: 23.5 },
-                        { text: "kitchen.", start: 23.5, end: 23.8 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 0,
-                    end: 2.8,
-                    words: [
-                        { text: "Liz", start: 0.2, end: 0.4 },
-                        { text: "notices", start: 0.4, end: 0.6 },
-                        { text: "that", start: 0.6, end: 0.8 },
-                        { text: "this", start: 0.8, end: 1.0 },
-                        { text: "is", start: 1.0, end: 1.2 },
-                        { text: "not", start: 1.2, end: 1.4 },
-                        { text: "fair", start: 1.4, end: 1.6 },
-                        { text: "and", start: 1.6, end: 1.8 },
-                        { text: "has", start: 1.8, end: 2.0 },
-                        { text: "an", start: 2.0, end: 2.2 },
-                        { text: "idea.", start: 2.2, end: 2.6 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 13.0,
-                    end: 17.6,
-                    words: [
-                        { text: "Liz", start: 13.4, end: 13.9 },
-                        { text: "and", start: 13.9, end: 14.4 },
-                        { text: "Ryan", start: 14.4, end: 14.9 },
-                        { text: "talk", start: 14.9, end: 15.4 },
-                        { text: "and", start: 15.4, end: 15.9 },
-                        { text: "write", start: 15.9, end: 16.4 },
-                        { text: "a", start: 16.4, end: 16.6 },
-                        { text: "list", start: 16.6, end: 16.8 },
-                        { text: "of", start: 16.8, end: 17.0 },
-                        { text: "chores.", start: 17.0, end: 17.4 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 4.8,
-                    end: 10.0,
-                    words: [
-                        { text: "They", start: 4.8, end: 5.1 },
-                        { text: "choose", start: 5.1, end: 5.4 },
-                        { text: "the", start: 5.4, end: 5.7 },
-                        { text: "chores", start: 5.7, end: 6.0 },
-                        { text: "they", start: 6.0, end: 6.3 },
-                        { text: "would", start: 6.3, end: 6.6 },
-                        { text: "most", start: 6.6, end: 6.9 },
-                        { text: "like", start: 6.9, end: 7.2 },
-                        { text: "to", start: 7.2, end: 7.5 },
-                        { text: "do", start: 7.5, end: 7.8 },
-                        { text: "and", start: 7.8, end: 8.1 },
-                        { text: "write", start: 8.1, end: 8.4 },
-                        { text: "their", start: 8.4, end: 8.7 },
-                        { text: "names", start: 8.7, end: 9.0 },
-                        { text: "next", start: 9.0, end: 9.3 },
-                        { text: "to", start: 9.3, end: 9.6 },
-                        { text: "them.", start: 9.6, end: 9.9 }
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 10.0,
-                    end: 13.8,
-                    words: [
-                        { text: "They", start: 11.1, end: 11.4 },
-                        { text: "then", start: 11.4, end: 11.7 },
-                        { text: "plan", start: 11.7, end: 12.0 },
-                        { text: "a", start: 12.0, end: 12.3 },
-                        { text: "surprise", start: 12.3, end: 12.6 },
-                        { text: "for", start: 12.6, end: 12.9 },
-                        { text: "their", start: 12.9, end: 13.2 },
-                        { text: "tired", start: 13.2, end: 13.5 },
-                        { text: "parents.", start: 13.5, end: 13.8 }
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 13.0,
-                    end: 20.0,
-                    words: [
-                        { text: "They", start: 15.6, end: 15.9 },
-                        { text: "start", start: 15.9, end: 16.2 },
-                        { text: "to", start: 16.2, end: 16.5 },
-                        { text: "do", start: 16.5, end: 16.8 },
-                        { text: "their", start: 16.8, end: 17.1 },
-                        { text: "chores", start: 17.1, end: 17.4 },
-                        { text: "while", start: 17.4, end: 17.7 },
-                        { text: "Mum", start: 17.7, end: 18.0 },
-                        { text: "and", start: 18.0, end: 18.3 },
-                        { text: "Dad", start: 18.3, end: 18.6 },
-                        { text: "cook", start: 18.6, end: 18.9 },
-                        { text: "dinner.", start: 18.9, end: 19.2 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 0,
-                    end: 2.6,
-                    words: [
-                        { text: "Mum", start: 0.2, end: 0.4 },
-                        { text: "and", start: 0.4, end: 0.6 },
-                        { text: "Dad", start: 0.6, end: 0.8 },
-                        { text: "come", start: 0.8, end: 1.0 },
-                        { text: "out", start: 1.0, end: 1.2 },
-                        { text: "of", start: 1.2, end: 1.4 },
-                        { text: "the", start: 1.4, end: 1.6 },
-                        { text: "kitchen", start: 1.6, end: 1.8 },
-                        { text: "with", start: 1.8, end: 2.0 },
-                        { text: "the", start: 2.0, end: 2.2 },
-                        { text: "food", start: 2.2, end: 2.4 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 2.6,
-                    end: 4.3,
-                    words: [
-                        { text: "and", start: 2.6, end: 2.8 },
-                        { text: "find", start: 2.8, end: 3.0 },
-                        { text: "the", start: 3.0, end: 3.2 },
-                        { text: "children", start: 3.2, end: 3.4 },
-                        { text: "working", start: 3.4, end: 3.6 },
-                        { text: "hard.", start: 3.6, end: 4.2 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 6.0,
-                    end: 7.4,
-                    words: [
-                        { text: "They", start: 6.0, end: 6.2 },
-                        { text: "are", start: 6.2, end: 6.4 },
-                        { text: "very", start: 6.4, end: 6.6 },
-                        { text: "happy", start: 6.6, end: 6.8 },
-                        { text: "with", start: 6.8, end: 7.0 },
-                        { text: "their", start: 7.0, end: 7.2 },
-                        { text: "children.", start: 7.2, end: 7.4 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 10.6,
-                    end: 15.5,
-                    words: [
-                        { text: "They", start: 10.8, end: 11.1 },
-                        { text: "eat", start: 11.1, end: 11.4 },
-                        { text: "dinner", start: 11.4, end: 11.7 },
-                        { text: "together", start: 11.7, end: 12.0 },
-                        { text: "and", start: 12.0, end: 12.3 },
-                        { text: "Mum", start: 12.3, end: 12.6 },
-                        { text: "and", start: 12.6, end: 12.9 },
-                        { text: "Dad", start: 12.9, end: 13.2 },
-                        { text: "relax", start: 13.2, end: 13.5 },
-                        { text: "while", start: 13.5, end: 13.8 },
-                        { text: "the", start: 13.8, end: 14.1 },
-                        { text: "children", start: 14.1, end: 14.4 },
-                        { text: "finish", start: 14.4, end: 14.7 },
-                        { text: "their", start: 14.7, end: 15.0 },
-                        { text: "chores.", start: 15.0, end: 15.3 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 15.4,
-                    end: 19.6,
-                    words: [
-                        { text: "Well", start: 15.4, end: 15.7 },
-                        { text: "done", start: 15.7, end: 16.0 },
-                        { text: "Liz", start: 16.0, end: 16.3 },
-                        { text: "and", start: 16.3, end: 16.6 },
-                        { text: "Ryan,", start: 16.6, end: 17.2 },
-                        { text: "you", start: 17.9, end: 18.1 },
-                        { text: "have", start: 18.1, end: 18.3 },
-                        { text: "helped", start: 18.3, end: 18.8 },
-                        { text: "your", start: 18.8, end: 19.0 },
-                        { text: "parents!", start: 19.0, end: 19.2 },
-                    ],
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 4,
-                instruction: [
-                    "Highlight what Liz and Ryan did to help",
-                    "when they noticed their parents were tired."
-                ],
-                correctWords: [
-                    "they", "start", "to", "do", "their", "chores", "while", "mum", "and", "dad", "cook", "dinner"
-                ],
-            },
-            quiz: {
-                image: u3l1_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "How did Liz and Ryan help their parents?",
-                        options: ["They asked them what to do.", "They wrote a list of chores and did them.", "They cooked the food."],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "At the beginning of the story Liz and Ryan were watching TV while Mum and Dad cooked. Liz didn’t think that was _________. ",
-                        options: ["Caring", "Nice", "Fair"],
-                        correctAnswer: "2"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "How did Mum and Dad feel at the end of the story?",
-                        options: ["Tired", "Relaxed", "Angry"],
-                        correctAnswer: "1"
-                    }
-                ]
-            },
-            feedback: {
-                image: u3l1_F1
-            }
+    3: {
+      videos: [
+        {
+          url: u1l3_vid1,
+          subtitles: [],
         },
-        "2": {
-            videos: [
-                {
-                    url: u3l2_vid1,
-                    subtitles: [
-                    ],
-                },
-                {
-                    url: u3l2_vid2,
-                    subtitles: [
-                        {
-                            start: 0,
-                            end: 1.2,
-                            words: [
-                                { text: "Hello,", start: 0.2, end: 0.4 },
-                                { text: "what’s", start: 0.4, end: 0.6 },
-                                { text: "your", start: 0.6, end: 0.8 },
-                                { text: "name?", start: 0.8, end: 1.0 },
-                            ],
-                        },
-                        {
-                            start: 9.0,
-                            end: 11.9,
-                            words: [
-                                { text: "Your", start: 9.5, end: 10.0 },
-                                { text: "shop", start: 10.0, end: 10.5 },
-                                { text: "is", start: 10.5, end: 11.0 },
-                                { text: "boring!", start: 11.0, end: 11.5 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l2_vid3,
-                    subtitles: [
-                        {
-                            start: 10.9,
-                            end: 13.6,
-                            words: [
-                                { text: "I’m", start: 11.0, end: 11.2 },
-                                { text: "sorry,", start: 11.2, end: 11.4 },
-                                { text: "I", start: 12.2, end: 12.6 },
-                                { text: "was", start: 12.6, end: 12.8 },
-                                { text: "rude", start: 12.8, end: 13.0 },
-                                { text: "before.", start: 13.0, end: 13.2 },
-                            ],
-                        },
-                        {
-                            start: 13.9,
-                            end: 20.6,
-                            words: [
-                                { text: "I", start: 15.7, end: 16.0 },
-                                { text: "was", start: 16.0, end: 16.3 },
-                                { text: "feeling", start: 16.3, end: 16.6 },
-                                { text: "angry", start: 16.6, end: 16.9 },
-                                { text: "with", start: 16.9, end: 17.2 },
-                                { text: "waiting", start: 17.2, end: 17.5 },
-                                { text: "around", start: 17.5, end: 17.8 },
-                                { text: "and", start: 17.8, end: 18.1 },
-                                { text: "I", start: 18.1, end: 18.4 },
-                                { text: "should", start: 18.4, end: 18.7 },
-                                { text: "not", start: 18.7, end: 19.0 },
-                                { text: "have", start: 19.0, end: 19.3 },
-                                { text: "spoken", start: 19.3, end: 19.6 },
-                                { text: "rudely", start: 19.6, end: 19.9 },
-                                { text: "to", start: 19.9, end: 20.2 },
-                                { text: "you.", start: 20.2, end: 20.5 },
-                            ],
-                        },
-                        {
-                            start: 21.6,
-                            end: 25.0,
-                            words: [
-                                { text: "It", start: 22.5, end: 22.5 },
-                                { text: "was", start: 22.5, end: 23.0 },
-                                { text: "wrong.", start: 23.0, end: 23.5 },
-                            ],
-                        },
-                        {
-                            start: 26.0,
-                            end: 28.5,
-                            words: [
-                                { text: "That’s", start: 26.0, end: 26.3 },
-                                { text: "okay,", start: 26.3, end: 26.6 },
-                                { text: "I", start: 26.6, end: 26.9 },
-                                { text: "understand", start: 26.9, end: 27.2 },
-                                { text: "you", start: 27.2, end: 27.5 },
-                                { text: "were", start: 27.5, end: 27.8 },
-                                { text: "becoming", start: 27.8, end: 28.1 },
-                                { text: "angry", start: 28.1, end: 28.4 },
-                            ],
-                        },
-                        {
-                            start: 28.5,
-                            end: 32.2,
-                            words: [
-                                { text: "and", start: 28.8, end: 29.1 },
-                                { text: "I’m", start: 29.1, end: 29.4 },
-                                { text: "sure", start: 29.4, end: 29.7 },
-                                { text: "you", start: 29.7, end: 30.0 },
-                                { text: "don’t", start: 30.0, end: 30.3 },
-                                { text: "speak", start: 30.3, end: 30.6 },
-                                { text: "like", start: 30.6, end: 30.9 },
-                                { text: "that", start: 30.9, end: 31.2 },
-                                { text: "all", start: 31.2, end: 31.5 },
-                                { text: "the", start: 31.5, end: 31.8 },
-                                { text: "time.", start: 31.8, end: 32.1 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l2_vid4,
-                    subtitles: [
-                        {
-                            start: 0,
-                            end: 3.2,
-                            words: [
-                                { text: "I’m", start: 0.2, end: 0.4 },
-                                { text: "happy", start: 0.4, end: 0.6 },
-                                { text: "you", start: 0.6, end: 0.8 },
-                                { text: "were", start: 0.8, end: 1.0 },
-                                { text: "able", start: 1.0, end: 1.2 },
-                                { text: "to", start: 1.2, end: 1.4 },
-                                { text: "see", start: 1.4, end: 1.6 },
-                                { text: "how", start: 1.6, end: 1.8 },
-                                { text: "your", start: 1.8, end: 2.0 },
-                                { text: "words", start: 2.0, end: 2.2 },
-                                { text: "hurt", start: 2.2, end: 2.4 },
-                                { text: "Mr.", start: 2.4, end: 2.6 },
-                                { text: "Harrison", start: 2.6, end: 3.2 },
-                            ],
-                        },
 
-                        {
-                            start: 3.8,
-                            end: 5.6,
-                            words: [
-                                { text: "and", start: 4.0, end: 4.3 },
-                                { text: "that", start: 4.3, end: 4.6 },
-                                { text: "you", start: 4.6, end: 4.8 },
-                                { text: "apologised.", start: 4.8, end: 5.4 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l2_vid5,
-                    subtitles: [
-                        {
-                            start: 3.3,
-                            end: 5.1,
-                            words: [
-                                { text: "I", start: 4.1, end: 4.3 },
-                                { text: "like", start: 4.3, end: 4.5 },
-                                { text: "your", start: 4.5, end: 4.7 },
-                                { text: "window", start: 4.7, end: 4.9 },
-                                { text: "display", start: 4.9, end: 5.1 },
-                            ],
-                        },
-                        {
-                            start: 5.1,
-                            end: 8.9,
-                            words: [
-                                { text: "and", start: 6.5, end: 6.7 },
-                                { text: "I", start: 6.7, end: 6.9 },
-                                { text: "like", start: 6.9, end: 7.1 },
-                                { text: "your", start: 7.1, end: 7.3 },
-                                { text: "nice", start: 7.3, end: 7.5 },
-                                { text: "chairs", start: 7.5, end: 7.7 },
-                                { text: "by", start: 7.7, end: 7.9 },
-                                { text: "the", start: 7.9, end: 8.1 },
-                                { text: "changing", start: 8.1, end: 8.3 },
-                                { text: "rooms.", start: 8.3, end: 8.5 },
-                            ],
-                        },
-                        {
-                            start: 10.0,
-                            end: 11.8,
-                            words: [
-                                { text: "Well,", start: 10.6, end: 10.8 },
-                                { text: "thank", start: 10.8, end: 11.0 },
-                                { text: "you.", start: 11.0, end: 11.2 },
-                            ],
-                        },
-                        {
-                            start: 15.5,
-                            end: 20.0,
-                            words: [
-                                { text: "I’m", start: 11.0, end: 11.2 },
-                                { text: "sorry", start: 11.2, end: 11.4 },
-                                { text: "I", start: 12.2, end: 12.6 },
-                                { text: "was", start: 12.6, end: 12.8 },
-                                { text: "rude", start: 12.8, end: 13.0 },
-                                { text: "before.", start: 13.0, end: 13.2 },
-                            ],
-                        },
-                    ],
-                },
-            ],
-            cloudPositions: {
-                0: [
-                ],
-
-                1: [
-                    { top: "30%", left: "50%", isFlipped: true },
-                    { top: "10%", left: "15%" },
-                ],
-
-                2: [
-                    { top: "20%", right: "20%", isFlipped: true },
-                    { top: "5%", left: "50%", isFlipped: true },
-                    { top: "5%", left: "50%", isFlipped: true },
-                    { top: "5%", left: "30%" },
-                    { top: "5%", left: "30%" },
-                ],
-
-                3: [
-                    { bottom: "75%", left: "40%", isFlipped: true },
-                    { bottom: "75%", left: "40%", isFlipped: true },
-                ],
-
-                4: [
-                    { top: "15%", left: "50%", isFlipped: true },
-                    { top: "10%", left: "60%", isFlipped: true },
-                    { top: "10%", left: "10%" },
-                    { top: "30%", left: "20%" },
-                ],
+        {
+          url: u1l3_vid2,
+          subtitles: [
+            {
+              start: 0,
+              end: 3.5,
+              words: [
+                { text: "We’re", start: 0.0, end: 0.24 },
+                { text: "going", start: 0.24, end: 0.46 },
+                { text: "to", start: 0.46, end: 0.62 },
+                { text: "walk", start: 0.62, end: 0.94 },
+                { text: "over", start: 0.94, end: 1.14 },
+                { text: "to", start: 1.14, end: 1.24 },
+                { text: "the", start: 1.24, end: 1.4 },
+                { text: "auditorium", start: 1.4, end: 2.06 },
+                { text: "now", start: 2.06, end: 2.28 },
+                { text: "for", start: 2.28, end: 2.4 },
+                { text: "the", start: 2.4, end: 2.52 },
+                { text: "concert.", start: 2.52, end: 3.04 },
+              ],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 1.2,
-                    end: 5.0,
-                    words: [
-                        { text: "Ellen", start: 2.8, end: 3.0 },
-                        { text: "does", start: 3.0, end: 3.2 },
-                        { text: "not", start: 3.2, end: 3.4 },
-                        { text: "respond", start: 3.4, end: 3.6 },
-                        { text: "and", start: 3.6, end: 4.0 },
-                        { text: "does", start: 4.0, end: 4.3 },
-                        { text: "not", start: 4.3, end: 4.6 },
-                        { text: "smile.", start: 4.6, end: 4.9 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 5.0,
-                    end: 8.5,
-                    words: [
-                        { text: "The", start: 6.0, end: 6.3 },
-                        { text: "shopkeeper", start: 6.3, end: 6.6 },
-                        { text: "asks", start: 6.6, end: 6.9 },
-                        { text: "what", start: 7.2, end: 7.5 },
-                        { text: "the", start: 7.5, end: 7.8 },
-                        { text: "matter", start: 7.8, end: 8.1 },
-                        { text: "is.", start: 8.1, end: 8.4 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 10.9,
-                    end: 15.8,
-                    words: [
-                        { text: "She", start: 12.7, end: 13.0 },
-                        { text: "answers", start: 13.0, end: 13.3 },
-                        { text: "rudely", start: 13.3, end: 13.6 },
-                        { text: "as", start: 13.6, end: 13.9 },
-                        { text: "she", start: 13.9, end: 14.2 },
-                        { text: "turns", start: 14.2, end: 14.5 },
-                        { text: "around", start: 14.5, end: 14.8 },
-                        { text: "to", start: 14.8, end: 15.1 },
-                        { text: "walk", start: 15.1, end: 15.4 },
-                        { text: "away.", start: 15.4, end: 15.7 },
-                    ],
-                },
-
-                {
-                    videoIndex: 1,
-                    start: 15.8,
-                    end: 20.3,
-                    words: [
-                        { text: "The", start: 15.7, end: 16.1 },
-                        { text: "shopkeeper", start: 16.1, end: 16.5 },
-                        { text: "does", start: 16.5, end: 16.9 },
-                        { text: "not", start: 16.9, end: 17.3 },
-                        { text: "look", start: 17.3, end: 17.7 },
-                        { text: "happy.", start: 17.7, end: 18.1 },
-                        { text: "Ellen", start: 18.1, end: 18.5 },
-                        { text: "has", start: 18.5, end: 18.9 },
-                        { text: "hurt", start: 18.9, end: 19.3 },
-                        { text: "his", start: 19.3, end: 19.7 },
-                        { text: "feelings.", start: 19.7, end: 20.1 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 0,
-                    end: 2.5,
-                    words: [
-                        { text: "Ellen", start: 0.2, end: 0.5 },
-                        { text: "notices", start: 0.5, end: 0.8 },
-                        { text: "the", start: 0.8, end: 1.0 },
-                        { text: "shopkeeper’s", start: 1.0, end: 1.3 },
-                        { text: "surprised", start: 1.3, end: 1.7 },
-                        { text: "face,", start: 1.7, end: 2.1 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 1.8,
-                    end: 6.9,
-                    words: [
-                        { text: "and", start: 2.8, end: 3.1 },
-                        { text: "she", start: 3.1, end: 3.4 },
-                        { text: "realises", start: 3.4, end: 3.7 },
-                        { text: "she", start: 3.7, end: 4.0 },
-                        { text: "has", start: 4.0, end: 4.3 },
-                        { text: "hurt", start: 4.3, end: 4.6 },
-                        { text: "his", start: 4.6, end: 4.9 },
-                        { text: "feelings", start: 4.9, end: 5.5 },
-                        { text: "by", start: 5.8, end: 6.1 },
-                        { text: "being", start: 6.1, end: 6.4 },
-                        { text: "rude", start: 6.4, end: 6.7 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 6.7,
-                    end: 9.5,
-                    words: [
-                        { text: "and", start: 8.4, end: 8.9 },
-                        { text: "feels", start: 8.9, end: 9.2 },
-                        { text: "bad.", start: 9.2, end: 9.4 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 32.1,
-                    end: 35.0,
-                    words: [
-                        { text: "Ellen’s", start: 32.1, end: 32.4 },
-                        { text: "father", start: 32.4, end: 32.7 },
-                        { text: "walks", start: 32.7, end: 33.0 },
-                        { text: "up", start: 33.0, end: 33.3 },
-                        { text: "to", start: 33.3, end: 33.6 },
-                        { text: "the", start: 33.6, end: 33.9 },
-                        { text: "shopkeeper", start: 33.9, end: 34.2 },
-                        { text: "and", start: 34.2, end: 34.5 },
-                        { text: "Ellen.", start: 34.5, end: 34.8 },
-                    ],
-                },
-
-                {
-                    videoIndex: 4,
-                    start: 0,
-                    end: 3.3,
-                    words: [
-                        { text: "Dad", start: 0.2, end: 0.4 },
-                        { text: "buys", start: 0.4, end: 0.6 },
-                        { text: "a", start: 0.6, end: 0.8 },
-                        { text: "coat", start: 0.8, end: 1.0 },
-                        { text: "and", start: 1.0, end: 1.2 },
-                        { text: "they", start: 1.2, end: 1.4 },
-                        { text: "start", start: 1.4, end: 1.6 },
-                        { text: "to", start: 1.6, end: 1.8 },
-                        { text: "make", start: 1.8, end: 2.0 },
-                        { text: "their", start: 2.0, end: 2.2 },
-                        { text: "way", start: 2.2, end: 2.4 },
-                        { text: "out", start: 2.4, end: 2.6 },
-                        { text: "of", start: 2.6, end: 2.8 },
-                        { text: "the", start: 2.8, end: 3.0 },
-                        { text: "store.", start: 3.0, end: 3.2 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 12.0,
-                    end: 16.0,
-                    words: [
-                        { text: "Ellen", start: 12.0, end: 12.4 },
-                        { text: "feels", start: 12.4, end: 12.8 },
-                        { text: "happy", start: 12.8, end: 13.1 },
-                        { text: "she", start: 13.1, end: 13.5 },
-                        { text: "apologised", start: 13.5, end: 14.0 },
-                        { text: "to", start: 14.0, end: 15.0 },
-                        { text: "the", start: 15.0, end: 15.5 },
-                        { text: "shopkeeper.", start: 15.5, end: 15.9 },
-                    ],
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 4,
-                instruction: [
-                    "Highlight a sentence in the story that shows",
-                    "Ellen making things right."
-                ],
-                correctWords: ["i’m", "sorry", "i", "was", "rude", "before"],
+            {
+              start: 12.4,
+              end: 15.0,
+              words: [
+                { text: "I", start: 12.4, end: 12.8 },
+                { text: "want", start: 12.8, end: 13.04 },
+                { text: "you", start: 13.04, end: 13.32 },
+                { text: "all", start: 13.32, end: 13.56 },
+                { text: "to", start: 13.56, end: 13.68 },
+                { text: "be", start: 13.68, end: 13.82 },
+                { text: "on", start: 13.82, end: 13.96 },
+                { text: "your", start: 13.96, end: 14.18 },
+                { text: "best", start: 14.18, end: 14.46 },
+                { text: "behaviour.", start: 14.46, end: 15.0 },
+              ],
             },
-            quiz: {
-                image: u3l2_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "Why was Ellen unhappy in the shop?",
-                        options: ["Ellen was bored waiting for her dad.", "Ellen spilled water on her jacket.", "Ellen forgot her book at home."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What was the look on the shopkeeper’s face when Ellen hurt his feelings?",
-                        options: ["Surprised", "Relaxed", "Tired"],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What did Ellen say to the shopkeeper that made her father happy?",
-                        options: ["‘I’m sorry, I was rude before.’", "‘Your shop is boring!’", "‘I like your window display…’"],
-                        correctAnswer: "0"
-                    }
-                ]
+            {
+              start: 15.2,
+              end: 18.0,
+              words: [
+                { text: "There", start: 15.2, end: 15.8 },
+                { text: "are", start: 15.8, end: 15.94 },
+                { text: "enough", start: 15.94, end: 16.26 },
+                { text: "seats", start: 16.26, end: 16.54 },
+                { text: "for", start: 16.54, end: 16.7 },
+                { text: "everyone.", start: 16.7, end: 17.12 },
+              ],
             },
-            feedback: {
-                image: u3l2_F1
-            }
+            {
+              start: 17.2,
+              end: 20.5,
+              words: [
+                { text: "so", start: 17.2, end: 17.48 },
+                { text: "no", start: 17.48, end: 17.78 },
+                { text: "pushing", start: 17.78, end: 18.36 },
+                { text: "or", start: 18.36, end: 18.54 },
+                { text: "running", start: 18.54, end: 19.04 },
+                { text: "when", start: 19.04, end: 19.26 },
+                { text: "you’re", start: 19.26, end: 19.5 },
+                { text: "in", start: 19.5, end: 19.64 },
+                { text: "the", start: 19.64, end: 19.78 },
+                { text: "auditorium.", start: 19.78, end: 20.42 },
+              ],
+            },
+            {
+              start: 20.6,
+              end: 22.38,
+              words: [
+                { text: "Do", start: 20.5, end: 20.94 },
+                { text: "you", start: 20.94, end: 21.22 },
+                { text: "all", start: 21.22, end: 21.46 },
+                { text: "understand", start: 21.46, end: 22.12 },
+                { text: "me?", start: 22.12, end: 22.38 },
+              ],
+            },
+            {
+              start: 23.8,
+              end: 24.7,
+              words: [
+                { text: "Yes,", start: 23.8, end: 24.06 },
+                { text: "Mrs.", start: 24.06, end: 24.48 },
+                { text: "Bell!", start: 24.48, end: 24.7 },
+              ],
+            },
+          ],
         },
-        "3": {
-            videos: [
-                {
-                    url: u3l3_vid1,
-                    subtitles: [{}],
-                },
-                {
-                    url: u3l3_vid2,
-                    subtitles: [
-                        {
-                            start: 0,
-                            end: 1,
-                            words: [{ text: "Congratulations!", start: 0.0, end: 0.4 }],
-                        },
-                        {},
-                        {},
-                        {},
-                        {},
-                    ],
-                },
-                {
-                    url: u3l3_vid3,
-                    subtitles: [
-                        {},
-                        {
-                            start: 2.5,
-                            end: 3.1,
-                            words: [{ text: "Hello", start: 2.5, end: 3.0 }],
-                        },
-                        {
-                            start: 3.1,
-                            end: 4.0,
-                            words: [{ text: "Hello", start: 3.2, end: 3.9 }],
-                        },
-                        {
-                            start: 4.2,
-                            end: 6.7,
-                            words: [
-                                { text: "and", start: 5.4, end: 5.7 },
-                                { text: "Congratulations!", start: 5.7, end: 6.7 },
-                            ],
-                        },
-                        {
-                            start: 8,
-                            end: 9.2,
-                            words: [
-                                { text: "Are", start: 8.0, end: 8.3 },
-                                { text: "we", start: 8.3, end: 8.6 },
-                                { text: "too", start: 8.6, end: 8.9 },
-                                { text: "noisy?", start: 8.9, end: 9.2 },
-                            ],
-                        },
-                        {
-                            start: 11.0,
-                            end: 12.1,
-                            words: [
-                                { text: "I", start: 10.6, end: 10.8 },
-                                { text: "don’t", start: 10.8, end: 11.0 },
-                                { text: "want", start: 11.0, end: 11.2 },
-                                { text: "to", start: 11.2, end: 11.4 },
-                                { text: "be", start: 11.4, end: 11.6 },
-                                { text: "too", start: 11.6, end: 11.8 },
-                                { text: "loud.", start: 11.8, end: 12.0 },
-                            ],
-                        },
-                        {
-                            start: 13.8,
-                            end: 14.8,
-                            words: [
-                                { text: "It’s ", start: 13.8, end: 14.2 },
-                                { text: "fine.", start: 14.2, end: 14.6 },
-                            ],
-                        },
-                        {
-                            start: 14.8,
-                            end: 17.5,
-                            words: [
-                                { text: "It’s ", start: 14.6, end: 14.9 },
-                                { text: "fun", start: 14.9, end: 15.2 },
-                                { text: "to", start: 15.2, end: 15.5 },
-                                { text: "celebrate", start: 15.5, end: 15.8 },
-                                { text: "with", start: 15.8, end: 16.1 },
-                                { text: "family", start: 16.1, end: 16.4 },
-                                { text: "and", start: 16.4, end: 16.7 },
-                                { text: "friends.", start: 16.7, end: 17.0 },
-                            ],
-                        },
-                        {
-                            start: 17.5,
-                            end: 20,
-                            words: [
-                                { text: "Are ", start: 8.3, end: 8.6 },
-                                { text: "we", start: 8.3, end: 8.6 },
-                                { text: "too", start: 8.6, end: 8.9 },
-                                { text: "noisy?", start: 8.9, end: 9.2 },
-                                { text: "I ", start: 10.6, end: 10.8 },
-                                { text: "don’t", start: 10.8, end: 11.0 },
-                                { text: "want", start: 11.0, end: 11.2 },
-                                { text: "to", start: 11.2, end: 11.4 },
-                                { text: "be", start: 11.4, end: 11.6 },
-                                { text: "too", start: 11.6, end: 11.8 },
-                                { text: "loud.", start: 11.8, end: 12.0 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u3l3_vid4,
-                    subtitles: [
-                        {},
-                        {},
-                        {},
-                        {
-                            start: 8.0,
-                            end: 9.2,
-                            words: [
-                                { text: "Thank", start: 8.0, end: 8.4 },
-                                { text: "you.", start: 8.4, end: 8.8 },
-                            ],
-                        },
-                        {
-                            start: 11.6,
-                            end: 12.3,
-                            words: [
-                                { text: "It’s", start: 11.6, end: 11.9 },
-                                { text: "delicious.", start: 11.9, end: 12.3 },
-                            ],
-                        },
-                        {},
-                        {},
-                    ],
-                },
-                {
-                    url: u3l3_vid5,
-                    subtitles: [
-                        {
-                            start: 0,
-                            end: 3,
-                            words: [
-                                { text: "Why", start: 0.2, end: 0.4 },
-                                { text: "did", start: 0.4, end: 0.6 },
-                                { text: "you", start: 0.6, end: 0.8 },
-                                { text: "give", start: 0.8, end: 1.0 },
-                                { text: "your", start: 1.0, end: 1.2 },
-                                { text: "cake", start: 1.2, end: 1.4 },
-                                { text: "to", start: 1.4, end: 1.6 },
-                                { text: "him?", start: 1.6, end: 1.8 },
-                            ],
-                        },
-                        {},
-                        {
-                            start: 4.5,
-                            end: 9.8,
-                            words: [
-                                { text: "Because", start: 5.5, end: 5.7 },
-                                { text: "he’s", start: 5.7, end: 5.9 },
-                                { text: "our", start: 5.9, end: 6.1 },
-                                { text: "neighbour", start: 6.1, end: 6.3 },
-                                { text: "and", start: 7.5, end: 7.7 },
-                                { text: "he", start: 7.7, end: 7.9 },
-                                { text: "was", start: 7.9, end: 8.1 },
-                                { text: "kind", start: 8.1, end: 8.3 },
-                                { text: "about", start: 8.3, end: 8.5 },
-                                { text: "the", start: 8.5, end: 8.7 },
-                                { text: "noise", start: 8.7, end: 8.9 },
-                                { text: "we", start: 8.9, end: 9.1 },
-                                { text: "are", start: 9.1, end: 9.3 },
-                                { text: "making.", start: 9.3, end: 9.5 },
-                            ],
-                        },
-                        {
-                            start: 11.0,
-                            end: 15.1,
-                            words: [
-                                { text: "We", start: 11.3, end: 11.6 },
-                                { text: "should", start: 11.6, end: 11.9 },
-                                { text: "always", start: 11.9, end: 12.2 },
-                                { text: "think", start: 12.2, end: 12.5 },
-                                { text: "about", start: 12.5, end: 12.8 },
-                                { text: "the", start: 12.8, end: 13.1 },
-                                { text: "people", start: 13.1, end: 13.4 },
-                                { text: "around", start: 13.4, end: 13.7 },
-                                { text: "us", start: 13.7, end: 14.0 },
-                                { text: "and", start: 14.0, end: 14.3 },
-                                { text: "their", start: 14.3, end: 14.6 },
-                                { text: "feelings.", start: 14.6, end: 14.9 },
-                            ],
-                        },
-                        {
-                            start: 20.2,
-                            end: 14,
-                            words: [
-                                { text: "Thank you,", start: 10.4, end: 11.7 },
-                                { text: "Jane.", start: 11.7, end: 12.3 },
-                                { text: "That’s", start: 12.3, end: 12.6 },
-                                { text: "a good", start: 12.6, end: 12.9 },
-                                { text: "idea!", start: 12.9, end: 13.8 },
-                            ],
-                        },
-                    ],
-                },
-            ],
-            cloudPositions: {
-                0: [],
 
-                1: [
-                    { top: "50%", left: "50%" },
-                    { top: "10%", left: "15%" },
-                    { top: "10%", left: "25%" },
-                    { top: "10%", left: "5%" },
-                    { top: "20%", left: "40%" },
-                    { top: "10%", left: "5%" },
-                ],
-
-                2: [
-                    { top: "10%", right: "20%", isFlipped: true },
-                    { top: "5%", left: "30%" },
-                    { top: "5%", left: "60%", isFlipped: true },
-                    { top: "15%", left: "50%", isFlipped: true },
-                    { top: "20%", left: "30%" },
-                    { top: "20%", left: "40%" },
-                    { top: "5%", left: "40%", isFlipped: true },
-                    { top: "5%", left: "40%", isFlipped: true },
-                    { top: "5%", left: "40%", isFlipped: true },
-                ],
-
-                3: [
-                    { bottom: "85%", left: "60%", isFlipped: true },
-                    { top: "30%", left: "23%", isFlipped: true },
-                    { top: "15%", left: "55%" },
-                    { top: "5%", left: "55%", isFlipped: true },
-                    { top: "5%", left: "35%", isFlipped: true },
-                    { top: "5%", left: "35%", isFlipped: true },
-                    { top: "5%", left: "35%", isFlipped: true },
-                ],
-
-                4: [
-                    { top: "7%", left: "38%", isFlipped: true },
-                    { top: "5%", left: "35%", isFlipped: true },
-                    { top: "5%", left: "20%" },
-                    { top: "5%", left: "20%" },
-                    { top: "5%", left: "20%" },
-                    { top: "5%", left: "20%" },
-                ],
+        {
+          url: u1l3_vid3,
+          subtitles: [
+            {
+              start: 9.9,
+              end: 10.84,
+              words: [{ text: "Ow!", start: 9.9, end: 10.84 }],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 2,
-                    end: 5.2,
-                    words: [
-                        { text: "sing", start: 2.2, end: 2.5 },
-                        { text: "Brian’s", start: 2.5, end: 2.8 },
-                        { text: "friends", start: 2.8, end: 3.1 },
-                        { text: "and", start: 3.1, end: 3.4 },
-                        { text: "family", start: 3.4, end: 3.7 },
-                        { text: "as", start: 3.7, end: 4.0 },
-                        { text: "Brian", start: 4.0, end: 4.3 },
-                        { text: "cuts", start: 4.3, end: 4.6 },
-                        { text: "the", start: 4.6, end: 4.9 },
-                        { text: "cake.", start: 4.9, end: 5.2 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 5.3,
-                    end: 9.1,
-                    words: [
-                        { text: "Brian", start: 5.5, end: 5.9 },
-                        { text: "has", start: 5.9, end: 6.3 },
-                        { text: "earned", start: 6.3, end: 6.7 },
-                        { text: "his", start: 6.7, end: 7.1 },
-                        { text: "yellow", start: 7.1, end: 7.5 },
-                        { text: "belt", start: 7.5, end: 7.9 },
-                        { text: "in", start: 7.9, end: 8.3 },
-                        { text: "Taekwondo", start: 8.3, end: 8.7 },
-                        { text: "class.", start: 8.7, end: 9.1 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 9.1,
-                    end: 12.9,
-                    words: [
-                        { text: "They", start: 9.1, end: 9.5 },
-                        { text: "are", start: 9.5, end: 9.9 },
-                        { text: "singing,", start: 9.9, end: 10.5 },
-                        { text: "laughing,", start: 10.5, end: 11.0 },
-                        { text: "and", start: 11.0, end: 11.5 },
-                        { text: "playing", start: 11.5, end: 12.0 },
-                        { text: "games.", start: 12.0, end: 12.6 },
-                    ],
-                },
-
-                {
-                    videoIndex: 1,
-                    start: 12.9,
-                    end: 22.4,
-                    words: [
-                        { text: "Brian", start: 13.8, end: 14.1 },
-                        { text: "sees", start: 14.1, end: 14.4 },
-                        { text: "over", start: 14.4, end: 14.7 },
-                        { text: "the", start: 14.7, end: 15.0 },
-                        { text: "fence", start: 15.0, end: 15.3 },
-                        { text: "that", start: 15.3, end: 15.6 },
-                        { text: "his", start: 15.6, end: 15.9 },
-                        { text: "neighbour,", start: 15.9, end: 16.2 },
-                        { text: "Mr.Percy,", start: 16.2, end: 16.9 },
-                        // { text: "", start: 16.5, end: 16.8 },
-                        { text: "is sitting", start: 17.0, end: 17.5 },
-                        { text: "alone", start: 17.5, end: 17.8 },
-                        { text: "in", start: 18.0, end: 18.3 },
-                        { text: "his", start: 18.3, end: 18.7 },
-                        { text: "garden", start: 18.7, end: 19.0 },
-                        { text: "drinking", start: 19.3, end: 19.6 },
-                        { text: "a", start: 19.6, end: 19.9 },
-                        { text: "cup", start: 19.9, end: 20.2 },
-                        { text: "of", start: 20.2, end: 20.5 },
-                        { text: "tea.", start: 20.5, end: 20.8 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 0,
-                    end: 1.8,
-                    words: [
-                        { text: "Brian", start: 0.2, end: 0.3 },
-                        { text: "walks", start: 0.3, end: 0.5 },
-                        { text: "over", start: 0.5, end: 0.8 },
-                        { text: "to", start: 0.8, end: 1 },
-                        { text: "the", start: 1, end: 1.2 },
-                        { text: "and", start: 1.2, end: 1.4 },
-                        { text: "fence", start: 1.2, end: 1.4 },
-                        { text: "and", start: 1.4, end: 1.6 },
-                        { text: "says", start: 1.6, end: 1.8 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 0,
-                    end: 2,
-                    words: [
-                        { text: "Brian", start: 0.2, end: 0.5 },
-                        { text: "thinks", start: 0.5, end: 0.8 },
-                        { text: "for", start: 0.8, end: 1.1 },
-                        { text: "a", start: 1.1, end: 1.4 },
-                        { text: "moment,", start: 1.4, end: 1.7 },
-                    ],
-                },
-
-                {
-                    videoIndex: 3,
-                    start: 2.0,
-                    end: 4.4,
-                    words: [
-                        { text: "he", start: 2.6, end: 2.8 },
-                        { text: "cuts", start: 2.8, end: 3.0 },
-                        { text: "a", start: 3.0, end: 3.2 },
-                        { text: "piece", start: 3.2, end: 3.4 },
-                        { text: "of", start: 3.4, end: 3.6 },
-                        { text: "his", start: 3.8, end: 4.0 },
-                        { text: "cake,", start: 4.0, end: 4.2 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 4.4,
-                    end: 7,
-                    words: [
-                        { text: "and", start: 4.2, end: 4.4 },
-                        { text: "passes", start: 4.4, end: 4.6 },
-                        { text: "it", start: 4.6, end: 4.8 },
-                        { text: "to", start: 4.8, end: 5.0 },
-                        { text: "his", start: 5.0, end: 5.2 },
-                        { text: "neighbour", start: 5.2, end: 5.8 },
-                        { text: "over", start: 5.8, end: 6.2 },
-                        { text: "the", start: 6.2, end: 6.6 },
-                        { text: "fence.", start: 6.6, end: 6.8 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 11.5,
-                    end: 16.2,
-                    words: [
-                        { text: "Brian", start: 12.3, end: 12.6 },
-                        { text: "goes", start: 12.6, end: 12.9 },
-                        { text: "back", start: 12.9, end: 13.2 },
-                        { text: "to", start: 13.2, end: 13.5 },
-                        { text: "the", start: 13.5, end: 13.8 },
-                        { text: "party", start: 13.8, end: 14.1 },
-                        { text: "and", start: 14.1, end: 14.4 },
-                        { text: "plays", start: 14.4, end: 14.7 },
-                        { text: "more", start: 14.7, end: 15.0 },
-                        { text: "games", start: 15.0, end: 15.3 },
-                        { text: "with", start: 15.3, end: 15.6 },
-                        { text: "his", start: 15.6, end: 15.9 },
-                        { text: "friends.", start: 15.9, end: 16.2 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 17.1,
-                    end: 20,
-                    words: [
-                        { text: "He", start: 17.1, end: 17.4 },
-                        { text: "is", start: 17.4, end: 17.7 },
-                        { text: "happy", start: 17.7, end: 18.0 },
-                        { text: "that", start: 18.0, end: 18.3 },
-                        { text: "he", start: 18.3, end: 18.6 },
-                        { text: "considered", start: 18.6, end: 18.9 },
-                        { text: "his", start: 18.9, end: 19.2 },
-                        { text: "neighbour’s", start: 19.2, end: 19.5 },
-                        { text: "feelings.", start: 19.5, end: 19.8 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 3,
-                    end: 5.4,
-                    words: [
-                        { text: "asks", start: 3.6, end: 3.8 },
-                        { text: "Leo,", start: 3.8, end: 4.0 },
-                        { text: "Brian’s", start: 4.0, end: 4.2 },
-                        { text: "cousin.", start: 4.2, end: 4.6 },
-                    ],
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 2,
-                instruction: [
-                    "Highlight the sentence that shows Brian", "considering Mr. Percy’s feelings."
-                ],
-                correctWords: [
-                    "are ", "we", "too", "noisy", "I", "don’t", "want", "to", "be", "too", "loud"
-                ],
+            {
+              start: 17.32,
+              end: 19.46,
+              words: [
+                { text: "Are", start: 17.32, end: 17.44 },
+                { text: "you", start: 17.44, end: 17.6 },
+                { text: "okay,", start: 17.6, end: 18.32 },
+                { text: "Kylie?", start: 18.32, end: 19.46 },
+              ],
             },
-            quiz: {
-                image: u3l3_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "What did Brian ask Mr. Percy?",
-                        options: ["‘Would you like a piece of cake?’", "‘Are we too noisy?’", "‘How are you today?’"],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "Why did Brian ask Mr. Percy about the noise?",
-                        options: ["He didn’t want to be too loud.", "He wanted to know if Mr. Percy wanted cake.", "He wanted to show Mr. Percy his yellow belt."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What did Brian say to his cousin Leo?",
-                        options: ["“We should always think about the people around us and their feelings.”", "“Congratulations!”", "“Are we too noisy?”"],
-                        correctAnswer: "0"
-                    }
-                ]
+            {
+              start: 19.46,
+              end: 20.9,
+              words: [
+                { text: "Someone", start: 19.46, end: 19.84 },
+                { text: "bumped", start: 19.84, end: 20.18 },
+                { text: "me.", start: 20.18, end: 20.36 },
+              ],
             },
-            feedback: {
-                image: u3l3_F1
-            }
+            {
+              start: 21.0,
+              end: 22.0,
+              words: [
+                { text: "But", start: 21.0, end: 21.28 },
+                { text: "let’s", start: 21.28, end: 21.58 },
+                { text: "hurry,", start: 21.58, end: 21.88 },
+              ],
+            },
+            {
+              start: 22.0,
+              end: 24.68,
+              words: [
+                { text: "we", start: 22.0, end: 22.36 },
+                { text: "don’t", start: 22.36, end: 22.62 },
+                { text: "want", start: 22.62, end: 22.8 },
+                { text: "to be", start: 22.8, end: 23.02 },
+                { text: "last", start: 23.02, end: 23.24 },
+                { text: "in line.", start: 23.24, end: 24.68 },
+              ],
+            },
+            {
+              start: 33.5,
+              end: 35.28,
+              words: [
+                { text: "Hurry", start: 33.5, end: 33.82 },
+                { text: "up,", start: 33.82, end: 34.06 },
+                { text: "Kylie.", start: 34.06, end: 35.28 },
+              ],
+            },
+          ],
         },
+
+        {
+          url: u1l3_vid4,
+          subtitles: [
+            {
+              start: 15.1,
+              end: 16.0,
+              words: [{ text: "Hey!", start: 15.1, end: 16.0 }],
+            },
+            {
+              start: 16.0,
+              end: 19.5,
+              words: [
+                { text: "You’re", start: 16.2, end: 16.38 },
+                { text: "too", start: 16.38, end: 16.66 },
+                { text: "slow,", start: 16.66, end: 17.14 },
+                { text: "Kylie.", start: 17.14, end: 17.72 },
+              ],
+            },
+          ],
+        },
+
+        {
+          url: u1l3_vid5,
+          subtitles: [
+            {
+              start: 11.0,
+              end: 16.0,
+              words: [
+                { text: "I", start: 11.0, end: 11.62 },
+                { text: "felt", start: 11.62, end: 11.94 },
+                { text: "so", start: 11.94, end: 12.26 },
+                { text: "angry", start: 12.26, end: 12.58 },
+
+                { text: "I", start: 12.7, end: 12.8 },
+                { text: "almost", start: 12.8, end: 13.14 },
+                { text: "pushed", start: 13.14, end: 13.44 },
+                { text: "them,", start: 13.44, end: 13.98 },
+
+                { text: "but", start: 14.0, end: 14.28 },
+                { text: "I", start: 14.28, end: 14.34 },
+                { text: "calmed", start: 14.34, end: 14.58 },
+                { text: "myself", start: 14.58, end: 15.0 },
+                { text: "before", start: 15.0, end: 15.42 },
+                { text: "I", start: 15.42, end: 15.48 },
+                { text: "did", start: 15.48, end: 15.66 },
+                { text: "anything.", start: 15.66, end: 16.12 },
+              ],
+            },
+            {
+              start: 16.2,
+              end: 20.0,
+              words: [
+                { text: "Kylie", start: 0.1, end: 0.4 },
+                { text: "takes", start: 0.4, end: 0.7 },
+                { text: "a", start: 0.7, end: 0.9 },
+                { text: "few", start: 0.9, end: 1.2 },
+                { text: "deep", start: 1.2, end: 1.5 },
+                { text: "breaths.", start: 1.5, end: 1.9 },
+              ],
+            },
+          ],
+        },
+
+        {
+          url: u1l3_vid6,
+          subtitles: [
+            {
+              start: 0,
+              end: 1.6,
+              words: [
+                { text: "Good", start: 0.0, end: 1.0 },
+                { text: "for", start: 1.0, end: 1.14 },
+                { text: "you.", start: 1.14, end: 1.44 },
+              ],
+            },
+          ],
+        },
+
+        {
+          url: u1l3_vid7,
+          subtitles: [
+            {
+              start: 0.0,
+              end: 2.6,
+              words: [
+                { text: "Look,", start: 0.0, end: 0.5 },
+                { text: "there", start: 0.5, end: 0.62 },
+                { text: "are", start: 0.62, end: 0.74 },
+                { text: "still", start: 0.74, end: 1.0 },
+                { text: "plenty", start: 1.0, end: 1.52 },
+                { text: "of", start: 1.52, end: 1.7 },
+                { text: "seats", start: 1.7, end: 1.98 },
+                { text: "free.", start: 1.98, end: 2.24 },
+              ],
+            },
+            {
+              start: 3.0,
+              end: 5.9,
+              words: [
+                { text: "I’m", start: 3.0, end: 3.28 },
+                { text: "so", start: 3.28, end: 3.54 },
+                { text: "excited", start: 3.54, end: 4.12 },
+                { text: "about", start: 4.12, end: 4.5 },
+                { text: "the", start: 4.5, end: 4.68 },
+                { text: "concert!", start: 4.68, end: 5.68 },
+              ],
+            },
+            {
+              start: 6.5,
+              end: 8.5,
+              words: [
+                { text: "Me", start: 6.5, end: 7.24 },
+                { text: "too!", start: 7.24, end: 8.0 },
+              ],
+            },
+            {
+              start: 14.3,
+              end: 17.2,
+              words: [
+                { text: "There’s", start: 14.3, end: 14.64 },
+                { text: "Sunita.", start: 14.64, end: 15.25 },
+                { text: "Let’s", start: 15.56, end: 15.84 },
+                { text: "go", start: 15.84, end: 15.96 },
+                { text: "and", start: 15.96, end: 16.14 },
+                { text: "sit", start: 16.14, end: 16.28 },
+                { text: "with", start: 16.28, end: 16.42 },
+                { text: "her.", start: 16.42, end: 17.2 },
+              ],
+            },
+          ],
+        },
+      ],
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 4.2,
+          end: 6.2,
+          words: [
+            { text: "Mrs", start: 4.2, end: 4.52 },
+            { text: "Bell", start: 4.52, end: 4.76 },
+            { text: "announces", start: 4.76, end: 5.34 },
+            { text: "to", start: 5.34, end: 5.46 },
+            { text: "her", start: 5.46, end: 5.64 },
+            { text: "class.", start: 5.64, end: 6.06 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 6.5,
+          end: 8.7,
+          words: [
+            { text: "Kylie", start: 6.5, end: 6.98 },
+            { text: "and", start: 6.98, end: 7.14 },
+            { text: "her", start: 7.14, end: 7.34 },
+            { text: "friends", start: 7.34, end: 7.7 },
+            { text: "are", start: 7.7, end: 7.9 },
+            { text: "excited.", start: 7.9, end: 8.52 },
+          ],
+        },
+        // {
+        //     videoIndex: 1,
+        //     start: 7.0,
+        //     end: 9.8,
+        //     words: [
+        //         { text: "Kylie", start: 7.1, end: 7.5 },
+        //         { text: "and", start: 7.5, end: 7.8 },
+        //         { text: "her", start: 7.8, end: 8.1 },
+        //         { text: "friends", start: 8.1, end: 8.6 },
+        //         { text: "are", start: 8.6, end: 9.0 },
+        //         { text: "excited.", start: 9.0, end: 9.5 }
+        //     ]
+        // },
+        {
+          videoIndex: 1,
+          start: 9.0,
+          end: 11.0,
+          words: [
+            { text: "They", start: 9.0, end: 9.16 },
+            { text: "are", start: 9.16, end: 9.3 },
+            { text: "looking", start: 9.3, end: 9.68 },
+            { text: "forward", start: 9.68, end: 10.0 },
+            { text: "to", start: 10.0, end: 10.1 },
+            { text: "the", start: 10.1, end: 10.26 },
+            { text: "concert.", start: 10.26, end: 10.82 },
+          ],
+        },
+
+        {
+          videoIndex: 2,
+          start: 0.0,
+          end: 3.3,
+          words: [
+            { text: "The", start: 0.0, end: 0.32 },
+            { text: "students", start: 0.32, end: 0.86 },
+            { text: "get", start: 0.86, end: 1.1 },
+            { text: "up", start: 1.1, end: 1.28 },
+            { text: "to", start: 1.28, end: 1.42 },
+            { text: "leave", start: 1.42, end: 1.62 },
+            { text: "the", start: 1.62, end: 1.76 },
+            { text: "classroom", start: 1.76, end: 2.34 },
+            { text: "and", start: 2.34, end: 2.52 },
+            { text: "line", start: 2.52, end: 2.88 },
+            { text: "up.", start: 2.88, end: 3.1 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 3.3,
+          end: 8.0,
+          words: [
+            { text: "Kylie", start: 3.3, end: 4.1 },
+            { text: "is", start: 4.1, end: 4.28 },
+            { text: "pushed", start: 4.28, end: 4.56 },
+            { text: "against", start: 4.56, end: 4.9 },
+            { text: "the", start: 4.9, end: 5.02 },
+            { text: "bookshelf", start: 5.02, end: 5.82 },
+            { text: "as", start: 5.82, end: 6.0 },
+            { text: "some", start: 6.0, end: 6.22 },
+            { text: "classmates", start: 6.22, end: 6.86 },
+            { text: "hurry", start: 6.86, end: 7.14 },
+            { text: "past her.", start: 7.14, end: 7.9 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 13.5,
+          end: 17.3,
+          words: [
+            { text: "She", start: 13.5, end: 13.98 },
+            { text: "cries", start: 13.98, end: 14.46 },
+            { text: "as", start: 14.46, end: 14.58 },
+            { text: "she", start: 14.58, end: 14.74 },
+            { text: "bumps", start: 14.74, end: 15.0 },
+            { text: "her", start: 15.0, end: 15.2 },
+            { text: "elbow", start: 15.2, end: 15.52 },
+            { text: "on the", start: 15.52, end: 15.72 },
+            { text: "bookshelf.", start: 15.72, end: 17.3 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 24.68,
+          end: 29.1,
+          words: [
+            { text: "Kylie", start: 24.68, end: 25.1 },
+            { text: "and", start: 25.1, end: 25.28 },
+            { text: "Stacy", start: 25.28, end: 25.84 },
+            { text: "line up", start: 25.84, end: 26.22 },
+            { text: "outside", start: 26.22, end: 26.62 },
+            { text: "the classroom", start: 26.62, end: 27.28 },
+            { text: "and when", start: 27.72, end: 28.0 },
+            { text: "all", start: 28.0, end: 28.12 },
+            { text: "the", start: 28.12, end: 28.32 },
+            { text: "students", start: 28.32, end: 28.72 },
+            { text: "are out", start: 28.72, end: 29.1 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 29.1,
+          end: 32.5,
+          words: [
+            { text: "Mrs.", start: 29.1, end: 29.84 },
+            { text: "Bell", start: 29.84, end: 30.12 },
+            { text: "leads", start: 30.12, end: 30.44 },
+            { text: "them", start: 30.44, end: 30.64 },
+            { text: "towards", start: 30.64, end: 31.04 },
+            { text: "the", start: 31.04, end: 31.16 },
+            { text: "auditorium.", start: 31.16, end: 31.84 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 35.28,
+          end: 37.4,
+          words: [
+            { text: "someone", start: 35.28, end: 35.64 },
+            { text: "tells", start: 35.64, end: 36.0 },
+            { text: "her", start: 36.0, end: 36.26 },
+            { text: "as", start: 36.26, end: 36.42 },
+            { text: "they", start: 36.42, end: 36.58 },
+            { text: "bump", start: 36.58, end: 36.82 },
+            { text: "into", start: 36.82, end: 37.14 },
+            { text: "her.", start: 37.14, end: 37.36 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 37.6,
+          end: 43.5,
+          words: [
+            { text: "Kylie", start: 37.6, end: 38.36 },
+            { text: "trips", start: 38.36, end: 38.8 },
+            { text: "and", start: 38.8, end: 38.92 },
+            { text: "is", start: 38.92, end: 39.1 },
+            { text: "still", start: 39.1, end: 39.34 },
+            { text: "rubbing", start: 39.34, end: 39.64 },
+            { text: "her", start: 39.64, end: 39.86 },
+            { text: "elbow", start: 39.86, end: 40.2 },
+            { text: "as", start: 40.2, end: 40.32 },
+            { text: "she", start: 40.32, end: 40.5 },
+            { text: "tries", start: 40.5, end: 40.76 },
+            { text: "to", start: 40.76, end: 40.88 },
+            { text: "keep", start: 40.88, end: 41.18 },
+            { text: "up.", start: 41.18, end: 41.38 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 0.0,
+          end: 4.5,
+          words: [
+            { text: "Kylie", start: 0.0, end: 0.64 },
+            { text: "balls up", start: 0.64, end: 1.12 },
+            { text: "her", start: 1.12, end: 1.34 },
+            { text: "fists", start: 1.34, end: 2.24 },
+            { text: "and", start: 2.24, end: 2.42 },
+            { text: "knows", start: 2.42, end: 2.68 },
+            { text: "that", start: 2.68, end: 2.88 },
+            { text: "she", start: 2.88, end: 3.04 },
+            { text: "is", start: 3.04, end: 3.2 },
+            { text: "getting", start: 3.2, end: 3.74 },
+            { text: "angry.", start: 3.72, end: 4.16 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 5.0,
+          end: 13.5,
+          words: [
+            { text: "The", start: 5.0, end: 5.46 },
+            { text: "class", start: 5.46, end: 5.8 },
+            { text: "is", start: 5.8, end: 6.04 },
+            { text: "almost", start: 6.04, end: 6.44 },
+            { text: "at", start: 6.44, end: 6.54 },
+            { text: "the", start: 6.54, end: 6.68 },
+            { text: "auditorium", start: 6.68, end: 7.82 },
+            { text: "when", start: 7.82, end: 8.08 },
+            { text: "two", start: 8.08, end: 8.32 },
+            { text: "girls", start: 8.32, end: 8.68 },
+            { text: "go", start: 8.68, end: 8.9 },
+            { text: "around", start: 8.9, end: 9.32 },
+            { text: "Kylie", start: 9.32, end: 10.12 },
+            { text: "and", start: 10.12, end: 10.32 },
+            { text: "get", start: 10.32, end: 10.54 },
+            { text: "into", start: 10.54, end: 10.78 },
+            { text: "the", start: 10.78, end: 10.94 },
+            { text: "line", start: 10.94, end: 11.22 },
+            { text: "in", start: 11.22, end: 11.44 },
+            { text: "front", start: 11.44, end: 11.72 },
+            { text: "of", start: 11.72, end: 11.88 },
+            { text: "her", start: 11.88, end: 12.1 },
+            { text: "and", start: 12.1, end: 12.34 },
+            { text: "Stacy.", start: 12.34, end: 12.8 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 18.0,
+          end: 21.4,
+          words: [
+            { text: "they", start: 18.0, end: 18.56 },
+            { text: "tell", start: 18.56, end: 18.82 },
+            { text: "her", start: 18.82, end: 19.56 },
+            { text: "and", start: 19.56, end: 19.8 },
+            { text: "turn", start: 19.8, end: 20.08 },
+            { text: "back", start: 20.08, end: 20.34 },
+            { text: "to", start: 20.34, end: 20.5 },
+            { text: "face", start: 20.5, end: 20.82 },
+            { text: "the", start: 20.82, end: 20.92 },
+            { text: "line.", start: 20.92, end: 21.26 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 21.5,
+          end: 24.9,
+          words: [
+            { text: "Kylie", start: 21.5, end: 22.16 },
+            { text: "feels", start: 21.16, end: 22.44 },
+            { text: "her", start: 22.44, end: 22.62 },
+            { text: "face", start: 22.62, end: 22.94 },
+            { text: "getting", start: 22.94, end: 23.26 },
+            { text: "red", start: 23.26, end: 23.76 },
+            { text: "as", start: 23.76, end: 23.9 },
+            { text: "she", start: 23.9, end: 24.04 },
+            { text: "gets", start: 24.04, end: 24.38 },
+            { text: "angrier.", start: 24.38, end: 24.84 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 25.3,
+          end: 31.5,
+          words: [
+            { text: "Her", start: 25.3, end: 25.96 },
+            { text: "elbow", start: 25.96, end: 26.42 },
+            { text: "still", start: 26.42, end: 27.24 },
+            { text: "hurts", start: 27.24, end: 28.04 },
+            { text: "and", start: 28.04, end: 28.22 },
+            { text: "now", start: 28.22, end: 28.76 },
+            { text: "she’s", start: 28.76, end: 28.98 },
+            { text: "almost", start: 28.98, end: 29.42 },
+            { text: "at", start: 29.42, end: 29.56 },
+            { text: "the", start: 29.56, end: 30.04 },
+            { text: "back", start: 30.04, end: 30.52 },
+            { text: "of", start: 30.52, end: 30.68 },
+            { text: "the", start: 30.68, end: 30.86 },
+            { text: "line.", start: 30.86, end: 31.22 },
+          ],
+        },
+
+        {
+          videoIndex: 4,
+          start: 0,
+          end: 2,
+          words: [
+            { text: "Kylie", start: 0.0, end: 0.58 },
+            { text: "takes", start: 0.58, end: 0.86 },
+            { text: "a", start: 0.86, end: 0.98 },
+            { text: "few", start: 0.98, end: 1.16 },
+            { text: "deep", start: 1.16, end: 1.42 },
+            { text: "breaths.", start: 1.42, end: 1.9 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 2.3,
+          end: 6.0,
+          words: [
+            { text: "She", start: 2.4, end: 2.78 },
+            { text: "knows", start: 2.78, end: 3.5 },
+            { text: "her", start: 3.5, end: 3.76 },
+            { text: "anger", start: 3.76, end: 4.16 },
+            { text: "is", start: 4.16, end: 4.44 },
+            { text: "almost", start: 4.44, end: 4.94 },
+            { text: "at", start: 4.94, end: 5.14 },
+            { text: "boiling", start: 5.14, end: 5.58 },
+            { text: "point.", start: 5.58, end: 5.92 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 6.6,
+          end: 9.5,
+          words: [
+            { text: "Kylie", start: 7.0, end: 7.68 },
+            { text: "turns", start: 7.68, end: 8.02 },
+            { text: "to", start: 8.02, end: 8.16 },
+            { text: "Stacy", start: 8.16, end: 8.72 },
+            { text: "and", start: 8.72, end: 9.02 },
+            { text: "says", start: 9.02, end: 9.34 },
+          ],
+        },
+
+        {
+          videoIndex: 5,
+          start: 1.9,
+          end: 5.0,
+          words: [
+            { text: "Stacy", start: 2.0, end: 2.68 },
+            { text: "tells", start: 2.68, end: 2.96 },
+            { text: "her", start: 2.96, end: 3.3 },
+            { text: "as", start: 3.3, end: 3.44 },
+            { text: "they", start: 3.44, end: 3.66 },
+            { text: "walk", start: 3.66, end: 3.86 },
+            { text: "into", start: 3.86, end: 4.1 },
+            { text: "the", start: 4.1, end: 4.22 },
+            { text: "auditorium.", start: 4.22, end: 4.92 },
+          ],
+        },
+
+        {
+          videoIndex: 6,
+          start: 9.2,
+          end: 14.0,
+          words: [
+            { text: "Kylie", start: 9.2, end: 9.6 },
+            { text: "replies,", start: 9.6, end: 10.84 },
+            { text: "forgetting", start: 10.84, end: 11.28 },
+            { text: "about", start: 11.28, end: 11.52 },
+            { text: "the", start: 11.52, end: 11.64 },
+            { text: "girls", start: 11.64, end: 12.0 },
+            { text: "who", start: 12.0, end: 12.16 },
+            { text: "made", start: 12.16, end: 12.38 },
+            { text: "her", start: 12.38, end: 12.58 },
+            { text: "angry.", start: 12.58, end: 13.02 },
+          ],
+        },
+
+        {
+          videoIndex: 6,
+          start: 17.32,
+          end: 22.0,
+          words: [
+            { text: "Kylie", start: 17.32, end: 17.84 },
+            { text: "is", start: 17.84, end: 18.08 },
+            { text: "happy", start: 18.08, end: 18.74 },
+            { text: "she", start: 18.74, end: 18.86 },
+            { text: "did", start: 18.86, end: 19.04 },
+            { text: "not", start: 19.04, end: 19.3 },
+            { text: "reach", start: 19.3, end: 19.7 },
+            { text: "her", start: 19.7, end: 19.84 },
+            { text: "boiling", start: 19.84, end: 20.28 },
+            { text: "point.", start: 20.28, end: 20.56 },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [
+          { top: "15%", left: "3%" },
+          { top: "15%", left: "15%" },
+          { top: "15%", left: "15%" },
+          { top: "15%", left: "10%" },
+          { top: "15%", left: "15%" },
+          { top: "15%", left: "15%" },
+        ],
+
+        2: [
+          { top: "10%", right: "80%" },
+          { top: "10%", left: "35%", isFlipped: true },
+          { top: "10%", left: "45%" },
+          { top: "10%", right: "50%", isFlipped: true },
+          { top: "1%", left: "33%", isFlipped: true },
+          { top: "1%", left: "35%" },
+        ],
+
+        3: [
+          { bottom: "80%", left: "35%" },
+          { top: "10%", left: "45%", isFlipped: true },
+        ],
+
+        4: [
+          { top: "10%", left: "55%", isFlipped: true },
+          { top: "10%", left: "55%", isFlipped: true },
+        ],
+        5: [{ bottom: "80%", left: "28%" }],
+        6: [
+          {
+            bottom: "60%",
+            left: "75%",
+            transform: "translateX(-50%)",
+            isFlipped: true,
+          },
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "10%", left: "50%", isFlipped: true },
+          { top: "10%", left: "60%", isFlipped: true },
+        ],
+      },
+      interactiveTask: {
+        videoIndex: 4,
+        instruction: ["Highlight how Kylie manages her anger."],
+        correctWords: ["kylie", "takes", "a", "few", "deep", "breaths"],
+      },
+      quiz: {
+        image: u1l3_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "What made Kylie almost reach her boiling point?",
+            options: [
+              "Her classmates pushed her against the bookshelf",
+              "Someone bumped into her",
+              "Two girls walked into the line in front of her",
+            ],
+            correctAnswer: "2",
+          },
+          {
+            id: "Q2",
+            text: "What colour was the anger thermometer after someone told Kylie to hurry up?",
+            options: ["Red.", "Yellow.", "Blue."],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q3",
+            text: "What did Kylie do to calm down?",
+            options: [
+              "She took a few breaths.",
+              "She screamed.",
+              "She pushed the two girls.",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u1l3_F1,
+      },
     },
-    "Four": {
-        "1": {
-            videos: [
-                {
-                    url: u4l1_vid1,
-                    subtitles: [
-                        {
-                        },
-                    ]
-                },
-                {
-                    url: u4l1_vid2,
-                    subtitles: [
-                        {
-
-
-                        },
-                        {
-
-
-
-                        },
-                        {
-
-
-                        },
-                        {
-
-
-                        },
-                    ]
-                },
-                {
-                    url: u4l1_vid3,
-                    subtitles: [
-                        {
-
-                        },
-                        {
-                            start: 3.5, end: 5.3,
-                            words: [
-                                { text: "How", start: 3.8, end: 4.0 },
-                                { text: "do", start: 4.0, end: 4.2 },
-                                { text: "they", start: 4.2, end: 4.4 },
-                                { text: "do", start: 4.6, end: 4.8 },
-                                { text: "it?", start: 4.8, end: 5.0 },
-
-                            ]
-                        },
-                        {
-
-
-                        },
-                        {
-
-
-                        },
-                        {
-
-
-                        },
-                        {
-
-                        },
-                        {
-
-
-                        },
-                    ]
-                },
-                {
-                    url: u4l1_vid4,
-                    subtitles: [
-                        {
-
-                        },
-                        {
-
-                        },
-                        {
-
-
-                        },
-                        {
-                            start: 12.0, end: 16.8,
-                            words: [
-                                { text: "We", start: 14.5, end: 14.8 },
-                                { text: "played", start: 14.8, end: 15.1 },
-                                { text: "your", start: 15.1, end: 15.4 },
-                                { text: "game", start: 15.4, end: 15.7 },
-                                { text: "first", start: 15.7, end: 16.0 },
-                                { text: "last", start: 16.0, end: 16.3 },
-                                { text: "time.", start: 16.3, end: 16.6 }
-                            ]
-
-
-                        },
-                        {
-                            start: 17.0, end: 19.2,
-                            words: [
-                                { text: "Your", start: 17.0, end: 17.3 },
-                                { text: "game", start: 17.3, end: 17.6 },
-                                { text: "will", start: 17.6, end: 17.9 },
-                                { text: "take", start: 17.9, end: 18.2 },
-                                { text: "longer", start: 18.2, end: 18.5 },
-                                { text: "than", start: 18.5, end: 18.8 },
-                                { text: "mine.", start: 18.8, end: 19.1 }
-                            ]
-
-                        },
-
-                        {
-                            start: 19.2, end: 30.5,
-                            words: [
-                                { text: "We", start: 19.3, end: 19.6 },
-                                { text: "need", start: 19.6, end: 19.9 },
-                                { text: "a", start: 19.6, end: 19.9 },
-                                { text: "fair", start: 19.9, end: 20.5 },
-                                { text: "way", start: 20.5, end: 21.2 },
-                                { text: "to", start: 21.2, end: 21.5 },
-                                { text: "help", start: 21.5, end: 22.0 },
-                                { text: "us", start: 21.5, end: 22.0 },
-                                { text: "decide", start: 22.0, end: 22.4 },
-                                { text: "which", start: 22.4, end: 22.7 },
-                                { text: "game", start: 22.7, end: 23.0 },
-                                { text: "we", start: 23.0, end: 23.3 },
-                                { text: "should", start: 23.3, end: 23.6 },
-                                { text: "play", start: 23.6, end: 23.9 },
-                                { text: "first.", start: 23.9, end: 24.4 },
-                                { text: "Lets", start: 25.7, end: 26.0 },
-                                { text: "play", start: 26.0, end: 26.3 },
-                                { text: "rock", start: 26.3, end: 26.6 },
-                                { text: "paper", start: 26.6, end: 26.9 },
-                                { text: "scissors", start: 26.9, end: 27.2 },
-                                { text: "best", start: 27.2, end: 27.5 },
-                                { text: "out", start: 27.5, end: 27.8 },
-                                { text: "of", start: 27.8, end: 28.1 },
-                                { text: "three.", start: 28.1, end: 28.4 }
-                            ]
-
-                        },
-                    ]
-                },
-                {
-                    url: u4l1_vid5,
-                    subtitles: [
-                        {
-
-                        },
-                        {
-                        },
-                        {
-                        },
-                        {
-                        },
-                    ]
-                },
-                {
-                    url: u4l1_vid6,
-                    subtitles: [
-                        {
-
-                        },
-
-                        {
-                            start: 4.1, end: 6.5,
-                            words: [
-                                { text: "OK,", start: 4.5, end: 5.0 },
-                                { text: "that’s", start: 5.2, end: 5.7 },
-                                { text: "fair.", start: 5.7, end: 6.3 }
-                            ]
-                        },
-
-                        {
-                            start: 6.8, end: 10.5,
-                            words: [
-                                { text: "We", start: 7.0, end: 7.3 },
-                                { text: "can", start: 7.3, end: 7.6 },
-                                { text: "play", start: 7.6, end: 7.9 },
-                                { text: "your", start: 7.9, end: 8.2 },
-                                { text: "game", start: 8.2, end: 8.5 },
-                                { text: "first", start: 8.5, end: 8.8 },
-                                { text: "David", start: 8.8, end: 9.1 },
-                                { text: "and", start: 9.1, end: 9.4 },
-                                { text: "then", start: 9.4, end: 9.7 },
-                                { text: "play", start: 9.7, end: 10.0 },
-                                { text: "mine.", start: 10.0, end: 10.3 }
-                            ]
-                        },
-
-                        {
-
-                        },
-
-                        {
-
-                        }
-                    ]
-                },
-            ],
-            cloudPositions: {
-                0: [
-                ],
-                1: [
-                    { top: '20%', left: '40%', isFlipped: true },
-                    { top: '10%', left: '55%', isFlipped: true },
-                    { top: '10%', left: '25%' },
-                    { top: '10%', left: '25%' },
-                    { top: '10%', left: '0%' },
-                    { top: '10%', right: '30%', isFlipped: true },
-                ],
-                2: [
-                    { top: '10%', right: '10%', isFlipped: true },
-                    { top: '15%', left: '70%', isFlipped: true },
-                    { top: '10%', left: '70%', isFlipped: true },
-                    { top: '10%', left: '15%' },
-                    { top: '10%', left: '15%' },
-                    { top: '10%', left: '15%' },
-                    { top: '10%', left: '15%' },
-
-                ],
-                3: [
-                    { bottom: '60%', left: '60%', isFlipped: true },
-                    { top: '20%', left: '5%' },
-                    { top: '10%', left: '35%', isFlipped: true },
-                    { top: '15%', left: '45%', isFlipped: false },
-                    { top: '10%', left: '30%', isFlipped: true },
-                    { top: '10%', left: '45%', isFlipped: false },
-                    { top: '10%', left: '45%', isFlipped: false },
-                ],
-
-                4: [
-                    { top: '15%', right: '25%' },
-                    { top: '15%', left: '35%', isFlipped: true },
-                    { top: '15%', left: '40%', isFlipped: true },
-                    { top: '15%', right: '25%', isFlipped: false },
-                ],
-
-                5: [
-                    { top: '15%', right: '25%' },
-                    { top: '25%', left: '25%', isFlipped: false },
-                    { top: '25%', left: '20%', isFlipped: false },
-                    { top: '15%', right: '25%', isFlipped: false },
-                    { top: '15%', left: '25%', isFlipped: true },
-                ],
-            },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0, end: 3.0,
-                    words: [
-                        { text: "David", start: 0.2, end: 0.5 },
-                        { text: "and", start: 0.5, end: 0.8 },
-                        { text: "Milo", start: 0.8, end: 1.1 },
-                        { text: "live", start: 1.1, end: 1.4 },
-                        { text: "next", start: 1.4, end: 1.7 },
-                        { text: "door", start: 1.7, end: 2.0 },
-                        { text: "to", start: 2.0, end: 2.3 },
-                        { text: "each", start: 2.3, end: 2.6 },
-                        { text: "other.", start: 2.6, end: 2.9 }
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 3.6, end: 8.5,
-                    words: [
-                        { text: "David", start: 4.0, end: 4.3 },
-                        { text: "likes", start: 4.3, end: 4.6 },
-                        { text: "watching", start: 4.6, end: 4.9 },
-                        { text: "TV,", start: 4.9, end: 5.9 },
-                        { text: "and", start: 6.1, end: 6.4 },
-                        { text: "Milo", start: 6.4, end: 6.7 },
-                        { text: "likes", start: 6.7, end: 7.0 },
-                        { text: "playing", start: 7.0, end: 7.3 },
-                        { text: "computer", start: 7.3, end: 7.6 },
-                        { text: "games.", start: 7.6, end: 7.9 }
-
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 8.5, end: 13.4,
-                    words: [
-                        { text: "David", start: 9.0, end: 9.3 },
-                        { text: "likes", start: 9.3, end: 9.6 },
-                        { text: "playing", start: 9.6, end: 9.9 },
-                        { text: "cricket,", start: 9.9, end: 10.2 },
-                        { text: "while", start: 11.7, end: 12.0 },
-                        { text: "Milo", start: 12.0, end: 12.6 },
-                        { text: "prefers", start: 12.6, end: 12.9 },
-                        { text: "basketball.", start: 12.9, end: 13.2 },
-
-
-                    ]
-                },
-
-                {
-                    videoIndex: 1,
-                    start: 14.4, end: 16.8,
-                    words: [
-                        { text: "They", start: 15.0, end: 15.3 },
-                        { text: "have", start: 15.3, end: 15.6 },
-                        { text: "lots", start: 15.6, end: 15.9 },
-                        { text: "of", start: 15.9, end: 16.2 },
-                        { text: "differences.", start: 16.2, end: 16.6 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 0, end: 2.5,
-                    words: [
-                        { text: "David", start: 0.2, end: 0.5 },
-                        { text: "and", start: 0.5, end: 0.8 },
-                        { text: "Milo", start: 0.8, end: 1.1 },
-                        { text: "are", start: 1.1, end: 1.4 },
-                        { text: "very", start: 1.4, end: 1.7 },
-                        { text: "good", start: 1.7, end: 2.0 },
-                        { text: "friends!", start: 2.0, end: 2.3 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 5.5, end: 10.0,
-                    words: [
-                        { text: "David", start: 5.8, end: 6.1 },
-                        { text: "and", start: 6.1, end: 6.4 },
-                        { text: "Milo", start: 6.4, end: 6.7 },
-                        { text: "know", start: 6.7, end: 7.0 },
-                        { text: "they", start: 7.0, end: 7.3 },
-                        { text: "have", start: 7.3, end: 7.6 },
-                        { text: "more", start: 7.6, end: 7.9 },
-                        { text: "fun", start: 7.9, end: 8.2 },
-                        { text: "playing", start: 8.2, end: 8.5 },
-                        { text: "together", start: 8.5, end: 8.8 },
-                        { text: "than", start: 8.8, end: 9.1 },
-                        { text: "on", start: 9.1, end: 9.4 },
-                        { text: "their", start: 9.4, end: 9.7 },
-                        { text: "own.", start: 9.7, end: 10.0 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 10.0, end: 13.8,
-                    words: [
-
-                        { text: "Even", start: 10.5, end: 10.8 },
-                        { text: "if", start: 10.8, end: 11.0 },
-                        { text: "they", start: 11.0, end: 11.3 },
-                        { text: "are", start: 11.3, end: 11.6 },
-                        { text: "not", start: 11.6, end: 11.9 },
-                        { text: "doing", start: 11.9, end: 12.2 },
-                        { text: "their", start: 12.2, end: 12.5 },
-                        { text: "favourite", start: 12.5, end: 12.9 },
-                        { text: "activity.", start: 12.9, end: 13.6 }
-                    ]
-                },
-
-                {
-                    videoIndex: 2,
-                    start: 14.4, end: 18.7,
-                    words: [
-                        { text: "David", start: 15.0, end: 15.3 },
-                        { text: "and", start: 15.3, end: 15.6 },
-                        { text: "Milo", start: 15.6, end: 15.9 },
-                        { text: "work", start: 15.9, end: 16.2 },
-                        { text: "together", start: 16.2, end: 16.5 },
-                        { text: "during", start: 16.5, end: 16.8 },
-                        { text: "their", start: 16.8, end: 17.1 },
-                        { text: "favourite", start: 17.1, end: 17.4 },
-                        { text: "activities.", start: 17.4, end: 18.7 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 18.7, end: 25.5,
-                    words: [
-                        { text: "Milo", start: 19.8, end: 20.1 },
-                        { text: "watches", start: 20.1, end: 20.4 },
-                        { text: "TV", start: 20.4, end: 20.7 },
-                        { text: "with", start: 20.7, end: 21.0 },
-                        { text: "David", start: 21.0, end: 21.3 },
-                        { text: "and", start: 22.2, end: 22.5 },
-                        { text: "waits", start: 22.5, end: 22.8 },
-                        { text: "for", start: 22.8, end: 23.1 },
-                        { text: "his", start: 23.1, end: 23.4 },
-                        { text: "turn", start: 23.4, end: 23.7 },
-                        { text: "to", start: 23.7, end: 24.0 },
-                        { text: "play", start: 24.0, end: 24.3 },
-                        { text: "computer", start: 24.3, end: 24.6 },
-                        { text: "games.", start: 24.6, end: 24.9 }
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 25.0, end: 29.5,
-                    words: [
-                        { text: "David", start: 25.2, end: 25.5 },
-                        { text: "plays", start: 25.5, end: 25.8 },
-                        { text: "basketball", start: 25.8, end: 26.1 },
-                        { text: "with", start: 26.1, end: 26.4 },
-                        { text: "Milo", start: 26.4, end: 26.7 },
-                        { text: "and", start: 26.7, end: 27.0 },
-                        { text: "waits", start: 27.0, end: 27.3 },
-                        { text: "for", start: 27.3, end: 27.6 },
-                        { text: "his", start: 27.6, end: 27.9 },
-                        { text: "turn", start: 27.9, end: 28.2 },
-                        { text: "to", start: 28.2, end: 28.5 },
-                        { text: "play", start: 28.5, end: 28.8 },
-                        { text: "cricket.", start: 28.8, end: 29.1 }
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 0, end: 5.1,
-                    words: [
-                        { text: "One", start: 0.2, end: 0.6 },
-                        { text: "day,", start: 0.6, end: 1.0 },
-                        { text: "the", start: 1.0, end: 1.4 },
-                        { text: "boys", start: 1.4, end: 1.8 },
-                        { text: "cannot", start: 1.8, end: 2.2 },
-                        { text: "decide", start: 2.2, end: 2.6 },
-                        { text: "which", start: 2.6, end: 3.0 },
-                        { text: "game", start: 3.0, end: 3.4 },
-                        { text: "they", start: 3.4, end: 3.6 },
-                        { text: "will", start: 3.6, end: 4.8 },
-                        { text: "play", start: 3.8, end: 4.0 },
-                        { text: "first,", start: 4.0, end: 4.8 }
-                    ]
-
-
-                },
-                {
-                    videoIndex: 3,
-
-                    start: 5.2, end: 9.1,
-                    words: [
-                        { text: "they", start: 5.4, end: 5.7 },
-                        { text: "begin", start: 5.7, end: 6.0 },
-                        { text: "to", start: 6.0, end: 6.3 },
-                        { text: "disagree", start: 6.3, end: 6.6 },
-                        { text: "about", start: 6.6, end: 6.9 },
-                        { text: "which", start: 6.9, end: 7.2 },
-                        { text: "game", start: 7.2, end: 7.5 },
-                        { text: "to", start: 7.5, end: 7.8 },
-                        { text: "play.", start: 7.8, end: 8.1 }
-                    ]
-
-
-                },
-                {
-                    videoIndex: 3,
-                    start: 9.0, end: 12.0,
-                    words: [
-                        { text: "Milo", start: 9.0, end: 9.3 },
-                        { text: "wants", start: 9.3, end: 9.6 },
-                        { text: "to", start: 9.6, end: 9.9 },
-                        { text: "play", start: 9.9, end: 10.2 },
-                        { text: "tag", start: 10.2, end: 10.5 },
-                        { text: "and", start: 10.5, end: 10.8 },
-                        { text: "David", start: 10.8, end: 11.1 },
-                        { text: "wants", start: 11.1, end: 11.4 },
-                        { text: "to", start: 11.4, end: 11.7 },
-                        { text: "race.", start: 11.7, end: 12.0 }
-                    ]
-
-
-                },
-                {
-                    videoIndex: 4,
-                    start: 0, end: 2.0,
-                    words: [
-                        { text: "Milo’s", start: 0.2, end: 0.5 },
-                        { text: "mum", start: 0.5, end: 0.8 },
-                        { text: "hears", start: 0.8, end: 1.1 },
-                        { text: "the", start: 1.1, end: 1.4 },
-                        { text: "boys.", start: 1.4, end: 1.7 }
-                    ]
-
-
-                },
-                {
-                    videoIndex: 4,
-                    start: 2.0, end: 4.0,
-                    words: [
-                        { text: "That’s", start: 2.0, end: 2.3 },
-                        { text: "a", start: 2.3, end: 2.6 },
-                        { text: "great", start: 2.6, end: 2.9 },
-                        { text: "idea.", start: 2.9, end: 3.2 }
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 4.1, end: 8.2,
-                    words: [
-                        { text: "Also,", start: 4.4, end: 4.7 },
-                        { text: "try", start: 4.7, end: 5.0 },
-                        { text: "to", start: 5.0, end: 5.3 },
-                        { text: "have", start: 5.3, end: 5.6 },
-                        { text: "fun", start: 5.6, end: 5.9 },
-                        { text: "when", start: 5.9, end: 6.2 },
-                        { text: "you’re", start: 6.2, end: 6.5 },
-                        { text: "playing", start: 6.5, end: 6.8 },
-                        { text: "your", start: 6.8, end: 7.1 },
-                        { text: "friend’s", start: 7.1, end: 7.4 },
-                        { text: "game", start: 7.4, end: 7.7 },
-                        { text: "too.", start: 7.7, end: 8.1 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 8.2, end: 11.0,
-                    words: [
-                        { text: "you", start: 9.2, end: 9.5 },
-                        { text: "should", start: 9.5, end: 9.8 },
-                        { text: "enjoy", start: 9.8, end: 10.1 },
-                        { text: "each", start: 10.1, end: 10.4 },
-                        { text: "other’s", start: 10.4, end: 10.7 },
-                        { text: "favourite", start: 10.7, end: 11.0 },
-                        { text: "games.", start: 11.0, end: 11.6 }
-                    ]
-
-                },
-
-
-                {
-                    videoIndex: 5,
-                    start: 0.2, end: 4.0,
-                    words: [
-                        { text: "They", start: 0.5, end: 0.8 },
-                        { text: "play", start: 0.8, end: 1.1 },
-                        { text: "rock,", start: 1.1, end: 1.4 },
-                        { text: "paper,", start: 1.4, end: 1.7 },
-                        { text: "scissors,", start: 1.7, end: 2.0 },
-                        { text: "and", start: 2.5, end: 2.8 },
-                        { text: "David’s", start: 2.8, end: 3.1 },
-                        { text: "game", start: 3.1, end: 3.4 },
-                        { text: "wins.", start: 3.4, end: 3.7 }
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 10.8, end: 12.8,
-                    words: [
-                        { text: "The", start: 11.0, end: 11.3 },
-                        { text: "boys", start: 11.3, end: 11.6 },
-                        { text: "play", start: 11.6, end: 11.9 },
-                        { text: "happily", start: 11.9, end: 12.2 },
-                        { text: "together.", start: 12.2, end: 12.5 }
-                    ]
-                },
-                {
-                    videoIndex: 5,
-                    start: 12.9, end: 18.6,
-                    words: [
-                        { text: "David", start: 13.8, end: 14.1 },
-                        { text: "and", start: 14.1, end: 14.4 },
-                        { text: "Milo", start: 14.4, end: 14.7 },
-                        { text: "are", start: 14.7, end: 15.0 },
-                        { text: "happy", start: 15.0, end: 15.3 },
-                        { text: "they", start: 15.3, end: 15.6 },
-                        { text: "found", start: 15.6, end: 15.9 },
-                        { text: "a", start: 15.9, end: 16.2 },
-                        { text: "fair", start: 16.2, end: 16.5 },
-                        { text: "way", start: 16.5, end: 16.8 },
-                        { text: "to", start: 16.8, end: 17.1 },
-                        { text: "play", start: 17.1, end: 17.4 },
-                        { text: "together.", start: 17.4, end: 17.7 }
-                    ]
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 3,
-                fontsize:30,
-                instruction: [
-                    "Highlight how do David and Milo manage to maintain their friendship despite their different preferences for activities."
-                ],
-                correctWords: [
-                    "we", "need", "a", "fair", "way", "to", "help", "us", "decide",
-                    "which", "game", "should", "play", "first",
-                    "lets", "rock", "paper", "scissors", "best", "out", "of", "three",
-                ],
-            },
-            quiz: {
-                image: u4l1_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "How did David and Milo stay good friends even with their differences?",
-                        options: ["They worked together.", "They argued with each other.", "They ignored each other."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "What was the problem between David and Milo?",
-                        options: ["They couldn’t decide which game to play first.", "They played rock, paper, scissors.", "They yelled at each other."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "How did David and Milo solve their problem?",
-                        options: ["They played rock, paper, scissors.", "They did not play any games.", "They went and told their parents."],
-                        correctAnswer: "0"
-                    }
-                ]
-            },
-            feedback: {
-                image: u4l1_F1
-            }
+  },
+  Two: {
+    1: {
+      videos: [
+        {
+          url: u2l1_vid1,
+          subtitles: [],
         },
-        "2": {
-            videos: [
-                {
-                    url: u4l2_vid1,
-                    subtitles: [],
-                },
-                {
-                    url: u4l2_vid2,
-                    subtitles: [
-                        {
-                            start: 23.8,
-                            end: 25.8,
-                            words: [
-                                { text: "How", start: 24.0, end: 24.3 },
-                                { text: "can", start: 24.3, end: 24.6 },
-                                { text: "I", start: 24.6, end: 24.9 },
-                                { text: "help?", start: 24.9, end: 25.2 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u4l2_vid3,
-                    subtitles: [
-                        {
-                            start: 16.8,
-                            end: 24.8,
-                            words: [
-                                { text: "Thank", start: 17.0, end: 17.3 },
-                                { text: "you", start: 17.3, end: 17.6 },
-                                { text: "for", start: 17.6, end: 17.9 },
-                                { text: "telling", start: 17.9, end: 18.2 },
-                                { text: "me", start: 18.2, end: 18.5 },
-                                { text: "Rose.", start: 18.5, end: 19.5 },
-                                { text: "Children", start: 19.7, end: 20.0 },
-                                { text: "you", start: 20.0, end: 20.3 },
-                                { text: "can", start: 20.3, end: 20.6 },
-                                { text: "go", start: 20.6, end: 20.9 },
-                                { text: "outside", start: 20.9, end: 21.2 },
-                                { text: "to", start: 21.2, end: 21.5 },
-                                { text: "play.", start: 21.5, end: 21.8 },
-                                { text: "Josh", start: 22.4, end: 22.7 },
-                                { text: "and", start: 22.7, end: 23.0 },
-                                { text: "Anya", start: 23.0, end: 23.3 },
-                                { text: "stay", start: 23.3, end: 23.6 },
-                                { text: "with", start: 23.6, end: 23.9 },
-                                { text: "me.", start: 23.9, end: 24.8 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u4l2_vid4,
-                    subtitles: [
-                        {
-                            start: 2.0,
-                            end: 5.0,
-                            words: [
-                                { text: "Thank", start: 2.2, end: 2.5 },
-                                { text: "you", start: 2.5, end: 2.8 },
-                                { text: "for", start: 2.8, end: 3.1 },
-                                { text: "helping", start: 3.1, end: 3.4 },
-                                { text: "me", start: 3.4, end: 3.7 },
-                                { text: "and", start: 3.7, end: 4.0 },
-                                { text: "telling", start: 4.0, end: 4.3 },
-                                { text: "the", start: 4.3, end: 4.6 },
-                                { text: "teacher.", start: 4.6, end: 4.9 },
-                            ],
-                        },
-                        {
-                            start: 5.0,
-                            end: 8.2,
-                            words: [
-                                { text: "Yes,", start: 5.4, end: 5.7 },
-                                { text: "I’m", start: 5.7, end: 6.0 },
-                                { text: "glad", start: 6.0, end: 6.3 },
-                                { text: "I", start: 6.3, end: 6.6 },
-                                { text: "asked", start: 6.6, end: 6.9 },
-                                { text: "the", start: 6.9, end: 7.2 },
-                                { text: "teacher", start: 7.2, end: 7.5 },
-                                { text: "for", start: 7.5, end: 7.8 },
-                                { text: "help.", start: 7.8, end: 8.1 },
-                            ],
-                        },
-                        {
-                            start: 9.0,
-                            end: 13.0,
-                            words: [
-                                { text: "It", start: 9.0, end: 9.3 },
-                                { text: "wasn’t", start: 9.3, end: 9.6 },
-                                { text: "nice", start: 9.6, end: 9.9 },
-                                { text: "at", start: 9.9, end: 10.2 },
-                                { text: "all", start: 10.2, end: 10.5 },
-                                { text: "what", start: 10.5, end: 10.8 },
-                                { text: "they", start: 10.8, end: 11.1 },
-                                { text: "were", start: 11.1, end: 11.4 },
-                                { text: "doing", start: 11.4, end: 11.7 },
-                                { text: "to", start: 11.7, end: 12.0 },
-                                { text: "you.", start: 12.0, end: 12.3 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u4l2_vid5,
-                    subtitles: [
-
-                        {
-                            start: 8.8,
-                            end: 12.0,
-                            words: [
-                                { text: "We’re", start: 9.0, end: 9.3 },
-                                { text: "not", start: 9.3, end: 9.6 },
-                                { text: "going", start: 9.6, end: 9.9 },
-                                { text: "to", start: 9.9, end: 10.2 },
-                                { text: "laugh", start: 10.2, end: 10.5 },
-                                { text: "at", start: 10.5, end: 10.8 },
-                                { text: "other", start: 10.8, end: 11.1 },
-                                { text: "people", start: 11.1, end: 11.4 },
-                                { text: "now.", start: 11.4, end: 11.7 },
-                            ],
-                        },
-
-                        {
-                            start: 12,
-                            end: 17.6,
-                            words: [
-                                { text: "The", start: 12.2, end: 12.5 },
-                                { text: "teacher", start: 12.5, end: 12.8 },
-                                { text: "talked", start: 12.8, end: 13.1 },
-                                { text: "to", start: 13.1, end: 13.4 },
-                                { text: "us", start: 13.4, end: 13.7 },
-                                { text: "about", start: 13.7, end: 14.0 },
-                                { text: "bullying", start: 14.0, end: 14.3 },
-                                { text: "and", start: 14.3, end: 14.6 },
-                                { text: "we’re", start: 14.6, end: 14.9 },
-                                { text: "going", start: 14.9, end: 15.2 },
-                                { text: "to", start: 15.2, end: 15.5 },
-                                { text: "stop", start: 15.5, end: 15.8 },
-                                { text: "it", start: 15.8, end: 16.1 },
-                                { text: "and", start: 16.1, end: 16.4 },
-                                { text: "be", start: 16.4, end: 16.7 },
-                                { text: "kind.", start: 16.7, end: 17.4 },
-                            ],
-                        },
-
-                        {
-                            start: 19.5,
-                            end: 25,
-                            words: [
-                                { text: "We", start: 9.0, end: 9.3 },
-                                { text: "are", start: 9.0, end: 9.3 },
-                                { text: "not", start: 9.3, end: 9.6 },
-                                { text: "going", start: 9.6, end: 9.9 },
-                                { text: "to", start: 9.9, end: 10.2 },
-                                { text: "laugh", start: 10.2, end: 10.5 },
-                                { text: "at", start: 10.5, end: 10.8 },
-                                { text: "other", start: 10.8, end: 11.1 },
-                                { text: "people", start: 11.1, end: 11.4 },
-                                { text: "now", start: 11.4, end: 11.7 },
-
-                                { text: "and", start: 9.0, end: 9.3 },
-                                { text: "were", start: 9.3, end: 9.6 },
-                                { text: "going", start: 9.6, end: 9.9 },
-                                { text: "to", start: 9.9, end: 10.2 },
-                                { text: "stop", start: 10.2, end: 10.5 },
-                                { text: "it", start: 10.5, end: 10.8 },
-                                { text: "and", start: 10.8, end: 11.1 },
-                                { text: "be", start: 11.1, end: 11.4 },
-                                { text: "kind.", start: 11.4, end: 11.7 },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    url: u4l2_vid6,
-                    subtitles: [],
-                },
-            ],
-            cloudPositions: {
-                0: [],
-                1: [
-                    { top: "15%", left: "70%", isFlipped: true },
-                ],
-                2: [
-                    { top: "10%", right: "20%", isFlipped: true },
-                ],
-                3: [
-                    { top: "10%", left: "25%", isFlipped: true },
-                    { top: "10%", right: "30%", isFlipped: false },
-                    { top: "10%", right: "20%", isFlipped: false },
-                ],
-                4: [
-                    { top: "15%", left: "65%", isFlipped: true },
-                    { top: "15%", left: "65%", isFlipped: true },
-                    { top: "15%", left: "25%", isFlipped: true },
-                ],
-                5: [
-                ],
+        {
+          url: u2l1_vid2,
+          subtitles: [
+            {
+              start: 6.96,
+              end: 7.46,
+              words: [{ text: "Hey!", start: 6.96, end: 7.46 }],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0,
-                    end: 1.8,
-                    words: [
-                        { text: "Peter", start: 0.4, end: 0.7 },
-                        { text: "finds", start: 0.7, end: 1.0 },
-                        { text: "spelling", start: 1.0, end: 1.4 },
-                        { text: "difficult.", start: 1.4, end: 1.8 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 1.8,
-                    end: 7.0,
-                    words: [
-                        { text: "This", start: 3.2, end: 3.5 },
-                        { text: "week", start: 3.5, end: 3.8 },
-                        { text: "he", start: 3.8, end: 4.1 },
-                        { text: "gets", start: 4.1, end: 4.4 },
-                        { text: "all", start: 4.4, end: 4.7 },
-                        { text: "the", start: 4.7, end: 5.0 },
-                        { text: "spelling", start: 5.0, end: 5.3 },
-                        { text: "words", start: 5.3, end: 5.6 },
-                        { text: "wrong", start: 5.6, end: 5.9 },
-                        { text: "in", start: 5.9, end: 6.2 },
-                        { text: "the", start: 6.2, end: 6.5 },
-                        { text: "test.", start: 6.5, end: 6.8 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 7.0,
-                    end: 10.4,
-                    words: [
-                        { text: "The", start: 7.0, end: 7.3 },
-                        { text: "children", start: 7.3, end: 7.6 },
-                        { text: "sitting", start: 7.6, end: 7.9 },
-                        { text: "next", start: 7.9, end: 8.2 },
-                        { text: "to", start: 8.2, end: 8.5 },
-                        { text: "Peter", start: 8.5, end: 8.8 },
-                        { text: "are", start: 8.8, end: 9.1 },
-                        { text: "not", start: 9.1, end: 9.4 },
-                        { text: "being", start: 9.4, end: 9.7 },
-                        { text: "kind.", start: 9.7, end: 10.0 },
-                    ],
-                },
-
-                {
-                    videoIndex: 1,
-                    start: 10.8,
-                    end: 12.0,
-                    words: [
-                        { text: "They", start: 11.0, end: 11.3 },
-                        { text: "are", start: 11.3, end: 11.6 },
-                        { text: "laughing.", start: 11.6, end: 11.9 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 12.0,
-                    end: 15.0,
-                    words: [
-                        { text: "One", start: 12.4, end: 12.7 },
-                        { text: "boy", start: 12.7, end: 13.0 },
-                        { text: "even", start: 13.0, end: 13.3 },
-                        { text: "calls", start: 13.3, end: 13.6 },
-                        { text: "him", start: 13.6, end: 13.9 },
-                        { text: "names.", start: 13.9, end: 14.8 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 15.8,
-                    end: 18.8,
-                    words: [
-                        { text: "Rose", start: 16.0, end: 16.3 },
-                        { text: "notices", start: 16.3, end: 16.6 },
-                        { text: "what", start: 16.6, end: 16.9 },
-                        { text: "is", start: 16.9, end: 17.2 },
-                        { text: "happening", start: 17.2, end: 17.5 },
-                        { text: "and", start: 17.5, end: 17.8 },
-                        { text: "doesn’t", start: 17.8, end: 18.1 },
-                        { text: "like", start: 18.1, end: 18.4 },
-                        { text: "it.", start: 18.4, end: 18.7 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 18.8,
-                    end: 20.8,
-                    words: [
-                        { text: "She", start: 19.0, end: 19.3 },
-                        { text: "thinks,", start: 19.3, end: 20.0 },
-                    ],
-                },
-
-                {
-                    videoIndex: 1,
-                    start: 25.8,
-                    end: 27.6,
-                    words: [
-                        { text: "She", start: 25.4, end: 25.7 },
-                        { text: "knows", start: 25.7, end: 26.0 },
-                        { text: "she", start: 26.0, end: 26.3 },
-                        { text: "should", start: 26.3, end: 26.6 },
-                        { text: "tell", start: 26.6, end: 26.9 },
-                        { text: "the", start: 26.9, end: 27.2 },
-                        { text: "teacher,", start: 27.2, end: 27.5 },
-                    ],
-                },
-                {
-                    videoIndex: 1,
-                    start: 27.6,
-                    end: 34.0,
-                    words: [
-                        { text: "but", start: 28.8, end: 29.1 },
-                        { text: "she", start: 29.1, end: 29.4 },
-                        { text: "doesn’t", start: 29.4, end: 29.7 },
-                        { text: "want", start: 29.7, end: 30.0 },
-                        { text: "to", start: 30.0, end: 30.3 },
-                        { text: "become", start: 30.3, end: 30.6 },
-                        { text: "known", start: 30.6, end: 30.9 },
-                        { text: "in", start: 30.9, end: 31.2 },
-                        { text: "the", start: 31.2, end: 31.5 },
-                        { text: "class", start: 31.5, end: 31.8 },
-                        { text: "as", start: 31.8, end: 32.1 },
-                        { text: "the", start: 32.1, end: 32.4 },
-                        { text: "girl", start: 32.4, end: 32.7 },
-                        { text: "who", start: 32.7, end: 33.0 },
-                        { text: "always", start: 33.0, end: 33.3 },
-                        { text: "tells", start: 33.3, end: 33.6 },
-                        { text: "tales.", start: 33.6, end: 33.9 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 0,
-                    end: 5.2,
-                    words: [
-                        { text: "Rose", start: 0.0, end: 0.3 },
-                        { text: "is", start: 0.3, end: 0.6 },
-                        { text: "scared", start: 0.6, end: 0.9 },
-                        { text: "that", start: 0.9, end: 1.2 },
-                        { text: "if", start: 1.2, end: 1.5 },
-                        { text: "she", start: 1.5, end: 1.8 },
-                        { text: "tells", start: 1.8, end: 2.1 },
-                        { text: "the", start: 2.1, end: 2.4 },
-                        { text: "teacher", start: 2.4, end: 2.7 },
-                        { text: "the", start: 2.7, end: 3.0 },
-                        { text: "other", start: 3.0, end: 3.3 },
-                        { text: "children", start: 3.3, end: 3.6 },
-                        { text: "will", start: 3.6, end: 3.8 },
-                        { text: "make", start: 3.8, end: 4.0 },
-                        { text: "fun", start: 4.0, end: 4.2 },
-                        { text: "of", start: 4.2, end: 4.4 },
-                        { text: "her", start: 4.4, end: 4.6 },
-                        { text: "too.", start: 4.6, end: 4.8 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 5.2,
-                    end: 9.6,
-                    words: [
-                        { text: "She", start: 5.4, end: 5.7 },
-                        { text: "thinks", start: 5.7, end: 6.0 },
-                        { text: "about", start: 6.0, end: 6.3 },
-                        { text: "how", start: 6.3, end: 6.6 },
-                        { text: "Peter", start: 6.6, end: 6.9 },
-                        { text: "must", start: 6.9, end: 7.2 },
-                        { text: "be", start: 7.2, end: 7.5 },
-                        { text: "feeling", start: 7.5, end: 7.8 },
-                        { text: "and", start: 7.8, end: 8.1 },
-                        { text: "decides", start: 8.1, end: 8.4 },
-                        { text: "to", start: 8.4, end: 8.7 },
-                        { text: "help", start: 8.7, end: 9.0 },
-                        { text: "him.", start: 9.0, end: 9.3 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-
-                    start: 9.6,
-                    end: 11.5,
-                    words: [
-                        { text: "She", start: 9.7, end: 10.0 },
-                        { text: "raises", start: 10.0, end: 10.3 },
-                        { text: "her", start: 10.3, end: 10.6 },
-                        { text: "hand.", start: 10.6, end: 10.9 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 12.5,
-                    end: 15.6,
-                    words: [
-                        { text: "Rose", start: 13.2, end: 13.5 },
-                        { text: "tells", start: 13.5, end: 13.8 },
-                        { text: "the", start: 13.8, end: 14.1 },
-                        { text: "teacher", start: 14.1, end: 14.4 },
-                        { text: "what", start: 14.4, end: 14.7 },
-                        { text: "is", start: 14.7, end: 15.0 },
-                        { text: "happening.", start: 15.0, end: 15.3 },
-                    ],
-                },
-                {
-                    videoIndex: 2,
-                    start: 24.8,
-                    end: 27.8,
-                    words: [
-                        { text: "speaking", start: 24.8, end: 25.1 },
-                        { text: "to", start: 25.1, end: 25.4 },
-                        { text: "the", start: 25.4, end: 25.7 },
-                        { text: "children", start: 25.7, end: 26.0 },
-                        { text: "who", start: 26.0, end: 26.3 },
-                        { text: "were", start: 26.3, end: 26.6 },
-                        { text: "being", start: 26.6, end: 26.9 },
-                        { text: "mean.", start: 26.9, end: 27.2 },
-                    ],
-                },
-                {
-                    videoIndex: 3,
-                    start: 0,
-                    end: 2.0,
-                    words: [
-                        { text: "In", start: 0.2, end: 0.5 },
-                        { text: "the", start: 0.5, end: 0.8 },
-                        { text: "playground,", start: 0.8, end: 1.1 },
-                        { text: "Peter", start: 1.1, end: 1.4 },
-                        { text: "says,", start: 1.4, end: 1.7 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 0,
-                    end: 5.6,
-                    words: [
-                        { text: "Then", start: 0.2, end: 0.5 },
-                        { text: "something", start: 0.5, end: 0.8 },
-                        { text: "surprising", start: 0.8, end: 1.1 },
-                        { text: "happens.", start: 1.1, end: 2.4 },
-                        { text: "Josh", start: 3.2, end: 3.5 },
-                        { text: "and", start: 3.5, end: 3.8 },
-                        { text: "Anya", start: 3.8, end: 4.1 },
-                        { text: "walk", start: 4.1, end: 4.4 },
-                        { text: "towards", start: 4.4, end: 4.7 },
-                        { text: "Rose.", start: 4.7, end: 5.0 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 6.0,
-                    end: 7.0,
-                    words: [
-                        { text: "Josh", start: 6.2, end: 6.5 },
-                        { text: "says,", start: 6.5, end: 6.8 },
-                    ],
-                },
-                {
-                    videoIndex: 4,
-                    start: 18.6,
-                    end: 21.8,
-                    words: [
-                        { text: "Josh", start: 19.1, end: 19.4 },
-                        { text: "and", start: 19.4, end: 19.7 },
-                        { text: "Anya", start: 19.7, end: 20.0 },
-                        { text: "say", start: 20.0, end: 20.3 },
-                        { text: "sorry", start: 20.3, end: 20.6 },
-                        { text: "to", start: 20.6, end: 20.9 },
-                        { text: "Peter", start: 20.9, end: 21.2 },
-                        { text: "for", start: 21.2, end: 21.5 },
-                        { text: "laughing.", start: 21.5, end: 21.8 },
-                    ],
-                },
-                {
-                    videoIndex: 5,
-                    start: 0,
-                    end: 2.5,
-                    words: [
-                        { text: "The", start: 0.2, end: 0.5 },
-                        { text: "children", start: 0.5, end: 0.8 },
-                        { text: "play", start: 0.8, end: 1.1 },
-                        { text: "together.", start: 1.1, end: 2.4 },
-                    ],
-                },
-                {
-                    videoIndex: 5,
-                    start: 2.8,
-                    end: 7.5,
-                    words: [
-                        { text: "Rose", start: 2.9, end: 3.2 },
-                        { text: "is", start: 3.2, end: 3.4 },
-                        { text: "glad", start: 3.4, end: 3.7 },
-                        { text: "that", start: 3.7, end: 3.9 },
-                        { text: "she", start: 3.9, end: 4.1 },
-                        { text: "helped", start: 4.1, end: 4.4 },
-                        { text: "Peter", start: 4.4, end: 4.7 },
-                        { text: "and", start: 4.7, end: 4.9 },
-                        { text: "she", start: 4.9, end: 5.1 },
-                        { text: "helped", start: 5.1, end: 5.4 },
-                        { text: "the", start: 5.4, end: 5.6 },
-                        { text: "other", start: 5.6, end: 5.8 },
-                        { text: "children", start: 5.8, end: 6.0 },
-                        { text: "be", start: 6.0, end: 6.2 },
-                        { text: "kind.", start: 6.2, end: 6.4 },
-                    ],
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 4,
-                instruction: [
-                    "Highlight the sentence that shows what Josh and Anya learned about kindness and bullying."
-                ],
-                correctWords: [
-                    "we", "are", "not", "going", "to", "laugh", "at", "other", "people", "now",
-                    "and", "were", "stop", "it", "be", "kind",
-                ],
-            },
-            quiz: {
-                image: u4l2_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "Why did Rose need the teacher’s help?",
-                        options: ["To stop Peter from being bullied.", "To help her on the spelling test.", "To help Peter with his spelling test."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "Why was Rose scared to tell the teacher?",
-                        options: ["She was scared of the other children.", "She was scared of the spelling test.", "She was scared about not going outside."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "What happened at the end of the story?",
-                        options: ["Josh and Anya apologised to Peter.", "Josh and Anya continued to bully Peter.", "Josh and Anya ignored Peter."],
-                        correctAnswer: "0"
-                    }
-                ]
-            },
-            feedback: {
-                image: u4l2_F1
-            }
+          ],
         },
-        "3": {
-            videos: [
-                {
-                    url: u4l3_vid1,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u4l3_vid2,
-                    subtitles: [
-                    ]
-                },
-                {
-                    url: u4l3_vid3,
-                    subtitles: [
-                        {
-                            start: 14.0, end: 18.0,
-                            words: [
-                                { text: "Jasmine!", start: 14.0, end: 16.3 },
-                                { text: "Congratulations,", start: 16.3, end: 16.6 },
-                                { text: "Jasmine!", start: 16.6, end: 17.5 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u4l3_vid4,
-                    subtitles: [
-                        {
-                            start: 21.0, end: 23.5,
-                            words: [
-
-                                { text: "‘Congratulations", start: 21.5, end: 21.8 },
-                                { text: "on", start: 21.8, end: 22.1 },
-                                { text: "winning", start: 22.1, end: 22.4 },
-                                { text: "class", start: 22.4, end: 22.7 },
-                                { text: "president.’", start: 22.7, end: 23.0 },
-                            ]
-                        },
-                        {
-                            start: 24.0, end: 25.0,
-                            words: [
-                                { text: "Thank", start: 24.2, end: 24.5 },
-                                { text: "you.", start: 24.5, end: 24.8 },
-                            ]
-                        },
-                        {
-                            start: 25.0, end: 26.8,
-                            words: [
-                                { text: "I", start: 25.0, end: 25.3 },
-                                { text: "am", start: 25.3, end: 25.6 },
-                                { text: "surprised", start: 25.6, end: 25.9 },
-                                { text: "I", start: 25.9, end: 26.2 },
-                                { text: "won.", start: 26.2, end: 26.5 },
-                            ]
-                        },
-                        {
-                            start: 26.8, end: 29.2,
-                            words: [
-                                { text: "Your", start: 26.8, end: 27.1 },
-                                { text: "presentation", start: 27.1, end: 27.4 },
-                                { text: "was", start: 27.4, end: 27.7 },
-                                { text: "much", start: 27.7, end: 28.0 },
-                                { text: "better", start: 28.0, end: 28.3 },
-                                { text: "than", start: 28.3, end: 28.6 },
-                                { text: "mine.", start: 28.6, end: 29.2 },
-                            ]
-                        },
-                        {
-                            start: 29.8, end: 31.9,
-                            words: [
-                                { text: "I", start: 30.1, end: 30.4 },
-                                { text: "find", start: 30.4, end: 30.7 },
-                                { text: "making", start: 30.7, end: 31.0 },
-                                { text: "presentations", start: 31.0, end: 31.3 },
-                                { text: "hard.", start: 31.3, end: 31.6 },
-                            ]
-                        },
-                        {
-                            start: 32.0, end: 40.0,
-                            words: [
-
-                                { text: "Congratulations", start: 21.5, end: 21.8 },
-                                { text: "on", start: 21.8, end: 22.1 },
-                                { text: "winning", start: 22.1, end: 22.4 },
-                                { text: "class", start: 22.4, end: 22.7 },
-                                { text: "president.", start: 22.7, end: 23.0 },
-                            ]
-                        },
-                    ]
-                },
-                {
-                    url: u4l3_vid5,
-                    subtitles: [
-                        {
-                            start: 2.4, end: 10.8,
-                            words: [
-                                { text: "If", start: 2.4, end: 2.7 },
-                                { text: "you", start: 2.7, end: 3.0 },
-                                { text: "want,", start: 3.0, end: 3.3 },
-                                { text: "I", start: 3.3, end: 3.6 },
-                                { text: "can", start: 3.6, end: 3.9 },
-                                { text: "help", start: 3.9, end: 4.2 },
-                                { text: "you", start: 4.2, end: 4.5 },
-                                { text: "make", start: 4.5, end: 4.8 },
-                                { text: "your", start: 4.8, end: 5.1 },
-                                { text: "presentations.", start: 5.1, end: 5.4 },
-                                { text: "It’s", start: 7.0, end: 7.3 },
-                                { text: "something", start: 7.3, end: 7.6 },
-                                { text: "I", start: 7.6, end: 7.9 },
-                                { text: "find", start: 7.9, end: 8.2 },
-                                { text: "easy", start: 8.2, end: 8.5 },
-                                { text: "and", start: 8.5, end: 8.8 },
-                                { text: "I", start: 8.8, end: 9.1 },
-                                { text: "would", start: 9.1, end: 9.4 },
-                                { text: "like", start: 9.4, end: 9.7 },
-                                { text: "to", start: 9.7, end: 10.0 },
-                                { text: "help", start: 10.0, end: 10.3 },
-                                { text: "you.", start: 10.3, end: 10.6 },
-
-
-
-                            ]
-                        },
-                        {
-                            start: 10.8, end: 13.8,
-                            words: [
-                                { text: "That’s", start: 10.8, end: 11.1 },
-                                { text: "so", start: 11.1, end: 11.4 },
-                                { text: "kind", start: 11.4, end: 11.7 },
-                                { text: "Derrick.", start: 11.7, end: 12.0 },
-                                { text: "I", start: 12.0, end: 12.3 },
-                                { text: "would", start: 12.3, end: 12.6 },
-                                { text: "really", start: 12.6, end: 12.9 },
-                                { text: "like", start: 12.9, end: 13.2 },
-                                { text: "that.", start: 13.2, end: 13.5 },
-
-
-                            ]
-                        },
-                    ]
-                },
-            ],
-            cloudPositions: {
-
-                0: [
-                ],
-
-                1: [
-                ],
-
-                2: [
-                    { top: '20%', right: '10%', isFlipped: true },
-
-                ],
-
-                3: [
-                    { bottom: '63%', left: '70%', isFlipped: true },
-                    { top: '10%', left: '30%', isFlipped: true },
-                    { top: '10%', left: '35%', isFlipped: true },
-                    { top: '10%', left: '32%', isFlipped: true },
-                    { top: '10%', left: '30%', isFlipped: true },
-                    { top: '30%', left: '30%' },
-                ],
-
-                4: [
-                    { bottom: '30%', left: '50%' },
-                    { bottom: '30%', left: '60%', isFlipped: true },
-                ],
+        {
+          url: u2l1_vid3,
+          subtitles: [
+            {
+              start: 9.84,
+              end: 12.0,
+              words: [
+                { text: "Don’t", start: 9.84, end: 10.079 },
+                { text: "you", start: 10.119, end: 10.279 },
+                { text: "care", start: 10.46, end: 10.76 },
+                { text: "about", start: 10.859, end: 11.039 },
+                { text: "the", start: 11.079, end: 11.259 },
+                { text: "circus?", start: 11.319, end: 12.0 },
+              ],
             },
-            extraBubblesData: [
-                {
-                    videoIndex: 1,
-                    start: 0, end: 7.8,
-                    words: [
-                        { text: "Jasmine", start: 0.2, end: 0.5 },
-                        { text: "and", start: 0.5, end: 0.8 },
-                        { text: "Derrick", start: 0.8, end: 1.1 },
-                        { text: "are", start: 1.1, end: 1.4 },
-                        { text: "making", start: 1.4, end: 1.7 },
-                        { text: "posters", start: 1.7, end: 2.0 },
-                        { text: "and", start: 2.0, end: 2.3 },
-                        { text: "getting", start: 2.3, end: 2.6 },
-                        { text: "their", start: 2.6, end: 2.9 },
-                        { text: "presentations", start: 2.9, end: 3.2 },
-                        { text: "ready.", start: 3.2, end: 4.0 },
-                        { text: "They", start: 5.0, end: 5.3 },
-                        { text: "are", start: 5.3, end: 5.6 },
-                        { text: "both", start: 5.6, end: 5.9 },
-                        { text: "hoping", start: 5.9, end: 6.2 },
-                        { text: "to", start: 6.2, end: 6.5 },
-                        { text: "become", start: 6.5, end: 6.8 },
-                        { text: "class", start: 6.8, end: 7.1 },
-                        { text: "president.", start: 7.1, end: 7.4 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 8.0, end: 11.8,
-                    words: [
-                        { text: "The", start: 8.0, end: 8.3 },
-                        { text: "other", start: 8.3, end: 8.6 },
-                        { text: "children", start: 8.6, end: 8.9 },
-                        { text: "and", start: 8.9, end: 9.2 },
-                        { text: "teachers", start: 9.2, end: 9.5 },
-                        { text: "will", start: 9.5, end: 9.8 },
-                        { text: "vote", start: 9.8, end: 10.1 },
-                        { text: "for", start: 10.1, end: 10.4 },
-                        { text: "the", start: 10.4, end: 10.7 },
-                        { text: "person", start: 10.7, end: 11.0 },
-                        { text: "they", start: 11.0, end: 11.3 },
-                        { text: "want.", start: 11.3, end: 11.6 },
-                    ]
-                },
-                {
-                    videoIndex: 1,
-                    start: 11.8, end: 20.0,
-                    words: [
-                        { text: "Derrick", start: 13.2, end: 13.5 },
-                        { text: "and", start: 13.5, end: 13.8 },
-                        { text: "Jasmine", start: 13.8, end: 14.1 },
-                        { text: "are", start: 14.1, end: 14.4 },
-                        { text: "both", start: 14.4, end: 14.7 },
-                        { text: "working", start: 14.7, end: 15.0 },
-                        { text: "very", start: 15.0, end: 15.3 },
-                        { text: "hard", start: 15.3, end: 15.6 },
-                        { text: "and", start: 15.6, end: 15.9 },
-                        { text: "they", start: 15.9, end: 16.2 },
-                        { text: "both", start: 16.2, end: 16.5 },
-                        { text: "want", start: 16.5, end: 16.8 },
-                        { text: "to", start: 16.8, end: 17.1 },
-                        { text: "win,", start: 17.1, end: 17.4 },
-                        { text: "but", start: 17.8, end: 18.2 },
-                        { text: "only", start: 18.2, end: 18.5 },
-                        { text: "one", start: 18.5, end: 18.8 },
-                        { text: "can", start: 18.8, end: 19.1 },
-                        { text: "win.", start: 19.1, end: 19.4 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 0, end: 4.5,
-                    words: [
-                        { text: "Derrick", start: 0.2, end: 0.5 },
-                        { text: "is", start: 0.5, end: 0.8 },
-                        { text: "looking", start: 0.8, end: 1.1 },
-                        { text: "at", start: 1.1, end: 1.4 },
-                        { text: "the", start: 1.4, end: 1.7 },
-                        { text: "teacher", start: 1.7, end: 2.0 },
-                        { text: "and", start: 2.0, end: 2.3 },
-                        { text: "he", start: 2.3, end: 2.6 },
-                        { text: "is", start: 2.6, end: 2.9 },
-                        { text: "worried", start: 2.9, end: 3.2 },
-                        { text: "he", start: 3.2, end: 3.5 },
-                        { text: "won’t", start: 3.5, end: 3.8 },
-                        { text: "win.", start: 3.8, end: 4.1 },
-
-
-
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 4.5, end: 14.0,
-                    words: [
-                        { text: "It", start: 4.7, end: 5.0 },
-                        { text: "was", start: 5.0, end: 5.3 },
-                        { text: "very", start: 5.3, end: 5.6 },
-                        { text: "close,", start: 5.6, end: 5.9 },
-                        { text: "but", start: 6.5, end: 6.8 },
-                        { text: "the", start: 6.8, end: 7.1 },
-                        { text: "person", start: 7.1, end: 7.4 },
-                        { text: "with", start: 7.4, end: 7.7 },
-                        { text: "the", start: 7.7, end: 8.0 },
-                        { text: "most", start: 8.0, end: 8.3 },
-                        { text: "votes", start: 8.3, end: 8.6 },
-                        { text: "is…’", start: 8.6, end: 9.9 },
-                        { text: "Derrick", start: 11.0, end: 11.3 },
-                        { text: "holds", start: 11.3, end: 11.6 },
-                        { text: "his", start: 11.6, end: 11.9 },
-                        { text: "breath.", start: 11.9, end: 12.2 },
-                        { text: "He", start: 12.2, end: 12.5 },
-                        { text: "really", start: 12.5, end: 12.8 },
-                        { text: "wants", start: 12.8, end: 13.1 },
-                        { text: "to", start: 13.1, end: 13.4 },
-                        { text: "win.", start: 13.4, end: 13.7 },
-                    ]
-                },
-                {
-                    videoIndex: 2,
-                    start: 18.0, end: 24.1,
-                    words: [
-                        { text: "Jasmine", start: 18.9, end: 19.2 },
-                        { text: "walks", start: 19.2, end: 19.5 },
-                        { text: "to", start: 19.5, end: 19.8 },
-                        { text: "the", start: 19.8, end: 20.1 },
-                        { text: "front", start: 20.1, end: 20.4 },
-                        { text: "of", start: 20.4, end: 20.7 },
-                        { text: "the", start: 20.7, end: 21.0 },
-                        { text: "class", start: 21.0, end: 21.3 },
-                        { text: "and", start: 21.3, end: 21.6 },
-                        { text: "shakes", start: 21.6, end: 21.9 },
-                        { text: "the", start: 21.9, end: 22.2 },
-                        { text: "teacher’s", start: 22.2, end: 22.5 },
-                        { text: "hand.", start: 22.5, end: 22.8 },
-                        { text: "She", start: 22.8, end: 23.1 },
-                        { text: "looks", start: 23.1, end: 23.4 },
-                        { text: "very", start: 23.4, end: 23.7 },
-                        { text: "happy.", start: 23.7, end: 24.0 },
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 0, end: 10.3,
-                    words: [
-                        { text: "Derrick", start: 0.2, end: 0.5 },
-                        { text: "feels", start: 0.5, end: 0.8 },
-                        { text: "very", start: 0.8, end: 1.1 },
-                        { text: "upset.", start: 1.1, end: 1.4 },
-                        { text: "He", start: 2.9, end: 3.2 },
-                        { text: "feels", start: 3.2, end: 3.5 },
-                        { text: "his", start: 3.5, end: 3.8 },
-                        { text: "face", start: 3.8, end: 4.1 },
-                        { text: "turns", start: 4.1, end: 4.4 },
-                        { text: "red.", start: 4.4, end: 4.7 },
-                        { text: "But", start: 4.7, end: 5.0 },
-                        { text: "he", start: 5.0, end: 5.3 },
-                        { text: "doesn’t", start: 5.3, end: 5.6 },
-                        { text: "want", start: 5.6, end: 5.9 },
-                        { text: "to", start: 5.9, end: 6.2 },
-                        { text: "be", start: 6.2, end: 6.5 },
-                        { text: "a", start: 6.5, end: 6.8 },
-                        { text: "sore", start: 6.8, end: 7.1 },
-                        { text: "loser", start: 7.1, end: 7.4 },
-                        { text: "and", start: 7.4, end: 7.7 },
-                        { text: "throw", start: 7.7, end: 8.0 },
-                        { text: "a", start: 8.0, end: 8.3 },
-                        { text: "tantrum.", start: 8.3, end: 8.6 },
-                        { text: "Derrick", start: 8.6, end: 8.9 },
-                        { text: "takes", start: 8.9, end: 9.2 },
-                        { text: "a", start: 9.2, end: 9.5 },
-                        { text: "deep", start: 9.5, end: 9.8 },
-                        { text: "breath.", start: 9.8, end: 10.1 },
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 12.0, end: 16.3,
-                    words: [
-                        { text: "He", start: 12.8, end: 13.1 },
-                        { text: "knows", start: 13.1, end: 13.4 },
-                        { text: "he", start: 13.4, end: 13.7 },
-                        { text: "should", start: 13.7, end: 14.0 },
-                        { text: "show", start: 14.0, end: 14.3 },
-                        { text: "good", start: 14.3, end: 14.6 },
-                        { text: "sportsmanship", start: 14.6, end: 14.9 },
-                        { text: "and", start: 14.9, end: 15.2 },
-                        { text: "congratulate", start: 15.2, end: 15.5 },
-                        { text: "Jasmine.", start: 15.5, end: 15.8 },
-                    ]
-                },
-                {
-                    videoIndex: 3,
-                    start: 16.3, end: 20.5,
-                    words: [
-                        { text: "At", start: 18.2, end: 18.5 },
-                        { text: "playtime", start: 18.5, end: 18.8 },
-                        { text: "he", start: 18.8, end: 19.1 },
-                        { text: "found", start: 19.1, end: 19.4 },
-                        { text: "her", start: 19.4, end: 19.7 },
-                        { text: "on", start: 19.7, end: 20.0 },
-                        { text: "the", start: 20.0, end: 20.3 },
-                        { text: "playground,", start: 20.3, end: 20.6 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 0, end: 2.4,
-                    words: [
-                        { text: "At", start: 0.2, end: 0.5 },
-                        { text: "the", start: 0.5, end: 0.8 },
-                        { text: "end", start: 0.8, end: 1.1 },
-                        { text: "of", start: 1.1, end: 1.4 },
-                        { text: "school,", start: 1.4, end: 1.7 },
-                        { text: "he", start: 1.7, end: 1.9 },
-                        { text: "says", start: 1.9, end: 2.1 },
-                        { text: "to", start: 2.1, end: 2.3 },
-                        { text: "her,", start: 2.3, end: 2.4 },
-                    ]
-                },
-                {
-                    videoIndex: 4,
-                    start: 15.0, end: 21.0,
-                    words: [
-                        { text: "Derrick", start: 15.7, end: 16.0 },
-                        { text: "feels", start: 16.0, end: 16.3 },
-                        { text: "good,", start: 16.3, end: 16.6 },
-                        { text: "and", start: 16.6, end: 16.9 },
-                        { text: "he", start: 16.9, end: 17.2 },
-                        { text: "enjoys", start: 17.2, end: 17.5 },
-                        { text: "helping", start: 17.5, end: 17.8 },
-                        { text: "Jasmine.", start: 17.8, end: 18.1 },
-                        { text: "Derrick", start: 19.0, end: 19.3 },
-                        { text: "is", start: 19.3, end: 19.6 },
-                        { text: "happy", start: 19.6, end: 19.9 },
-                        { text: "he", start: 19.9, end: 20.2 },
-                        { text: "helped", start: 20.2, end: 20.5 },
-                        { text: "Jasmine.", start: 20.5, end: 20.8 },
-                    ]
-                },
-            ],
-            interactiveTask: {
-                videoIndex: 3,
-                instruction: [
-                    "Highlight the sentence that shows Derrick demonstrating good sportsmanship despite feeling upset."
-                ],
-                correctWords: [
-                    "congratulations", "on", "winning", "class", "president"
-                ],
-            },
-            quiz: {
-                image: u4l3_Q1,
-                questions: [
-                    {
-                        id: 'Q1',
-                        text: "Why did Derrick feel upset?",
-                        options: ["He didn’t win the class president vote.", "Jasmine’s presentation was better than his.", "His poster ripped."],
-                        correctAnswer: "0"
-                    },
-                    {
-                        id: 'Q2',
-                        text: "Why did Derrick not throw a tantrum?",
-                        options: ["Because his teacher would be angry.", "He did not want to be a sore loser.", "He did not want his friends to see him mad."],
-                        correctAnswer: "1"
-                    },
-                    {
-                        id: 'Q3',
-                        text: "How did Derrick show good sportsmanship to   Jasmine?",
-                        options: ["He threw a tantrum.", "He congratulated Jasmine.", "He ignored her."],
-                        correctAnswer: "1"
-                    }
-                ]
-            },
-            feedback: {
-                image: u4l3_F1
-            }
+          ],
         },
-    }
+        {
+          url: u2l1_vid4,
+          subtitles: [
+            {
+              start: 0.239,
+              end: 1.5,
+              words: [
+                { text: "I", start: 0.239, end: 0.359 },
+                { text: "am", start: 0.419, end: 0.519 },
+                { text: "happy,", start: 0.659, end: 0.939 },
+                { text: "it’s", start: 1.059, end: 1.24 },
+                { text: "just...", start: 1.299, end: 1.5 },
+              ],
+            },
+
+            {
+              start: 4.339,
+              end: 8.239,
+              words: [
+                { text: "It’s", start: 4.339, end: 4.519 },
+                { text: "just", start: 4.579, end: 4.719 },
+                { text: "that", start: 4.759, end: 4.859 },
+                { text: "I", start: 5.0, end: 5.019 },
+                { text: "feel", start: 5.139, end: 5.279 },
+                { text: "uncomfortable", start: 5.339, end: 5.94 },
+                { text: "when", start: 6.0, end: 6.099 },
+                { text: "someone", start: 6.179, end: 6.419 },
+                { text: "stands", start: 6.519, end: 6.879 },
+                { text: "too", start: 6.98, end: 7.099 },
+                { text: "closely", start: 7.219, end: 7.639 },
+                { text: "next", start: 7.699, end: 7.919 },
+                { text: "to", start: 8.0, end: 8.059 },
+                { text: "me.", start: 8.119, end: 8.239 },
+              ],
+            },
+
+            {
+              start: 11.239,
+              end: 11.96,
+              words: [
+                { text: "You’re", start: 11.239, end: 11.479 },
+                { text: "right!", start: 11.559, end: 11.96 },
+              ],
+            },
+
+            {
+              start: 12.559,
+              end: 14.38,
+              words: [
+                { text: "I’m", start: 12.559, end: 12.699 },
+                { text: "standing", start: 12.92, end: 13.479 },
+                { text: "too", start: 13.559, end: 13.72 },
+                { text: "close.", start: 13.859, end: 14.38 },
+              ],
+            },
+            {
+              start: 14.88,
+              end: 17.299,
+              words: [
+                { text: "And", start: 14.88, end: 14.96 },
+                { text: "I", start: 15.059, end: 15.199 },
+                { text: "squeeze", start: 15.279, end: 15.92 },
+                { text: "too", start: 15.979, end: 16.159 },
+                { text: "tight", start: 16.319, end: 16.559 },
+                { text: "when", start: 16.6, end: 16.719 },
+                { text: "I", start: 16.859, end: 16.92 },
+                { text: "hug.", start: 17.0, end: 17.299 },
+              ],
+            },
+
+            {
+              start: 18.479,
+              end: 22.5,
+              words: [
+                { text: "Sorry,", start: 18.479, end: 18.899 },
+                { text: "I’m", start: 19.42, end: 19.5 },
+                { text: "just", start: 19.559, end: 19.719 },
+                { text: "so", start: 19.76, end: 19.879 },
+                { text: "excited", start: 19.979, end: 20.5 },
+                { text: "to", start: 20.52, end: 20.7 },
+                { text: "talk", start: 20.76, end: 21.039 },
+                { text: "to", start: 21.1, end: 21.18 },
+                { text: "you", start: 21.239, end: 21.399 },
+                { text: "about", start: 21.479, end: 21.719 },
+                { text: "the", start: 21.739, end: 21.859 },
+                { text: "circus.", start: 21.92, end: 22.5 },
+              ],
+            },
+
+            {
+              start: 27.639,
+              end: 34.939,
+              words: [
+                { text: "That’s okay", start: 27.639, end: 28.319 },
+                { text: "I", start: 29.119, end: 29.139 },
+                { text: "just", start: 29.219, end: 29.52 },
+                { text: "don’t", start: 29.559, end: 29.78 },
+                { text: "like", start: 29.819, end: 29.959 },
+                { text: "hugging", start: 30.039, end: 30.319 },
+                { text: "as", start: 30.379, end: 30.5 },
+                { text: "much", start: 30.539, end: 30.719 },
+                { text: "as", start: 30.76, end: 30.899 },
+                { text: "you", start: 30.979, end: 31.139 },
+                { text: "but", start: 32.0, end: 32.079 },
+                { text: "I’m", start: 32.159, end: 32.319 },
+                { text: "really", start: 32.619, end: 33.099 },
+                { text: "excited", start: 33.18, end: 33.56 },
+                { text: "about", start: 33.639, end: 33.84 },
+                { text: "the", start: 33.88, end: 33.979 },
+                { text: "circus.", start: 34.04, end: 34.939 },
+              ],
+            },
+
+            {
+              start: 35.059,
+              end: 38.099,
+              words: [
+                { text: "Let’s", start: 35.059, end: 35.34 },
+                { text: "ask", start: 35.419, end: 35.68 },
+                { text: "our", start: 35.759, end: 35.899 },
+                { text: "mums", start: 35.959, end: 36.259 },
+                { text: "if", start: 36.319, end: 36.439 },
+                { text: "we", start: 36.5, end: 36.599 },
+                { text: "can", start: 36.639, end: 36.759 },
+                { text: "buy", start: 36.819, end: 36.9 },
+                { text: "tickets", start: 37.0, end: 37.299 },
+                { text: "and", start: 37.319, end: 37.439 },
+                { text: "go", start: 37.479, end: 37.56 },
+                { text: "together!", start: 37.599, end: 38.099 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u2l1_vid5,
+          subtitles: [
+            {
+              start: 8.0,
+              end: 12.0,
+              words: [
+                { text: "Molly", start: 12.8, end: 13.1 },
+                { text: "is", start: 13.1, end: 13.8 },
+                { text: "glad", start: 13.8, end: 14.2 },
+                { text: "that", start: 14.2, end: 14.7 },
+                { text: "Emma", start: 15.5, end: 15.9 },
+                { text: "told", start: 16.3, end: 17.5 },
+                { text: "her", start: 16.3, end: 17.5 },
+                { text: "how", start: 17.5, end: 17.8 },
+                { text: "she", start: 17.8, end: 18.1 },
+                { text: "feels", start: 18.1, end: 18.6 },
+                { text: "about", start: 18.1, end: 18.6 },
+                { text: "her", start: 18.6, end: 18.9 },
+                { text: "personal", start: 18.6, end: 18.9 },
+                { text: "space.", start: 18.9, end: 19.2 },
+              ],
+            },
+          ],
+        },
+      ],
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0.079,
+          end: 2.059,
+          words: [
+            { text: "Molly", start: 0.079, end: 0.419 },
+            { text: "is", start: 0.459, end: 0.56 },
+            { text: "excited", start: 0.599, end: 1.059 },
+            { text: "to", start: 1.1, end: 1.199 },
+            { text: "see", start: 1.24, end: 1.299 },
+            { text: "her", start: 1.319, end: 1.48 },
+            { text: "friend", start: 1.519, end: 1.74 },
+            { text: "Emma.", start: 1.799, end: 2.059 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 2.579,
+          end: 5.879,
+          words: [
+            { text: "She", start: 2.579, end: 2.679 },
+            { text: "wants", start: 2.72, end: 2.899 },
+            { text: "to", start: 2.919, end: 3.059 },
+            { text: "talk", start: 3.079, end: 3.24 },
+            { text: "to", start: 3.319, end: 3.419 },
+            { text: "her", start: 3.46, end: 3.559 },
+            { text: "about", start: 3.639, end: 3.839 },
+            { text: "the", start: 3.859, end: 3.899 },
+            { text: "circus", start: 4.019, end: 4.5 },
+            { text: "that", start: 4.559, end: 4.639 },
+            { text: "is", start: 4.679, end: 4.779 },
+            { text: "coming", start: 4.819, end: 5.079 },
+            { text: "to", start: 5.099, end: 5.199 },
+            { text: "town", start: 5.239, end: 5.46 },
+            { text: "tomorrow.", start: 5.5, end: 5.879 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 6.96,
+          end: 11.96,
+          words: [
+            { text: "Molly", start: 8.039, end: 8.34 },
+            { text: "shouts,", start: 8.46, end: 8.939 },
+            { text: "jumping", start: 9.38, end: 9.819 },
+            { text: "up", start: 9.899, end: 10.039 },
+            { text: "and", start: 10.159, end: 10.32 },
+            { text: "hugging", start: 10.399, end: 10.72 },
+            { text: "her", start: 10.8, end: 11.0 },
+            { text: "friend", start: 11.079, end: 11.5 },
+            { text: "tight.", start: 11.559, end: 11.96 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 12.819,
+          end: 14.159,
+          words: [
+            { text: "Molly", start: 12.819, end: 13.1 },
+            { text: "loves", start: 13.199, end: 13.599 },
+            { text: "hugs!", start: 13.679, end: 14.159 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 15.199,
+          end: 20.459,
+          words: [
+            { text: "Emma", start: 15.199, end: 15.5 },
+            { text: "likes", start: 15.559, end: 15.839 },
+            { text: "hugs", start: 15.899, end: 16.159 },
+            { text: "sometimes,", start: 16.219, end: 16.879 },
+            { text: "but", start: 17.539, end: 17.739 },
+            { text: "this", start: 17.799, end: 17.959 },
+            { text: "hug", start: 18.02, end: 18.18 },
+            { text: "is", start: 18.219, end: 18.399 },
+            { text: "too", start: 18.42, end: 18.639 },
+            { text: "tight", start: 18.719, end: 19.1 },
+            { text: "and", start: 19.159, end: 19.379 },
+            { text: "feels", start: 19.439, end: 19.68 },
+            { text: "uncomfortable.", start: 19.76, end: 20.459 },
+          ],
+        },
+
+        {
+          videoIndex: 2,
+          start: 0,
+          end: 1.24,
+          words: [
+            { text: "Something", start: 0.079, end: 0.419 },
+            { text: "doesn’t", start: 0.479, end: 0.779 },
+            { text: "feel", start: 0.819, end: 1.019 },
+            { text: "right.", start: 1.12, end: 1.24 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 2.5,
+          end: 5.359,
+          words: [
+            { text: "Molly", start: 2.5, end: 2.799 },
+            { text: "knows", start: 2.839, end: 3.119 },
+            { text: "Emma", start: 3.22, end: 3.439 },
+            { text: "loves", start: 3.5, end: 3.699 },
+            { text: "the", start: 3.74, end: 3.839 },
+            { text: "circus", start: 3.879, end: 4.259 },
+            { text: "as", start: 4.319, end: 4.46 },
+            { text: "much", start: 4.48, end: 4.659 },
+            { text: "as", start: 4.679, end: 4.779 },
+            { text: "she", start: 4.819, end: 4.96 },
+            { text: "does,", start: 5.019, end: 5.359 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 6.179,
+          end: 8.479,
+          words: [
+            { text: "but", start: 6.179, end: 6.299 },
+            { text: "Emma", start: 6.399, end: 6.619 },
+            { text: "isn’t", start: 6.679, end: 6.96 },
+            { text: "smiling", start: 7.039, end: 7.639 },
+            { text: "or", start: 7.699, end: 7.819 },
+            { text: "talking", start: 7.839, end: 8.159 },
+            { text: "to", start: 8.179, end: 8.279 },
+            { text: "her.", start: 8.34, end: 8.479 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 13.739,
+          end: 17.399,
+          words: [
+            { text: "Molly", start: 13.739, end: 14.079 },
+            { text: "can’t", start: 14.119, end: 14.319 },
+            { text: "understand", start: 14.34, end: 14.9 },
+            { text: "why", start: 14.979, end: 15.119 },
+            { text: "Emma", start: 15.239, end: 15.539 },
+            { text: "isn’t", start: 15.619, end: 15.98 },
+            { text: "as", start: 16.039, end: 16.139 },
+            { text: "excited", start: 16.18, end: 16.7 },
+            { text: "as", start: 16.739, end: 16.899 },
+            { text: "she", start: 16.92, end: 17.1 },
+            { text: "is.", start: 17.18, end: 17.399 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 2.599,
+          end: 4.339,
+          words: [
+            { text: "Emma", start: 2.599, end: 2.839 },
+            { text: "takes", start: 2.899, end: 3.139 },
+            { text: "a", start: 3.199, end: 3.24 },
+            { text: "deep", start: 3.399, end: 3.699 },
+            { text: "breath,", start: 3.74, end: 3.959 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 8.92,
+          end: 11.239,
+          words: [
+            { text: "Molly", start: 8.92, end: 9.159 },
+            { text: "smiles", start: 9.26, end: 9.779 },
+            { text: "and", start: 9.939, end: 10.059 },
+            { text: "moves", start: 10.119, end: 10.42 },
+            { text: "back.", start: 10.5, end: 10.779 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 24.359,
+          end: 27.639,
+          words: [
+            { text: "Emma", start: 24.359, end: 24.539 },
+            { text: "smiles", start: 24.659, end: 25.219 },
+            { text: "and", start: 25.279, end: 25.479 },
+            { text: "laughs", start: 25.539, end: 26.139 },
+            { text: "with", start: 26.159, end: 26.299 },
+            { text: "her", start: 26.359, end: 26.52 },
+            { text: "friend.", start: 26.559, end: 26.92 },
+          ],
+        },
+
+        {
+  videoIndex: 4,
+  start: 0.159,
+  end: 4.159,
+  words: [
+    { text: "Molly", start: 0.159, end: 0.379 },
+    { text: "is", start: 0.399, end: 0.56 },
+    { text: "glad", start: 0.639, end: 0.959 },
+    { text: "that", start: 1.019, end: 1.159 },
+    { text: "Emma", start: 1.22, end: 1.439 },
+    { text: "told", start: 1.48, end: 1.719 },
+    { text: "her", start: 1.74, end: 1.899 },
+    { text: "how", start: 1.919, end: 2.139 },
+    { text: "she", start: 2.139, end: 2.359 },
+    { text: "feels", start: 2.419, end: 2.72 },
+    { text: "about", start: 2.799, end: 3.039 },
+    { text: "her", start: 3.059, end: 3.22 },
+    { text: "personal", start: 3.259, end: 3.759 },
+    { text: "space.", start: 3.759, end: 4.159 },
+  ],
+},
+{
+  videoIndex: 4,
+  start: 5.019,
+  end: 8.999,
+  words: [
+    { text: "Emma", start: 5.019, end: 5.239 },
+    { text: "is", start: 5.279, end: 5.46 },
+    { text: "happy", start: 5.539, end: 6.019 },
+    { text: "that", start: 6.059, end: 6.179 },
+    { text: "Molly", start: 6.219, end: 6.48 },
+    { text: "listened", start: 6.519, end: 7.139 },
+    { text: "to", start: 7.159, end: 7.239 },
+    { text: "how", start: 7.299, end: 7.519 },
+    { text: "she", start: 7.539, end: 7.759 },
+    { text: "felt.", start: 7.779, end: 8.999 },
+  ],
+}
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [
+          { top: "15%", left: "10%" },
+          { top: "15%", left: "15%" },
+          { top: "5%", left: "30%" },
+          { top: "0%", left: "40%" },
+          { top: "15%", left: "15%" },
+          { top: "15%", left: "15%" },
+        ],
+
+        2: [
+          { top: "10%", right: "5%", isFlipped: true },
+          { top: "10%", right: "5%", isFlipped: true },
+          { top: "10%", right: "5%", isFlipped: true },
+          { top: "5%", right: "45%" },
+          { top: "60%", right: "35%" },
+          { top: "10%", right: "35%" },
+          { top: "10%", right: "35%" },
+          { top: "1%", left: "35%" },
+        ],
+
+        3: [
+          { bottom: "80%", left: "10%" },
+          { top: "10%", left: "35%", isFlipped: true },
+          { top: "10%", left: "30%" },
+          { top: "10%", left: "15%" },
+          { top: "20%", left: "15%" },
+          { top: "10%", left: "20%" },
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "10%", left: "60%", isFlipped: true },
+        ],
+
+        4: [
+          { top: "10%", left: "35%" },
+          { top: "5%", left: "35%" },
+          { top: "5%", left: "55%", isFlipped: true },
+          { top: "15%", left: "75%", isFlipped: true },
+          { top: "25%", left: "10%" },
+          { top: "25%", left: "15%" },
+        ],
+        5: [],
+        6: [],
+      },
+      interactiveTask: {
+        videoIndex: 4,
+        instruction: [
+          "Highlight how Molly shows that she",
+          "cares about Emma’s feelings.",
+        ],
+        correctWords: [
+          "molly",
+          "is",
+          "glad",
+          "that",
+          "emma",
+          "told",
+          "her",
+          "how",
+          "she",
+          "feels",
+          "about",
+          "her",
+          "personal",
+          "space",
+        ],
+      },
+      quiz: {
+        image: u2l1_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "How did Emma feel about Molly’s hug?",
+            options: ["Happy", "Uncomfortable", "Angry"],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q2",
+            text: "What did Emma say about Molly’s hug?",
+            options: [
+              "‘…I feel uncomfortable…’",
+              "‘Hey!’",
+              "‘I’m standing too close.’",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What did Molly learn about Emma’s feelings?",
+            options: [
+              "Emma squeezes too tight when she hugs.",
+              "Emma likes tight hugs.",
+              "Emma doesn’t like hugging as much as Molly.",
+            ],
+            correctAnswer: "2",
+          },
+        ],
+      },
+      feedback: {
+        image: u2l1_F1,
+      },
+    },
+    2: {
+      videos: [
+        {
+          url: u2l2_vid1,
+          subtitles: [],
+        },
+
+        {
+          url: u2l2_vid2,
+          subtitles: [],
+        },
+
+        {
+          url: u2l2_vid3,
+          subtitles: [
+           {
+      start: 0.15,
+      end: 0.74,
+      words: [
+        { text: "Noah!", start: 0.159, end: 0.74 },
+      ],
+    },
+
+
+           {
+      start: 1.25,
+      end: 5.76,
+      words: [
+        { text: "Play", start: 1.259, end: 1.48 },
+        { text: "football", start: 1.599, end: 1.839 },
+        { text: "in", start: 1.86, end: 1.939 },
+        { text: "the", start: 1.959, end: 2.0 },
+        { text: "garden,", start: 2.059, end: 2.339 },
+        { text: "I'm", start: 2.399, end: 2.539 },
+        { text: "working", start: 2.579, end: 2.98 },
+        { text: "in", start: 3.039, end: 3.179 },
+        { text: "here.", start: 3.24, end: 3.48 },
+        { text: "You", start: 3.639, end: 3.74 },
+        { text: "know", start: 3.779, end: 3.919 },
+        { text: "you're", start: 3.98, end: 4.099 },
+        { text: "not", start: 4.159, end: 4.239 },
+        { text: "allowed", start: 4.279, end: 4.539 },
+        { text: "to", start: 4.559, end: 4.639 },
+        { text: "play", start: 4.659, end: 4.779 },
+        { text: "football", start: 4.859, end: 5.059 },
+        { text: "in", start: 5.099, end: 5.159 },
+        { text: "the", start: 5.199, end: 5.259 },
+        { text: "kitchen.", start: 5.319, end: 5.759 },
+      ],
+    },
+
+           {
+      start: 6.82,
+      end: 10.68,
+      words: [
+        { text: "It's", start: 6.819, end: 7.019 },
+        { text: "too", start: 7.079, end: 7.299 },
+        { text: "cold", start: 7.399, end: 7.739 },
+        { text: "in", start: 7.779, end: 7.859 },
+        { text: "the", start: 7.879, end: 7.98 },
+        { text: "garden,", start: 8.039, end: 8.619 },
+        { text: "I'm", start: 9.539, end: 9.72 },
+        { text: "staying", start: 9.76, end: 10.199 },
+        { text: "here.", start: 10.279, end: 10.679 },
+      ],
+    },
+
+            {
+              start: 23.979,
+              end: 35.859,
+              words: [
+                  { text: "He", start: 23.979, end: 24.1 },
+        { text: "wants", start: 24.119, end: 24.399 },
+        { text: "to", start: 24.399, end: 24.479 },
+        { text: "yell", start: 24.559, end: 24.68 },
+        { text: "at", start: 24.719, end: 24.799 },
+        { text: "his", start: 24.84, end: 25.0 },
+        { text: "brother,", start: 25.019, end: 25.279 },
+        { text: "but", start: 25.779, end: 25.92 },
+        { text: "he", start: 25.959, end: 26.1 },
+        { text: "begins", start: 26.119, end: 26.559 },
+        { text: "to", start: 26.599, end: 26.719 },
+        { text: "take", start: 26.76, end: 27.02 },
+        { text: "deep", start: 27.059, end: 27.26 },
+        { text: "breaths", start: 27.319, end: 28.0 },
+        { text: "and", start: 28.059, end: 28.2 },
+        { text: "gets", start: 28.219, end: 28.459 },
+        { text: "himself", start: 28.479, end: 29.059 },
+        { text: "a", start: 29.119, end: 29.199 },
+        { text: "glass", start: 29.239, end: 29.6 },
+        { text: "of", start: 29.619, end: 29.739 },
+        { text: "water", start: 29.819, end: 30.299 },
+        { text: "to", start: 30.319, end: 30.44 },
+        { text: "drink.", start: 30.479, end: 30.859 },
+              ],
+            },
+          ],
+        },
+
+        {
+          url: u2l2_vid4,
+          subtitles: [
+            {
+              start: 0.179,
+              end: 3.279 ,
+              words: [
+                   { text: "It", start: 0.179, end: 0.28 },
+        { text: "makes", start: 0.319, end: 0.519 },
+        { text: "me", start: 0.56, end: 0.659 },
+        { text: "angry", start: 0.74, end: 1.059 },
+        { text: "when", start: 1.1, end: 1.199 },
+        { text: "I", start: 1.199, end: 1.299 },
+        { text: "ask", start: 1.36, end: 1.519 },
+        { text: "you", start: 1.559, end: 1.639 },
+        { text: "to", start: 1.679, end: 1.779 },
+        { text: "do", start: 1.799, end: 1.979 },
+        { text: "something", start: 2.019, end: 2.359 },
+        { text: "and", start: 2.399, end: 2.5 },
+        { text: "you", start: 2.539, end: 2.619 },
+        { text: "ignore", start: 2.7, end: 3.059 },
+        { text: "me.", start: 3.119, end: 3.279 },
+              ],
+            },
+
+            {
+              start: 4.0,
+              end: 6.319,
+              words: [
+                { text: "I", start: 4.0, end: 4.019 },
+        { text: "was", start: 4.019, end: 4.159 },
+        { text: "asking", start: 4.219, end: 4.519 },
+        { text: "you", start: 4.539, end: 4.639 },
+        { text: "to", start: 4.659, end: 4.739 },
+        { text: "stop", start: 4.88, end: 5.119 },
+        { text: "so", start: 5.179, end: 5.279 },
+        { text: "that", start: 5.299, end: 5.4 },
+        { text: "this", start: 5.44, end: 5.599 },
+        { text: "doesn't", start: 5.619, end: 5.92 },
+        { text: "happen.", start: 6.0, end: 6.319 },
+              ],
+            },
+  {
+      start: 7.34,
+      end: 8.40,
+      words: [
+        { text: "Noah", start: 7.339, end: 7.559 },
+        { text: "starts", start: 7.619, end: 7.899 },
+        { text: "to", start: 7.899, end: 8.0 },
+        { text: "cry.", start: 8.039, end: 8.399 },
+      ],
+    },
+            {
+              start: 9.719,
+              end: 11.319,
+              words: [
+                  { text: "I'm", start: 9.719, end: 10.039 },
+        { text: "so", start: 10.139, end: 10.5 },
+        { text: "sorry.", start: 10.76, end: 11.319 },
+              ],
+            },
+
+            {
+              start: 11.679,
+              end: 14.319,
+              words: [
+                   { text: "I", start: 11.679, end: 11.699 },
+        { text: "should", start: 11.8, end: 11.899 },
+        { text: "have", start: 11.939, end: 12.039 },
+        { text: "listened", start: 12.119, end: 12.44 },
+        { text: "to", start: 12.46, end: 12.6 },
+        { text: "you", start: 12.639, end: 12.759 },
+        { text: "and", start: 12.799, end: 12.96 },
+        { text: "played", start: 13.019, end: 13.44 },
+        { text: "outside.", start: 13.5, end: 14.319 },
+              ],
+            },
+
+            {
+              start: 14.699,
+              end: 16.859,
+              words: [
+                { text: "I'm", start: 14.699, end: 15.02 },
+        { text: "sorry", start: 15.059, end: 15.4 },
+        { text: "about", start: 15.5, end: 15.72 },
+        { text: "your", start: 15.779, end: 16.0 },
+        { text: "homework.", start: 16.02, end: 16.859 },
+              ],
+            },
+
+            {
+              start: 19.06,
+      end: 19.64,
+      words: [
+        { text: "It's", start: 19.059, end: 19.239 },
+        { text: "okay.", start: 19.299, end: 19.639 },
+      ],
+            },
+          ],
+        },
+
+        {
+          url: u2l2_vid5,
+          subtitles: [],
+        },
+
+        {
+          url: u2l2_vid6,
+          subtitles: [],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [],
+
+        2: [
+          { top: "10%", left: "10%" },
+          { top: "15%", left: "5%" },
+          { top: "10%", left: "10%" },
+          { top: "10%", right: "40%" },
+        ],
+
+        3: [
+          { bottom: "50%", left: "60%", isFlipped: true },
+          { top: "33%", left: "60%", isFlipped: true },
+          { top: "60%", left: "30%" },
+          { top: "50%", left: "60%", isFlipped: true },
+          { top: "50%", left: "70%", isFlipped: true },
+          { top: "10%", left: "50%", isFlipped: true },
+        ],
+
+        4: [],
+        5: [],
+      },
+      extraBubblesData: [
+      {
+  videoIndex: 1,
+  start: 0.179,
+  end: 3.759,
+  words: [
+    { text: "Liam", start: 0.179, end: 0.56 },
+    { text: "and", start: 0.62, end: 0.759 },
+    { text: "Noah", start: 0.819, end: 1.179 },
+    { text: "are", start: 1.199, end: 1.359 },
+    { text: "brothers.", start: 1.379, end: 1.86 },
+    { text: "They", start: 2.619, end: 2.72 },
+    { text: "are", start: 2.74, end: 2.859 },
+    { text: "at", start: 2.899, end: 3.079 },
+    { text: "home.", start: 3.119, end: 3.759 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 3.859,
+  end: 5.619,
+  words: [
+    { text: "Liam", start: 3.859, end: 4.179 },
+    { text: "is", start: 4.219, end: 4.38 },
+    { text: "busy", start: 4.4, end: 4.579 },
+    { text: "doing", start: 4.659, end: 4.859 },
+    { text: "his", start: 4.9, end: 5.079 },
+    { text: "homework.", start: 5.079, end: 5.619 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 6.119,
+  end: 11.859,
+  words: [
+    { text: "It", start: 6.119, end: 6.239 },
+    { text: "is", start: 6.279, end: 6.48 },
+    { text: "difficult", start: 6.5, end: 7.059 },
+    { text: "and", start: 7.099, end: 7.179 },
+    { text: "is", start: 7.199, end: 7.359 },
+    { text: "taking", start: 7.379, end: 7.799 },
+    { text: "a", start: 7.839, end: 8.019 },
+    { text: "long", start: 8.079, end: 8.399 },
+    { text: "time.", start: 8.479, end: 8.859 },
+    { text: "His", start: 9.84, end: 9.96 },
+    { text: "little", start: 10.0, end: 10.179 },
+    { text: "brother,", start: 10.319, end: 10.559 },
+    { text: "Noah,", start: 10.739, end: 11.139 },
+    { text: "is", start: 11.199, end: 11.46 },
+    { text: "bored.", start: 11.519, end: 11.859 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 12.42,
+  end: 14.259,
+  words: [
+    { text: "He", start: 12.42, end: 12.479 },
+    { text: "is", start: 12.519, end: 12.72 },
+    { text: "kicking", start: 12.759, end: 13.039 },
+    { text: "a", start: 13.059, end: 13.139 },
+    { text: "ball", start: 13.179, end: 13.42 },
+    { text: "around", start: 13.5, end: 13.699 },
+    { text: "the", start: 13.719, end: 13.779 },
+    { text: "kitchen.", start: 13.819, end: 14.259 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 14.819,
+  end: 16.02,
+  words: [
+    { text: "Their", start: 14.819, end: 15.02 },
+    { text: "mum", start: 15.059, end: 15.259 },
+    { text: "is", start: 15.299, end: 15.4 },
+    { text: "in", start: 15.439, end: 15.52 },
+    { text: "the", start: 15.539, end: 15.599 },
+    { text: "garden.", start: 15.659, end: 16.02 },
+  ],
+},
+
+        {
+          videoIndex: 2,
+         start: 11.58,
+      end: 16.34,
+      words: [
+        { text: "Noah", start: 11.579, end: 11.84 },
+        { text: "kicks", start: 11.88, end: 12.119 },
+        { text: "the", start: 12.159, end: 12.219 },
+        { text: "ball", start: 12.259, end: 12.44 },
+        { text: "again", start: 12.519, end: 12.939 },
+        { text: "and", start: 12.979, end: 13.06 },
+        { text: "it", start: 13.099, end: 13.159 },
+        { text: "hits", start: 13.219, end: 13.439 },
+        { text: "Liam's", start: 13.519, end: 13.779 },
+        { text: "glass", start: 13.819, end: 14.039 },
+        { text: "of", start: 14.079, end: 14.199 },
+        { text: "milk", start: 14.259, end: 14.659 },
+        { text: "and", start: 14.719, end: 14.8 },
+        { text: "it", start: 14.839, end: 15.0 },
+        { text: "spills", start: 15.039, end: 15.38 },
+        { text: "over", start: 15.439, end: 15.6 },
+        { text: "his", start: 15.659, end: 15.8 },
+        { text: "homework!", start: 15.819, end: 16.34 },
+      ],
+        },
+          {
+            videoIndex: 2,
+      start: 16.92,
+      end: 19.92,
+      words: [
+        { text: "Oh", start: 16.92, end: 16.979 },
+        { text: "no,", start: 17.159, end: 17.659 },
+        { text: "the", start: 18.399, end: 18.52 },
+        { text: "homework", start: 18.579, end: 19.079 },
+        { text: "is", start: 19.139, end: 19.36 },
+        { text: "ruined.", start: 19.42, end: 19.92 },
+      ],
+    },
+        {
+          videoIndex: 2,
+          start: 22.26,
+          end: 23.399,
+          words: [
+            { text: "Liam", start: 22.26, end: 22.579 },
+        { text: "feels", start: 22.619, end: 22.899 },
+        { text: "angry.", start: 23.0, end: 23.399 },
+          ],
+        },
+       
+
+      {
+  videoIndex: 3,
+  start: 31.68,
+  end: 33.02,
+  words: [
+    { text: "Liam", start: 31.679, end: 32.04 },
+    { text: "stays", start: 32.079, end: 32.559 },
+    { text: "calm.", start: 32.639, end: 33.02 },
+  ],
+},
+
+        {
+  videoIndex: 4,
+  start: 0.159,
+  end: 1.559,
+  words: [
+    { text: "Mum", start: 0.159, end: 0.399 },
+    { text: "comes", start: 0.439, end: 0.699 },
+    { text: "in", start: 0.719, end: 0.879 },
+    { text: "from", start: 0.899, end: 1.059 },
+    { text: "the", start: 1.059, end: 1.139 },
+    { text: "garden.", start: 1.179, end: 1.559 },
+  ],
+},
+      {
+  videoIndex: 4,
+  start: 2.319,
+  end: 5.859,
+  words: [
+    { text: "She", start: 2.319, end: 2.419 },
+    { text: "is", start: 2.46, end: 2.579 },
+    { text: "happy", start: 2.659, end: 2.939 },
+    { text: "that", start: 2.98, end: 3.099 },
+    { text: "Liam", start: 3.179, end: 3.439 },
+    { text: "calmed", start: 3.579, end: 3.799 },
+    { text: "himself", start: 3.799, end: 4.219 },
+    { text: "down", start: 4.239, end: 4.539 },
+    { text: "before", start: 4.559, end: 4.839 },
+    { text: "he", start: 4.859, end: 4.96 },
+    { text: "spoke", start: 5.019, end: 5.259 },
+    { text: "to", start: 5.279, end: 5.359 },
+    { text: "his", start: 5.359, end: 5.539 },
+    { text: "brother.", start: 5.559, end: 5.859 },
+  ],
+},
+
+       {
+  videoIndex: 5,
+  start: 0.219,
+  end: 2.519,
+  words: [
+    { text: "Noah", start: 0.219, end: 0.459 },
+    { text: "puts", start: 0.5, end: 0.679 },
+    { text: "his", start: 0.699, end: 0.819 },
+    { text: "coat", start: 0.859, end: 1.1 },
+    { text: "on", start: 1.179, end: 1.439 },
+    { text: "and", start: 1.48, end: 1.599 },
+    { text: "plays", start: 1.62, end: 1.86 },
+    { text: "in", start: 1.919, end: 1.979 },
+    { text: "the", start: 2.019, end: 2.079 },
+    { text: "garden.", start: 2.119, end: 2.519 },
+  ],
+},
+      {
+  videoIndex: 5,
+  start: 3.339,
+  end: 5.099,
+  words: [
+    { text: "Mum", start: 3.339, end: 3.5 },
+    { text: "helps", start: 3.559, end: 3.799 },
+    { text: "Liam", start: 3.839, end: 4.059 },
+    { text: "do", start: 4.139, end: 4.239 },
+    { text: "his", start: 4.299, end: 4.4 },
+    { text: "report", start: 4.46, end: 4.799 },
+    { text: "again.", start: 4.88, end: 5.099 },
+  ],
+},
+       {
+  videoIndex: 5,
+  start: 5.9,
+  end: 8.179,
+  words: [
+    { text: "With", start: 5.9, end: 6.0 },
+    { text: "Mum’s", start: 6.059, end: 6.299 },
+    { text: "help,", start: 6.339, end: 6.599 },
+    { text: "it", start: 7.019, end: 7.119 },
+    { text: "doesn’t", start: 7.159, end: 7.439 },
+    { text: "take", start: 7.48, end: 7.659 },
+    { text: "very", start: 7.739, end: 7.919 },
+    { text: "long.", start: 8.0, end: 8.179 },
+  ],
+},
+       {
+  videoIndex: 5,
+  start: 9.46,
+  end: 11.159,
+  words: [
+    { text: "Liam", start: 9.46, end: 9.679 },
+    { text: "is", start: 9.719, end: 9.8 },
+    { text: "happy", start: 9.939, end: 10.199 },
+    { text: "he", start: 10.279, end: 10.4 },
+    { text: "spoke", start: 10.46, end: 10.699 },
+    { text: "calmly.", start: 10.779, end: 11.159 },
+  ],
+},
+      ],
+      interactiveTask: {
+        videoIndex: 2,
+        instruction: [
+          "Highlight how Liam stays calm after Noah",
+          "spills his milk.",
+        ],
+        correctWords: [
+          "he",
+          "begins",
+          "take",
+          "deep",
+          "breaths",
+          "and",
+          "gets",
+          "himself",
+          "a",
+          "glass",
+          "of",
+          "water",
+          "to",
+          "drink",
+        ],
+      },
+      quiz: {
+        image: u2l2_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "What made Liam angry?",
+            options: [
+              "His brother Noah ignored him.",
+              "His brother was in the kitchen.",
+              "He had to work outside in the garden.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "What did Liam do to keep calm?",
+            options: [
+              "He yelled at his brother.",
+              "He had a glass of water.",
+              "He told his mom what happened.",
+            ],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q3",
+            text: "How did Liam speak to his brother?",
+            options: ["Calmly", "Angrily", "Happily"],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u2l2_F1,
+      },
+    },
+    3: {
+      videos: [
+        {
+          url: u2l3_vid1,
+          subtitles: [],
+        },
+      {
+  url: u2l3_vid2,
+  subtitles: [
+    {
+      start: 12.799,
+      end: 14.699,
+      words: [
+        { text: "Wow!", start: 12.799, end: 13.199 },
+        { text: "Thank", start: 13.46, end: 13.719 },
+        { text: "you.", start: 13.779, end: 13.88 },
+        { text: "I", start: 13.939, end: 14.079 },
+        { text: "love", start: 14.159, end: 14.379 },
+        { text: "them.", start: 14.42, end: 14.699 },
+      ],
+    },
+  ],
+},
+        {
+          url: u2l3_vid3,
+          subtitles: [],
+        },
+
+        {
+          url: u2l3_vid4,
+  subtitles: [
+    {
+      start: 12.679,
+      end: 18.00,
+      words: [
+        { text: "I", start: 12.679, end: 12.819 },
+        { text: "am", start: 12.88, end: 13.06 },
+        { text: "ready", start: 13.099, end: 13.319 },
+        { text: "to", start: 13.319, end: 13.48 },
+        { text: "try", start: 13.5, end: 13.779 },
+        { text: "again.", start: 13.939, end: 14.239 },
+      ],
+    },
+  ],
+        },
+
+       {
+  url: u2l3_vid5,
+  subtitles: [
+    {
+      start: 9.0,
+      end: 12.219,
+      words: [
+        { text: "I", start: 9.0, end: 9.159 },
+        { text: "am", start: 9.199, end: 9.38 },
+        { text: "just", start: 9.439, end: 9.6 },
+        { text: "getting", start: 9.619, end: 9.9 },
+        { text: "started!", start: 9.96, end: 10.5 },
+        { text: "I'm", start: 11.139, end: 11.26 },
+        { text: "going", start: 11.279, end: 11.46 },
+        { text: "to", start: 11.46, end: 11.539 },
+        { text: "keep", start: 11.579, end: 11.739 },
+        { text: "trying.", start: 11.779, end: 12.219 },
+      ],
+    },
+  ],
+},
+      ],
+      cloudPositions: {
+        0: [],
+        1: [{ top: "15%", left: "50%", isFlipped: true }],
+        2: [],
+        3: [{ bottom: "60%", left: "10%" }],
+        4: [{ top: "20%", left: "50%", transform: "translateX(-50%)" }],
+      },
+      extraBubblesData: [
+        {
+  videoIndex: 1,
+  start: 0.159,
+  end: 4.099,
+  words: [
+    { text: "Jen", start: 0.159, end: 0.359 },
+    { text: "gets", start: 0.439, end: 0.599 },
+    { text: "a", start: 0.639, end: 0.68 },
+    { text: "pair", start: 0.719, end: 0.879 },
+    { text: "of", start: 0.919, end: 1.0 },
+    { text: "rollerblades", start: 1.059, end: 1.759 },
+    { text: "from", start: 2.059, end: 2.18 },
+    { text: "her", start: 2.24, end: 2.399 },
+    { text: "aunt", start: 2.46, end: 2.72 },
+    { text: "and", start: 2.759, end: 2.859 },
+    { text: "uncle", start: 2.939, end: 3.259 },
+    { text: "for", start: 3.299, end: 3.399 },
+    { text: "her", start: 3.439, end: 3.579 },
+    { text: "birthday.", start: 3.619, end: 4.099 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 5.159,
+  end: 8.519,
+  words: [
+    { text: "She", start: 5.159, end: 5.299 },
+    { text: "has", start: 5.359, end: 5.519 },
+    { text: "wanted", start: 5.559, end: 5.859 },
+    { text: "rollerblades", start: 5.98, end: 6.719 },
+    { text: "since", start: 6.899, end: 7.259 },
+    { text: "last", start: 7.779, end: 8.099 },
+    { text: "year.", start: 8.199, end: 8.519 },
+  ],
+},
+{
+  videoIndex: 1,
+  start: 9.34,
+  end: 10.939,
+  words: [
+    { text: "Jen", start: 9.34, end: 9.559 },
+    { text: "is", start: 9.639, end: 9.859 },
+    { text: "very", start: 10.059, end: 10.46 },
+    { text: "happy.", start: 10.5, end: 10.939 },
+  ],
+},
+
+        {
+  videoIndex: 2,
+  start: 2.98,
+  end: 7.799,
+  words: [
+    { text: "Jen", start: 2.98, end: 3.299 },
+    { text: "puts", start: 3.659, end: 3.859 },
+    { text: "them", start: 3.899, end: 4.019 },
+    { text: "on", start: 4.079, end: 4.259 },
+    { text: "and", start: 4.559, end: 4.659 },
+    { text: "goes", start: 4.739, end: 4.94 },
+    { text: "outside", start: 5.019, end: 5.579 },
+    { text: "to", start: 5.9, end: 6.019 },
+    { text: "practice", start: 6.079, end: 6.779 },
+    { text: "on", start: 6.879, end: 6.98 },
+    { text: "the", start: 7.059, end: 7.119 },
+    { text: "sidewalk.", start: 7.259, end: 7.799 },
+  ],
+},
+{
+  videoIndex: 2,
+  start: 8.599,
+  end: 11.34,
+  words: [
+    { text: "She", start: 8.599, end: 8.72 },
+    { text: "has", start: 8.779, end: 9.039 },
+    { text: "always", start: 9.139, end: 9.539 },
+    { text: "wanted", start: 9.639, end: 10.079 },
+    { text: "to", start: 10.139, end: 10.22 },
+    { text: "learn", start: 10.319, end: 10.539 },
+    { text: "how", start: 10.639, end: 10.8 },
+    { text: "to", start: 10.84, end: 10.92 },
+    { text: "skate.", start: 11.0, end: 11.34 },
+  ],
+},
+{
+  videoIndex: 2,
+  start: 12.199,
+  end: 14.859,
+  words: [
+    { text: "It", start: 12.199, end: 12.259 },
+    { text: "is", start: 12.34, end: 12.519 },
+    { text: "difficult", start: 12.579, end: 13.059 },
+    { text: "to", start: 13.119, end: 13.259 },
+    { text: "skate", start: 13.319, end: 13.639 },
+    { text: "for", start: 13.719, end: 13.779 },
+    { text: "the", start: 13.84, end: 13.939 },
+    { text: "first", start: 14.0, end: 14.399 },
+    { text: "time.", start: 14.5, end: 14.859 },
+  ],
+},
+{
+  videoIndex: 2,
+  start: 15.539,
+  end: 17.239,
+  words: [
+    { text: "Jen", start: 15.539, end: 15.939 },
+    { text: "keeps", start: 16.02, end: 16.34 },
+    { text: "falling", start: 16.539, end: 16.86 },
+    { text: "over.", start: 16.959, end: 17.239 },
+  ],
+},
+{
+  videoIndex: 2,
+  start: 18.02,
+  end: 19.259,
+  words: [
+    { text: "She", start: 18.02, end: 18.139 },
+    { text: "is", start: 18.219, end: 18.379 },
+    { text: "tired.", start: 18.76, end: 19.259 },
+  ],
+},
+{
+  videoIndex: 2,
+  start: 20.279,
+  end: 23.719,
+  words: [
+    { text: "She", start: 20.279, end: 20.459 },
+    { text: "sits", start: 20.52, end: 20.739 },
+    { text: "on", start: 20.779, end: 20.86 },
+    { text: "the", start: 20.899, end: 20.959 },
+    { text: "steps", start: 21.039, end: 21.459 },
+    { text: "and", start: 21.84, end: 22.059 },
+    { text: "takes", start: 22.139, end: 22.459 },
+    { text: "off", start: 22.5, end: 22.7 },
+    { text: "her", start: 22.819, end: 22.939 },
+    { text: "rollerblades.", start: 22.979, end: 23.719 },
+  ],
+},
+
+        {
+          videoIndex: 3,
+          start: 0,
+          end: 6.8,
+         words: [
+    { text: "Jen", start: 0.159, end: 0.439 },
+    { text: "knows", start: 0.56, end: 0.939 },
+    { text: "it", start: 1.12, end: 1.22 },
+    { text: "is", start: 1.279, end: 1.459 },
+    { text: "sometimes", start: 1.459, end: 2.099 },
+    { text: "difficult", start: 2.119, end: 2.639 },
+    { text: "to", start: 2.679, end: 2.74 },
+    { text: "learn", start: 2.839, end: 3.119 },
+    { text: "new", start: 3.179, end: 3.399 },
+    { text: "things", start: 3.46, end: 3.859 },
+    { text: "and", start: 4.139, end: 4.219 },
+    { text: "it", start: 4.259, end: 4.38 },
+    { text: "takes", start: 4.4, end: 4.719 },
+    { text: "effort", start: 4.779, end: 5.079 },
+    { text: "to", start: 5.119, end: 5.199 },
+    { text: "achieve", start: 5.339, end: 5.639 },
+    { text: "goals.", start: 5.699, end: 6.139 },
+  ],
+        },
+       {
+  videoIndex: 3,
+  start: 6.98,
+  end: 10.92,
+  words: [
+    { text: "Jen", start: 6.98, end: 7.259 },
+    { text: "sits", start: 7.319, end: 7.539 },
+    { text: "for", start: 7.579, end: 7.639 },
+    { text: "a", start: 7.719, end: 7.739 },
+    { text: "few", start: 7.779, end: 7.939 },
+    { text: "minutes.", start: 7.98, end: 8.699 },
+    { text: "She", start: 8.76, end: 8.92 },
+    { text: "finishes", start: 8.96, end: 9.38 },
+    { text: "her", start: 9.399, end: 9.539 },
+    { text: "piece", start: 9.579, end: 9.78 },
+    { text: "of", start: 9.8, end: 9.94 },
+    { text: "cake", start: 9.96, end: 10.219 },
+    { text: "and", start: 10.26, end: 10.36 },
+    { text: "lemonade.", start: 10.42, end: 10.92 },
+  ],
+},
+
+  
+        {
+  videoIndex: 4,
+  start: 0.179,
+  end: 4.699,
+  words: [
+    { text: "Jen’s", start: 0.179, end: 0.419 },
+    { text: "aunt", start: 0.479, end: 0.68 },
+    { text: "asks", start: 0.819, end: 1.059 },
+    { text: "her", start: 1.1, end: 1.179 },
+    { text: "if", start: 1.199, end: 1.279 },
+    { text: "she", start: 1.339, end: 1.439 },
+    { text: "is", start: 1.459, end: 1.579 },
+    { text: "done", start: 1.599, end: 1.819 },
+    { text: "practising", start: 1.839, end: 2.279 },
+    { text: "on", start: 2.319, end: 2.419 },
+    { text: "her", start: 2.48, end: 2.619 },
+    { text: "rollerblades", start: 2.659, end: 3.219 },
+    { text: "for", start: 3.259, end: 3.319 },
+    { text: "the", start: 3.359, end: 3.419 },
+    { text: "day.", start: 3.46, end: 4.699 },
+  ],
+},
+        
+{
+  videoIndex: 4,
+  start: 4.779,
+  end: 7.859,
+  words: [
+    { text: "Jen", start: 4.779, end: 5.079 },
+    { text: "looks", start: 5.119, end: 5.339 },
+    { text: "at", start: 5.359, end: 5.44 },
+    { text: "her", start: 5.5, end: 5.659 },
+    { text: "with", start: 5.739, end: 5.839 },
+    { text: "a", start: 6.059, end: 6.079 },
+    { text: "big", start: 6.119, end: 6.48 },
+    { text: "smile,", start: 6.599, end: 7.259 },
+    { text: "and", start: 7.299, end: 7.48 },
+    { text: "says", start: 7.559, end: 7.859 },
+  ],
+},
+      ],
+      interactiveTask: {
+        videoIndex: 3,
+        instruction: ["Highlight how Jen shows determination", "in the story."],
+        correctWords: ["i", "am", "ready", "to", "try", "again"],
+      },
+      quiz: {
+        image: u2l3_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "Who gave Jen her pair of roller skates?",
+            options: ["Her aunt and uncle", "Her grandparents", "Her friends"],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "What did Jen do when she kept falling over?",
+            options: [
+              "Sit for a few minutes and then kept trying.",
+              "Give up and quit.",
+              "Sit and think about what is for dinner.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What did Jen tell her aunt when she was practising?",
+            options: [
+              "I want a new toy.",
+              "‘More lemonade and cake please!’",
+              "‘I’m going to keep trying.’",
+            ],
+            correctAnswer: "2",
+          },
+        ],
+      },
+      feedback: {
+        image: u2l3_F1,
+      },
+    },
+  },
+  Three: {
+    1: {
+      videos: [
+        {
+          url: u3l1_vid1,
+          subtitles: [],
+        },
+        {
+          url: u3l1_vid2,
+          subtitles: [
+            {
+              start: 18.0,
+              end: 19.0,
+              words: [
+                { text: "Hello,", start: 18.0, end: 18.52 },
+                { text: "kids.", start: 18.52, end: 19.0 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l1_vid3,
+          subtitles: [
+            {
+              start: 3.0,
+              end: 6.0,
+              words: [
+                { text: "Our", start: 3.5, end: 4.02 },
+                { text: "parents", start: 4.03, end: 4.56 },
+                { text: "seem", start: 4.56, end: 4.92 },
+                { text: "tired", start: 4.92, end: 5.44 },
+                { text: "today.", start: 5.44, end: 5.86 },
+              ],
+            },
+            {
+              start: 6.0,
+              end: 8.9,
+              words: [
+                { text: "I", start: 6.7, end: 6.84 },
+                { text: "think", start: 6.84, end: 7.0 },
+                { text: "we", start: 7.0, end: 7.1 },
+                { text: "should", start: 7.1, end: 7.26 },
+                { text: "be", start: 7.26, end: 7.38 },
+                { text: "helping", start: 7.38, end: 7.7 },
+                { text: "more", start: 7.7, end: 7.9 },
+                { text: "around", start: 7.9, end: 8.12 },
+                { text: "the", start: 8.12, end: 8.22 },
+                { text: "house.", start: 8.22, end: 8.7 },
+              ],
+            },
+            {
+              start: 8.9,
+              end: 12.6,
+              words: [
+                { text: "They", start: 8.9, end: 9.02 },
+                { text: "do", start: 9.02, end: 9.28 },
+                { text: "so much", start: 9.28, end: 9.8 },
+                { text: "for", start: 9.8, end: 9.94 },
+                { text: "us,", start: 9.94, end: 9.9 },
+                { text: "we", start: 10.1, end: 10.28 },
+                { text: "need", start: 10.28, end: 10.44 },
+                { text: "to", start: 10.44, end: 10.54 },
+                { text: "use", start: 10.54, end: 10.68 },
+                { text: "some", start: 10.68, end: 10.86 },
+                { text: "of", start: 10.86, end: 10.96 },
+                { text: "our", start: 10.96, end: 11.14 },
+                { text: "free", start: 11.14, end: 11.36 },
+                { text: "time", start: 11.36, end: 11.66 },
+                { text: "too.", start: 11.66, end: 11.9 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l1_vid4,
+          subtitles: [
+            {
+              start: 0,
+              end: 1.66,
+              words: [
+                { text: "There", start: 0.0, end: 0.42 },
+                { text: "are", start: 0.42, end: 0.72 },
+                { text: "six", start: 0.72, end: 1.12 },
+                { text: "chores", start: 1.12, end: 1.5 },
+                { text: "here.", start: 1.5, end: 1.66 },
+              ],
+            },
+
+            {
+              start: 1.76,
+              end: 4.0,
+              words: [
+                { text: "That’s", start: 1.76, end: 2.1 },
+                { text: "three", start: 2.1, end: 2.46 },
+                { text: "each", start: 2.46, end: 2.74 },
+                { text: "if", start: 2.74, end: 2.9 },
+                { text: "we", start: 2.9, end: 3.12 },
+                { text: "share", start: 3.12, end: 3.42 },
+                { text: "them.", start: 3.42, end: 3.6 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l1_vid5,
+          subtitles: [
+            {
+              start: 23.62,
+              end: 25.86,
+              words: [
+                { text: "Wow!", start: 23.62, end: 24.18 },
+                { text: "Thank", start: 24.18, end: 24.76 },
+                { text: "you!", start: 24.76, end: 25.86 },
+              ],
+            },
+            {
+              start: 33.0,
+              end: 35.0,
+              words: [
+                { text: "They", start: 15.6, end: 15.9 },
+                { text: "start", start: 15.9, end: 16.2 },
+                { text: "to", start: 16.2, end: 16.5 },
+                { text: "do", start: 16.5, end: 16.8 },
+                { text: "their", start: 16.8, end: 17.1 },
+                { text: "chores", start: 17.1, end: 17.4 },
+                { text: "while", start: 17.4, end: 17.7 },
+                { text: "Mum", start: 17.7, end: 18.0 },
+                { text: "and", start: 18.0, end: 18.3 },
+                { text: "Dad", start: 18.3, end: 18.6 },
+                { text: "cook", start: 18.6, end: 18.9 },
+                { text: "dinner.", start: 18.9, end: 19.2 },
+              ],
+            },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [{ top: "15%", left: "70%", isFlipped: true }],
+
+        2: [
+          { top: "20%", right: "20%", isFlipped: true },
+          { top: "25%", left: "35%", isFlipped: true },
+          { top: "25%", left: "35%", isFlipped: true },
+        ],
+
+        3: [
+          { bottom: "75%", left: "15%" },
+          { top: "20%", left: "15%" },
+        ],
+
+        4: [
+          { top: "5%", left: "23%" },
+          { top: "5%", left: "25%", isFlipped: true },
+        ],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0,
+          end: 5.0,
+          words: [
+            { text: "Liz", start: 0.0, end: 0.42 },
+            { text: "and", start: 0.42, end: 0.58 },
+            { text: "Ryan", start: 0.58, end: 0.98 },
+            { text: "are", start: 0.98, end: 1.12 },
+            { text: "watching", start: 1.12, end: 1.5 },
+            { text: "TV", start: 1.5, end: 1.86 },
+            { text: "in the", start: 1.86, end: 2.1 },
+            { text: "living", start: 2.1, end: 2.34 },
+            { text: "room", start: 2.34, end: 2.52 },
+            { text: "at", start: 2.52, end: 2.64 },
+            { text: "home", start: 2.64, end: 3.2 },
+            { text: "while", start: 3.2, end: 3.34 },
+            { text: "their", start: 3.34, end: 3.48 },
+            { text: "mum", start: 3.48, end: 3.74 },
+            { text: "cooks", start: 3.74, end: 4.02 },
+            { text: "their", start: 4.02, end: 4.2 },
+            { text: "meal.", start: 4.2, end: 4.42 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 5.5,
+          end: 12.8,
+          words: [
+            { text: "Oh", start: 6.0, end: 7.12 },
+            { text: "Mum", start: 7.12, end: 7.32 },
+            { text: "is", start: 7.32, end: 7.54 },
+            { text: "tired,", start: 7.54, end: 8.4 },
+            { text: "she", start: 8.5, end: 8.72 },
+            { text: "yawns", start: 8.72, end: 9.06 },
+            { text: "as", start: 9.06, end: 9.166 },
+            { text: "she", start: 9.16, end: 9.32 },
+            { text: "chops", start: 9.32, end: 9.6 },
+            { text: "the", start: 9.6, end: 9.74 },
+            { text: "vegetables.", start: 9.74, end: 10.24 },
+            { text: "Soon,", start: 11.02, end: 11.3 },
+            { text: "Dad", start: 11.3, end: 11.56 },
+            { text: "comes", start: 11.56, end: 11.8 },
+            { text: "home", start: 11.8, end: 12.02 },
+            { text: "from", start: 12.02, end: 12.22 },
+            { text: "work.", start: 12.22, end: 12.44 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 13.2,
+          end: 16.2,
+          words: [
+            { text: "He", start: 14.1, end: 14.52 },
+            { text: "seems", start: 14.52, end: 14.74 },
+            { text: "tired", start: 14.74, end: 15.14 },
+            { text: "too.", start: 15.14, end: 15.4 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 19.0,
+          end: 24.0,
+          words: [
+            { text: "He", start: 19.0, end: 19.42 },
+            { text: "hangs", start: 19.42, end: 19.76 },
+            { text: "up", start: 19.76, end: 19.9 },
+            { text: "his", start: 19.9, end: 20.16 },
+            { text: "coat", start: 20.16, end: 20.48 },
+            { text: "and", start: 20.48, end: 20.66 },
+            { text: "goes", start: 20.66, end: 21.0 },
+            { text: "in to", start: 21.0, end: 21.3 },
+            { text: "help", start: 21.3, end: 21.56 },
+            { text: "Mum", start: 21.56, end: 21.74 },
+            { text: "in", start: 21.74, end: 21.84 },
+            { text: "the", start: 21.84, end: 21.98 },
+            { text: "kitchen.", start: 21.98, end: 22.36 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0,
+          end: 3.8,
+          words: [
+            { text: "Liz", start: 0.0, end: 0.36 },
+            { text: "notices", start: 0.36, end: 0.98 },
+            { text: "that", start: 0.98, end: 1.14 },
+            { text: "this", start: 1.14, end: 1.28 },
+            { text: "is", start: 1.28, end: 1.42 },
+            { text: "not", start: 1.42, end: 1.68 },
+            { text: "fair", start: 1.68, end: 2.16 },
+            { text: "and", start: 2.16, end: 2.36 },
+            { text: "has", start: 2.36, end: 2.5 },
+            { text: "an", start: 2.5, end: 2.68 },
+            { text: "idea.", start: 2.68, end: 3.8 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 13.0,
+          end: 17.6,
+          words: [
+            { text: "Liz", start: 13.18, end: 13.38 },
+            { text: "and", start: 13.38, end: 13.54 },
+            { text: "Ryan", start: 13.54, end: 14.42 },
+            { text: "talk", start: 14.42, end: 14.74 },
+            { text: "and", start: 14.74, end: 14.9 },
+            { text: "write", start: 14.9, end: 15.14 },
+            { text: "a", start: 15.14, end: 15.24 },
+            { text: "list", start: 15.24, end: 15.44 },
+            { text: "of", start: 15.44, end: 15.62 },
+            { text: "chores.", start: 15.62, end: 16.02 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 4.6,
+          end: 10.0,
+          words: [
+            { text: "They", start: 4.6, end: 5.1 },
+            { text: "choose", start: 5.1, end: 5.5 },
+            { text: "the", start: 5.5, end: 5.66 },
+            { text: "chores", start: 5.66, end: 6.14 },
+            { text: "they", start: 6.14, end: 6.3 },
+            { text: "would", start: 6.3, end: 6.8 },
+            { text: "most", start: 6.8, end: 7.16 },
+            { text: "like", start: 7.16, end: 7.38 },
+            { text: "to", start: 7.38, end: 7.58 },
+            { text: "do", start: 7.58, end: 7.84 },
+            { text: "and", start: 7.84, end: 8.02 },
+            { text: "write", start: 8.02, end: 8.28 },
+            { text: "their", start: 8.28, end: 8.46 },
+            { text: "names", start: 8.46, end: 8.84 },
+            { text: "next", start: 8.84, end: 9.04 },
+            { text: "to", start: 9.04, end: 9.16 },
+            { text: "them.", start: 9.16, end: 9.36 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 10.0,
+          end: 13.8,
+          words: [
+            { text: "They", start: 10.12, end: 10.34 },
+            { text: "then", start: 10.34, end: 10.76 },
+            { text: "plan", start: 10.76, end: 11.02 },
+            { text: "a surprise", start: 11.02, end: 11.8 },
+            { text: "for", start: 11.8, end: 11.94 },
+            { text: "their", start: 11.94, end: 12.2 },
+            { text: "tired", start: 12.2, end: 12.8 },
+            { text: "parents.", start: 12.8, end: 13.4 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 14.0,
+          end: 19.0,
+          words: [
+            { text: "They", start: 14.0, end: 14.38 },
+            { text: "start", start: 14.38, end: 14.66 },
+            { text: "to", start: 14.66, end: 14.8 },
+            { text: "do", start: 14.8, end: 14.96 },
+            { text: "their", start: 14.96, end: 15.18 },
+            { text: "chores", start: 15.18, end: 15.64 },
+            { text: "while", start: 15.64, end: 15.96 },
+            { text: "Mum", start: 15.96, end: 16.12 },
+            { text: "and", start: 16.12, end: 16.34 },
+            { text: "Dad", start: 16.34, end: 16.92 },
+            { text: "cook", start: 16.92, end: 17.4 },
+            { text: "dinner.", start: 17.4, end: 18.63 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 0,
+          end: 5.0,
+          words: [
+            { text: "They", start: 0.0, end: 0.46 },
+            { text: "choose", start: 0.46, end: 0.9 },
+            { text: "the", start: 0.9, end: 1.04 },
+            { text: "chores", start: 1.04, end: 1.54 },
+            { text: "they", start: 1.54, end: 1.7 },
+            { text: "would", start: 1.7, end: 2.2 },
+            { text: "most", start: 2.2, end: 2.56 },
+            { text: "like", start: 2.56, end: 2.78 },
+            { text: "to", start: 2.78, end: 2.98 },
+            { text: "do", start: 2.98, end: 3.24 },
+            { text: "and", start: 3.24, end: 3.42 },
+            { text: "write", start: 3.42, end: 3.66 },
+            { text: "their", start: 3.66, end: 3.88 },
+            { text: "names", start: 3.88, end: 4.22 },
+            { text: "next", start: 4.22, end: 4.44 },
+            { text: "to", start: 4.44, end: 4.56 },
+            { text: "them", start: 4.56, end: 4.74 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 5.0,
+          end: 9.0,
+          words: [
+            { text: "They", start: 5.5, end: 5.74 },
+            { text: "then", start: 5.74, end: 6.14 },
+            { text: "plan", start: 6.14, end: 6.42 },
+            { text: "a", start: 6.42, end: 6.52 },
+            { text: "surprise", start: 6.52, end: 7.2 },
+            { text: "for", start: 7.2, end: 7.34 },
+            { text: "their", start: 7.34, end: 7.66 },
+            { text: "tired", start: 7.66, end: 8.24 },
+            { text: "parents", start: 8.24, end: 8.8 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 9.2,
+          end: 13.5,
+          words: [
+            { text: "They", start: 9.2, end: 9.76 },
+            { text: "start", start: 9.76, end: 10.06 },
+            { text: "to", start: 10.06, end: 10.2 },
+            { text: "do", start: 10.2, end: 10.36 },
+            { text: "their", start: 10.36, end: 10.58 },
+            { text: "chores", start: 10.58, end: 11.04 },
+            { text: "while", start: 11.04, end: 11.36 },
+            { text: "mom", start: 11.36, end: 11.52 },
+            { text: "and", start: 11.52, end: 11.74 },
+            { text: "dad", start: 11.74, end: 12.32 },
+            { text: "cook", start: 12.32, end: 12.82 },
+            { text: "dinner", start: 12.82, end: 13.1 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 15.6,
+          end: 18.0,
+          words: [
+            { text: "Mum", start: 15.6, end: 15.74 },
+            { text: "and", start: 15.74, end: 15.9 },
+            { text: "Dad", start: 15.9, end: 16.22 },
+            { text: "come", start: 16.22, end: 16.38 },
+            { text: "out", start: 16.38, end: 16.48 },
+            { text: "of", start: 16.48, end: 16.6 },
+            { text: "the", start: 16.6, end: 16.72 },
+            { text: "kitchen", start: 16.72, end: 17.08 },
+            { text: "with", start: 17.08, end: 17.2 },
+            { text: "the", start: 17.2, end: 17.38 },
+            { text: "food", start: 17.38, end: 18.0 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 18.0,
+          end: 20.0,
+          words: [
+            { text: "and", start: 18.0, end: 18.2 },
+            { text: "find", start: 18.2, end: 18.44 },
+            { text: "the", start: 18.44, end: 18.6 },
+            { text: "children", start: 18.6, end: 19.0 },
+            { text: "working", start: 19.0, end: 19.52 },
+            { text: "hard.", start: 19.52, end: 20.0 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 20.4,
+          end: 23.62,
+          words: [
+            { text: "They", start: 20.4, end: 20.74 },
+            { text: "are", start: 20.74, end: 21.14 },
+            { text: "very", start: 21.14, end: 21.56 },
+            { text: "happy", start: 21.56, end: 21.9 },
+            { text: "with", start: 21.9, end: 22.04 },
+            { text: "their", start: 22.04, end: 22.28 },
+            { text: "children.", start: 22.28, end: 23.6 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 25.86,
+          end: 30.7,
+          words: [
+            { text: "They", start: 25.86, end: 26.06 },
+            { text: "eat", start: 26.06, end: 26.24 },
+            { text: "dinner", start: 26.24, end: 26.46 },
+            { text: "together", start: 26.46, end: 27.26 },
+            { text: "and", start: 27.26, end: 27.44 },
+            { text: "Mum", start: 27.44, end: 27.66 },
+            { text: "and", start: 27.66, end: 27.84 },
+            { text: "Dad", start: 27.84, end: 28.12 },
+            { text: "relax", start: 28.12, end: 28.64 },
+            { text: "while", start: 28.64, end: 28.76 },
+            { text: "the", start: 28.76, end: 28.92 },
+            { text: "children", start: 28.92, end: 29.26 },
+            { text: "finish", start: 29.26, end: 29.54 },
+            { text: "their", start: 29.54, end: 29.7 },
+            { text: "chores.", start: 29.7, end: 30.12 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 30.7,
+
+          end: 34.0,
+          words: [
+            { text: "Well", start: 30.7, end: 30.94 },
+            { text: "done", start: 30.94, end: 31.34 },
+            { text: "Liz", start: 31.34, end: 31.6 },
+            { text: "and", start: 31.6, end: 31.78 },
+            { text: "Ryan,", start: 31.78, end: 32.3 },
+            { text: "you", start: 32.38, end: 32.72 },
+            { text: "have", start: 32.72, end: 33.04 },
+            { text: "helped", start: 33.04, end: 33.32 },
+            { text: "your", start: 33.32, end: 33.46 },
+            { text: "parents!", start: 33.46, end: 33.92 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 4,
+        instruction: [
+          "Highlight what Liz and Ryan did to help",
+          "when they noticed their parents were tired.",
+        ],
+        correctWords: [
+          "they",
+          "start",
+          "to",
+          "do",
+          "their",
+          "chores",
+          "while",
+          "mum",
+          "and",
+          "dad",
+          "cook",
+          "dinner",
+        ],
+      },
+      quiz: {
+        image: u3l1_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "How did Liz and Ryan help their parents?",
+            options: [
+              "They asked them what to do.",
+              "They wrote a list of chores and did them.",
+              "They cooked the food.",
+            ],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q2",
+            text: "At the beginning of the story Liz and Ryan were watching TV while Mum and Dad cooked. Liz didn’t think that was _________. ",
+            options: ["Caring", "Nice", "Fair"],
+            correctAnswer: "2",
+          },
+          {
+            id: "Q3",
+            text: "How did Mum and Dad feel at the end of the story?",
+            options: ["Tired", "Relaxed", "Angry"],
+            correctAnswer: "1",
+          },
+        ],
+      },
+      feedback: {
+        image: u3l1_F1,
+      },
+    },
+    2: {
+      videos: [
+        {
+          url: u3l2_vid1,
+          subtitles: [],
+        },
+        {
+          url: u3l2_vid2,
+          subtitles: [
+            {
+              start: 0.119,
+              end: 1.459,
+              words: [
+                { text: "Hello,", start: 0.119, end: 0.5 },
+                { text: "what’s", start: 0.759, end: 0.979 },
+                { text: "your", start: 1.0, end: 1.139 },
+                { text: "name?", start: 1.179, end: 1.459 },
+              ],
+            },
+            {
+              start: 9.239,
+              end: 11.079,
+              words: [
+                { text: "Your", start: 9.239, end: 9.439 },
+                { text: "shop", start: 9.579, end: 9.92 },
+                { text: "is", start: 10.0, end: 10.34 },
+                { text: "boring!", start: 10.42, end: 11.079 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l2_vid3,
+          subtitles: [
+            {
+              start: 10.659,
+              end: 13.219,
+              words: [
+                { text: "I’m", start: 10.659, end: 10.899 },
+                { text: "sorry,", start: 11.0, end: 11.439 },
+                { text: "I", start: 11.939, end: 12.0 },
+                { text: "was", start: 12.099, end: 12.26 },
+                { text: "rude", start: 12.38, end: 12.699 },
+                { text: "before.", start: 12.739, end: 13.219 },
+              ],
+            },
+            {
+              start: 15.079,
+              end: 20.319,
+              words: [
+                { text: "I", start: 15.079, end: 15.119 },
+                { text: "was", start: 15.199, end: 15.339 },
+                { text: "feeling", start: 15.46, end: 15.819 },
+                { text: "angry", start: 15.939, end: 16.359 },
+                { text: "with", start: 16.42, end: 16.579 },
+                { text: "waiting", start: 16.699, end: 17.02 },
+                { text: "around", start: 17.159, end: 17.5 },
+                { text: "and", start: 17.639, end: 17.779 },
+                { text: "I", start: 17.879, end: 18.059 },
+                { text: "should", start: 18.1, end: 18.279 },
+                { text: "not", start: 18.399, end: 18.6 },
+                { text: "have", start: 18.659, end: 18.78 },
+                { text: "spoken", start: 18.939, end: 19.359 },
+                { text: "rudely", start: 19.479, end: 19.859 },
+                { text: "to", start: 19.899, end: 20.039 },
+                { text: "you.", start: 20.1, end: 20.319 },
+              ],
+            },
+            {
+              start: 21.939,
+              end: 22.819,
+              words: [
+                { text: "It", start: 21.939, end: 22.02 },
+                { text: "was", start: 22.1, end: 22.319 },
+                { text: "wrong.", start: 22.399, end: 22.819 },
+              ],
+            },
+            {
+              start: 24.719,
+              end: 28.4, // قصيتها حسب الجملة الأولى
+              words: [
+                { text: "That’s", start: 24.719, end: 24.899 },
+                { text: "okay,", start: 24.979, end: 25.34 },
+                { text: "I", start: 26.039, end: 26.059 },
+                { text: "understand", start: 26.119, end: 26.579 },
+                { text: "you", start: 26.619, end: 26.68 },
+                { text: "were", start: 26.699, end: 26.799 },
+                { text: "becoming", start: 26.819, end: 27.18 },
+                { text: "angry", start: 27.26, end: 27.579 },
+              ],
+            },
+            {
+              start: 28.0,
+              end: 30.239,
+              words: [
+                { text: "and", start: 28.0, end: 28.059 },
+                { text: "I’m", start: 28.099, end: 28.219 },
+                { text: "sure", start: 28.279, end: 28.42 },
+                { text: "you", start: 28.479, end: 28.559 },
+                { text: "don’t", start: 28.599, end: 28.779 },
+                { text: "speak", start: 28.819, end: 29.039 },
+                { text: "like", start: 29.119, end: 29.26 },
+                { text: "that", start: 29.299, end: 29.479 },
+                { text: "all", start: 29.579, end: 29.719 },
+                { text: "the", start: 29.76, end: 29.859 },
+                { text: "time.", start: 29.92, end: 30.239 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l2_vid4,
+          subtitles: [
+            {
+              start: 0.459,
+              end: 3.639,
+              words: [
+                { text: "I’m", start: 0.459, end: 0.599 },
+                { text: "happy", start: 0.619, end: 0.959 },
+                { text: "you", start: 0.979, end: 1.079 },
+                { text: "were", start: 1.099, end: 1.179 },
+                { text: "able", start: 1.24, end: 1.439 },
+                { text: "to", start: 1.439, end: 1.579 },
+                { text: "see", start: 1.62, end: 1.799 },
+                { text: "how", start: 1.799, end: 1.959 },
+                { text: "your", start: 2.0, end: 2.2 },
+                { text: "words", start: 2.2, end: 2.639 },
+                { text: "hurt", start: 2.74, end: 2.919 },
+                { text: "Mr.", start: 2.939, end: 3.199 },
+                { text: "Harrison", start: 3.22, end: 3.639 },
+              ],
+            },
+            {
+              start: 4.199,
+              end: 5.639,
+              words: [
+                { text: "and", start: 4.199, end: 4.619 },
+                { text: "that", start: 4.659, end: 4.779 },
+                { text: "you", start: 4.799, end: 4.859 },
+                { text: "apologised.", start: 4.98, end: 5.639 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l2_vid5,
+          subtitles: [
+            {
+              start: 4.019,
+              end: 5.38,
+              words: [
+                { text: "I", start: 4.019, end: 4.159 },
+                { text: "like", start: 4.239, end: 4.38 },
+                { text: "your", start: 4.42, end: 4.539 },
+                { text: "window", start: 4.559, end: 4.799 },
+                { text: "display", start: 4.88, end: 5.38 },
+              ],
+            },
+            {
+              start: 6.219,
+              end: 8.599,
+              words: [
+                { text: "and", start: 6.219, end: 6.339 },
+                { text: "I", start: 6.379, end: 6.46 },
+                { text: "like", start: 6.519, end: 6.659 },
+                { text: "your", start: 6.719, end: 6.819 },
+                { text: "nice", start: 6.839, end: 7.079 },
+                { text: "chairs", start: 7.139, end: 7.5 },
+                { text: "by", start: 7.539, end: 7.639 },
+                { text: "the", start: 7.679, end: 7.759 },
+                { text: "changing", start: 7.799, end: 8.179 },
+                { text: "rooms.", start: 8.239, end: 8.599 },
+              ],
+            },
+            {
+              start: 10.099,
+              end: 11.279,
+              words: [
+                { text: "Well,", start: 10.099, end: 10.32 },
+                { text: "thank", start: 10.699, end: 10.939 },
+                { text: "you.", start: 11.019, end: 11.279 },
+              ],
+            },
+
+            {
+              start: 14.2,
+              end: 20.0,
+              words: [
+                { text: "I’m", start: 11.0, end: 11.2 },
+                { text: "sorry", start: 11.2, end: 11.4 },
+                { text: "I", start: 12.2, end: 12.6 },
+                { text: "was", start: 12.6, end: 12.8 },
+                { text: "rude", start: 12.8, end: 13.0 },
+                { text: "before.", start: 13.0, end: 13.2 },
+              ],
+            },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [
+          { top: "30%", left: "50%", isFlipped: true },
+          { top: "10%", left: "15%" },
+        ],
+
+        2: [
+          { top: "20%", right: "20%", isFlipped: true },
+          { top: "5%", left: "50%", isFlipped: true },
+          { top: "5%", left: "50%", isFlipped: true },
+          { top: "5%", left: "30%" },
+          { top: "5%", left: "30%" },
+        ],
+
+        3: [
+          { bottom: "75%", left: "40%", isFlipped: true },
+          { bottom: "75%", left: "40%", isFlipped: true },
+        ],
+
+        4: [
+          { top: "15%", left: "50%", isFlipped: true },
+          { top: "10%", left: "60%", isFlipped: true },
+          { top: "10%", left: "10%" },
+          { top: "30%", left: "20%" },
+        ],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 2.659,
+          end: 5.0,
+          words: [
+            { text: "Ellen", start: 2.659, end: 2.899 },
+            { text: "does", start: 2.939, end: 3.079 },
+            { text: "not", start: 3.159, end: 3.279 },
+            { text: "respond", start: 3.319, end: 3.819 },
+            { text: "and", start: 4.079, end: 4.279 },
+            { text: "does", start: 4.319, end: 4.46 },
+            { text: "not", start: 4.48, end: 4.619 },
+            { text: "smile.", start: 4.639, end: 5.0 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 5.679,
+          end: 7.919,
+          words: [
+            { text: "The", start: 5.679, end: 5.719 },
+            { text: "shopkeeper", start: 5.799, end: 6.259 },
+            { text: "asks", start: 6.339, end: 6.699 },
+            { text: "what", start: 7.139, end: 7.239 },
+            { text: "the", start: 7.259, end: 7.319 },
+            { text: "matter", start: 7.359, end: 7.659 },
+            { text: "is.", start: 7.739, end: 7.919 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 12.199,
+          end: 15.339,
+          words: [
+            { text: "She", start: 12.199, end: 12.279 },
+            { text: "answers", start: 12.34, end: 12.659 },
+            { text: "rudely", start: 12.719, end: 13.119 },
+            { text: "as", start: 13.5, end: 13.579 },
+            { text: "she", start: 13.599, end: 13.719 },
+            { text: "turns", start: 13.759, end: 14.02 },
+            { text: "around", start: 14.059, end: 14.3 },
+            { text: "to", start: 14.319, end: 14.44 },
+            { text: "walk", start: 14.46, end: 14.659 },
+            { text: "away.", start: 14.719, end: 15.339 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 15.399,
+          end: 19.04,
+          words: [
+            { text: "The", start: 15.399, end: 15.519 },
+            { text: "shopkeeper", start: 15.579, end: 16.059 },
+            { text: "does", start: 16.079, end: 16.319 },
+            { text: "not", start: 16.359, end: 16.5 },
+            { text: "look", start: 16.559, end: 16.68 },
+            { text: "happy.", start: 16.76, end: 17.579 },
+            { text: "Ellen", start: 17.639, end: 17.879 },
+            { text: "has", start: 17.92, end: 18.04 },
+            { text: "hurt", start: 18.079, end: 18.26 },
+            { text: "his", start: 18.299, end: 18.399 },
+            { text: "feelings.", start: 18.459, end: 19.04 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0.14,
+          end: 2.5,
+          words: [
+            { text: "Ellen", start: 0.14, end: 0.399 },
+            { text: "notices", start: 0.419, end: 0.899 },
+            { text: "the", start: 0.959, end: 1.019 },
+            { text: "shopkeeper’s", start: 1.079, end: 1.579 },
+            { text: "surprised", start: 1.599, end: 2.059 },
+            { text: "face,", start: 2.159, end: 2.5 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 3.399,
+          end: 7.059,
+          words: [
+            { text: "and", start: 3.399, end: 3.48 },
+            { text: "she", start: 3.539, end: 3.679 },
+            { text: "realises", start: 3.74, end: 4.38 },
+            { text: "she", start: 4.4, end: 4.619 },
+            { text: "has", start: 4.679, end: 4.859 },
+            { text: "hurt", start: 4.94, end: 5.139 },
+            { text: "his", start: 5.219, end: 5.339 },
+            { text: "feelings", start: 5.4, end: 5.839 },
+            { text: "by", start: 6.319, end: 6.44 },
+            { text: "being", start: 6.5, end: 6.699 },
+            { text: "rude", start: 6.799, end: 7.059 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 8.3,
+          end: 9.179,
+          words: [
+            { text: "and", start: 8.3, end: 8.439 },
+            { text: "feels", start: 8.5, end: 8.76 },
+            { text: "bad.", start: 8.859, end: 9.179 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 31.299,
+          end: 33.819,
+          words: [
+            { text: "Ellen’s", start: 31.299, end: 31.559 },
+            { text: "father", start: 31.659, end: 31.979 },
+            { text: "walks", start: 32.04, end: 32.259 },
+            { text: "up", start: 32.319, end: 32.439 },
+            { text: "to", start: 32.459, end: 32.54 },
+            { text: "the", start: 32.559, end: 32.659 },
+            { text: "shopkeeper", start: 32.7, end: 33.319 },
+            { text: "and", start: 33.38, end: 33.479 },
+            { text: "Ellen.", start: 33.579, end: 33.819 },
+          ],
+        },
+
+        {
+          videoIndex: 4,
+          start: 0.0,
+          end: 3.359,
+          words: [
+            { text: "Dad", start: 0.0, end: 0.439 },
+            { text: "buys", start: 0.479, end: 0.68 },
+            { text: "a", start: 0.719, end: 0.799 },
+            { text: "coat", start: 0.839, end: 1.299 },
+            { text: "and", start: 1.339, end: 1.459 },
+            { text: "they", start: 1.48, end: 1.659 },
+            { text: "start", start: 1.659, end: 1.959 },
+            { text: "to", start: 1.979, end: 2.039 },
+            { text: "make", start: 2.079, end: 2.22 },
+            { text: "their", start: 2.279, end: 2.399 },
+            { text: "way", start: 2.46, end: 2.639 },
+            { text: "out", start: 2.72, end: 2.859 },
+            { text: "of", start: 2.879, end: 2.98 },
+            { text: "the", start: 3.019, end: 3.059 },
+            { text: "store.", start: 3.119, end: 3.359 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 11.859,
+          end: 14.819,
+          words: [
+            { text: "Ellen", start: 11.859, end: 12.239 },
+            { text: "feels", start: 12.3, end: 12.659 },
+            { text: "happy", start: 12.759, end: 13.039 },
+            { text: "she", start: 13.179, end: 13.279 },
+            { text: "apologised", start: 13.359, end: 14.0 },
+            { text: "to", start: 14.019, end: 14.1 },
+            { text: "the", start: 14.119, end: 14.199 },
+            { text: "shopkeeper.", start: 14.239, end: 14.819 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 4,
+        instruction: [
+          "Highlight a sentence in the story that shows",
+          "Ellen making things right.",
+        ],
+        correctWords: ["i’m", "sorry", "i", "was", "rude", "before"],
+      },
+      quiz: {
+        image: u3l2_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "Why was Ellen unhappy in the shop?",
+            options: [
+              "Ellen was bored waiting for her dad.",
+              "Ellen spilled water on her jacket.",
+              "Ellen forgot her book at home.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "What was the look on the shopkeeper’s face when Ellen hurt his feelings?",
+            options: ["Surprised", "Relaxed", "Tired"],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What did Ellen say to the shopkeeper that made her father happy?",
+            options: [
+              "‘I’m sorry, I was rude before.’",
+              "‘Your shop is boring!’",
+              "‘I like your window display…’",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u3l2_F1,
+      },
+    },
+    3: {
+      videos: [
+        {
+          url: u3l3_vid1,
+          subtitles: [{}],
+        },
+        {
+          url: u3l3_vid2,
+          subtitles: [
+            {
+              start: 0.099,
+              end: 1.179,
+              words: [{ text: "Congratulations!", start: 0.099, end: 1.179 }],
+            },
+            {},
+            {},
+            {},
+            {},
+          ],
+        },
+        {
+          url: u3l3_vid3,
+          subtitles: [
+            {},
+            {
+              start: 2.5,
+              end: 3.1,
+              words: [{ text: "Hello", start: 2.5, end: 3.0 }],
+            },
+            {
+              start: 3.1,
+              end: 4.0,
+              words: [{ text: "Hello", start: 3.2, end: 3.9 }],
+            },
+            {
+              start: 5.619,
+              end: 7.179,
+              words: [
+                { text: "and", start: 5.619, end: 5.839 },
+                { text: "congratulations.", start: 5.9, end: 7.179 },
+              ],
+            },
+
+            {
+              start: 7.819,
+              end: 8.819,
+              words: [
+                { text: "Are", start: 7.819, end: 7.879 },
+                { text: "we", start: 7.98, end: 8.119 },
+                { text: "too", start: 8.159, end: 8.28 },
+                { text: "noisy?", start: 8.399, end: 8.5 },
+              ],
+            },
+            {
+              start: 8.0,
+              end: 10.279,
+              words: [
+                { text: "I", start: 8.819, end: 9.079 },
+                { text: "don't", start: 9.139, end: 9.26 },
+                { text: "wanna", start: 9.3, end: 9.52 },
+                { text: "be", start: 9.539, end: 9.679 },
+                { text: "too", start: 9.719, end: 9.84 },
+                { text: "loud.", start: 9.939, end: 10.279 },
+              ],
+            },
+            {
+              start: 13.139,
+              end: 14.099,
+              words: [
+                { text: "It's", start: 13.139, end: 13.46 },
+                { text: "fine.", start: 13.559, end: 14.099 },
+              ],
+            },
+            {
+              start: 14.719,
+              end: 17.059,
+              words: [
+                { text: "It's", start: 14.719, end: 15.02 },
+                { text: "fun", start: 15.059, end: 15.299 },
+                { text: "to", start: 15.359, end: 15.42 },
+                { text: "celebrate", start: 15.5, end: 15.98 },
+                { text: "with", start: 16.0, end: 16.139 },
+                { text: "family", start: 16.18, end: 16.479 },
+                { text: "and", start: 16.5, end: 16.579 },
+                { text: "friend.", start: 16.68, end: 17.059 },
+              ],
+            },
+            {
+              start: 17.0,
+              end: 20.0,
+              words: [
+                { text: "Are ", start: 8.3, end: 8.6 },
+                { text: "we", start: 8.3, end: 8.6 },
+                { text: "too", start: 8.6, end: 8.9 },
+                { text: "noisy?", start: 8.9, end: 9.2 },
+                { text: "I", start: 10.6, end: 10.8 },
+                { text: "don’t", start: 10.8, end: 11.0 },
+                { text: "want", start: 11.0, end: 11.2 },
+                { text: "to", start: 11.2, end: 11.4 },
+                { text: "be", start: 11.4, end: 11.6 },
+                { text: "too", start: 11.6, end: 11.8 },
+                { text: "loud.", start: 11.8, end: 12.0 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u3l3_vid4,
+          subtitles: [
+            {},
+            {},
+            {},
+            {
+              start: 8.34,
+              end: 8.92,
+              words: [
+                { text: "Thank", start: 8.34, end: 8.599 },
+                { text: "you.", start: 8.679, end: 8.92 },
+              ],
+            },
+            {
+              start: 11.219,
+              end: 12.059,
+              words: [
+                { text: "It's", start: 11.219, end: 11.399 },
+                { text: "delicious.", start: 11.46, end: 12.059 },
+              ],
+            },
+            {},
+            {},
+          ],
+        },
+        {
+          url: u3l3_vid5,
+          subtitles: [
+            {
+              start: 0.379,
+              end: 1.86,
+              words: [
+                { text: "Why", start: 0.379, end: 0.519 },
+                { text: "did", start: 0.599, end: 0.699 },
+                { text: "you", start: 0.74, end: 0.819 },
+                { text: "give", start: 0.859, end: 0.939 },
+                { text: "your", start: 0.979, end: 1.1 },
+                { text: "cake", start: 1.139, end: 1.379 },
+                { text: "to", start: 1.419, end: 1.48 },
+                { text: "him?", start: 1.579, end: 1.86 },
+              ],
+            },
+            {},
+            {
+              start: 4.92,
+              end: 8.099,
+              words: [
+                { text: "Because", start: 4.92, end: 5.179 },
+                { text: "he's", start: 5.219, end: 5.38 },
+                { text: "our", start: 5.44, end: 5.579 },
+                { text: "neighbor", start: 5.639, end: 6.0 },
+                { text: "and", start: 6.059, end: 6.159 },
+                { text: "he", start: 6.179, end: 6.259 },
+                { text: "was", start: 6.319, end: 6.48 },
+                { text: "kind", start: 6.539, end: 6.759 },
+                { text: "about", start: 6.819, end: 7.019 },
+                { text: "the", start: 7.039, end: 7.139 },
+                { text: "noise", start: 7.199, end: 7.48 },
+                { text: "we", start: 7.539, end: 7.599 },
+                { text: "are", start: 7.619, end: 7.719 },
+                { text: "making.", start: 7.759, end: 8.099 },
+              ],
+            },
+            {
+              start: 8.439,
+              end: 12.179,
+              words: [
+                { text: "We", start: 8.439, end: 8.599 },
+                { text: "should", start: 8.639, end: 8.84 },
+                { text: "always", start: 8.939, end: 9.34 },
+                { text: "think", start: 9.42, end: 9.599 },
+                { text: "about", start: 9.699, end: 9.94 },
+                { text: "the", start: 9.96, end: 10.059 },
+                { text: "people", start: 10.119, end: 10.4 },
+                { text: "around", start: 10.5, end: 10.8 },
+                { text: "us", start: 10.859, end: 11.059 },
+                { text: "and", start: 11.159, end: 11.34 },
+                { text: "their", start: 11.38, end: 11.599 },
+                { text: "feelings.", start: 11.659, end: 12.179 },
+              ],
+            },
+            {
+              start: 20.2,
+              end: 14,
+              words: [
+                { text: "Thank you,", start: 10.4, end: 11.7 },
+                { text: "Jane.", start: 11.7, end: 12.3 },
+                { text: "That’s", start: 12.3, end: 12.6 },
+                { text: "a good", start: 12.6, end: 12.9 },
+                { text: "idea!", start: 12.9, end: 13.8 },
+              ],
+            },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [
+          { top: "50%", left: "50%" },
+          { top: "10%", left: "15%" },
+          { top: "10%", left: "25%" },
+          { top: "10%", left: "5%" },
+          { top: "20%", left: "40%" },
+          { top: "10%", left: "5%" },
+        ],
+
+        2: [
+          { top: "10%", right: "20%", isFlipped: true },
+          { top: "5%", left: "30%" },
+          { top: "5%", left: "60%", isFlipped: true },
+          { top: "15%", left: "50%", isFlipped: true },
+          { top: "20%", left: "30%" },
+          { top: "20%", left: "40%" },
+          { top: "5%", left: "40%", isFlipped: true },
+          { top: "5%", left: "40%", isFlipped: true },
+          { top: "5%", left: "40%", isFlipped: true },
+        ],
+
+        3: [
+          { bottom: "85%", left: "60%", isFlipped: true },
+          { top: "30%", left: "23%", isFlipped: true },
+          { top: "15%", left: "55%" },
+          { top: "5%", left: "55%", isFlipped: true },
+          { top: "5%", left: "35%", isFlipped: true },
+          { top: "5%", left: "35%", isFlipped: true },
+          { top: "5%", left: "35%", isFlipped: true },
+        ],
+
+        4: [
+          { top: "7%", left: "38%", isFlipped: true },
+          { top: "5%", left: "35%", isFlipped: true },
+          { top: "5%", left: "20%" },
+          { top: "5%", left: "20%" },
+          { top: "5%", left: "20%" },
+          { top: "5%", left: "20%" },
+        ],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 2,
+          end: 5.2,
+          words: [
+            { text: "sing", start: 1.659, end: 1.839 },
+            { text: "Brian's", start: 1.919, end: 2.419 },
+            { text: "friends", start: 2.46, end: 2.779 },
+            { text: "and", start: 2.819, end: 2.919 },
+            { text: "family", start: 3.039, end: 3.579 },
+            { text: "as", start: 3.639, end: 3.759 },
+            { text: "Brian", start: 3.859, end: 4.219 },
+            { text: "cuts", start: 4.339, end: 4.619 },
+            { text: "the", start: 4.639, end: 4.679 },
+            { text: "cake.", start: 4.779, end: 5.139 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 5.3,
+          end: 9.1,
+          words: [
+            { text: "Brian", start: 5.779, end: 6.099 },
+            { text: "has", start: 6.139, end: 6.359 },
+            { text: "earned", start: 6.399, end: 6.619 },
+            { text: "his", start: 6.659, end: 6.839 },
+            { text: "yellow", start: 6.899, end: 7.139 },
+            { text: "belt", start: 7.239, end: 7.5 },
+            { text: "in", start: 7.559, end: 7.679 },
+            { text: "Taekwondo", start: 7.739, end: 8.42 },
+            { text: "class.", start: 8.479, end: 8.899 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 9.1,
+          end: 12.9,
+          words: [
+            { text: "They", start: 9.399, end: 9.5 },
+            { text: "are", start: 9.519, end: 9.619 },
+            { text: "singing,", start: 9.779, end: 10.139 },
+            { text: "laughing,", start: 10.38, end: 10.88 },
+            { text: "and", start: 11.039, end: 11.22 },
+            { text: "playing", start: 11.239, end: 11.619 },
+            { text: "games.", start: 11.639, end: 12.119 },
+          ],
+        },
+
+        {
+          videoIndex: 1,
+          start: 12.9,
+          end: 22.4,
+          words: [
+            { text: "Brian", start: 12.899, end: 13.299 },
+            { text: "sees", start: 13.34, end: 13.579 },
+            { text: "over", start: 13.619, end: 13.779 },
+            { text: "the", start: 13.799, end: 13.84 },
+            { text: "fence", start: 13.96, end: 14.399 },
+            { text: "that", start: 14.439, end: 14.56 },
+            { text: "his", start: 14.619, end: 14.739 },
+            { text: "neighbor,", start: 14.819, end: 15.42 },
+            { text: "Mr.", start: 15.479, end: 15.719 },
+            { text: "Percy,", start: 15.839, end: 16.379 },
+            { text: "is", start: 16.44, end: 16.579 },
+            { text: "sitting", start: 16.6, end: 16.86 },
+            { text: "alone", start: 16.979, end: 17.26 },
+            { text: "in", start: 17.299, end: 17.42 },
+            { text: "his", start: 17.779, end: 17.96 },
+            { text: "garden", start: 18.0, end: 18.659 },
+            { text: "drinking", start: 18.719, end: 19.079 },
+            { text: "a", start: 19.119, end: 19.199 },
+            { text: "cup", start: 19.26, end: 19.399 },
+            { text: "of", start: 19.439, end: 19.559 },
+            { text: "tea.", start: 19.619, end: 19.84 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0,
+          end: 1.8,
+          words: [
+            { text: "Brian", start: 0.119, end: 0.459 },
+            { text: "walks", start: 0.519, end: 0.759 },
+            { text: "over", start: 0.839, end: 1.019 },
+            { text: "to", start: 1.039, end: 1.12 },
+            { text: "the", start: 1.159, end: 1.259 },
+            { text: "fence", start: 1.299, end: 1.719 },
+            { text: "and", start: 1.779, end: 1.959 },
+            { text: "says,", start: 2.019, end: 2.279 },
+            { text: "Hello.", start: 2.72, end: 3.24 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 0.179,
+          end: 1.48,
+          words: [
+            { text: "Brian", start: 0.179, end: 0.5 },
+            { text: "thinks", start: 0.539, end: 0.779 },
+            { text: "for", start: 0.819, end: 0.899 },
+            { text: "a", start: 1.0, end: 1.019 },
+            { text: "moment.", start: 1.059, end: 1.48 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 2.799,
+          end: 7.159,
+          words: [
+            { text: "He", start: 2.799, end: 2.939 },
+            { text: "cuts", start: 3.0, end: 3.339 },
+            { text: "a", start: 3.399, end: 3.48 },
+            { text: "piece", start: 3.519, end: 3.779 },
+            { text: "of", start: 3.799, end: 3.879 },
+            { text: "his", start: 3.899, end: 4.059 },
+            { text: "cake", start: 4.079, end: 4.46 },
+            { text: "and", start: 4.519, end: 4.679 },
+            { text: "passes", start: 4.719, end: 5.099 },
+            { text: "it", start: 5.139, end: 5.279 },
+            { text: "to", start: 5.319, end: 5.4 },
+            { text: "his", start: 5.42, end: 5.579 },
+            { text: "neighbor", start: 5.599, end: 5.98 },
+            { text: "over", start: 6.399, end: 6.579 },
+            { text: "the", start: 6.599, end: 6.679 },
+            { text: "fence.", start: 6.739, end: 7.159 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 12.819,
+          end: 16.02,
+          words: [
+            { text: "Brian", start: 12.819, end: 13.099 },
+            { text: "goes", start: 13.139, end: 13.36 },
+            { text: "back", start: 13.42, end: 13.6 },
+            { text: "to", start: 13.619, end: 13.699 },
+            { text: "the", start: 13.719, end: 13.799 },
+            { text: "party", start: 13.84, end: 14.159 },
+            { text: "and", start: 14.199, end: 14.279 },
+            { text: "plays", start: 14.359, end: 14.64 },
+            { text: "more", start: 14.699, end: 14.88 },
+            { text: "games", start: 14.92, end: 15.22 },
+            { text: "with", start: 15.239, end: 15.38 },
+            { text: "his", start: 15.399, end: 15.539 },
+            { text: "friends.", start: 15.579, end: 16.02 },
+          ],
+        },
+
+        {
+          videoIndex: 3,
+          start: 16.579,
+          end: 19.079,
+          words: [
+            { text: "He's", start: 16.579, end: 16.86 },
+            { text: "happy", start: 16.94, end: 17.199 },
+            { text: "that", start: 17.239, end: 17.36 },
+            { text: "he", start: 17.379, end: 17.5 },
+            { text: "considered", start: 17.539, end: 18.079 },
+            { text: "his", start: 18.1, end: 18.239 },
+            { text: "neighbor's", start: 18.299, end: 18.639 },
+            { text: "feelings.", start: 18.739, end: 19.079 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 3.119,
+          end: 4.46,
+          words: [
+            { text: "asks", start: 3.119, end: 3.399 },
+            { text: "Leo,", start: 3.46, end: 3.679 },
+            { text: "Brian's", start: 3.799, end: 4.119 },
+            { text: "cousin.", start: 4.179, end: 4.46 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 2,
+        instruction: [
+          "Highlight the sentence that shows Brian",
+          "considering Mr. Percy’s feelings.",
+        ],
+        correctWords: [
+          "are ",
+          "we",
+          "too",
+          "noisy",
+          "i",
+          "don’t",
+          "want",
+          "to",
+          "be",
+          "too",
+          "loud",
+        ],
+      },
+      quiz: {
+        image: u3l3_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "What did Brian ask Mr. Percy?",
+            options: [
+              "‘Would you like a piece of cake?’",
+              "‘Are we too noisy?’",
+              "‘How are you today?’",
+            ],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q2",
+            text: "Why did Brian ask Mr. Percy about the noise?",
+            options: [
+              "He didn’t want to be too loud.",
+              "He wanted to know if Mr. Percy wanted cake.",
+              "He wanted to show Mr. Percy his yellow belt.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What did Brian say to his cousin Leo?",
+            options: [
+              "“We should always think about the people around us and their feelings.”",
+              "“Congratulations!”",
+              "“Are we too noisy?”",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u3l3_F1,
+      },
+    },
+  },
+  Four: {
+    1: {
+      videos: [
+        {
+          url: u4l1_vid1,
+          subtitles: [{}],
+        },
+        {
+          url: u4l1_vid2,
+          subtitles: [{}, {}, {}, {}],
+        },
+        {
+          url: u4l1_vid3,
+          subtitles: [
+            {},
+            {
+              start: 3.359,
+              end: 4.44,
+              words: [
+                { text: "How", start: 3.359, end: 3.519 },
+                { text: "do", start: 3.579, end: 3.639 },
+                { text: "they", start: 3.679, end: 3.859 },
+                { text: "do", start: 3.939, end: 4.099 },
+                { text: "it?", start: 4.179, end: 4.44 },
+              ],
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+          ],
+        },
+        {
+          url: u4l1_vid4,
+          subtitles: [
+            {},
+            {},
+            {},
+            {
+              start: 14.019,
+              end: 15.599,
+              words: [
+                { text: "We", start: 14.019, end: 14.139 },
+                { text: "played", start: 14.179, end: 14.38 },
+                { text: "your", start: 14.42, end: 14.5 },
+                { text: "game", start: 14.559, end: 14.739 },
+                { text: "first", start: 14.799, end: 14.979 },
+                { text: "last", start: 15.059, end: 15.26 },
+                { text: "time.", start: 15.339, end: 15.599 },
+              ],
+            },
+            {
+              start: 16.819,
+              end: 18.919,
+              words: [
+                { text: "Your", start: 16.819, end: 16.94 },
+                { text: "game", start: 17.0, end: 17.139 },
+                { text: "will", start: 17.18, end: 17.299 },
+                { text: "take", start: 17.34, end: 17.459 },
+                { text: "longer", start: 17.539, end: 17.76 },
+                { text: "than", start: 17.799, end: 17.92 },
+                { text: "mine.", start: 17.959, end: 18.26 },
+              ],
+            },
+            {
+              start: 18.0,
+              end: 24.499,
+              words: [
+                { text: "We", start: 18.92, end: 18.959 },
+                { text: "need", start: 19.039, end: 19.139 },
+                { text: "a", start: 19.18, end: 19.26 },
+                { text: "fair", start: 19.319, end: 19.439 },
+                { text: "way", start: 19.52, end: 19.579 },
+                { text: "to", start: 19.619, end: 19.719 },
+                { text: "help", start: 19.739, end: 19.879 },
+                { text: "us", start: 19.92, end: 20.0 },
+                { text: "decide", start: 20.02, end: 20.34 },
+                { text: "which", start: 20.42, end: 20.579 },
+                { text: "game", start: 20.639, end: 20.819 },
+                { text: "we", start: 20.84, end: 20.899 },
+                { text: "should", start: 20.959, end: 21.12 },
+                { text: "play", start: 21.159, end: 21.299 },
+                { text: "first.", start: 21.439, end: 21.779 },
+                { text: "Let's", start: 22.02, end: 22.199 },
+                { text: "play", start: 22.239, end: 22.379 },
+                { text: "rock,", start: 22.5, end: 22.699 },
+                { text: "paper,", start: 22.799, end: 23.059 },
+                { text: "scissors.", start: 23.199, end: 23.519 },
+                { text: "Best", start: 23.68, end: 23.859 },
+                { text: "out", start: 23.92, end: 24.0 },
+                { text: "of", start: 24.039, end: 24.139 },
+                { text: "three.", start: 24.199, end: 24.499 },
+              ],
+            },
+            {
+              start: 20.0,
+              end: 30.0,
+              words: [
+                { text: "We", start: 18.92, end: 18.959 },
+                { text: "need", start: 19.039, end: 19.139 },
+                { text: "a", start: 19.18, end: 19.26 },
+                { text: "fair", start: 19.319, end: 19.439 },
+                { text: "way", start: 19.52, end: 19.579 },
+                { text: "to", start: 19.619, end: 19.719 },
+                { text: "help", start: 19.739, end: 19.879 },
+                { text: "us", start: 19.92, end: 20.0 },
+                { text: "decide", start: 20.02, end: 20.34 },
+                { text: "which", start: 20.42, end: 20.579 },
+                { text: "game", start: 20.639, end: 20.819 },
+                { text: "we", start: 20.84, end: 20.899 },
+                { text: "should", start: 20.959, end: 21.12 },
+                { text: "play", start: 21.159, end: 21.299 },
+                { text: "first.", start: 21.439, end: 21.779 },
+                { text: "Let's", start: 22.02, end: 22.199 },
+                { text: "play", start: 22.239, end: 22.379 },
+                { text: "rock,", start: 22.5, end: 22.699 },
+                { text: "paper,", start: 22.799, end: 23.059 },
+                { text: "scissors.", start: 23.199, end: 23.519 },
+                { text: "Best", start: 23.68, end: 23.859 },
+                { text: "out", start: 23.92, end: 24.0 },
+                { text: "of", start: 24.039, end: 24.139 },
+                { text: "three.", start: 24.199, end: 24.499 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l1_vid5,
+          subtitles: [{}, {}, {}, {}],
+        },
+        {
+          url: u4l1_vid6,
+          subtitles: [
+            {},
+
+            {
+              start: 3.839,
+              end: 4.799,
+              words: [
+                { text: "OK,", start: 3.839, end: 4.139 },
+                { text: "that’s", start: 4.279, end: 4.46 },
+                { text: "fair.", start: 4.539, end: 4.799 },
+              ],
+            },
+
+            {
+              start: 5.079,
+              end: 7.439,
+              words: [
+                { text: "We", start: 5.079, end: 5.159 },
+                { text: "can", start: 5.199, end: 5.339 },
+                { text: "play", start: 5.359, end: 5.5 },
+                { text: "your", start: 5.539, end: 5.659 },
+                { text: "game", start: 5.679, end: 5.92 },
+                { text: "first,", start: 5.98, end: 6.179 },
+                { text: "David,", start: 6.239, end: 6.519 },
+                { text: "and", start: 6.619, end: 6.719 },
+                { text: "then", start: 6.739, end: 6.879 },
+                { text: "play", start: 6.92, end: 7.099 },
+                { text: "mine.", start: 7.139, end: 7.439 },
+              ],
+            },
+
+            {},
+
+            {},
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+        1: [
+          { top: "20%", left: "40%", isFlipped: true },
+          { top: "10%", left: "55%", isFlipped: true },
+          { top: "10%", left: "25%" },
+          { top: "10%", left: "25%" },
+          { top: "10%", left: "0%" },
+          { top: "10%", right: "30%", isFlipped: true },
+        ],
+        2: [
+          { top: "10%", right: "10%", isFlipped: true },
+          { top: "15%", left: "70%", isFlipped: true },
+          { top: "10%", left: "70%", isFlipped: true },
+          { top: "10%", left: "15%" },
+          { top: "10%", left: "15%" },
+          { top: "10%", left: "15%" },
+          { top: "10%", left: "15%" },
+        ],
+        3: [
+          { bottom: "60%", left: "60%", isFlipped: true },
+          { top: "20%", left: "5%" },
+          { top: "10%", left: "35%", isFlipped: true },
+          { top: "15%", left: "45%", isFlipped: false },
+          { top: "10%", left: "30%", isFlipped: true },
+          { top: "10%", left: "45%", isFlipped: false },
+          { top: "10%", left: "45%", isFlipped: false },
+        ],
+
+        4: [
+          { top: "15%", right: "25%" },
+          { top: "15%", left: "35%", isFlipped: true },
+          { top: "15%", left: "40%", isFlipped: true },
+          { top: "15%", right: "25%", isFlipped: false },
+        ],
+
+        5: [
+          { top: "15%", right: "25%" },
+          { top: "25%", left: "25%", isFlipped: false },
+          { top: "25%", left: "20%", isFlipped: false },
+          { top: "15%", right: "25%", isFlipped: false },
+          { top: "15%", left: "25%", isFlipped: true },
+        ],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0.159,
+          end: 2.72,
+          words: [
+            { text: "David", start: 0.159, end: 0.519 },
+            { text: "and", start: 0.56, end: 0.659 },
+            { text: "Milo", start: 0.74, end: 1.259 },
+            { text: "live", start: 1.279, end: 1.48 },
+            { text: "next", start: 1.559, end: 1.759 },
+            { text: "door", start: 1.839, end: 2.059 },
+            { text: "to", start: 2.099, end: 2.2 },
+            { text: "each", start: 2.2, end: 2.419 },
+            { text: "other.", start: 2.48, end: 2.72 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 3.559,
+          end: 7.94,
+          words: [
+            { text: "David", start: 3.559, end: 3.879 },
+            { text: "likes", start: 3.939, end: 4.199 },
+            { text: "watching", start: 4.219, end: 4.619 },
+            { text: "TV,", start: 4.659, end: 5.179 },
+            { text: "and", start: 5.719, end: 5.859 },
+            { text: "Milo", start: 5.94, end: 6.259 },
+            { text: "likes", start: 6.319, end: 6.559 },
+            { text: "playing", start: 6.619, end: 6.899 },
+            { text: "computer", start: 6.92, end: 7.44 },
+            { text: "games.", start: 7.48, end: 7.94 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 8.699,
+          end: 13.019,
+          words: [
+            { text: "David", start: 8.699, end: 9.019 },
+            { text: "likes", start: 9.079, end: 9.319 },
+            { text: "playing", start: 9.359, end: 9.64 },
+            { text: "cricket,", start: 9.679, end: 10.199 },
+            { text: "while", start: 10.899, end: 11.079 },
+            { text: "Milo", start: 11.179, end: 11.859 },
+            { text: "prefers", start: 11.92, end: 12.279 },
+            { text: "basketball.", start: 12.399, end: 13.019 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 14.119,
+          end: 15.9,
+          words: [
+            { text: "They", start: 14.119, end: 14.3 },
+            { text: "have", start: 14.34, end: 14.599 },
+            { text: "lots", start: 14.659, end: 14.96 },
+            { text: "of", start: 14.979, end: 15.119 },
+            { text: "differences.", start: 15.159, end: 15.9 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0.219,
+          end: 2.519,
+          words: [
+            { text: "David", start: 0.219, end: 0.5 },
+            { text: "and", start: 0.539, end: 0.639 },
+            { text: "Milo", start: 0.699, end: 1.12 },
+            { text: "are", start: 1.199, end: 1.399 },
+            { text: "very", start: 1.459, end: 1.719 },
+            { text: "good", start: 1.819, end: 1.939 },
+            { text: "friends!", start: 2.059, end: 2.519 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 5.42,
+          end: 9.539,
+          words: [
+            { text: "David", start: 5.42, end: 5.699 },
+            { text: "and", start: 5.739, end: 5.819 },
+            { text: "Milo", start: 5.9, end: 6.199 },
+            { text: "know", start: 6.359, end: 6.539 },
+            { text: "they", start: 6.639, end: 6.699 },
+            { text: "have", start: 6.779, end: 6.899 },
+            { text: "more", start: 7.039, end: 7.239 },
+            { text: "fun", start: 7.379, end: 7.599 },
+            { text: "playing", start: 7.659, end: 8.0 },
+            { text: "together", start: 8.019, end: 8.659 },
+            { text: "than", start: 8.699, end: 8.859 },
+            { text: "on", start: 8.939, end: 9.079 },
+            { text: "their", start: 9.119, end: 9.28 },
+            { text: "own.", start: 9.359, end: 9.539 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 10.179,
+          end: 12.779,
+          words: [
+            { text: "Even", start: 10.179, end: 10.38 },
+            { text: "if", start: 10.42, end: 10.539 },
+            { text: "they", start: 10.559, end: 10.659 },
+            { text: "are", start: 10.659, end: 10.78 },
+            { text: "not", start: 10.8, end: 11.02 },
+            { text: "doing", start: 11.039, end: 11.32 },
+            { text: "their", start: 11.34, end: 11.659 },
+            { text: "favourite", start: 11.719, end: 12.079 },
+            { text: "activity.", start: 12.179, end: 12.779 },
+          ],
+        },
+
+        {
+          videoIndex: 2,
+          start: 14.539,
+          end: 18.119,
+          words: [
+            { text: "David", start: 14.539, end: 14.819 },
+            { text: "and", start: 14.859, end: 14.98 },
+            { text: "Milo", start: 15.019, end: 15.599 },
+            { text: "work", start: 15.659, end: 15.88 },
+            { text: "together", start: 15.92, end: 16.319 },
+            { text: "during", start: 16.359, end: 16.6 },
+            { text: "their", start: 16.619, end: 16.879 },
+            { text: "favourite", start: 16.92, end: 17.299 },
+            { text: "activities.", start: 17.399, end: 18.119 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 18.799,
+          end: 23.619,
+          words: [
+            { text: "Milo", start: 18.799, end: 19.139 },
+            { text: "watches", start: 19.199, end: 19.659 },
+            { text: "TV", start: 19.699, end: 20.1 },
+            { text: "with", start: 20.199, end: 20.34 },
+            { text: "David", start: 20.379, end: 20.719 },
+            { text: "and", start: 21.1, end: 21.2 },
+            { text: "waits", start: 21.279, end: 21.6 },
+            { text: "for", start: 21.659, end: 21.719 },
+            { text: "his", start: 21.779, end: 21.959 },
+            { text: "turn", start: 22.0, end: 22.299 },
+            { text: "to", start: 22.319, end: 22.44 },
+            { text: "play", start: 22.459, end: 22.6 },
+            { text: "computer", start: 22.68, end: 23.159 },
+            { text: "games.", start: 23.199, end: 23.619 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 24.359,
+          end: 28.459,
+          words: [
+            { text: "David", start: 24.359, end: 24.68 },
+            { text: "plays", start: 24.719, end: 25.0 },
+            { text: "basketball", start: 25.039, end: 25.639 },
+            { text: "with", start: 25.68, end: 25.799 },
+            { text: "Milo", start: 25.879, end: 26.399 },
+            { text: "and", start: 26.459, end: 26.6 },
+            { text: "waits", start: 26.639, end: 26.899 },
+            { text: "for", start: 26.92, end: 27.0 },
+            { text: "his", start: 27.059, end: 27.18 },
+            { text: "turn", start: 27.279, end: 27.539 },
+            { text: "to", start: 27.599, end: 27.7 },
+            { text: "play", start: 27.739, end: 27.92 },
+            { text: "cricket.", start: 27.979, end: 28.459 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 0.28,
+          end: 4.339,
+          words: [
+            { text: "One", start: 0.28, end: 0.419 },
+            { text: "day,", start: 0.519, end: 0.719 },
+            { text: "the", start: 1.12, end: 1.179 },
+            { text: "boys", start: 1.199, end: 1.559 },
+            { text: "cannot", start: 1.599, end: 1.899 },
+            { text: "decide", start: 1.939, end: 2.579 },
+            { text: "which", start: 2.639, end: 2.819 },
+            { text: "game", start: 2.899, end: 3.139 },
+            { text: "they", start: 3.179, end: 3.259 },
+            { text: "will", start: 3.319, end: 3.419 },
+            { text: "play", start: 3.519, end: 3.72 },
+            { text: "first,", start: 3.879, end: 4.339 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 5.179,
+          end: 7.539,
+          words: [
+            { text: "They", start: 5.179, end: 5.279 },
+            { text: "begin", start: 5.319, end: 5.599 },
+            { text: "to", start: 5.639, end: 5.719 },
+            { text: "disagree", start: 5.819, end: 6.219 },
+            { text: "about", start: 6.299, end: 6.48 },
+            { text: "which", start: 6.539, end: 6.719 },
+            { text: "game", start: 6.819, end: 7.059 },
+            { text: "to", start: 7.099, end: 7.199 },
+            { text: "play.", start: 7.279, end: 7.539 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 8.84,
+          end: 12.179,
+          words: [
+            { text: "Milo", start: 8.84, end: 9.199 },
+            { text: "wants", start: 9.26, end: 9.42 },
+            { text: "to", start: 9.46, end: 9.519 },
+            { text: "play", start: 9.559, end: 9.679 },
+            { text: "tag,", start: 9.8, end: 10.179 },
+            { text: "and", start: 10.579, end: 10.699 },
+            { text: "David", start: 10.819, end: 11.199 },
+            { text: "wants", start: 11.3, end: 11.5 },
+            { text: "to", start: 11.579, end: 11.659 },
+            { text: "race.", start: 11.819, end: 12.179 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 0.199,
+          end: 1.679,
+          words: [
+            { text: "Milo's", start: 0.199, end: 0.639 },
+            { text: "mom", start: 0.719, end: 0.899 },
+            { text: "hears", start: 0.979, end: 1.199 },
+            { text: "the", start: 1.24, end: 1.319 },
+            { text: "boys.", start: 1.36, end: 1.679 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 2.319,
+          end: 3.599,
+          words: [
+            { text: "That's", start: 2.319, end: 2.559 },
+            { text: "a", start: 2.7, end: 2.72 },
+            { text: "great", start: 2.759, end: 3.079 },
+            { text: "idea.", start: 3.199, end: 3.599 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 4.42,
+          end: 7.94,
+          words: [
+            { text: "Also,", start: 4.42, end: 4.819 },
+            { text: "try", start: 5.279, end: 5.5 },
+            { text: "to", start: 5.519, end: 5.619 },
+            { text: "have", start: 5.659, end: 5.859 },
+            { text: "fun", start: 5.879, end: 6.099 },
+            { text: "when", start: 6.139, end: 6.259 },
+            { text: "you're", start: 6.279, end: 6.419 },
+            { text: "playing", start: 6.44, end: 6.739 },
+            { text: "your", start: 6.779, end: 6.919 },
+            { text: "friend's", start: 6.92, end: 7.219 },
+            { text: "game", start: 7.279, end: 7.599 },
+            { text: "too.", start: 7.659, end: 7.94 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 8.84,
+          end: 10.88,
+          words: [
+            { text: "You", start: 8.84, end: 8.939 },
+            { text: "should", start: 8.96, end: 9.1 },
+            { text: "enjoy", start: 9.119, end: 9.5 },
+            { text: "each", start: 9.539, end: 9.72 },
+            { text: "other's", start: 9.76, end: 10.0 },
+            { text: "favorite", start: 10.039, end: 10.42 },
+            { text: "games.", start: 10.46, end: 10.88 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 0.2,
+          end: 4.0,
+          words: [
+            { text: "They", start: 0.459, end: 0.599 },
+            { text: "play", start: 0.639, end: 0.779 },
+            { text: "rock,", start: 0.879, end: 1.039 },
+            { text: "paper,", start: 1.12, end: 1.439 },
+            { text: "scissors,", start: 1.48, end: 1.86 },
+            { text: "and", start: 2.039, end: 2.179 },
+            { text: "David’s", start: 2.2, end: 2.5 },
+            { text: "game", start: 2.559, end: 2.72 },
+            { text: "wins.", start: 2.779, end: 3.079 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 10.8,
+          end: 12.8,
+          words: [
+            { text: "The", start: 9.76, end: 9.899 },
+            { text: "boys", start: 9.939, end: 10.34 },
+            { text: "play", start: 10.399, end: 10.779 },
+            { text: "happily", start: 10.859, end: 11.319 },
+            { text: "together.", start: 11.359, end: 11.8 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 12.9,
+          end: 18.6,
+          words: [
+            { text: "David", start: 12.96, end: 13.299 },
+            { text: "and", start: 13.34, end: 13.5 },
+            { text: "Milo", start: 13.519, end: 14.019 },
+            { text: "are", start: 14.079, end: 14.279 },
+            { text: "happy", start: 14.299, end: 14.599 },
+            { text: "they", start: 14.699, end: 14.92 },
+            { text: "found", start: 14.979, end: 15.199 },
+            { text: "a", start: 15.239, end: 15.38 },
+            { text: "fair", start: 15.46, end: 15.639 },
+            { text: "way", start: 15.759, end: 16.0 },
+            { text: "to", start: 16.0, end: 16.12 },
+            { text: "play", start: 16.139, end: 16.379 },
+            { text: "together.", start: 16.42, end: 16.76 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 3,
+        fontsize: 30,
+        instruction: [
+          "Highlight how do David and Milo manage to maintain their friendship despite their different preferences for activities.",
+        ],
+        correctWords: [
+          "we",
+          "need",
+          "a",
+          "fair",
+          "way",
+          "to",
+          "help",
+          "us",
+          "decide",
+          "which",
+          "game",
+          "should",
+          "play",
+          "first",
+          "let's",
+          "rock",
+          "paper",
+          "scissors",
+          "best",
+          "out",
+          "of",
+          "three",
+        ],
+      },
+      quiz: {
+        image: u4l1_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "How did David and Milo stay good friends even with their differences?",
+            options: [
+              "They worked together.",
+              "They argued with each other.",
+              "They ignored each other.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "What was the problem between David and Milo?",
+            options: [
+              "They couldn’t decide which game to play first.",
+              "They played rock, paper, scissors.",
+              "They yelled at each other.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "How did David and Milo solve their problem?",
+            options: [
+              "They played rock, paper, scissors.",
+              "They did not play any games.",
+              "They went and told their parents.",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u4l1_F1,
+      },
+    },
+    2: {
+      videos: [
+        {
+          url: u4l2_vid1,
+          subtitles: [],
+        },
+        {
+          url: u4l2_vid2,
+          subtitles: [
+            {
+              start: 21.859,
+              end: 23.959,
+              words: [
+                { text: "How", start: 21.859, end: 23.0 },
+                { text: "can", start: 23.059, end: 23.18 },
+                { text: "I", start: 23.279, end: 23.34 },
+                { text: "help?", start: 23.399, end: 23.959 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l2_vid3,
+          subtitles: [
+            {
+              start: 16.479,
+              end: 23.42,
+              words: [
+                { text: "Thank", start: 16.479, end: 16.659 },
+                { text: "you", start: 16.699, end: 16.76 },
+                { text: "for", start: 16.819, end: 16.879 },
+                { text: "telling", start: 16.979, end: 17.239 },
+                { text: "me,", start: 17.319, end: 17.399 },
+                { text: "Rose.", start: 17.5, end: 17.919 },
+                { text: "Children,", start: 18.44, end: 18.939 },
+                { text: "you", start: 19.0, end: 19.079 },
+                { text: "can", start: 19.119, end: 19.239 },
+                { text: "go", start: 19.299, end: 19.399 },
+                { text: "outside", start: 19.479, end: 20.039 },
+                { text: "to", start: 20.079, end: 20.159 },
+                { text: "play.", start: 20.26, end: 20.719 },
+                { text: "Josh", start: 21.26, end: 21.5 },
+                { text: "and", start: 21.539, end: 21.659 },
+                { text: "Anya,", start: 21.779, end: 22.139 },
+                { text: "stay", start: 22.519, end: 22.84 },
+                { text: "with", start: 22.879, end: 23.079 },
+                { text: "me.", start: 23.159, end: 23.42 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l2_vid4,
+          subtitles: [
+            {
+              start: 2.339,
+              end: 4.92,
+              words: [
+                { text: "Thank", start: 2.339, end: 2.72 },
+                { text: "you", start: 2.799, end: 2.879 },
+                { text: "for", start: 3.0, end: 3.159 },
+                { text: "helping", start: 3.259, end: 3.579 },
+                { text: "me", start: 3.599, end: 3.72 },
+                { text: "and", start: 3.759, end: 3.899 },
+                { text: "telling", start: 3.939, end: 4.259 },
+                { text: "the", start: 4.279, end: 4.38 },
+                { text: "teacher.", start: 4.42, end: 4.92 },
+              ],
+            },
+            {
+              start: 5.599,
+              end: 8.46,
+              words: [
+                { text: "Yes,", start: 5.599, end: 5.92 },
+                { text: "I'm", start: 6.359, end: 6.46 },
+                { text: "glad", start: 6.559, end: 6.799 },
+                { text: "I", start: 7.0, end: 7.019 },
+                { text: "asked", start: 7.059, end: 7.299 },
+                { text: "the", start: 7.319, end: 7.44 },
+                { text: "teacher", start: 7.46, end: 7.819 },
+                { text: "for", start: 7.859, end: 8.0 },
+                { text: "help.", start: 8.099, end: 8.46 },
+              ],
+            },
+            {
+              start: 9.579,
+              end: 12.059,
+              words: [
+                { text: "It", start: 9.579, end: 9.8 },
+                { text: "wasn't", start: 9.819, end: 10.14 },
+                { text: "nice", start: 10.199, end: 10.399 },
+                { text: "at", start: 10.539, end: 10.579 },
+                { text: "all", start: 10.699, end: 10.899 },
+                { text: "what", start: 10.92, end: 11.1 },
+                { text: "they", start: 11.119, end: 11.239 },
+                { text: "were", start: 11.259, end: 11.42 },
+                { text: "doing", start: 11.439, end: 11.739 },
+                { text: "to", start: 11.759, end: 11.859 },
+                { text: "you.", start: 11.899, end: 12.059 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l2_vid5,
+          subtitles: [
+            {
+              start: 9.239,
+              end: 11.3,
+              words: [
+                { text: "We’re", start: 9.239, end: 9.539 },
+                { text: "not", start: 9.559, end: 9.739 },
+                { text: "going", start: 9.8, end: 10.0 },
+                { text: "to", start: 10.0, end: 10.06 },
+                { text: "laugh", start: 10.139, end: 10.3 },
+                { text: "at", start: 10.34, end: 10.399 },
+                { text: "other", start: 10.46, end: 10.579 },
+                { text: "people", start: 10.679, end: 10.979 },
+                { text: "now.", start: 11.039, end: 11.3 },
+              ],
+            },
+
+            {
+              start: 11.579,
+              end: 15.479,
+              words: [
+                { text: "The", start: 11.579, end: 11.679 },
+                { text: "teacher", start: 11.719, end: 12.019 },
+                { text: "talked", start: 12.079, end: 12.3 },
+                { text: "to", start: 12.34, end: 12.42 },
+                { text: "us", start: 12.439, end: 12.539 },
+                { text: "about", start: 12.599, end: 12.779 },
+                { text: "bullying,", start: 12.859, end: 13.46 },
+                { text: "and", start: 13.519, end: 13.619 },
+                { text: "we’re", start: 13.679, end: 13.819 },
+                { text: "going", start: 13.859, end: 14.06 },
+                { text: "to", start: 14.06, end: 14.159 },
+                { text: "stop", start: 14.239, end: 14.479 },
+                { text: "it", start: 14.539, end: 14.599 },
+                { text: "and", start: 14.639, end: 14.72 },
+                { text: "be", start: 14.779, end: 14.899 },
+                { text: "kind.", start: 14.979, end: 15.479 },
+              ],
+            },
+            {
+              start: 20.0,
+              end: 25,
+              words: [
+                { text: "We", start: 9.0, end: 9.3 },
+                { text: "are", start: 9.0, end: 9.3 },
+                { text: "not", start: 9.3, end: 9.6 },
+                { text: "going", start: 9.6, end: 9.9 },
+                { text: "to", start: 9.9, end: 10.2 },
+                { text: "laugh", start: 10.2, end: 10.5 },
+                { text: "at", start: 10.5, end: 10.8 },
+                { text: "other", start: 10.8, end: 11.1 },
+                { text: "people", start: 11.1, end: 11.4 },
+                { text: "now", start: 11.4, end: 11.7 },
+
+                { text: "and", start: 9.0, end: 9.3 },
+                { text: "were", start: 9.3, end: 9.6 },
+                { text: "going", start: 9.6, end: 9.9 },
+                { text: "to", start: 9.9, end: 10.2 },
+                { text: "stop", start: 10.2, end: 10.5 },
+                { text: "it", start: 10.5, end: 10.8 },
+                { text: "and", start: 10.8, end: 11.1 },
+                { text: "be", start: 11.1, end: 11.4 },
+                { text: "kind.", start: 11.4, end: 11.7 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l2_vid6,
+          subtitles: [],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+        1: [{ top: "15%", left: "70%", isFlipped: true }],
+        2: [{ top: "10%", right: "20%", isFlipped: true }],
+        3: [
+          { top: "10%", left: "25%", isFlipped: true },
+          { top: "10%", right: "30%", isFlipped: false },
+          { top: "10%", right: "20%", isFlipped: false },
+        ],
+        4: [
+          { top: "15%", left: "65%", isFlipped: true },
+          { top: "15%", left: "65%", isFlipped: true },
+          { top: "15%", left: "25%", isFlipped: true },
+        ],
+        5: [],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0.219,
+          end: 2.099,
+          words: [
+            { text: "Peter", start: 0.219, end: 0.579 },
+            { text: "finds", start: 0.719, end: 1.059 },
+            { text: "spelling", start: 1.12, end: 1.539 },
+            { text: "difficult.", start: 1.579, end: 2.099 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 3.279,
+          end: 6.48,
+          words: [
+            { text: "This", start: 3.279, end: 3.539 },
+            { text: "week,", start: 3.619, end: 3.859 },
+            { text: "he", start: 3.919, end: 4.039 },
+            { text: "gets", start: 4.099, end: 4.36 },
+            { text: "all", start: 4.48, end: 4.639 },
+            { text: "the", start: 4.699, end: 4.759 },
+            { text: "spelling", start: 4.839, end: 5.159 },
+            { text: "words", start: 5.219, end: 5.48 },
+            { text: "wrong", start: 5.579, end: 5.779 },
+            { text: "in", start: 5.819, end: 5.879 },
+            { text: "the", start: 5.92, end: 6.019 },
+            { text: "test.", start: 6.079, end: 6.48 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 7.219,
+          end: 10.3,
+          words: [
+            { text: "The", start: 7.219, end: 7.339 },
+            { text: "children", start: 7.399, end: 7.819 },
+            { text: "sitting", start: 7.94, end: 8.18 },
+            { text: "next", start: 8.239, end: 8.42 },
+            { text: "to", start: 8.479, end: 8.539 },
+            { text: "Peter", start: 8.619, end: 9.0 },
+            { text: "are", start: 9.039, end: 9.22 },
+            { text: "not", start: 9.279, end: 9.5 },
+            { text: "being", start: 9.559, end: 9.8 },
+            { text: "kind.", start: 9.859, end: 10.3 },
+          ],
+        },
+
+        {
+          videoIndex: 1,
+          start: 11.0,
+          end: 11.979,
+          words: [
+            { text: "They", start: 11.0, end: 11.159 },
+            { text: "are", start: 11.199, end: 11.399 },
+            { text: "laughing.", start: 11.479, end: 11.979 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 12.599,
+          end: 14.359,
+          words: [
+            { text: "One", start: 12.599, end: 12.739 },
+            { text: "boy", start: 12.84, end: 13.099 },
+            { text: "even", start: 13.179, end: 13.399 },
+            { text: "calls", start: 13.46, end: 13.699 },
+            { text: "him", start: 13.739, end: 13.88 },
+            { text: "names.", start: 13.92, end: 14.359 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 15.199,
+          end: 18.1,
+          words: [
+            { text: "Rose", start: 15.199, end: 15.479 },
+            { text: "notices", start: 15.579, end: 16.039 },
+            { text: "what", start: 16.079, end: 16.219 },
+            { text: "is", start: 16.26, end: 16.36 },
+            { text: "happening", start: 16.44, end: 17.039 },
+            { text: "and", start: 17.1, end: 17.26 },
+            { text: "doesn't", start: 17.299, end: 17.6 },
+            { text: "like", start: 17.659, end: 17.86 },
+            { text: "it.", start: 17.92, end: 18.1 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 19.039,
+          end: 19.579,
+          words: [
+            { text: "She", start: 19.039, end: 19.12 },
+            { text: "thinks,", start: 19.219, end: 19.579 },
+          ],
+        },
+
+        {
+          videoIndex: 1,
+          start: 25.119,
+          end: 27.0,
+          words: [
+            { text: "She", start: 25.119, end: 25.239 },
+            { text: "knows", start: 25.399, end: 25.719 },
+            { text: "she", start: 25.779, end: 25.92 },
+            { text: "should", start: 25.939, end: 26.1 },
+            { text: "tell", start: 26.159, end: 26.34 },
+            { text: "the", start: 26.359, end: 26.42 },
+            { text: "teacher,", start: 26.539, end: 27.0 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 27.379,
+          end: 32.099,
+          words: [
+            { text: "but", start: 27.379, end: 27.479 },
+            { text: "she", start: 27.5, end: 27.639 },
+            { text: "doesn't", start: 27.659, end: 27.92 },
+            { text: "want", start: 27.959, end: 28.1 },
+            { text: "to", start: 28.119, end: 28.2 },
+            { text: "become", start: 28.219, end: 28.5 },
+            { text: "known", start: 28.639, end: 28.879 },
+            { text: "in", start: 28.92, end: 29.0 },
+            { text: "the", start: 29.039, end: 29.079 },
+            { text: "class", start: 29.179, end: 29.619 },
+            { text: "as", start: 29.679, end: 29.819 },
+            { text: "the", start: 29.879, end: 29.94 },
+            { text: "girl", start: 30.099, end: 30.42 },
+            { text: "who", start: 30.459, end: 30.639 },
+            { text: "always", start: 30.719, end: 31.159 },
+            { text: "tells", start: 31.239, end: 31.579 },
+            { text: "tales.", start: 31.659, end: 32.099 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0.159,
+          end: 4.339,
+          words: [
+            { text: "Rose", start: 0.159, end: 0.419 },
+            { text: "is", start: 0.459, end: 0.56 },
+            { text: "scared", start: 0.62, end: 0.919 },
+            { text: "that", start: 0.959, end: 1.039 },
+            { text: "if", start: 1.079, end: 1.139 },
+            { text: "she", start: 1.179, end: 1.299 },
+            { text: "tells", start: 1.379, end: 1.62 },
+            { text: "the", start: 1.679, end: 1.739 },
+            { text: "teacher", start: 1.819, end: 2.18 },
+            { text: "the", start: 2.46, end: 2.519 },
+            { text: "other", start: 2.599, end: 2.759 },
+            { text: "children", start: 2.819, end: 3.139 },
+            { text: "will", start: 3.159, end: 3.279 },
+            { text: "make", start: 3.319, end: 3.48 },
+            { text: "fun", start: 3.579, end: 3.679 },
+            { text: "of", start: 3.72, end: 3.799 },
+            { text: "her", start: 3.839, end: 3.959 },
+            { text: "too.", start: 4.039, end: 4.339 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 5.5,
+          end: 11.179,
+          words: [
+            { text: "She", start: 5.5, end: 5.659 },
+            { text: "thinks", start: 5.719, end: 5.94 },
+            { text: "about", start: 6.019, end: 6.219 },
+            { text: "how", start: 6.279, end: 6.379 },
+            { text: "Peter", start: 6.5, end: 6.819 },
+            { text: "must", start: 6.859, end: 7.019 },
+            { text: "be", start: 7.079, end: 7.199 },
+            { text: "feeling", start: 7.279, end: 7.639 },
+            { text: "and", start: 8.019, end: 8.119 },
+            { text: "decides", start: 8.159, end: 8.779 },
+            { text: "to", start: 8.819, end: 8.92 },
+            { text: "help", start: 8.979, end: 9.179 },
+            { text: "him.", start: 9.239, end: 9.42 },
+            { text: "She", start: 9.96, end: 10.159 },
+            { text: "raises", start: 10.239, end: 10.579 },
+            { text: "her", start: 10.639, end: 10.76 },
+            { text: "hand.", start: 10.84, end: 11.179 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 12.439,
+          end: 14.259,
+          words: [
+            { text: "Rose", start: 12.439, end: 12.719 },
+            { text: "tells", start: 12.779, end: 12.979 },
+            { text: "the", start: 13.019, end: 13.099 },
+            { text: "teacher", start: 13.179, end: 13.46 },
+            { text: "what", start: 13.519, end: 13.639 },
+            { text: "is", start: 13.679, end: 13.779 },
+            { text: "happening.", start: 13.899, end: 14.259 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 24.459,
+          end: 26.5,
+          words: [
+            { text: "Speaking", start: 24.459, end: 24.819 },
+            { text: "to", start: 24.899, end: 24.959 },
+            { text: "the", start: 25.0, end: 25.059 },
+            { text: "children", start: 25.159, end: 25.579 },
+            { text: "who", start: 25.619, end: 25.699 },
+            { text: "were", start: 25.739, end: 25.86 },
+            { text: "being", start: 25.899, end: 26.139 },
+            { text: "mean.", start: 26.219, end: 26.5 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 0.159,
+          end: 1.899,
+          words: [
+            { text: "In", start: 0.159, end: 0.28 },
+            { text: "the", start: 0.319, end: 0.419 },
+            { text: "playground,", start: 0.459, end: 1.079 },
+            { text: "Peter", start: 1.259, end: 1.519 },
+            { text: "says,", start: 1.62, end: 1.899 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 0.159,
+          end: 5.539,
+          words: [
+            { text: "Then", start: 0.159, end: 0.439 },
+            { text: "something", start: 0.759, end: 1.079 },
+            { text: "surprising", start: 1.159, end: 1.799 },
+            { text: "happens.", start: 1.899, end: 2.399 },
+            { text: "Josh", start: 3.079, end: 3.399 },
+            { text: "and", start: 3.439, end: 3.559 },
+            { text: "Anya", start: 3.679, end: 4.199 },
+            { text: "walk", start: 4.339, end: 4.559 },
+            { text: "towards", start: 4.619, end: 5.019 },
+            { text: "Rose.", start: 5.099, end: 5.539 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 6.559,
+          end: 7.299,
+          words: [
+            { text: "Josh", start: 6.559, end: 6.839 },
+            { text: "says,", start: 6.92, end: 7.299 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 18.059,
+          end: 20.819,
+          words: [
+            { text: "Josh", start: 18.059, end: 18.34 },
+            { text: "and", start: 18.379, end: 18.52 },
+            { text: "Anya", start: 18.639, end: 18.999 },
+            { text: "say", start: 19.079, end: 19.299 },
+            { text: "sorry", start: 19.379, end: 19.639 },
+            { text: "to", start: 19.739, end: 19.819 },
+            { text: "Peter", start: 19.859, end: 20.199 },
+            { text: "for", start: 20.239, end: 20.34 },
+            { text: "laughing.", start: 20.399, end: 20.819 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 0.259,
+          end: 1.719,
+          words: [
+            { text: "The", start: 0.259, end: 0.319 },
+            { text: "children", start: 0.419, end: 0.799 },
+            { text: "play", start: 0.919, end: 1.139 },
+            { text: "together.", start: 1.24, end: 1.719 },
+          ],
+        },
+        {
+          videoIndex: 5,
+          start: 2.2,
+          end: 6.319,
+          words: [
+            { text: "Rose", start: 2.2, end: 2.5 },
+            { text: "is", start: 2.539, end: 2.659 },
+            { text: "glad", start: 2.72, end: 2.98 },
+            { text: "that", start: 3.039, end: 3.139 },
+            { text: "she", start: 3.159, end: 3.279 },
+            { text: "helped", start: 3.319, end: 3.539 },
+            { text: "Peter,", start: 3.619, end: 4.039 },
+            { text: "and", start: 4.4, end: 4.519 },
+            { text: "she", start: 4.539, end: 4.659 },
+            { text: "helped", start: 4.739, end: 4.92 },
+            { text: "the", start: 4.98, end: 5.039 },
+            { text: "other", start: 5.119, end: 5.259 },
+            { text: "children", start: 5.339, end: 5.719 },
+            { text: "be", start: 5.779, end: 5.879 },
+            { text: "kind.", start: 5.94, end: 6.319 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 4,
+        instruction: [
+          "Highlight the sentence that shows what Josh and Anya learned about kindness and bullying.",
+        ],
+        correctWords: [
+          "we",
+          "are",
+          "not",
+          "going",
+          "to",
+          "laugh",
+          "at",
+          "other",
+          "people",
+          "now",
+          "and",
+          "were",
+          "stop",
+          "it",
+          "be",
+          "kind",
+        ],
+      },
+      quiz: {
+        image: u4l2_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "Why did Rose need the teacher’s help?",
+            options: [
+              "To stop Peter from being bullied.",
+              "To help her on the spelling test.",
+              "To help Peter with his spelling test.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "Why was Rose scared to tell the teacher?",
+            options: [
+              "She was scared of the other children.",
+              "She was scared of the spelling test.",
+              "She was scared about not going outside.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q3",
+            text: "What happened at the end of the story?",
+            options: [
+              "Josh and Anya apologised to Peter.",
+              "Josh and Anya continued to bully Peter.",
+              "Josh and Anya ignored Peter.",
+            ],
+            correctAnswer: "0",
+          },
+        ],
+      },
+      feedback: {
+        image: u4l2_F1,
+      },
+    },
+    3: {
+      videos: [
+        {
+          url: u4l3_vid1,
+          subtitles: [],
+        },
+        {
+          url: u4l3_vid2,
+          subtitles: [],
+        },
+        {
+          url: u4l3_vid3,
+          subtitles: [
+            {
+              start: 14.099,
+              end: 17.379,
+              words: [
+                { text: "Jasmine!", start: 14.099, end: 15.099 },
+                { text: "Congratulations,", start: 15.5, end: 16.619 },
+                { text: "Jasmine!", start: 16.779, end: 17.379 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l3_vid4,
+          subtitles: [
+            {
+              start: 19.699,
+              end: 22.079,
+              words: [
+                { text: "Congratulations", start: 19.699, end: 20.639 },
+                { text: "on", start: 20.68, end: 20.819 },
+                { text: "winning", start: 20.859, end: 21.119 },
+                { text: "class", start: 21.199, end: 21.479 },
+                { text: "president.", start: 21.539, end: 22.079 },
+              ],
+            },
+            {
+              start: 23.0,
+              end: 23.5,
+              words: [
+                { text: "Thank", start: 23.0, end: 23.26 },
+                { text: "you.", start: 23.319, end: 23.5 },
+              ],
+            },
+            {
+              start: 24.119,
+              end: 25.219,
+              words: [
+                { text: "I’m", start: 24.119, end: 24.219 },
+                { text: "surprised", start: 24.299, end: 24.739 },
+                { text: "I", start: 24.819, end: 24.879 },
+                { text: "won.", start: 24.939, end: 25.219 },
+              ],
+            },
+            {
+              start: 25.939,
+              end: 28.379,
+              words: [
+                { text: "Your", start: 25.939, end: 26.059 },
+                { text: "presentation", start: 26.099, end: 26.719 },
+                { text: "was", start: 26.76, end: 26.86 },
+                { text: "much", start: 26.959, end: 27.119 },
+                { text: "better", start: 27.199, end: 27.42 },
+                { text: "than", start: 27.459, end: 27.6 },
+                { text: "mine.", start: 27.639, end: 28.379 },
+              ],
+            },
+            {
+              start: 28.459,
+              end: 30.319,
+              words: [
+                { text: "I", start: 28.459, end: 28.559 },
+                { text: "find", start: 28.599, end: 28.899 },
+                { text: "making", start: 28.939, end: 29.199 },
+                { text: "presentations", start: 29.279, end: 29.939 },
+                { text: "hard.", start: 30.0, end: 30.319 },
+              ],
+            },
+            {
+              start: 30.0,
+              end: 40.0,
+              words: [
+                { text: "Congratulations", start: 21.5, end: 21.8 },
+                { text: "on", start: 21.8, end: 22.1 },
+                { text: "winning", start: 22.1, end: 22.4 },
+                { text: "class", start: 22.4, end: 22.7 },
+                { text: "president.", start: 22.7, end: 23.0 },
+              ],
+            },
+          ],
+        },
+        {
+          url: u4l3_vid5,
+          subtitles: [
+            {
+              start: 2.619,
+              end: 9.179,
+              words: [
+                { text: "If", start: 2.619, end: 2.799 },
+                { text: "you", start: 2.819, end: 2.939 },
+                { text: "want,", start: 3.0, end: 3.259 },
+                { text: "I", start: 3.74, end: 3.759 },
+                { text: "can", start: 3.779, end: 3.899 },
+                { text: "help", start: 3.98, end: 4.159 },
+                { text: "you", start: 4.179, end: 4.279 },
+                { text: "make", start: 4.319, end: 4.48 },
+                { text: "your", start: 4.519, end: 4.639 },
+                { text: "presentations.", start: 4.659, end: 5.619 },
+
+                { text: "It's", start: 5.98, end: 6.199 },
+                { text: "something", start: 6.199, end: 6.599 },
+                { text: "I", start: 6.679, end: 6.699 },
+                { text: "find", start: 6.819, end: 7.059 },
+                { text: "easy,", start: 7.219, end: 7.679 },
+                { text: "and", start: 7.739, end: 7.879 },
+                { text: "I", start: 8.039, end: 8.06 },
+                { text: "would", start: 8.079, end: 8.28 },
+                { text: "like", start: 8.319, end: 8.479 },
+                { text: "to", start: 8.519, end: 8.64 },
+                { text: "help", start: 8.72, end: 8.94 },
+                { text: "you.", start: 8.96, end: 9.179 },
+              ],
+            },
+            {
+              start: 10.639,
+              end: 13.219,
+              words: [
+                { text: "That's", start: 10.639, end: 10.9 },
+                { text: "so", start: 10.96, end: 11.179 },
+                { text: "kind,", start: 11.239, end: 11.5 },
+                { text: "Derek.", start: 11.579, end: 12.059 },
+                { text: "I", start: 12.139, end: 12.159 },
+                { text: "would", start: 12.179, end: 12.38 },
+                { text: "really", start: 12.42, end: 12.72 },
+                { text: "like", start: 12.739, end: 13.02 },
+                { text: "that.", start: 13.059, end: 13.219 },
+              ],
+            },
+          ],
+        },
+      ],
+      cloudPositions: {
+        0: [],
+
+        1: [],
+
+        2: [{ top: "20%", right: "10%", isFlipped: true }],
+
+        3: [
+          { bottom: "63%", left: "70%", isFlipped: true },
+          { top: "10%", left: "30%", isFlipped: true },
+          { top: "10%", left: "35%", isFlipped: true },
+          { top: "10%", left: "32%", isFlipped: true },
+          { top: "10%", left: "30%", isFlipped: true },
+          { top: "30%", left: "30%" },
+        ],
+
+        4: [
+          { bottom: "30%", left: "50%" },
+          { bottom: "30%", left: "60%", isFlipped: true },
+        ],
+      },
+      extraBubblesData: [
+        {
+          videoIndex: 1,
+          start: 0.119,
+          end: 7.0,
+          words: [
+            { text: "Jasmine", start: 0.119, end: 0.399 },
+            { text: "and", start: 0.439, end: 0.539 },
+            { text: "Derrick", start: 0.56, end: 0.839 }, // ملاحظة: بالـ JSON مكتوبة Derek
+            { text: "are", start: 0.899, end: 0.979 },
+            { text: "making", start: 1.0, end: 1.319 },
+            { text: "posters", start: 1.319, end: 2.159 },
+            { text: "and", start: 2.2, end: 2.299 },
+            { text: "getting", start: 2.319, end: 2.559 },
+            { text: "their", start: 2.579, end: 2.679 },
+            { text: "presentations", start: 2.72, end: 3.379 },
+            { text: "ready.", start: 3.439, end: 4.319 },
+            { text: "They", start: 4.38, end: 4.46 },
+            { text: "are", start: 4.48, end: 4.659 },
+            { text: "both", start: 4.699, end: 4.94 },
+            { text: "hoping", start: 5.0, end: 5.679 },
+            { text: "to", start: 5.719, end: 5.799 },
+            { text: "become", start: 5.819, end: 6.059 },
+            { text: "class", start: 6.119, end: 6.46 },
+            { text: "president.", start: 6.559, end: 7.0 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 8.139,
+          end: 10.739,
+          words: [
+            { text: "The", start: 8.139, end: 8.179 },
+            { text: "other", start: 8.239, end: 8.36 },
+            { text: "children", start: 8.479, end: 8.84 },
+            { text: "and", start: 8.88, end: 9.0 },
+            { text: "teachers", start: 9.039, end: 9.359 },
+            { text: "will", start: 9.42, end: 9.56 },
+            { text: "vote", start: 9.579, end: 9.78 },
+            { text: "for", start: 9.78, end: 9.84 },
+            { text: "the", start: 9.859, end: 9.939 },
+            { text: "person", start: 10.0, end: 10.34 },
+            { text: "they", start: 10.38, end: 10.52 },
+            { text: "want.", start: 10.539, end: 10.739 },
+          ],
+        },
+        {
+          videoIndex: 1,
+          start: 12.359,
+          end: 18.84,
+          words: [
+            { text: "Derrick", start: 12.359, end: 12.619 },
+            { text: "and", start: 12.659, end: 12.739 },
+            { text: "Jasmine", start: 12.779, end: 13.14 },
+            { text: "are", start: 13.159, end: 13.239 },
+            { text: "both", start: 13.259, end: 13.539 },
+            { text: "working", start: 13.579, end: 14.239 },
+            { text: "very", start: 14.279, end: 14.64 },
+            { text: "hard", start: 14.659, end: 15.0 },
+            { text: "and", start: 15.539, end: 15.64 },
+            { text: "they", start: 15.64, end: 15.779 },
+            { text: "both", start: 15.779, end: 16.0 },
+            { text: "want", start: 16.159, end: 16.359 },
+            { text: "to", start: 16.399, end: 16.52 },
+            { text: "win,", start: 16.539, end: 16.84 },
+            { text: "but", start: 17.579, end: 17.7 },
+            { text: "only", start: 17.76, end: 18.0 },
+            { text: "one", start: 18.059, end: 18.239 },
+            { text: "can", start: 18.34, end: 18.559 },
+            { text: "win.", start: 18.639, end: 18.84 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 0.159,
+          end: 3.699,
+          words: [
+            { text: "Derrick", start: 0.159, end: 0.5 },
+            { text: "is", start: 0.539, end: 0.639 },
+            { text: "looking", start: 0.719, end: 0.959 },
+            { text: "at", start: 1.0, end: 1.079 },
+            { text: "the", start: 1.1, end: 1.179 },
+            { text: "teacher", start: 1.22, end: 1.619 },
+            { text: "and", start: 1.979, end: 2.059 },
+            { text: "he", start: 2.139, end: 2.299 },
+            { text: "is", start: 2.339, end: 2.559 },
+            { text: "worried", start: 2.619, end: 3.0 },
+            { text: "he", start: 3.019, end: 3.179 },
+            { text: "won’t", start: 3.22, end: 3.439 },
+            { text: "win.", start: 3.48, end: 3.699 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 4.639,
+          end: 13.399,
+          words: [
+            { text: "It", start: 4.639, end: 4.719 },
+            { text: "was", start: 4.759, end: 5.039 },
+            { text: "very", start: 5.079, end: 5.4 },
+            { text: "close,", start: 5.44, end: 5.9 },
+            { text: "but", start: 6.299, end: 6.379 },
+            { text: "the", start: 6.42, end: 6.519 },
+            { text: "person", start: 6.599, end: 6.94 },
+            { text: "with", start: 7.0, end: 7.099 },
+            { text: "the", start: 7.119, end: 7.259 },
+            { text: "most", start: 7.299, end: 7.539 },
+            { text: "votes", start: 7.639, end: 8.179 }, // تصحيح boats → votes
+            { text: "is…", start: 8.34, end: 8.76 },
+            { text: "Derrick", start: 10.479, end: 10.739 },
+            { text: "holds", start: 10.779, end: 10.96 },
+            { text: "his", start: 10.979, end: 11.119 },
+            { text: "breath.", start: 11.139, end: 11.479 },
+            { text: "He", start: 12.139, end: 12.38 },
+            { text: "really", start: 12.439, end: 12.779 },
+            { text: "wants", start: 12.819, end: 13.039 },
+            { text: "to", start: 13.059, end: 13.18 },
+            { text: "win.", start: 13.219, end: 13.399 },
+          ],
+        },
+        {
+          videoIndex: 2,
+          start: 18.1,
+          end: 23.319,
+          words: [
+            { text: "Jasmine", start: 18.1, end: 18.479 },
+            { text: "walks", start: 18.539, end: 18.86 },
+            { text: "to", start: 18.879, end: 18.979 },
+            { text: "the", start: 19.0, end: 19.1 },
+            { text: "front", start: 19.139, end: 19.36 },
+            { text: "of", start: 19.36, end: 19.44 },
+            { text: "the", start: 19.459, end: 19.539 },
+            { text: "class", start: 19.579, end: 20.159 },
+            { text: "and", start: 20.219, end: 20.299 },
+            { text: "shakes", start: 20.439, end: 20.739 },
+            { text: "the", start: 20.76, end: 20.859 },
+            { text: "teacher’s", start: 20.899, end: 21.279 },
+            { text: "hand.", start: 21.319, end: 21.619 },
+            { text: "She", start: 21.959, end: 22.119 },
+            { text: "looks", start: 22.239, end: 22.479 },
+            { text: "very", start: 22.659, end: 22.959 },
+            { text: "happy.", start: 23.019, end: 23.319 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 0.079,
+          end: 10.179,
+          words: [
+            { text: "Derrick", start: 0.079, end: 0.379 },
+            { text: "feels", start: 0.479, end: 0.719 },
+            { text: "very", start: 0.899, end: 1.179 },
+            { text: "upset.", start: 1.24, end: 1.779 },
+
+            { text: "He", start: 2.539, end: 2.7 },
+            { text: "feels", start: 2.759, end: 2.96 },
+            { text: "his", start: 3.0, end: 3.139 },
+            { text: "face", start: 3.24, end: 3.5 },
+            { text: "turns", start: 3.559, end: 3.819 },
+            { text: "red.", start: 3.899, end: 4.119 },
+
+            { text: "But", start: 4.819, end: 4.94 },
+            { text: "he", start: 4.98, end: 5.079 },
+            { text: "doesn’t", start: 5.139, end: 5.4 },
+            { text: "want", start: 5.46, end: 5.599 },
+            { text: "to", start: 5.619, end: 5.719 },
+            { text: "be", start: 5.739, end: 5.799 },
+            { text: "a", start: 5.859, end: 5.94 },
+            { text: "sore", start: 6.0, end: 6.159 },
+            { text: "loser", start: 6.239, end: 6.579 },
+            { text: "and", start: 7.119, end: 7.219 },
+            { text: "throw", start: 7.259, end: 7.419 },
+            { text: "a", start: 7.48, end: 7.519 },
+            { text: "tantrum.", start: 7.579, end: 8.039 },
+
+            { text: "Derrick", start: 8.559, end: 8.859 },
+            { text: "takes", start: 8.939, end: 9.22 },
+            { text: "a", start: 9.439, end: 9.46 },
+            { text: "deep", start: 9.5, end: 9.699 },
+            { text: "breath.", start: 9.819, end: 10.179 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 11.159,
+          end: 14.599,
+          words: [
+            { text: "He", start: 11.159, end: 11.279 },
+            { text: "knows", start: 11.34, end: 11.559 },
+            { text: "he", start: 11.619, end: 11.679 },
+            { text: "should", start: 11.779, end: 11.98 },
+            { text: "show", start: 12.019, end: 12.219 },
+            { text: "good", start: 12.279, end: 12.42 },
+            { text: "sportsmanship", start: 12.46, end: 13.259 },
+            { text: "and", start: 13.319, end: 13.44 },
+            { text: "congratulate", start: 13.479, end: 14.079 },
+            { text: "Jasmine.", start: 14.139, end: 14.599 },
+          ],
+        },
+        {
+          videoIndex: 3,
+          start: 17.079,
+          end: 19.199,
+          words: [
+            { text: "At", start: 17.079, end: 17.2 },
+            { text: "playtime", start: 17.219, end: 17.68 },
+            { text: "he", start: 17.719, end: 17.819 },
+            { text: "found", start: 17.879, end: 18.18 },
+            { text: "her", start: 18.219, end: 18.36 },
+            { text: "on", start: 18.379, end: 18.46 },
+            { text: "the", start: 18.479, end: 18.559 },
+            { text: "playground,", start: 18.6, end: 19.199 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 0.179,
+          end: 2.619,
+          words: [
+            { text: "At", start: 0.179, end: 0.3 },
+            { text: "the", start: 0.34, end: 0.379 },
+            { text: "end", start: 0.439, end: 0.56 },
+            { text: "of", start: 0.599, end: 0.699 },
+            { text: "school,", start: 0.74, end: 1.12 },
+            { text: "he", start: 1.36, end: 1.5 },
+            { text: "says", start: 1.539, end: 1.759 },
+            { text: "to", start: 1.779, end: 1.879 },
+            { text: "her,", start: 1.919, end: 2.079 },
+          ],
+        },
+        {
+          videoIndex: 4,
+          start: 14.619,
+          end: 20.64,
+          words: [
+            { text: "Derek", start: 14.619, end: 14.899 },
+            { text: "feels", start: 15.0, end: 15.279 },
+            { text: "good,", start: 15.319, end: 15.619 },
+            { text: "and", start: 16.0, end: 16.12 },
+            { text: "he", start: 16.139, end: 16.219 },
+            { text: "enjoys", start: 16.26, end: 16.659 },
+            { text: "helping", start: 16.739, end: 17.079 },
+            { text: "Jasmine.", start: 17.139, end: 17.6 },
+
+            { text: "Derek", start: 18.6, end: 18.899 },
+            { text: "is", start: 18.939, end: 19.059 },
+            { text: "happy", start: 19.1, end: 19.5 },
+            { text: "he", start: 19.699, end: 19.84 },
+            { text: "helped", start: 19.859, end: 20.139 },
+            { text: "Jasmine", start: 20.18, end: 20.64 },
+          ],
+        },
+      ],
+      interactiveTask: {
+        videoIndex: 3,
+        instruction: [
+          "Highlight the sentence that shows Derrick demonstrating good sportsmanship despite feeling upset.",
+        ],
+        correctWords: [
+          "congratulations",
+          "on",
+          "winning",
+          "class",
+          "president",
+        ],
+      },
+      quiz: {
+        image: u4l3_Q1,
+        questions: [
+          {
+            id: "Q1",
+            text: "Why did Derrick feel upset?",
+            options: [
+              "He didn’t win the class president vote.",
+              "Jasmine’s presentation was better than his.",
+              "His poster ripped.",
+            ],
+            correctAnswer: "0",
+          },
+          {
+            id: "Q2",
+            text: "Why did Derrick not throw a tantrum?",
+            options: [
+              "Because his teacher would be angry.",
+              "He did not want to be a sore loser.",
+              "He did not want his friends to see him mad.",
+            ],
+            correctAnswer: "1",
+          },
+          {
+            id: "Q3",
+            text: "How did Derrick show good sportsmanship to   Jasmine?",
+            options: [
+              "He threw a tantrum.",
+              "He congratulated Jasmine.",
+              "He ignored her.",
+            ],
+            correctAnswer: "1",
+          },
+        ],
+      },
+      feedback: {
+        image: u4l3_F1,
+      },
+    },
+  },
 };

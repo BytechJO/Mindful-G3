@@ -7,10 +7,10 @@ import { useState, useRef, useEffect } from "react";
 
 // بيانات الوحدات
 const units = [
-  { id: 1, name: 'One', color: '#6a3996', unitName: 'One' },
-  { id: 2, name: 'Two', color: '#6a3996', unitName: 'Two' },
-  { id: 3, name: 'Three', color: '#6a3996', unitName: 'Three' },
-  { id: 4, name: 'Four', color: '#6a3996', unitName: 'Four' },
+  { id: 1, name: 'Unit One', color: '#6a3996', unitName: 'One' },
+  { id: 2, name: 'Unit Two', color: '#6a3996', unitName: 'Two' },
+  { id: 3, name: 'Unit Three', color: '#6a3996', unitName: 'Three' },
+  { id: 4, name: 'Unit Four', color: '#6a3996', unitName: 'Four' },
 ];
 
 // بيانات الدروس (مشتركة لكل الوحدات)
