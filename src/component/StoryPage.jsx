@@ -1,5 +1,3 @@
-// src/components/StoryPage.jsx (Final and Modified Version)
-
 import React, {
   useState,
   useRef,
@@ -18,8 +16,8 @@ import {
   Maximize2,
   Minimize2,
 } from "lucide-react";
-import { lessonsData } from "../../Data/lessonsData.js"; // Make sure this path is correct
-import "../shared/StoryPage.css"; // Make sure this path is correct
+import { lessonsData } from "../../Data/lessonsData.js";
+import "../shared/StoryPage.css";
 
 export const StoryPage = () => {
   const { unitId, lessonId } = useParams();
@@ -30,7 +28,6 @@ export const StoryPage = () => {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [extraBubble, setExtraBubble] = useState(null);
-
   const [selectedWords, setSelectedWords] = useState([]);
   const [showFeedback, setShowFeedback] = useState(false);
   const [showWrongFeedback, setShowWrongFeedback] = useState(false);
@@ -55,14 +52,10 @@ export const StoryPage = () => {
     () => lessonsData[unitId]?.[lessonId],
     [unitId, lessonId],
   );
- 
-  // --- START: MODIFICATIONS ---
-
   const { videos, extraBubblesData, cloudPositions, interactiveTask } =
     lesson || {};
   const currentVideoData = videos?.[currentVideo];
 
-  // 1. Get the index of the currently active subtitle
   const activeSubtitleIndex = useMemo(() => {
     if (!currentVideoData?.subtitles) return -1;
     return currentVideoData.subtitles.findIndex(
@@ -70,19 +63,15 @@ export const StoryPage = () => {
     );
   }, [currentTime, currentVideoData]);
 
-  // 2. Determine if the current subtitle is the last one
   const isLastSubtitle = useMemo(() => {
     if (!currentVideoData?.subtitles || activeSubtitleIndex === -1)
       return false;
     return activeSubtitleIndex === currentVideoData.subtitles.length - 1;
   }, [activeSubtitleIndex, currentVideoData]);
 
-  // 3. Check if the current video is the one with the interactive task
   const isInteractiveVideo = useMemo(() => {
     return interactiveTask && currentVideo === interactiveTask.videoIndex;
   }, [currentVideo, interactiveTask]);
-
-  // --- END: MODIFICATIONS ---
 
   if (!lesson || !currentVideoData) {
     return (
@@ -91,7 +80,20 @@ export const StoryPage = () => {
       </div>
     );
   }
+  useEffect(() => {
+    let rafId;
 
+    const updateTime = () => {
+      if (videoRef.current) {
+        setCurrentTime(videoRef.current.currentTime);
+      }
+      rafId = requestAnimationFrame(updateTime);
+    };
+
+    rafId = requestAnimationFrame(updateTime);
+
+    return () => cancelAnimationFrame(rafId);
+  }, []);
   const handleNext = useCallback(() => {
     if (currentVideo < videos.length - 1) {
       setCurrentVideo((prev) => prev + 1);
@@ -177,10 +179,10 @@ export const StoryPage = () => {
     const onTimeUpdate = () => setCurrentTime(video.currentTime);
     const onLoadedData = () => {
       setDuration(video.duration);
-      setIsLoading(false); // Set loading to false here
+      setIsLoading(false);
     };
 
-    setIsLoading(true); // Set loading to true when src changes
+    setIsLoading(true);
 
     video.addEventListener("play", onPlay);
     video.addEventListener("pause", onPause);
@@ -243,50 +245,6 @@ export const StoryPage = () => {
     return cloudPositions?.[currentVideo]?.[activeSubtitleIndex] || {};
   }, [activeSubtitleIndex, currentVideo, cloudPositions]);
 
-
-  const bubbleProgress = useMemo(() => {
-    if (!extraBubble) return 0;
-
-    const duration = extraBubble.end - extraBubble.start;
-    if (duration <= 0) return 0;
-
-    return (currentTime - extraBubble.start) / duration;
-  }, [currentTime, extraBubble]);
-
-
-
-const activeWordIndex = useMemo(() => {
-  if (!extraBubble?.words) return -1;
-
-  const totalWords = extraBubble.words.length;
-
-  return Math.min(
-    totalWords - 1,
-    Math.max(0, Math.ceil(bubbleProgress * totalWords) - 1)
-  );
-}, [bubbleProgress, extraBubble]);
-
-
-const subtitleProgress = useMemo(() => {
-  if (!activeSubtitle) return 0;
-
-  const duration = activeSubtitle.end - activeSubtitle.start;
-  if (duration <= 0) return 0;
-
-  return (currentTime - activeSubtitle.start) / duration;
-}, [currentTime, activeSubtitle]);
-
-  const activeSubtitleWordIndex = useMemo(() => {
-  if (!activeSubtitle?.words) return -1;
-
-  const totalWords = activeSubtitle.words.length;
-
-  return Math.min(
-    totalWords - 1,
-    Math.max(0, Math.ceil(subtitleProgress * totalWords) - 1)
-  );
-}, [subtitleProgress, activeSubtitle]);
-
   return (
     <div className="story-page-container">
       <div ref={fullscreenContainerRef} className="video-wrapper">
@@ -313,48 +271,33 @@ const subtitleProgress = useMemo(() => {
             className={`instruction-banner show ${isFullscreen ? "fullscreen-banner" : ""}`}
           >
             {interactiveTask.instruction.map((line, index) => (
-              <p
-                key={index}
-                style={{
-                  fontSize: interactiveTask?.fontsize
-                    ? `${interactiveTask.fontsize}px`
-                    : "1.8rem",
-                  textAlign: "left",
-                }}
-              >
+              <p key={index} style={{ fontSize: "1.8em", textAlign: "left" }}>
                 {line}
               </p>
             ))}
           </div>
         )}
 
-        {/* --- Subtitles & Captions --- */}
         {showSubtitles && activeSubtitle && (
           <div className="subtitle-container" style={bubbleStyle}>
-            {/* --- START: DYNAMIC CLASSNAME --- */}
             <div
               className={`bubble-cloud animate__animated animate__fadeIn
                 ${isInteractiveVideo && isLastSubtitle ? "question-bubble" : ""}
                 ${bubbleStyle.isFlipped ? "flipped" : ""}
               `}
             >
-              {/* --- END: DYNAMIC CLASSNAME --- */}
               <p>
                 {activeSubtitle.words.map((word, index) => (
                   <span
                     key={index}
                     onClick={() => handleWordClick(word.text)}
                     className={`word-span ${
-                     index === activeSubtitleWordIndex
-                        ? "active-word"
-                        : ""
-                    } ${
-                      selectedWords.includes(
-                        word.text.toLowerCase().replace(/[.,?!]/g, ""),
-                      )
-                        ? "selected-word"
-                        : ""
-                    }`}
+  textHighlight &&
+  currentTime >= word.start - 0.05 &&
+  currentTime < word.end + 0.05
+    ? "active-word"
+    : ""
+}${selectedWords.includes(word.text.toLowerCase().replace(/[.,?!]/g, "")) ? "selected-word" : ""}`}
                   >
                     {word.text}{" "}
                   </span>
@@ -375,13 +318,23 @@ const subtitleProgress = useMemo(() => {
             }}
           >
             <div className="extra-cloud">
-              <p>
+              <p
+                style={{
+                  fontSize: extraBubble.fontSize
+                    ? `${extraBubble.fontSize}px`
+                    : "1.6rem",
+                }}
+              >
                 {extraBubble.words.map((word, index) => (
                   <span
                     key={index}
-                    className={`word-span ${
-                      index === activeWordIndex ? "active-word" : ""
-                    }`}
+                    className={`word-span  ${
+  narrationHighlight &&
+  currentTime >= word.start - 0.05 &&
+  currentTime < word.end + 0.05
+    ? "active-word"
+    : ""
+}`}
                   >
                     {word.text}{" "}
                   </span>
@@ -391,7 +344,6 @@ const subtitleProgress = useMemo(() => {
           </div>
         )}
 
-        {/* --- Controls --- */}
         <div className="video-overlay" />
         <div className="controls-container">
           <div className="controlbbtn">
